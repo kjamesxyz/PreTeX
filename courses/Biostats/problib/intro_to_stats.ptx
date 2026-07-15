@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Problems involving basic definitions of statistics -->
+
+<!-- Easy -->
+<exercise xml:id="pop-vs-samp-1">
+    <statement>
+        <p> Consider recording the ages of every student at table 2. Identify the population and sample in this study.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lvl-of-meas-1">
+    <introduction>
+        <p> Identify the level of measurement for each of the following types of data. </p> 
+    </introduction>
+
+    <task>
+        <statement> 
+            <p> Occupation of jurors on a jury. </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement> 
+            <p> Age of children in a daycare. </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement> 
+            <p> Letter grades of stats students. </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement> 
+            <p> IQ of American citizens. </p>
+        </statement>
+    </task>
+</exercise>
+
+
+<exercise>
+    <introduction> 
+        <p> Consider the following experiment. A patient tells their doctor they feel tired during the day at least 5 days per week. The doctor perscribes Vitamin D and asks the patient to follow up with the patient in 4 weeks. </p> 
+    </introduction> 
+
+    <task>
+        <statement>
+            <p> Identify the explanatory and response variables. </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                What type of data is the perscribing doctor collecting?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                What type of time sampling did the perscribing doctor employ?
+            </p>
+        </statement>
+    </task>

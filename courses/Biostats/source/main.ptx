@@ -13,6 +13,9 @@
             <title>Welcome to Class!</title>
 
             <xi:include href="./syllabus.ptx" />
+            <xi:include href="./activities/act_temp_F26.ptx" />
         </chapter>
+
+
     </book>
 </pretext>
