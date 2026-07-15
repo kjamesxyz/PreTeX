@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  <bibinfo>
+    <author>
+      <personname>Dr. Kohl James</personname>
+      <department>Department of Mathematical Sciences</department>
+      <institution>Saginaw Valley State University</institution>
+    </author>
+    <date>
+      Last Updated: <today/>
+    </date>
+  </bibinfo>
+
+  <!-- This displays the title page information -->
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+
+</frontmatter>
+

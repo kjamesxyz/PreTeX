@@ -1,0 +1,19 @@
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext update-project` to produce a compatible file.
+INFO    : Building target biostats-html
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR:   the publisher file specifies one of source/directories/@external and source/directories/@generated, but not both. Proceeding as if neither was specified.
+WARNING : * PTX:WARNING:   numbering level set for figures ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for inline exercises ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for open problems ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+INFO    : successful application of /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+WARNING : Schema validation could not be completed: no validator was available (jing is not installed and lxml could not compile the schema). Continuing with build.
+CRITICAL: It appears there is an error with your publication file.  Are you missing the required source/directories/@external and @generated attributes?
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

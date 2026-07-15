@@ -1,0 +1,18 @@
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext update-project` to produce a compatible file.
+INFO    : Building target biostats-html
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * failed to load "/home/kjames13/Code/PreTeX/courses/Biostats/publication/publication.ptx": No such file or directory
+ERROR   : processing with /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl has failed
+
+ERROR   : Error assembling source file: Cannot resolve URI /home/kjames13/Code/PreTeX/courses/Biostats/publication/publication.ptx
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

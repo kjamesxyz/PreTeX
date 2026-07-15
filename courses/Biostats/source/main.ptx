@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="./docinfo.ptx" />
+    <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+    <book>
+        <title>Differential Equations</title>
+        <subtitle>MATH-132B Fall 2026</subtitle>
+
+        <xi:include href="./frontmatter.ptx" />
+
+        <chapter xml:id="welcome-to-class">
+            <title>Welcome to Class!</title>
+
+            <xi:include href="./syllabus.ptx" />
+        </chapter>
+    </book>
+</pretext>

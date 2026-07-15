@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project ptx-version="2" source="./" publication="./">
+    <targets>
+        <target name="biostats-html" 
+                format="html"
+                source="./courses/Biostats/source/main.ptx"
+                publication="./courses/Biostats/publication/publication.ptx"
+                deploy-dir="output/Biostats/web"/>
+    </targets>
+</project>
