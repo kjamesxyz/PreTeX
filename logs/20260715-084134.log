@@ -1,0 +1,17 @@
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext update-project` to produce a compatible file.
+INFO    : Staging deployment according to strategy pelican_default
+INFO    : Staging `biostats-html` at `/home/kjames13/Code/PreTeX/output/stage/output/Biostats/web`.
+INFO    : Staging generated site at `/home/kjames13/Code/PreTeX/output/stage`.
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING:   numbering level set for figures ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for inline exercises ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for open problems ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+INFO    : successful application of /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Deployment is now staged at `/home/kjames13/Code/PreTeX/output/stage`.
+INFO    : Preparing to deploy from active `main` git branch.
+
+INFO    : Changes to project source since last commit detected.
+INFO    : Committing these changes to local Git repository.
+
