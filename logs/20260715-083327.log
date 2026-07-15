@@ -1,0 +1,39 @@
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext update-project` to produce a compatible file.
+INFO    : Building target biostats-html
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING:   numbering level set for figures ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for inline exercises ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+WARNING : * PTX:WARNING:   numbering level set for open problems ("2") is greater than the maximum possible levels ("0") configured.  The default value will be used instead
+INFO    : successful application of /home/kjames13/.ptx/2.44.0/core/xsl/utilities/pretext-enhanced-source.xsl
+WARNING : Schema validation could not be completed: no validator was available (jing is not installed and lxml could not compile the schema). Continuing with build.
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /home/kjames13/Code/PreTeX/output/biostats-html.
+INFO    : discovering source file's directory name: /home/kjames13/Code/PreTeX/courses/Biostats/source
+INFO    : verifying and expanding input directory: /home/kjames13/Code/PreTeX/courses/Biostats/source/../../../generated-assets
+INFO    : input directory expanded to absolute path: /home/kjames13/Code/PreTeX/generated-assets
+INFO    : verifying and expanding input directory: /home/kjames13/Code/PreTeX/courses/Biostats/source/../../../assets
+INFO    : input directory expanded to absolute path: /home/kjames13/Code/PreTeX/assets
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/kjames13/.ptx/2.44.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.1.14
+INFO    : Downloading Runestone Services, version 8.1.14
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx to HTML in /tmp/ptx-7yfwfte6
+INFO    : XSL conversion of /home/kjames13/Code/PreTeX/courses/Biostats/source/main.ptx by /home/kjames13/.ptx/2.44.0/core/xsl/pretext-html.xsl
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /home/kjames13/.ptx/2.44.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-7yfwfte6
+INFO    : Removing temporary directory /tmp/ptx-m9jkxjaq
+INFO    : 
+Finished build for target biostats-html. Run `pretext view biostats-html` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 
