@@ -4,7 +4,7 @@
     <xi:include href="./docinfo.ptx" />
     <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
     <book>
-        <title>Differential Equations</title>
+        <title>Biostatics</title>
         <subtitle>MATH-132B Fall 2026</subtitle>
 
         <xi:include href="./frontmatter.ptx" />
@@ -13,9 +13,15 @@
             <title>Welcome to Class!</title>
 
             <xi:include href="./syllabus.ptx" />
-            <xi:include href="./activities/act_temp_F26.ptx" />
+            <!-- <xi:include href="./activities/act_temp_F26.ptx" /> -->
         </chapter>
 
+        <chapter xml:id="ch-final">
+            <title>Final Project</title>
+            
+            <xi:include href="./projects/final_project.ptx" />
+        </chapter>
+        
 
     </book>
 </pretext>

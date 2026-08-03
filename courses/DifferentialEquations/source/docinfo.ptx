@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+  <macros>
+    \newcommand{\N}{\mathbb N}
+    \newcommand{\Z}{\mathbb Z}
+    \newcommand{\Q}{\mathbb Q}
+    \newcommand{\R}{\mathbb R}
+
+    \newcommand{\dydx}{\frac{dy}{dx}}
+
+    \newcommand{\Cee}{\mathcal{C}}
+  </macros>
+</docinfo>

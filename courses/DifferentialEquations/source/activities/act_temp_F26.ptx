@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="act-x" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity Example</title>
+
+  <introduction>
+    <p> This is an example of an activity. It will have the <alert>due date</alert> at the top of the assignment. Note that these assignments have the same printing options as your homework. </p>
+
+    <p> We will spend the latter half of each class day working on activities and they will be due one week from the day they are assigned. These worksheets will let you test the skills and knowledge you obtained from class on some fun, relevant, and challenging problems. </p>
+  </introduction>
+
+  <exercise xml:id="example-example">
+    <statement>
+        <p> The questions will appear here. </p>
+    </statement>
+  </exercise>
+
+</worksheet>

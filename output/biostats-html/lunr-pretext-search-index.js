@@ -28,22 +28,13 @@ var ptx_lunr_docs = [
   "body": " Letter Grade Distribution    Letter Grade  Required Score    A  93-100%    A-  85-92%    B+  81-84%    B  77-80%    B-  73-76%    C+  69-72%    C  61-68%    D  50-60%    F  0-49%    "
 },
 {
-  "id": "act-x",
+  "id": "final",
   "level": "1",
-  "url": "act-x.html",
-  "type": "Worksheet",
+  "url": "final.html",
+  "type": "Section",
   "number": "",
-  "title": "🏫 Activity Example",
-  "body": " 🏫 Activity Example   This is an example of an activity. It will have the due date at the top of the assignment. Note that these assignments have the same printing options as your homework.  We will spend the latter half of each class day working on activities and they will be due the following class period. These worksheets will let you test the skills and knowledge you obtained from the learning loop on some fun, interesting, and challenging problems.     Consider recording the ages of every student at table 2. Identify the population and sample in this study.    "
-},
-{
-  "id": "pop-vs-samp-1",
-  "level": "2",
-  "url": "act-x.html#pop-vs-samp-1",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Consider recording the ages of every student at table 2. Identify the population and sample in this study.   "
+  "title": "MATH-132B Final Project",
+  "body": " MATH-132B Final Project   Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medicaly, and\/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 65 points) and a 15-minute presentation (worth 35 points) on your findings.  We will spend the latter half of each class day working on activities and they will be due one week from the day they are assigned. These worksheets will let you test the skills and knowledge you obtained from class on some fun, relevant, and challenging problems.   "
 }
 ]
 

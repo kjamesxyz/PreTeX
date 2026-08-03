@@ -7,5 +7,11 @@
                 source="./courses/Biostats/source/main.ptx"
                 publication="./courses/Biostats/publication/publication.ptx"
                 deploy-dir="output/Biostats/web"/>
+
+        <target name="diffeq-html" 
+                format="html"
+                source="./courses/DifferentialEquations/source/main.ptx"
+                publication="./courses/DifferentialEquations/publication/publication.ptx"
+                deploy-dir="output/DifferentialEquations/web"/>
     </targets>
 </project>
