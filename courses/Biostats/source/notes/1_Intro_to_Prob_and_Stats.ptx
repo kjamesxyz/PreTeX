@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction to Probabiliy &amp; Statistics</title>
+    
+    <introduction>
+        <p>
+            In this chapter, we cover basic vocabulary and concpets from probability and statistics. The purpose of this unit is primarily to establish notation and convention. 
+        </p>
+    </introduction>
+
+    <subsection xml:id="biostats-notes-1-1">
+        <title>Introduction to Probability</title>
+
+        <definition xml:id="def-experiment">
+            <statement>
+                <p>
+                    In probability &amp; statistics, we call procedures with measureable outcomes <alert> experiments </alert>.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-event">
+            <statement>
+                <p>
+                    An <alert>event</alert> is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event <alert> simple </alert>. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-sample-space">
+            <statement>
+                <p>
+                    The <alert>sample space</alert> for an experiment is the collection of all possible simple events. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-probability">
+            <statement>
+                <p>
+                    Let <m> E </m> be an event from an expermient with <m>n</m> simple events. The <alert>probability</alert> of <m>E</m> occuring is given by <md> \cal{P}(E) = \frac{\text{number of ways } E \text{ can occur}}{n}</md>
+                </p>
+            </statement>
+        </definition>
+
+        <exercise>
+            <introduction>
+                <p> Consider the experiment of rolling a fair 6-sided die. Find three distinct events <m> E,F,G </m> such that </p>
+            </introduction> 
+            <task>
+                <statement>
+                    <p>
+                        <m>\cal{P}(E) = \frac{1}{6} </m> 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cal{P}(E) = \frac{1}{2} </m> 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cal{P}(E) = \frac{2}{3} </m> 
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </subsection>
+    
+</section>

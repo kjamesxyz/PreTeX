@@ -2,13 +2,56 @@
 
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
   <macros>
-    \newcommand{\N}{\mathbb N}
-    \newcommand{\Z}{\mathbb Z}
-    \newcommand{\Q}{\mathbb Q}
-    \newcommand{\R}{\mathbb R}
+    
+    <!-- ================================================================
+    MISC SHORTCUTS
+    ===================================================================== -->
+    \newcommand{\ds}{\displaystyle}
+    \newcommand{\email}[1]{\protect\href{mailto:#1}{#1}}
+    \newcommand{\nth}{\text{th}}
 
-    \newcommand{\dydx}{\frac{dy}{dx}}
+        
+    <!-- ================================================================
+    IMPORTANT SETS
+    ===================================================================== -->
+    \newcommand{\complex}{\mathbb{C}}
+    \newcommand{\irrat}{\mathbb{I}}
+    \newcommand{\nat}{\mathbb{N}}
+    \newcommand{\real}{\mathbb{R}}
+    \newcommand{\rat}{\mathbb{Q}}
+    \newcommand{\ints}{\mathbb{Z}}
 
-    \newcommand{\Cee}{\mathcal{C}}
+    <!-- =====================================================================
+    PROOF-WRITING
+    ===================================================================== -->
+    \newcommand{\done}{\textbf{\underline{End}.} }
+    \newcommand{\pf}{\textbf{\underline{Proof}:} }
+
+
+    <!-- =====================================================================
+    PROOF-WRITING
+    ===================================================================== -->
+    \renewcommand{\bf}[1]{\mathbf{#1}}
+    \renewcommand{\cal}[1]{\mathcal{#1}}
+    \newcommand{\scr}[1]{\mathscr{#1}}
+    <!-- %=====================================================================
+    % GREEK LETTER FORMS
+
+    % Greek letters have multi-character LaTeX names to begin with, so they
+    % can't be looped over the same way as single Latin characters, and
+    % bold Greek needs \boldsymbol (from amsmath), not \mathbf. Add more
+    % here by hand as you need them, following the same \bf<name> pattern.
+    %===================================================================== -->
+    \newcommand{\bfepsilon}{\boldsymbol{\epsilon}}
+    \newcommand{\bfpsi}{\boldsymbol{\psi}}
+    \newcommand{\bfPhi}{\boldsymbol{\Phi}}
+
+    <!-- %=====================================================================
+    % Math Shortcuts
+    %===================================================================== -->
+    \newcommand{\deriv}[2]{\frac{d #1}{d #2}}
+    \newcommand{\ip}[1]{\left\langle #1 \right\rangle}
+    \newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}}
+  
   </macros>
 </docinfo>

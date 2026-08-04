@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="final" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="biostats-projects-final" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>MATH-132B Final Project</title>
 
   <introduction>
     <p> Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medicaly, and/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 65 points) and a 15-minute presentation (worth 35 points) on your findings. </p>
   </introduction>
 
-  <subsection xml:id="final-data-selection">
+  <subsection xml:id="biostats-projects-final-data-selection">
     <title>Selecting a Group and Data Set</title>
 
     <p>
@@ -20,13 +20,16 @@
     
   </subsection>
 
-  <subsection xml:id="final-written">
+  <subsection xml:id="biostats-projects-final-written">
     <title>Written Report</title>
-    The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on each of the below assignments. Each assignment corresponds to one section of your final report, and their contribution to your 
+    
+    <p>
+      The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on each of the below assignments. Each assignment corresponds to one section of your final report, and their contribution to your 
 
-    <ul>
-        <li><p> Activity - </p></li>
-    </ul>
+      <ul>
+          <li><p> Activity - </p></li>
+      </ul>
+    </p>
   </subsection>
 
 </section>

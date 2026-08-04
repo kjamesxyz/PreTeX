@@ -9,19 +9,25 @@
 
         <xi:include href="./frontmatter.ptx" />
 
-        <chapter xml:id="welcome-to-class">
+        <chapter xml:id="biostats-notes">
+            <title>Lecture Notes</title>
+            
+            <xi:include href="./notes/1_Intro_to_Prob_and_Stats.ptx"/>
+        </chapter>
+
+        <chapter xml:id="biostats-welcome-to-class">
             <title>Welcome to Class!</title>
 
             <xi:include href="./syllabus.ptx" />
             <!-- <xi:include href="./activities/act_temp_F26.ptx" /> -->
         </chapter>
 
-        <chapter xml:id="ch-final">
-            <title>Final Project</title>
+        
+
+        <chapter xml:id="biostats-projects">
+            <title>Projects</title>
             
             <xi:include href="./projects/final_project.ptx" />
         </chapter>
-        
-
     </book>
 </pretext>

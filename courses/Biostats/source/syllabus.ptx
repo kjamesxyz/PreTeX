@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="biostats-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Syllabus</title>
 
   <introduction>
     <p> Welcome to MATH-132B-01 (Biostatistics)! This is the syllabus for our course. It is a document where you can find information about course policies and procedures. </p>
   </introduction>
   
-  <subsection xml:id="syllabus-course-info">
+  <subsection xml:id="biostats-f26-syllabus-course-info">
   <title>Course Information</title>
 
   <p><dl>
@@ -64,7 +64,7 @@
     <p> Statistics, in general, is the study of the collection and analysis of data. In the health and biological sciences, professionals regularly deal with highly impactful and sensitive data. Interpretation and dissemination of this data are valuable and marketable capabilities for anyone interested in these professions. In this class, we will begin developing these skills with the foundations of statistical inference. </p>
   </paragraphs>
 
-  <paragraphs xml:id="syllabus-slos">
+  <paragraphs xml:id="biostats-f26-syllabus-slos">
     <title>Student Learning Outcomes</title>
 
     <p> Students that pass this course will be able to...
@@ -79,7 +79,7 @@
     </p>
   </paragraphs>
 
-  <paragraphs xml:id="syllabus-schedule">
+  <paragraphs xml:id="biostats-f26-syllabus-schedule">
     <title>Tentative Course Schedule</title>
 
     <p> Below you will find a tentative schedule for our course. There is a row for each class meeting, a column for the content that will be covered, and a column for any important dates that week. Please note that each of the following dates are subject to change. </p>
@@ -93,152 +93,152 @@
       <row>
         <cell>Mon. Aug 31</cell>
         <cell>Intro to Course + RStudio Setup</cell> 
-        <cell>N/A</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Wed. Sep 2</cell>
         <cell> Intro to Probability </cell> 
-        <cell>Activity 0 &amp; Homework 1</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon. Sep 7</cell>
         <cell><alert>No Class (Labor Day)!</alert></cell> 
-        <cell>N/A</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Wed. Sep 9</cell>
         <cell>Intro to Statistics </cell> 
-        <cell></cell> 
+        <cell>Activity 1 &amp; Homework 1</cell> 
       </row>
       <row>
         <cell>Mon. Sep 14</cell>
         <cell>Data Visualization</cell> 
-        <cell>Activity 3 &amp; Homework 4</cell> 
+        <cell>Activity 2</cell> 
       </row>
       <row>
         <cell>Wed. Sep 16</cell>
         <cell>Histograms</cell> 
-        <cell>Activity 4</cell> 
+        <cell>Activity 3 &amp; Homework 2</cell> 
       </row>
       <row>
         <cell>Mon. Sep 21</cell>
         <cell>Boxplots</cell> 
-        <cell>Homework 5</cell> 
+        <cell>Activity 4</cell> 
       </row>
       <row>
         <cell>Wed. Sep 23</cell>
         <cell>Review for Midterm 1</cell> 
-        <cell>Activity 5 &amp; Homework 6</cell> 
+        <cell>Activity 5 &amp; Homework 3</cell> 
       </row>
       <row>
         <cell>Mon. Sep 28</cell>
-        <cell>Midterm 1</cell> 
-        <cell>Activity 6 &amp; Homework 7</cell> 
+        <cell><alert>Midterm 1</alert></cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Wed. Sep 30</cell>
         <cell>Normal Distributions</cell> 
-        <cell>Activity 7</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon. Oct 5</cell>
         <cell>Normal Distributions (Cont.)</cell> 
-        <cell>Homework 8</cell> 
+        <cell>Activity 6</cell> 
       </row>
       <row>
         <cell>Wed. Oct 7</cell>
         <cell>Hypothesis Testing Framework </cell> 
-        <cell>Activity 8 &amp; Homework 9</cell> 
+        <cell>Activity 7 &amp; Homework 4</cell> 
       </row>
       <row>
         <cell>Mon Oct 12</cell>
         <cell>Inference on Proportions</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 8</cell> 
       </row>
       <row>
         <cell>Wed Oct 14</cell>
         <cell>Inference on Means</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 9 &amp; Homework 5</cell> 
       </row>
       <row>
         <cell>Mon Oct 19</cell>
         <cell>Inferences on Two Populations </cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 10</cell> 
       </row>
       <row>
         <cell>Wed Oct 21</cell>
         <cell>Review for Midterm 2 </cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 11 &amp; Homework 6</cell> 
       </row>
       <row>
         <cell>Mon Oct 26</cell>
-        <cell>Midterm 2 </cell> 
-        <cell>Activity 9</cell> 
+        <cell><alert>Midterm 2</alert></cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Wed Oct 28</cell>
         <cell>Goodness-of-Fit</cell> 
-        <cell>Activity 9</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon Nov 2</cell>
         <cell>Independence</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 12</cell> 
       </row>
       <row>
         <cell>Wed Nov 4</cell>
         <cell>Homogeneity</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 13 &amp; Homework 7</cell> 
       </row>
       <row>
         <cell>Mon Nov 9</cell>
         <cell>One-Way AnoVa</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 14</cell> 
       </row>
       <row>
         <cell>Wed Nov 11</cell>
         <cell>Linear Regression</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 15 &amp; Homework 8</cell> 
       </row>
       <row>
         <cell>Mon Nov 16</cell>
         <cell>Inference on Correlation</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 16</cell> 
       </row>
       <row>
         <cell>Wed Nov 18</cell>
         <cell>Nonparametric Testing</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 17 &amp; Homework 9</cell> 
       </row>
       <row>
         <cell>Mon Nov 23</cell>
         <cell>Nonparametric Testing (Cont.)</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 18</cell> 
       </row>
       <row>
         <cell>Wed Nov 25</cell>
         <cell><alert>No Class (Thanksgiving)!</alert></cell> 
-        <cell>Activity 9</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon Nov 30</cell>
         <cell>Review for Midterm 3</cell> 
-        <cell>Activity 9</cell> 
+        <cell>Activity 19 &amp; Homework 10</cell> 
       </row>
       <row>
         <cell>Wed Dec 2</cell>
-        <cell>Midterm 3</cell> 
-        <cell>Activity 9</cell> 
+        <cell><alert>Midterm 3</alert></cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon Dec 7</cell>
         <cell>Final Project Workday</cell> 
-        <cell>Activity 9</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Wed Dec 9</cell>
         <cell>Final Project Workday</cell> 
-        <cell>Activity 9</cell> 
+        <cell></cell> 
       </row>
       <row>
         <cell>Mon Dec 14</cell>
@@ -248,12 +248,12 @@
     </tabular>
   </paragraphs>
 
-  <paragraphs xml:id="syllabus-prereq">
+  <paragraphs xml:id="biostats-syllabus-prereq">
     <title>Prerequisites</title>
     <p> The completion of MATH-082 or a satisfactory score on the mathematics placement test is required for enrollment in this course. </p>
   </paragraphs>
 
-  <paragraphs xml:id="syllabus-mats">
+  <paragraphs xml:id="biostats-syllabus-mats">
     <title>Required Materials</title>
     <p> The official text for the course is <alert>Mike's Biostatistics Book?</alert> by Michael R Dohm. The textbook is free and open source. It can be accessed  <url href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Mikes_Biostatistics_Book_(Dohm)"> here </url> </p>
 
@@ -262,7 +262,7 @@
 
   </subsection>
 
-  <subsection xml:id="subsec-resources">
+  <subsection xml:id="biostats-subsec-resources">
     <title>Resources for Student Success</title>
     <p> Many students struggle with studying for math classes. As previously mentioned, office hours are your single greatest resource for success in this class, followed by the MPLC. Outside of these resources, I have outlined some studying tips/tricks I would recommend for our class. 
     
@@ -283,7 +283,7 @@
     </p>
   </subsection>
 
-  <subsection xml:id="sec-assessments">
+  <subsection xml:id="biostats-syllabus-assessments">
     <title>Assessments and Grades</title>
     <p> Your overall grade in the course is a weighted average computed according to the table below. </p>
       
@@ -297,15 +297,15 @@
         </row>
         <row>
           <cell halign="right">Engagement</cell>
-          <cell halign="left">10%</cell>
+          <cell halign="left">11%</cell>
         </row>
         <row>
           <cell halign="right">Homework</cell>
-          <cell halign="left">15%</cell>
+          <cell halign="left">11%</cell>
         </row>
         <row>
           <cell halign="right">Midterms</cell>
-          <cell halign="left">45%</cell>
+          <cell halign="left">48%</cell>
         </row>
         <row>
           <cell halign="right">Final Project</cell>
@@ -330,101 +330,100 @@
         </row>
         <row>
           <cell halign="right">A</cell>
-          <cell halign="left">93-100%</cell>
+          <cell halign="left">94-100%</cell>
         </row>
         <row>
           <cell halign="right">A-</cell>
-          <cell halign="left">85-92%</cell>
+          <cell halign="left">90-93%</cell>
         </row>
         <row>
           <cell halign="right">B+</cell>
-          <cell halign="left">81-84%</cell>
+          <cell halign="left">87-89%</cell>
         </row>
         <row>
           <cell halign="right">B</cell>
-          <cell halign="left">77-80%</cell>
+          <cell halign="left">84-86%</cell>
         </row>
         <row>
           <cell halign="right">B-</cell>
-          <cell halign="left">73-76%</cell>
+          <cell halign="left">80-83%</cell>
         </row>
         <row>
           <cell halign="right">C+</cell>
-          <cell halign="left">69-72%</cell>
+          <cell halign="left">77-79%</cell>
         </row>
         <row>
           <cell halign="right">C</cell>
-          <cell halign="left">61-68%</cell>
+          <cell halign="left">70-76%</cell>
         </row>
         <row>
           <cell halign="right">D</cell>
-          <cell halign="left">50-60%</cell>
+          <cell halign="left">60-69%</cell>
         </row>
         <row>
           <cell halign="right">F</cell>
-          <cell halign="left">0-49%</cell>
+          <cell halign="left">0-59%</cell>
         </row>
       </tabular>
     </table>
 
-  <paragraphs>
-    <title>Engagement</title>
+    <paragraphs>
+      <title>Engagement</title>
 
-    <p> Your engagement in the course will directly impact your grade and will be measured through 3 primary channels. 
-    
-      <ol>
-        <li><p> <alert>Attendance:</alert> Your attendance in class will be measured using the name tags you will design on the first day! I will pass out name tags at the beginning of class (earning you 1 point), and I will collect them from you (earning you 1 point) for answering questions, asking questions, or dilligently working on in-class activities during class. </p></li>
-        <li><p> <alert>Activities:</alert> We will have an activity to work on every class day. Collaboration with your classmates on these assignments is highly encouraged. Each activity is worth 3 points and will be graded based on completeness. For more details, please see the rubric on Canvas. </p></li>
-      </ol>
+      <p> Your engagement in the course will directly impact your grade and will be measured through 3 primary channels. 
+      
+        <ol>
+          <li><p> <alert>Attendance:</alert> Your attendance in class will be measured using the name tags you will design on the first day! I will pass out name tags at the beginning of class (earning you 1 point), and I will collect them from you (earning you 1 point) for answering questions, asking questions, or dilligently working on in-class activities during class. </p></li>
+          <li><p> <alert>Activities:</alert> We will have an activity to work on every class day that will be due at the beginning of the next class period. Collaboration with your classmates on these assignments is highly encouraged. Each activity is worth 8 points and will be graded based on completeness. For more details, please see the rubric on Canvas. </p></li>
+        </ol>
 
-    </p>
-  </paragraphs>
+      </p>
+    </paragraphs>
 
-  <paragraphs>
-    <title>Homework</title>
+    <paragraphs>
+      <title>Homework</title>
 
-    <p> There will be a homework assignment due every Wednesday at the beginning of class, except for the class periods immediately following exams. I will pass out a printed copy of homework assignments in class, but they will also be available on Canvas. Each homework assignment is worth 10 points and will consist of at most 5 free-response questions. </p>
-  </paragraphs>
+      <p> There will be a homework assignment due every Wednesday at the beginning of class, except for the first week of class and in the case of holidays or exams. I will pass out a printed copy of homework assignments in class, but they will also be available on Canvas. Each homework assignment is worth 20 points and will consist of at most 5 free-response questions. </p>
+    </paragraphs>
 
-  <paragraphs>
-    <title>Midterms</title>
+    <paragraphs>
+      <title>Midterms</title>
 
-    <p> There will be three midterm exams, each worth 15% of your grade (for a total of 45%). They are tentatively scheduled for Monday, September 28; Monday, October 26 and Wednesday, December 2. You will need a writing utensil for the exams, and you will be permitted to use RStudio on a classroom computer during the exams. No other notes or electronic devices of any kind will be permitted during exams. Exams will be free response, worth 100 points, and will be graded with partial credit. </p>
-  </paragraphs>
+      <p> There will be three midterm exams, each worth 16% of your grade (for a total of 48%). They are tentatively scheduled for Monday, September 28; Monday, October 26; and Wednesday, December 2. You will need a writing utensil for the exams, and you will be permitted to use RStudio on a classroom computer during the exams. No other notes or electronic devices of any kind will be permitted during exams. Exams will be free response, worth 100 points, and will be graded with partial credit. </p>
+    </paragraphs>
 
-  <paragraphs>
-    <title>Final Project</title>
+    <paragraphs>
+      <title>Final Project</title>
 
-    <p> In lieu of a final exam, our course will have a final group project. A significant portion of this final project will involve presenting your findings. Your presentations will take place <alert> Monday, December 14 from 2:30pm - 4:20om</alert>. This date and time has been determine prior to the start of the semester and cannot be changed. Please make your best effort to clear your schedule now. For more information about the content of the final project, please look here. </p>
-  </paragraphs>
+      <p> In lieu of a final exam, our course will have a final group project. A significant portion of this final project will involve presenting your findings. Your presentations will take place <alert> Monday, December 14 from 2:30pm - 4:20pm</alert>. This date and time has been determine prior to the start of the semester and cannot be changed. Please make your best effort to clear your schedule now. For more information about the content of the final project, please look <xref ref="biostats-projects-final" text="custom"> here </xref>. </p>
+    </paragraphs>
 
-  <paragraphs>
-    <title>Late Policy</title>
+    <paragraphs>
+      <title>Late Policy</title>
 
-    <p> Please observe the following late policies.
-      <ul>
-        <li><p><alert>Activities:</alert> Activities will be penalized by 1 point for each class period it is late.</p></li>
-        <li><p><alert>Homeworks:</alert> Homework assignments will be penalized by 4 points for each class period they are late. </p></li>
-        <li><p><alert>Midterms:</alert> If you are unable to be present for a midterm exam, you are permitted one makeup exam over the course of the semester. You must notify me within 24 hours after the exam is held. </p></li>
-        <li><p><alert>Final Presentations: </alert> There is no makeup opportunity for the presentation portion of your final project.</p></li>
-      </ul>
-    </p>
-  </paragraphs>
+      <p> Please observe the following late policies.
+        <ul>
+          <li><p><alert>Activities:</alert> Activities will be penalized by 1 point for each class period it is late.</p></li>
+          <li><p><alert>Homeworks:</alert> Homework assignments will be penalized by 4 points for each class period they are late. </p></li>
+          <li><p><alert>Midterms:</alert> If you are unable to be present for a midterm exam, you are permitted one makeup exam over the course of the semester. You must notify me within 24 hours after the exam is held. </p></li>
+          <li><p><alert>Final Presentations: </alert> There is no makeup opportunity for the presentation portion of your final project.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
 
-  <paragraphs>
-    <title>Extra Credit Policy</title>
+    <paragraphs>
+      <title>Extra Credit Policy</title>
 
-    <p> Please observe the following extra credit policies. These are the only extra credit opportunities that will be offered over the semester. 
-      <ul>
-        <li><p><alert>Engagement:</alert> I will drop 10 points from your engagement grade at the end of the semester, meaning that you get ``two free absences''.</p></li>
-        <li><p><alert>Midterms:</alert> Each midterm exam will have 110 points, but will only be graded out of 100. This means you can earn up to 110% on each midterm. </p></li>
-      </ul>
-    </p>
-  </paragraphs>
-
+      <p> Please observe the following extra credit policies. These are the only extra credit opportunities that will be offered over the semester. 
+        <ul>
+          <li><p><alert>Engagement:</alert> I will drop 10 points from your engagement grade at the end of the semester, meaning that you get ``two free absences''.</p></li>
+          <li><p><alert>Midterms:</alert> Each midterm exam will have 110 points, but will only be graded out of 100. This means you can earn up to 110% on each midterm. </p></li>
+        </ul>
+      </p>
+    </paragraphs>
   </subsection>
 
-  <subsection xml:id="subsec-policy">
+  <subsection xml:id="biostats-syllabus-policy">
     <title>Course Conduct &amp; Policies</title>
     <paragraphs>
       <title>Academic Integrity</title>
