@@ -25,7 +25,6 @@ hasWebworkReps: false,
 hasSage: false,
 isReact: false,
 htmlPresentation: false,
-lang: "en-US",
 });
 </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +35,7 @@ lang: "en-US",
 <meta name="twitter:description" content="MATH-132B Fall 2026">
 <meta property="og:description" content="MATH-132B Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.47"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.47"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.44"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -91,16 +90,6 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="ptx-embed-code-container">
 <textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
-</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
-<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
-</div>
-<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
-<h2 class="heading">Read aloud settings</h2>
-<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
-</div>
-<div class="ptx-readability-options-group">
-<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
-<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
 </div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
 <h2 class="heading">Readability settings</h2>
 <button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
@@ -119,6 +108,7 @@ eBookConfig.enable_chatcodes =  false;
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\ds}{\displaystyle}
 \newcommand{\email}[1]{\protect\href{mailto:#1}{#1}}
 \newcommand{\nth}{\text{th}}
+\newcommand{\prob}{\mathcal{P}}
 
     
 
@@ -157,16 +147,9 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth1 focused" data-preexpanded-levels="0" data-max-levels="1"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="biostats-frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="biostats-notes.html" class="internal"><span class="codenumber">1</span> <span class="title">Lecture Notes</span></a></div>
-<ul id="ptx-toc-group-biostats-notes" class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="biostats-notes-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Probabiliy &amp; Statistics</span></a></div>
-<ul id="ptx-toc-group-biostats-notes-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1.html#biostats-notes-1-1" class="internal"><span class="title">Introduction to Probability</span></a></div></li></ul>
-</li></ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="biostats-welcome-to-class.html" class="internal"><span class="codenumber">2</span> <span class="title">Welcome to Class!</span></a></div>
+<div class="toc-title-box"><a href="biostats-welcome-to-class.html" class="internal"><span class="title">Welcome to Class!</span></a></div>
 <ul id="ptx-toc-group-biostats-welcome-to-class" class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="biostats-syllabus.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Syllabus</span></a></div>
+<div class="toc-title-box"><a href="biostats-syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
 <ul id="ptx-toc-group-biostats-syllabus" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-syllabus.html#biostats-f26-syllabus-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-syllabus.html#biostats-subsec-resources" class="internal"><span class="title">Resources for Student Success</span></a></div></li>
@@ -176,9 +159,13 @@ eBookConfig.enable_chatcodes =  false;
 </li></ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="biostats-projects.html" class="internal"><span class="codenumber">3</span> <span class="title">Projects</span></a></div>
+<div class="toc-title-box"><a href="biostats-activities.html" class="internal"><span class="title">Activities</span></a></div>
+<ul id="ptx-toc-group-biostats-activities" class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="biostats-act-1.html" class="internal"><span class="title">🏫 Activity 1 - Intro to Prob &amp; Stats</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="biostats-projects.html" class="internal"><span class="title">Projects</span></a></div>
 <ul id="ptx-toc-group-biostats-projects" class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="biostats-projects-final.html" class="internal"><span class="codenumber">3.1</span> <span class="title">MATH-132B Final Project</span></a></div>
+<div class="toc-title-box"><a href="biostats-projects-final.html" class="internal"><span class="title">MATH-132B Final Project</span></a></div>
 <ul id="ptx-toc-group-biostats-projects-final" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-projects-final.html#biostats-projects-final-data-selection" class="internal"><span class="title">Selecting a Group and Data Set</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-projects-final.html#biostats-projects-final-written" class="internal"><span class="title">Written Report</span></a></div></li>
@@ -189,9 +176,9 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="root-1-2"><h1 class="heading ptx-toc-heading">Contents</h1>
 <nav class="summary-links"><ul>
 <li><a href="biostats-frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="biostats-notes.html" class="internal"><span class="codenumber">1</span> <span class="title">Lecture Notes</span></a></li>
-<li><a href="biostats-welcome-to-class.html" class="internal"><span class="codenumber">2</span> <span class="title">Welcome to Class!</span></a></li>
-<li><a href="biostats-projects.html" class="internal"><span class="codenumber">3</span> <span class="title">Projects</span></a></li>
+<li><a href="biostats-welcome-to-class.html" class="internal"><span class="title">Welcome to Class!</span></a></li>
+<li><a href="biostats-activities.html" class="internal"><span class="title">Activities</span></a></li>
+<li><a href="biostats-projects.html" class="internal"><span class="title">Projects</span></a></li>
 </ul></nav><div class="autopermalink" aria-hidden="true" data-description="Book: Biostatics"><a tabindex="-1" href="#root-1-2" title="Copy heading and permalink for Book: Biostatics" aria-label="Copy heading and permalink for Book: Biostatics">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="biostats-frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>

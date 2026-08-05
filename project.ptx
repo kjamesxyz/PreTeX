@@ -4,8 +4,14 @@
     <targets>
         <target name="biostats-html" 
                 format="html"
-                source="./courses/Biostats/source/main.ptx"
+                source="./courses/Biostats/source/main_course.ptx"
                 publication="./courses/Biostats/publication/publication.ptx"
+                deploy-dir="output/Biostats/web"/>
+        
+        <target name="biostats-notes" 
+                format="html"
+                source="./courses/Biostats/source/main_notes.ptx"
+                publication="./courses/Biostats/publication/publication_notes.ptx"
                 deploy-dir="output/Biostats/web"/>
 
         <target name="diffeq-html" 

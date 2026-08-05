@@ -9,6 +9,7 @@
     \newcommand{\ds}{\displaystyle}
     \newcommand{\email}[1]{\protect\href{mailto:#1}{#1}}
     \newcommand{\nth}{\text{th}}
+    \newcommand{\prob}{\mathcal{P}}
 
         
     <!-- ================================================================

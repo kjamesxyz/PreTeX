@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 1 - Intro to Prob &amp; Stats</title>
+
+  <introduction>
+    <p> This assignment is due at the beginning of class on <alert> Wednesday, September 9 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+  </introduction>
+
+  <exercise workspace="0.5in">
+    <introduction>
+        <p>
+            Determine whether each of the following are true or false. Write a sentence to justify your answer. 
+        </p>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+                A bag of marbles consist of 5 red, 4 green, and 3 blue marbles. If you draw a marble out of the bag at random, it is most likely red. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                When rolling 2 dice, it is just as likely to roll a sum of 5 as it is to roll a sum of 6.
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                When drawing cards from a standard deck of playing cards, red cards are disjoint from face cards.  
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Since all of the above statements have been false, this statement is more likely to be true. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="0.5in">
+    <introduction>
+        <p> Let's play a game! In each scenario, you can choose to flip a coin 10 times or 100 times. Which should you choose to have the best odds at winning in each scenario and why? </p>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+                You win the game if you flip heads more than 60% of the time. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                You win the game if you flip heads more than 40% of the time. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                You win the game if you flip heads between 49% and 51% of the time. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+        <p>
+            The American Community Survey is a survey that provides communities with information to help them make service investment decisions every year. According to the 2024 survey, 12.1% of American live below the poverty line and 23.8% of Americans speak a language other than English at home. The survey reports that 4.2% of Americans fall into both categories. Consider the experiment of randomly selecting an American. Let <m>P</m> be the event that they live below the poverty line and let <m>L</m> be the event that they speak a language other than English at home. 
+        </p>
+    </introduction>
+
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Is <m>P</m> disjoint from <m>L</m>? Explain your answer.
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                Draw a Venn Diagram in the space below and fill in each region with its corresponding probability.
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="0.5in">
+    <introduction>
+        <p>
+            In each of the below experiments, identify the sample and statistic measured. Then infer the population and parameter of interest from the study. Finally, suggest one way you might adapt the experiment to change the bias in the results. 
+        </p>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+                For one month, the manager of a fitness center spends their lunch breaks asking their clinetelle to fill out customer service serveys on their way out of the gym. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                An optometrist begins working at a new practice. She asks all of her new patients for the reason they lastvisited the office in a message through the patient portal. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                A microbiologist records which species are present in riverbed samples taken from three different locations at Zilwaukee Riverfront Park.  
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+
+</worksheet>

@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="biostats-notes-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="biostats-notes-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Introduction to Probabiliy &amp; Statistics</title>
     
-    <introduction>
-        <p>
-            In this chapter, we cover basic vocabulary and concpets from probability and statistics. The purpose of this unit is primarily to establish notation and convention. 
-        </p>
-    </introduction>
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Compute simple classical probabilities. </p></li>
+            <li><p> Use the addition rule to compute complementary and compound probabilities. </p></li>
+            <li><p> Distinguish between populations and samples. </p></li>
+            <li><p> Distinguish between parameters and statistics. </p></li>
+        </ol>
+    </objectives>
 
-    <subsection xml:id="biostats-notes-1-1">
-        <title>Introduction to Probability</title>
+
+    <subsection xml:id="intro-to-prob">
+        <title> Intro to Probability</title> 
 
         <definition xml:id="def-experiment">
             <statement>
@@ -23,7 +32,7 @@
         <definition xml:id="def-event">
             <statement>
                 <p>
-                    An <alert>event</alert> is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event <alert> simple </alert>. 
+                    An <alert>event</alert> is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event <alert> simple </alert>. Otherwise, that event is called <alert> compound </alert>. 
                 </p>
             </statement>
         </definition>
@@ -70,6 +79,146 @@
                 </statement>
             </task>
         </exercise>
+
+        <theorem xml:id="thm-addition-rule">
+            <statement>
+                <p>
+                    Let <m>E, F</m> be events. Then
+                    <md>
+                        \cal{P}(E \ \text{or} \ F) = \cal{P}(E) + \cal{P}(F) - \cal{P}(E \text{and} \ F).
+                    </md>
+                </p>
+            </statement>
+        </theorem>
+
+        <exercise>
+            <statement>
+                <p>
+                    Verify the addition rule by comparing regions in a Venn diagram. 
+                </p>
+            </statement>
+        </exercise>
+
+        <definition xml:id="def-disjoint">
+            <statement>
+                <p>
+                    Two events are <alert> disjoint (mutually exclusive) </alert> if they cannot occur simultaneously. 
+                </p>
+            </statement>
+        </definition>
+
+        <exercise>
+            <statement>
+                <p>
+                    Show that if <m>E</m> is disjoint from <m>F</m>, then <md> \cal{P}(E \ \text{or} \ F) = \prob(E) + \prob(F). </md>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                    Consider the experiment of rolling a fair 6-sided die and recording the result. Let <m>E</m> be the event we roll a 1. Let <m>F</m> be the event we roll less than 3. 
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\prob(E \ \text{or} \ F)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Is <m>E</m> disjoint from <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find an event that is disjoint from <m>E</m>, but not from <m>F</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\prob(E \ \text{or} \ G)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\prob(F \ \text{or} \ G)</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
     </subsection>
-    
+
+
+
+
+
+
+
+    <subsection xml:id="intro-to-stats"> 
+        <title> Intro to Statistics </title>
+
+        <definition xml:id="def-data">
+            <statement>
+                <p>
+                    A <alert> datum </alert> is a single recorded observation or measurement. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-statistics">
+            <statement>
+                <p>
+                    <alert>Statistics</alert> is the science of collecting, organizing, and analyzing data. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-population">
+            <statement>
+                <p>
+                    In a statistical experiment, a <alert>population</alert> is the set of all observations or measurements that could be collected. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-parameter">
+            <statement>
+                <p>
+                    A characteristic of a population (e.g. proportion, average, etc.) is called a <alert>parameter</alert>.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-statistic">
+            <statement>
+                <p>
+                    Rarely can we collect data on an entire population. Similarly, parameters are rarely exactly known. Realistically, we may collect data from a representative group selected from the population. This group is called a <alert>sample</alert> and the estimate for the parameter that we can measure from the sample is called a <alert>statistic</alert>. 
+                </p>
+            </statement>
+        </definition>
+
+        <exercise>
+            <statement>
+                <p>
+                    Consider trying to learn the most common age among all students at SVSU. We might not be able to reach every single student enrolled, but we can reach everyone in this classroom right now. Computing the most common age (statistic) among all students in the classroom (sample) would be an estimate for the most common age (population) on campus (the population).
+                </p>
+
+                <p>
+                    Reflect on the design of this experiment. In what ways could we adapt our experiment to improve the accuracy of our measurement? 
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
 </section>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction to Statistics</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Distinguish between quantiative and qualitative. </p></li>
+            <li><p> Identify a datum's level of measurement. </p></li>
+            <li><p> Distinguish between sampling methods. </p></li>
+            <li><p> Discern and classify sampling errors. </p></li>
+        </ol>
+    </objectives>
+
+    <example>
+        <statement>
+            <p>
+                A medical researcher hypothesizes that low amounts of Insulin-Like Growth Factors (ILGFs) may make weight loss difficult for patients. GLP-1 medications have been designed to stabilize ILGFs in the case of diabetic patients. The researcher hypothesizes that GLP-1 medications may assist weight loss in nondiabetic patients as well. The researcher has found 100 willing patients and wants to design an experiment to test their hypothesis. They face the following decisions. 
+                <ol>
+                    <li><p>
+                            
+                    </p></li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    
+    <definition xml:id="def-sampling-errors">
+        <statement>
+            <p>
+                When conducting a statistical experiment, errors can occur in any of the following ways. 
+
+                <ul> 
+                    <li><p> <alert>Nonsampling errors</alert> occur due to human mistakes or factors outside of the scope of the experiment. For example, the household incomes of Saginaw residents are being estimated, but an intern accidentally delets the data for the 48601 zip code. </p></li>
+                    <li><p> <alert>Nonrandom sampling errors</alert> occur when samples are chosen in a way that skews the data. For example, a journalist writes an editorial on Bay county opinions of the Liberty toll bridge. They interview the 50 households nearest to the bridge. </p></li> 
+                    <li><p> <alert>Sampling errors</alert> occur by luck (or bad luck) of the draw. For example, in trying to estimate what proportion of college students identify as women, 5 of the 10 randomly selected colleges happened to be all-womens colleges. </p></li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <p> Typically, nonsampling and sampling errors are out of our control. Hence, nonrandom sampling errors are important to consider. </p> 
+
+    <definition xml:id="def-sampling-methods">
+        <statement>
+            <p>
+                Selecting samples randomly is important for maintaining the integrity of any study, especially in the sciences. Below are all valid means of sampling with various use cases. 
+
+                <ul> 
+                    <li><p> <alert> Random sampling </alert> occurs when every member of the population has an equal chance to be selected. </p></li> 
+                    <li><p> <alert> Systematic sampling </alert> occurs when members of the population are sampled according to a pattern. </p></li>
+                    <li><p> <alert> Stratified smapling </alert> occurs when the population is systematically split into groups, called <alert> strata </alert>. Then an equal proportion of each strata is sampled. </p></li> 
+                    <li><p> <alert> Clustered sampling </alert> occurs when the population is divided into equally-sized groups, called <alert> clusters </alert>. Then full clusters are sampled. </p></li>
+                </ul> 
+            </p>
+        </statement>
+    </definition>
+
+</section>
