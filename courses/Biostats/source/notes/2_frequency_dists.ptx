@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-2-1-histograms" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Histograms</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Construct and interpret frequency distributions. </p></li>
+            <li><p> Construct and interpret histograms. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-freq-dist">
+        <statement>
+            <p>
+                Consider repeating an experiment and measuring the frequency of each event in the sample space. The <alert> frequency distribution </alert> of the data is the function that relates the event to its frequency. Similarly, we can build a <alert>relative frequency distribution</alert> to map the event to the proportion of the sample space it constitues. Finally, a <alert> cumulative frequency distribution </alert> maps each event to the sum of its and its predecessors' relative frequencies.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <p> Below is a set of midterm grades from a statistics class. </p>
+        <tabular>
+            <row>
+                <cell>51</cell>
+                <cell>51</cell>
+                <cell>53</cell>
+                <cell>55</cell>
+                <cell>57</cell>
+                <cell>60</cell>
+                <cell>60</cell>
+                <cell>60</cell>
+                <cell>61</cell>
+                <cell>62</cell>
+            </row>
+            <row>
+                <cell>63</cell>
+                <cell>74</cell>
+                <cell>76</cell>
+                <cell>77</cell>
+                <cell>81</cell>
+                <cell>81</cell>
+                <cell>83</cell>
+                <cell>90</cell>
+                <cell>95</cell>
+                <cell>96</cell>
+            </row>
+        </tabular>
+
+        <p> Buils a frequency, relative frequency, and cumulative frequency distribution. </p>
+    </example>
+
+    <definition xml:id="def-histogram">
+        <statement>
+            <p>
+                If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a <alert> histogram </alert>, and we call the subintervals <alert> bins </alert>.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <p> Draw a histogram of the above data using bin size 5. </p>
+    </example>
+</section>

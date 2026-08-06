@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="hw2">
+<title>📝 Homework 2</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 16</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+    </introduction>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Create an example of a cross-sectional study. Then provide one example of a sampling, nonrandom sampling, and nonsampling error that could potentially be made while conducting the experiment. 
+            </p>
+        </statement>
+    </exercise>
+
+    
+    <exercise>
+        <introduction>
+            <p> Open the <c>penguins</c> data set in RStudio by typing <c>View(datasets::penguins)</c> into the console. </p>
+        </introduction> 
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Which variable(s), if any, are qualitative? Explain.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Which variable(s), if any, are nominal? Explain.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Which variable(s), if any, are interval? Explain.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Which variable(s), if any, are discrete? Explain.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p> Using the <c>penguins</c> data set from problem 1, compute each of the following using RStudio. Write the line of code you used to produce your result. </p>
+        </introduction> 
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Mean bill depth
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Range of flipper lengths
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Standard deviation in body mass
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Median bill length
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Mode home island
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>

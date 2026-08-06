@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction to Statistics</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Distinguish between quantiative and qualitative. </p></li>
+            <li><p> Identify a datum's level of measurement. </p></li>
+            <li><p> Distinguish between sampling methods. </p></li>
+            <li><p> Discern and classify sampling errors. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-bias">
+        <statement>
+            <p>
+                In statistics, <alert> bias </alert> is a measurement of how poorly a sample's statistic estimates its population's parameter. That is to say, statistics that are poor estimates are called <alert> biased </alert> and statistics that are accurate estimates are called <alert> unbiased </alert> 
+            </p>
+        </statement>
+    </definition> 
+
+    <definition xml:id="def-sampling-errors">
+        <statement>
+            <p>
+                When conducting a statistical experiment, bias can occur from any of the following types of mistakes. 
+
+                <ul> 
+                    <li><p> <alert>Nonsampling errors</alert> occur due to human mistakes or factors outside of the scope of the experiment. For example, the household incomes of Saginaw residents are being estimated, but an intern accidentally delets the data for the 48601 zip code. </p></li>
+                    <li><p> <alert>Sampling errors</alert> occur by luck (or bad luck) of the draw. For example, in trying to estimate what proportion of college students identify as women, 5 of the 10 randomly selected colleges happened to be all-womens colleges. </p></li>
+                    <li><p> <alert>Nonrandom sampling errors</alert> occur when samples are chosen in a way that skews the data. For example, a journalist writes an editorial on Bay county opinions of the Liberty toll bridge. They interview the 50 households nearest to the bridge. </p></li> 
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <p> Typically, nonsampling and sampling errors are out of our control. Hence, nonrandom sampling errors are important to consider. </p> 
+
+    <definition xml:id="def-sampling-methods">
+        <statement>
+            <p>
+                Selecting samples randomly is important for maintaining the integrity of any study, especially in the sciences. Below are all valid means of sampling with various use cases. 
+
+                <ul> 
+                    <li><p> <alert> Random sampling </alert> occurs when every member of the population has an equal chance to be selected. </p></li> 
+                    <li><p> <alert> Systematic sampling </alert> occurs when members of the population are sampled according to a pattern. </p></li>
+                    <li><p> <alert> Stratified smapling </alert> occurs when the population is systematically split into groups, called <alert> strata </alert>. Then an equal proportion of each strata is sampled. </p></li> 
+                    <li><p> <alert> Clustered sampling </alert> occurs when the population is divided into equally-sized groups, called <alert> clusters </alert>. Then full clusters are sampled. </p></li>
+                </ul> 
+            </p>
+        </statement>
+    </definition>
+
+    <p> Another consideration when designing experiments is the type of measurements to record. </p> 
+
+    <definition xml:id="def-observational-studies">
+        <statement>
+            <p>
+                When data collection involves passively making observations about a sample, we call the experiment <alert> observational </alert>. We describe the method of collecting these observations according to the below definitions. 
+                <ul>
+                    <li><p> <alert> Cross-Sectional </alert> studies collect all data in a single visit (or point in time). </p></li>
+                    <li><p> <alert> Retrospective </alert> studies draw conclusions based on previously-collected data. </p></li>
+                    <li><p> <alert> Prospective </alert> studies collect measurements across multiple visits (or points in time). </p></li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <p> Choosing a sampling method is an important factor in eliminating bias in results. </p> 
+    
+    
+
+    <definition xml:id="def-clinical-trials">
+        <statement>
+            <p>
+                Clinical trials are observational experiments that generally involve perscribing treatment(s) to some proportion of the participants. In this context, we refer to the treatment(s) as <alert> explanatory </alert> variables, where the measurements used to assess their condition are called <alert> response </alert> variables. Those that receive the treatment(s) are called the <alert> treatment </alert> where those that do not receive treatment are called a <alert> control </alert> group. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-data-types">
+        <statement>
+            <p>
+                All data is either <alert> qualitative </alert>, meaning it can be described in words; or <alert> quantitative </alert>, meaning it can be described with numbers. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-discrete">
+        <statement>
+            <p>
+                Quantitative data that can only attain countably-many values is called a <alert> discrete </alert>. When it can attain infinitely-many values, we call the data <alert> continuous </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-levels-of-measurement">
+        <statement>
+            <p>
+                All data can be described by its <alert> level of measurement </alert>. These levels are scaffolded with how much information can be gleaned from them. 
+                <ol> 
+                    <li><p> <alert> Nominal </alert> data is the shallowest level of measurement. This is qualitative data from which no information can be obtained a priori. Examples include: Blood type, Gender, Eye Color, etc. </p></li>
+                    <li><p> <alert> Ordinal </alert> data is qualitative data that has a natural ordering. Examples include: Likert scale, socioeconomic status, pay scale ranking, etc. </p></li>
+                    <li><p> <alert> Interval </alert> data is quantitative data (meaning a natural order is implied) that has a common interval between events in the sample space. Examples include: temperature, credit score, SAT scores, etc. </p></li>
+                    <li><p> <alert> Ratio </alert> data is the finest level of measurement. This is quantitative data that both has a natural interval between events in the sample space AND the notion of an absolute zero. Examples include: height, length, weight, etc. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </definition>
+
+</section>

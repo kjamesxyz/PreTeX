@@ -9,11 +9,18 @@
 
         <xi:include href="./frontmatter_notes.ptx" />
 
-        <chapter xml:id="biostats-notes">
+        <chapter xml:id="biostats-notes-1-introduction">
             <title>Intro to Probability &amp; Statistics</title>
             
-            <xi:include href="./notes/1_Intro_to_Prob.ptx"/>
-            <xi:include href="./notes/1_Intro_to_Stats.ptx"/>
+            <xi:include href="./notes/1_intro_to_prob_and_stats.ptx"/>
+            <xi:include href="./notes/1_intro_to_experiments.ptx"/>
+            <xi:include href="./notes/1_measures.ptx"/>
+        </chapter>
+
+        <chapter xml:id="biostats-notes-2-data-visualization">
+            <title>Data Visualization</title>
+            
+            <xi:include href="./notes/2_frequency_dists.ptx"/>
         </chapter>
     </book>
 </pretext>

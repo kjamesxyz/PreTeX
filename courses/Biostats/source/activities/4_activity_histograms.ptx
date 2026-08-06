@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 4 - Histograms</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, September 21 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+
+        <p> <alert> This activity is part of your final project. </alert> Extra care should be taken in completing this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                Create a new RStudio script named <c>SECTION#_LASTNAME_FIRSTNAME_Activity4.r</c>. Then follow the procedure below. When you have finished the procedure, please submit your R script on Canvas. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Import the library <c>ggplot2</c> and build the data set for your group's final project. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Choose a quantitative variable from your data set. Use the <c>table()</c> command to create a frequency distribution of your data set. Set the optional argument <c>useNA = "no"</c>. Would you say this frequency distribution is a helpful way to visualize your data? Why or why not?   
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The <c>ggplot()</c> is a powerful command for making all types of figures, including histograms. Every ggplot needs to have at least data and axes. So, to <alert>instantiate</alert> the ggplot, we can use the command <c>ggplot(df, aes(x=var))</c>. Here, <c>df</c> represents your data frame and <c>var</c> represents the variable you have selected for this portion of the project. The <c>aes()</c> command labels your x axis with your variable of choice. Running this line of code should build a blank axes that you can view in the "View" tab in the bottom-right panel. Why do you suspect the graph is blank? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    So far, we have only asked R to build us a plot using our desired variable data, but we haven't told it what type of plot. We need to add a histogram to our plot. We can do this by <alert>concatonating</alert> (adding on) the code <c> + geom_histogram() </c> to the end of the line. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Play with the optional arguments <c>color</c>, <c>fill</c>, and <c>linewidth</c> to change the aesthetics of your plot. Describe what each of these arguments do in the space below.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Graphs are a meaningless if they don't tell you what information they display! Let's add labels by concatonating the command <c>labs()</c>. You can set the <c>title</c>, <c>y</c>, and <c>x</c> arguments to label the image, y-axis, and x-axis respectively. Be sure to include units where appropriate. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. In the space below, describe the shape of your data and choose which histogram you believe is the best way to represent the data. Why?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet>

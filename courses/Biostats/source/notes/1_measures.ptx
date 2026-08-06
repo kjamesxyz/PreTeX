@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Describing Quantitative Data</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Compute measures of location. </p></li>
+            <li><p> Compute measures of center. </p></li>
+            <li><p> Compute measures of spread. </p></li>
+        </ol>
+    </objectives>
+
+    <subsection xml:id="measures-of-location">
+        <title>Measures of Location</title>
+        
+        <definition xml:id="def-measure-of-location">
+            <statement>
+                <p>
+                    A <alert>measure of location</alert> is a value that describes a datum's location within a data set. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-percentile">
+            <statement>
+                <p>
+                    The proportion <m>p</m> of values of <m>X</m> that are less than a datum <m>x</m> is called the <alert>percentile</alert> for <m>x</m>. We say that <m>x</m> is in the <m>p^{\text{th}}</m> percentile. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-quantile">
+            <statement>
+                <p>
+                    The value of <m>X</m> that falls in the <m>(\frac{1}{q})^{\text{th}}</m> percentile is called the <alert> <m>q^{\text{th}}</m> quantile </alert> for <m>X</m>. In the event of a tie between two data, <m>q</m> is equal to their mean. 
+                </p>
+            </statement>
+        </definition>
+
+        <p> Quantiles can be computed in R with <c>quantile(x,percent)</c>. </p>
+
+        <definition xml:id="def-quartile">
+            <statement>
+                <p>
+                    The quantiles associated with the 25th, 50th, and 75th percentiles are called the <alert> first, second, and third quartile </alert> respectively. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-five-num-summ">
+            <statement>
+                <p>
+                    Let <m>x_{\text{min}}</m> denote the smallest datum and <m>x_{\text{max}}</m> denote the larget datum. The <alert>five-number summary</alert> for a variable <m>X</m> is the list <m> \{x_{\text{min}}, Q_1, Q_2, Q_3, x_{\text{max}}\} </m>. 
+                </p>
+            </statement>
+        </definition>
+    </subsection>
+
+
+    <subsection xml:id="measures-of-center">
+        <title> Measures of Center </title> 
+
+        <definition xml:id="def-measure-of-center">
+            <statement>
+                <p>
+                    A <alert>measure of center</alert> is a value that describes a middling/average value of a data set. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-mean">
+            <statement>
+                <p>
+                    The <alert>mean</alert> value of a variable <m>X</m> is <md> \frac{x_1 + \cdots + x_n}{n}.</md> We denote it <m>\bar{x}</m> when <m>X</m> comes from a sample and <m>\mu</m> when it represents a population. 
+                </p>
+            </statement>
+        </definition>
+
+        <p> Means can be computed in R with <c>mean(x)</c>. </p>
+
+        <definition xml:id="def-median">
+            <statement>
+                <p>
+                    Consider ordering all values of a variable <m>X</m> from least to greatest. The <alert>median</alert> of <m>X</m> is the second quartile of <m>X</m>. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-mode">
+            <statement>
+                <p>
+                    The <alert>mode</alert> value of a variable <m>X</m> is the value it attains most frequently.  
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-midrange">
+            <statement>
+                <p>
+                    The <alert>midrange</alert> value of a variable <m>X</m> is the mean of its minimum and maximum. 
+                </p>
+            </statement>
+        </definition>
+    </subsection>
+
+    <subsection xml:id="measures-of-spread">
+        <title>Measures of Spread</title>
+
+        <definition xml:id="def-range">
+            <statement>
+                <p>
+                    Let <m>X</m> be a variable. The <alert> minimum </alert> of <m>X</m> is the lowest value it attains. Similarly, the <alert> maximum </alert> is the highest value that <m>X</m> attains. The <alert> range </alert> of <m>X</m> is the interval <m>[\min(X), \max(X)]</m>. 
+                </p>
+            </statement>
+        </definition>
+
+        <p> Ranges can be computed in R with <c>range(x)</c>. </p>
+
+        <definition xml:id="def-IQR">
+            <statement>
+                <p>
+                    Let <m>X</m> be a variable. The difference between its third and first quartile is called its <alert> inner-quartile range (IQR) </alert>. 
+                </p>
+            </statement>
+        </definition>
+        
+        <definition xml:id="def-deviation">
+            <statement>
+                <p>
+                    The <alert> deviation </alert> of a datum <m>x</m> is its distance from the mean. 
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-variance">
+            <statement>
+                <p>
+                    Let <m>X</m> be a variable with <m>n</m> observations. Its <alert> variance </alert> is the average of the size of all its deviations. When <m>X</m> comes from a sample, we compute <md> s^2 = \dfrac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1}.</md> When <m>X</m> represents a population, we can take the mean instead, and we compute <md>\sigma^2 = \dfrac{\sum_{i=1}^n (x_i - \mu)^2}{n}.</md>
+                </p>
+            </statement>
+        </definition>
+
+        <p> Variance <alert>for samples</alert> can be computed in R with <c>variance(x)</c>. </p>
+
+        <definition xml:id="def-standard-deviation">
+            <statement>
+                <p>
+                    The <alert> standard deviation </alert> of a variable <m>X</m> it the square root of its variance.
+                </p>
+            </statement>
+        </definition>
+
+        <p> Standard deviations <alert>for samples</alert> can be computed in R with <c>sd(x)</c>. </p>
+    </subsection>
+</section>

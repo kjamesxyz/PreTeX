@@ -55,4 +55,6 @@
     \newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}}
   
   </macros>
+
+  <directories external="../../../assets"/>
 </docinfo>
