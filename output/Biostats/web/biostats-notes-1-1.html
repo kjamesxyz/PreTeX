@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Introduction to Probabiliy</title>
+<title>Introduction to Probabiliy &amp; Statistics</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -25,6 +25,7 @@ hasWebworkReps: false,
 hasSage: false,
 isReact: false,
 htmlPresentation: false,
+lang: "en-US",
 });
 </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +36,7 @@ htmlPresentation: false,
 <meta name="twitter:description" content="MATH-132B Fall 2026">
 <meta property="og:description" content="MATH-132B Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.44"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.47"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.47"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -90,6 +91,16 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="ptx-embed-code-container">
 <textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
 </div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
 <h2 class="heading">Readability settings</h2>
 <button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
@@ -104,7 +115,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="biostats-notes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="biostats-notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="biostats-notes-1-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="biostats-notes-1-introduction.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="biostats-notes-1-introduction.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="biostats-notes-1-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\ds}{\displaystyle}
 \newcommand{\email}[1]{\protect\href{mailto:#1}{#1}}
 \newcommand{\nth}{\text{th}}
@@ -147,47 +158,110 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth1 focused" data-preexpanded-levels="0" data-max-levels="1"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="biostats-notes-frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="biostats-notes.html" class="internal"><span class="codenumber">1</span> <span class="title">Intro to Probability &amp; Statistics</span></a></div>
-<ul class="structural toc-item-list contains-active" id="ptx-toc-group-biostats-notes">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="biostats-notes-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Probabiliy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="biostats-notes-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Introduction to Statistics</span></a></div></li>
+<div class="toc-title-box"><a href="biostats-notes-1-introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">Intro to Probability &amp; Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-biostats-notes-1-introduction">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="biostats-notes-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Probabiliy &amp; Statistics</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-biostats-notes-1-1">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1-1.html#intro-to-prob" class="internal"><span class="title">Intro to Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1-1.html#intro-to-stats" class="internal"><span class="title">Intro to Statistics</span></a></div></li>
 </ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="biostats-notes-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Introduction to Statistics</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="biostats-notes-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Describing Quantitative Data</span></a></div>
+<ul id="ptx-toc-group-biostats-notes-1-3" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1-3.html#measures-of-location" class="internal"><span class="title">Measures of Location</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1-3.html#measures-of-center" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="biostats-notes-1-3.html#measures-of-spread" class="internal"><span class="title">Measures of Spread</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="biostats-notes-2-data-visualization.html" class="internal"><span class="codenumber">2</span> <span class="title">Data Visualization</span></a></div>
+<ul id="ptx-toc-group-biostats-notes-2-data-visualization" class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="biostats-notes-2-2-histograms.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Frequency Distributions</span></a></div></li></ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="section" id="biostats-notes-1-1">
 <h1 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction to Probabiliy</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction to Probabiliy &amp; Statistics</span>
 </h1>
-<section class="introduction" id="biostats-notes-1-1-2">
-<div class="para" id="biostats-notes-1-1-2-1">In this chapter, we cover basic vocabulary and concpets from probability and statistics. The purpose of this unit is primarily to establish notation and convention.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section>
-<article class="definition definition-like" id="def-experiment"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<article class="objectives goal-like" id="biostats-notes-1-1-2"><h2 class="heading"><span class="type">Objectives</span></h2>
+<div class="introduction" id="biostats-notes-1-1-2-1">
+<div class="para" id="biostats-notes-1-1-2-1-1">Students will be able to...<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<ol class="decimal" id="biostats-notes-1-1-2-2">
+<li id="biostats-notes-1-1-2-2-1">
+<div class="para" id="biostats-notes-1-1-2-2-1-1">Compute simple classical probabilities.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 1.1.1"><a tabindex="-1" href="#biostats-notes-1-1-2-2-1" title="Copy heading and permalink for Objective 1.1.1" aria-label="Copy heading and permalink for Objective 1.1.1">🔗</a></div>
+</li>
+<li id="biostats-notes-1-1-2-2-2">
+<div class="para" id="biostats-notes-1-1-2-2-2-1">Use the addition rule to compute complementary and compound probabilities.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 1.1.2"><a tabindex="-1" href="#biostats-notes-1-1-2-2-2" title="Copy heading and permalink for Objective 1.1.2" aria-label="Copy heading and permalink for Objective 1.1.2">🔗</a></div>
+</li>
+<li id="biostats-notes-1-1-2-2-3">
+<div class="para" id="biostats-notes-1-1-2-2-3-1">Distinguish between populations and samples.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 1.1.3"><a tabindex="-1" href="#biostats-notes-1-1-2-2-3" title="Copy heading and permalink for Objective 1.1.3" aria-label="Copy heading and permalink for Objective 1.1.3">🔗</a></div>
+</li>
+<li id="biostats-notes-1-1-2-2-4">
+<div class="para" id="biostats-notes-1-1-2-2-4-1">Distinguish between parameters and statistics.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 1.1.4"><a tabindex="-1" href="#biostats-notes-1-1-2-2-4" title="Copy heading and permalink for Objective 1.1.4" aria-label="Copy heading and permalink for Objective 1.1.4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Objectives 1.1"><a tabindex="-1" href="#biostats-notes-1-1-2" title="Copy heading and permalink for Objectives 1.1" aria-label="Copy heading and permalink for Objectives 1.1">🔗</a></div>
+</article>
+<section class="subsection" id="intro-to-prob">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Intro to Probability</span>
 </h2>
+<article class="definition definition-like" id="def-experiment"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para" id="def-experiment-1-1">In probability &amp; statistics, we call procedures with measureable outcomes <em class="alert">experiments</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-experiment-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.1"><a tabindex="-1" href="#def-experiment" title="Copy heading and permalink for Definition 1.1.1" aria-label="Copy heading and permalink for Definition 1.1.1">🔗</a></div>
 </article>
-<article class="definition definition-like" id="def-event"><h2 class="heading">
+<article class="definition definition-like" id="def-event"><h3 class="heading">
 <span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
+</h3>
 <div class="para" id="def-event-1-1">An <em class="alert">event</em> is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event <em class="alert">simple</em>. Otherwise, that event is called <em class="alert">compound</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-event-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.2"><a tabindex="-1" href="#def-event" title="Copy heading and permalink for Definition 1.1.2" aria-label="Copy heading and permalink for Definition 1.1.2">🔗</a></div>
 </article>
-<article class="definition definition-like" id="def-sample-space"><h2 class="heading">
+<article class="definition definition-like" id="def-sample-space"><h3 class="heading">
 <span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
+</h3>
 <div class="para" id="def-sample-space-1-1">The <em class="alert">sample space</em> for an experiment is the collection of all possible simple events.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-sample-space-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.3"><a tabindex="-1" href="#def-sample-space" title="Copy heading and permalink for Definition 1.1.3" aria-label="Copy heading and permalink for Definition 1.1.3">🔗</a></div>
 </article>
-<article class="definition definition-like" id="def-probability"><h2 class="heading">
+<article class="definition definition-like" id="def-relative-probability"><h3 class="heading">
 <span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
+</h3>
+<div class="para logical" id="def-relative-probability-1-1">
+<div class="para">Consider conducting an experiment <span class="process-math">\(n \)</span> times. The number of times an event <span class="process-math">\(E \)</span> occurs is called its <em class="alert">relative frequency</em>. From this experminet, we would say <span class="process-math">\(E\)</span> has <em class="alert">relative probability</em>
+</div>
+<div class="displaymath process-math" id="def-relative-probability-1-1-6">
+\begin{equation*}
+\prob(E) = \frac{\text{frequency}}{n}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-relative-probability-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.4"><a tabindex="-1" href="#def-relative-probability" title="Copy heading and permalink for Definition 1.1.4" aria-label="Copy heading and permalink for Definition 1.1.4">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-probability"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para logical" id="def-probability-1-1">
-<div class="para">Let <span class="process-math">\(E \)</span> be an event from an expermient with <span class="process-math">\(n\)</span> simple events. The <em class="alert">probability</em> of <span class="process-math">\(E\)</span> occuring is given by</div>
+<div class="para">Let <span class="process-math">\(E \)</span> be an event from an expermient with <span class="process-math">\(n\)</span> simple events. The <em class="alert">(classical) probability</em> of <span class="process-math">\(E\)</span> occuring is given by</div>
 <div class="displaymath process-math" id="def-probability-1-1-5">
 \begin{equation*}
 \cal{P}(E) = \frac{\text{number of ways } E \text{ can occur}}{n}
@@ -195,38 +269,18 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-probability-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.4"><a tabindex="-1" href="#def-probability" title="Copy heading and permalink for Definition 1.1.4" aria-label="Copy heading and permalink for Definition 1.1.4">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.5"><a tabindex="-1" href="#def-probability" title="Copy heading and permalink for Definition 1.1.5" aria-label="Copy heading and permalink for Definition 1.1.5">🔗</a></div>
 </article>
-<details id="biostats-notes-1-1-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
-<article class="exercise exercise-like knowl__content">
-<div class="introduction" id="biostats-notes-1-1-7-1">
-<div class="para" id="biostats-notes-1-1-7-1-1">Consider the experiment of rolling a fair 6-sided die. Find three distinct events <span class="process-math">\(E,F,G \)</span> such that<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="biostats-notes-1-1-7-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="biostats-notes-1-1-7-2-1-1">
-<span class="process-math">\(\cal{P}(E) = \frac{1}{6} \)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.5.a"><a tabindex="-1" href="#biostats-notes-1-1-7-2" title="Copy heading and permalink for Task 1.1.5.a" aria-label="Copy heading and permalink for Task 1.1.5.a">🔗</a></div>
-</article>
-<article class="task exercise-like" id="biostats-notes-1-1-7-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="biostats-notes-1-1-7-3-1-1">
-<span class="process-math">\(\cal{P}(E) = \frac{1}{2} \)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-7-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.5.b"><a tabindex="-1" href="#biostats-notes-1-1-7-3" title="Copy heading and permalink for Task 1.1.5.b" aria-label="Copy heading and permalink for Task 1.1.5.b">🔗</a></div>
-</article>
-<article class="task exercise-like" id="biostats-notes-1-1-7-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="biostats-notes-1-1-7-4-1-1">
-<span class="process-math">\(\cal{P}(E) = \frac{2}{3} \)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-7-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.5.c"><a tabindex="-1" href="#biostats-notes-1-1-7-4" title="Copy heading and permalink for Task 1.1.5.c" aria-label="Copy heading and permalink for Task 1.1.5.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.5"><a tabindex="-1" href="#biostats-notes-1-1-7" title="Copy heading and permalink for Checkpoint 1.1.5" aria-label="Copy heading and permalink for Checkpoint 1.1.5">🔗</a></div>
-</article></details>
-<article class="theorem theorem-like" id="thm-addition-rule"><h2 class="heading">
+<article class="theorem theorem-like" id="thm-law-of-large-numbers"><h3 class="heading">
 <span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
+</h3>
+<div class="para" id="thm-law-of-large-numbers-1-1">As a procedure is repeated more often, the relative probabilities of all events in the sample space approach their classical probabilities.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-law-of-large-numbers-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 1.1.6"><a tabindex="-1" href="#thm-law-of-large-numbers" title="Copy heading and permalink for Theorem 1.1.6" aria-label="Copy heading and permalink for Theorem 1.1.6">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="thm-addition-rule"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para logical" id="thm-addition-rule-1-1">
 <div class="para">Let <span class="process-math">\(E, F\)</span> be events. Then</div>
 <div class="displaymath process-math" id="thm-addition-rule-1-1-2">
@@ -236,76 +290,135 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-addition-rule-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 1.1.6"><a tabindex="-1" href="#thm-addition-rule" title="Copy heading and permalink for Theorem 1.1.6" aria-label="Copy heading and permalink for Theorem 1.1.6">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 1.1.7"><a tabindex="-1" href="#thm-addition-rule" title="Copy heading and permalink for Theorem 1.1.7" aria-label="Copy heading and permalink for Theorem 1.1.7">🔗</a></div>
 </article>
-<details id="biostats-notes-1-1-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
+<details id="intro-to-prob-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
 <article class="exercise exercise-like knowl__content">
-<div class="para" id="biostats-notes-1-1-9-1-1">Verify the addition rule by comparing regions in a Venn diagram.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="intro-to-prob-9-1-1">Verify the addition rule by comparing regions in a Venn diagram.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.7"><a tabindex="-1" href="#biostats-notes-1-1-9" title="Copy heading and permalink for Checkpoint 1.1.7" aria-label="Copy heading and permalink for Checkpoint 1.1.7">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.8"><a tabindex="-1" href="#intro-to-prob-9" title="Copy heading and permalink for Checkpoint 1.1.8" aria-label="Copy heading and permalink for Checkpoint 1.1.8">🔗</a></div>
 </article></details>
-<article class="definition definition-like" id="def-disjoint"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
+<article class="definition definition-like" id="def-disjoint"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para" id="def-disjoint-1-1">Two events are <em class="alert">disjoint (mutually exclusive)</em> if they cannot occur simultaneously.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-disjoint-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.8"><a tabindex="-1" href="#def-disjoint" title="Copy heading and permalink for Definition 1.1.8" aria-label="Copy heading and permalink for Definition 1.1.8">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.9"><a tabindex="-1" href="#def-disjoint" title="Copy heading and permalink for Definition 1.1.9" aria-label="Copy heading and permalink for Definition 1.1.9">🔗</a></div>
 </article>
-<details id="biostats-notes-1-1-11" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
+<details id="intro-to-prob-11" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
 <article class="exercise exercise-like knowl__content">
-<div class="para logical" id="biostats-notes-1-1-11-1-1">
+<div class="para logical" id="intro-to-prob-11-1-1">
 <div class="para">Show that if <span class="process-math">\(E\)</span> is disjoint from <span class="process-math">\(F\text{,}\)</span> then</div>
-<div class="displaymath process-math" id="biostats-notes-1-1-11-1-1-3">
+<div class="displaymath process-math" id="intro-to-prob-11-1-1-3">
 \begin{equation*}
 \cal{P}(E \ \text{or} \ F) = \prob(E) + \prob(F). 
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.9"><a tabindex="-1" href="#biostats-notes-1-1-11" title="Copy heading and permalink for Checkpoint 1.1.9" aria-label="Copy heading and permalink for Checkpoint 1.1.9">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.10"><a tabindex="-1" href="#intro-to-prob-11" title="Copy heading and permalink for Checkpoint 1.1.10" aria-label="Copy heading and permalink for Checkpoint 1.1.10">🔗</a></div>
 </article></details>
-<details id="biostats-notes-1-1-12" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
+<details id="intro-to-prob-12" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
 <article class="exercise exercise-like knowl__content">
-<div class="introduction" id="biostats-notes-1-1-12-1">
-<div class="para" id="biostats-notes-1-1-12-1-1">Consider the experiment of rolling a fair 6-sided die and recording the result. Let <span class="process-math">\(E\)</span> be the event we roll a 1. Let <span class="process-math">\(F\)</span> be the event we roll less than 3.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="intro-to-prob-12-1">
+<div class="para" id="intro-to-prob-12-1-1">Consider the experiment of rolling a fair 6-sided die and recording the result. Let <span class="process-math">\(E\)</span> be the event we roll a 1. Let <span class="process-math">\(F\)</span> be the event we roll less than 3.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="biostats-notes-1-1-12-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="biostats-notes-1-1-12-2-1-1">Compute <span class="process-math">\(\prob(E \ \text{or} \ F)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="intro-to-prob-12-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="intro-to-prob-12-2-1-1">Compute <span class="process-math">\(\prob(E \ \text{or} \ F)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.10.a"><a tabindex="-1" href="#biostats-notes-1-1-12-2" title="Copy heading and permalink for Task 1.1.10.a" aria-label="Copy heading and permalink for Task 1.1.10.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.11.a"><a tabindex="-1" href="#intro-to-prob-12-2" title="Copy heading and permalink for Task 1.1.11.a" aria-label="Copy heading and permalink for Task 1.1.11.a">🔗</a></div>
 </article>
-<article class="task exercise-like" id="biostats-notes-1-1-12-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="biostats-notes-1-1-12-3-1-1">Is <span class="process-math">\(E\)</span> disjoint from <span class="process-math">\(F\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="intro-to-prob-12-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="intro-to-prob-12-3-1-1">Is <span class="process-math">\(E\)</span> disjoint from <span class="process-math">\(F\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.10.b"><a tabindex="-1" href="#biostats-notes-1-1-12-3" title="Copy heading and permalink for Task 1.1.10.b" aria-label="Copy heading and permalink for Task 1.1.10.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.11.b"><a tabindex="-1" href="#intro-to-prob-12-3" title="Copy heading and permalink for Task 1.1.11.b" aria-label="Copy heading and permalink for Task 1.1.11.b">🔗</a></div>
 </article>
-<article class="task exercise-like" id="biostats-notes-1-1-12-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="biostats-notes-1-1-12-4-1-1">Find an event that is disjoint from <span class="process-math">\(E\text{,}\)</span> but not from <span class="process-math">\(F\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="intro-to-prob-12-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="intro-to-prob-12-4-1-1">Find an event that is disjoint from <span class="process-math">\(E\text{,}\)</span> but not from <span class="process-math">\(F\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.10.c"><a tabindex="-1" href="#biostats-notes-1-1-12-4" title="Copy heading and permalink for Task 1.1.10.c" aria-label="Copy heading and permalink for Task 1.1.10.c">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.11.c"><a tabindex="-1" href="#intro-to-prob-12-4" title="Copy heading and permalink for Task 1.1.11.c" aria-label="Copy heading and permalink for Task 1.1.11.c">🔗</a></div>
 </article>
-<article class="task exercise-like" id="biostats-notes-1-1-12-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
-<div class="para" id="biostats-notes-1-1-12-5-1-1">Compute <span class="process-math">\(\prob(E \ \text{or} \ G)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="intro-to-prob-12-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="intro-to-prob-12-5-1-1">Compute <span class="process-math">\(\prob(E \ \text{or} \ G)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.10.d"><a tabindex="-1" href="#biostats-notes-1-1-12-5" title="Copy heading and permalink for Task 1.1.10.d" aria-label="Copy heading and permalink for Task 1.1.10.d">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.11.d"><a tabindex="-1" href="#intro-to-prob-12-5" title="Copy heading and permalink for Task 1.1.11.d" aria-label="Copy heading and permalink for Task 1.1.11.d">🔗</a></div>
 </article>
-<article class="task exercise-like" id="biostats-notes-1-1-12-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
-<div class="para" id="biostats-notes-1-1-12-6-1-1">Compute <span class="process-math">\(\prob(F \ \text{or} \ G)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-notes-1-1-12-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="intro-to-prob-12-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="intro-to-prob-12-6-1-1">Compute <span class="process-math">\(\prob(F \ \text{or} \ G)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-prob-12-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.10.e"><a tabindex="-1" href="#biostats-notes-1-1-12-6" title="Copy heading and permalink for Task 1.1.10.e" aria-label="Copy heading and permalink for Task 1.1.10.e">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.10"><a tabindex="-1" href="#biostats-notes-1-1-12" title="Copy heading and permalink for Checkpoint 1.1.10" aria-label="Copy heading and permalink for Checkpoint 1.1.10">🔗</a></div>
-</article></details><div class="autopermalink" aria-hidden="true" data-description="Section 1.1: Introduction to Probabiliy"><a tabindex="-1" href="#biostats-notes-1-1" title="Copy heading and permalink for Section 1.1: Introduction to Probabiliy" aria-label="Copy heading and permalink for Section 1.1: Introduction to Probabiliy">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.11.e"><a tabindex="-1" href="#intro-to-prob-12-6" title="Copy heading and permalink for Task 1.1.11.e" aria-label="Copy heading and permalink for Task 1.1.11.e">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.11"><a tabindex="-1" href="#intro-to-prob-12" title="Copy heading and permalink for Checkpoint 1.1.11" aria-label="Copy heading and permalink for Checkpoint 1.1.11">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Subsection: Intro to Probability"><a tabindex="-1" href="#intro-to-prob" title="Copy heading and permalink for Subsection: Intro to Probability" aria-label="Copy heading and permalink for Subsection: Intro to Probability">🔗</a></div>
+</section>
+<section class="subsection" id="intro-to-stats">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Intro to Statistics</span>
+</h2>
+<article class="definition definition-like" id="def-data"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-data-1-1">A <em class="alert">datum</em> is a single recorded observation or measurement.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-data-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.12"><a tabindex="-1" href="#def-data" title="Copy heading and permalink for Definition 1.1.12" aria-label="Copy heading and permalink for Definition 1.1.12">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-statistics"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-statistics-1-1">
+<em class="alert">Statistics</em> is the science of collecting, organizing, and analyzing data.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-statistics-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.13"><a tabindex="-1" href="#def-statistics" title="Copy heading and permalink for Definition 1.1.13" aria-label="Copy heading and permalink for Definition 1.1.13">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-population"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-population-1-1">In a statistical experiment, a <em class="alert">population</em> is the set of all observations or measurements that could be collected.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-population-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.14"><a tabindex="-1" href="#def-population" title="Copy heading and permalink for Definition 1.1.14" aria-label="Copy heading and permalink for Definition 1.1.14">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-parameter"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-parameter-1-1">A characteristic of a population (e.g. proportion, average, etc.) is called a <em class="alert">parameter</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-parameter-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.15"><a tabindex="-1" href="#def-parameter" title="Copy heading and permalink for Definition 1.1.15" aria-label="Copy heading and permalink for Definition 1.1.15">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-statistic"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-statistic-1-1">Rarely can we collect data on an entire population. Similarly, parameters are rarely exactly known. Realistically, we may collect data from a representative group selected from the population. This group is called a <em class="alert">sample</em> and the estimate for the parameter that we can measure from the sample is called a <em class="alert">statistic</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-statistic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.16"><a tabindex="-1" href="#def-statistic" title="Copy heading and permalink for Definition 1.1.16" aria-label="Copy heading and permalink for Definition 1.1.16">🔗</a></div>
+</article>
+<details id="intro-to-stats-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="para" id="intro-to-stats-7-1-1">Consider trying to learn the most common age among all students at SVSU. We might not be able to reach every single student enrolled, but we can reach everyone in this classroom right now. Computing the most common age (statistic) among all students in the classroom (sample) would be an estimate for the most common age (population) on campus (the population).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-stats-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="intro-to-stats-7-1-2">Reflect on the design of this experiment. In what ways could we adapt our experiment to improve the accuracy of our measurement?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#intro-to-stats-7-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.1.17"><a tabindex="-1" href="#intro-to-stats-7" title="Copy heading and permalink for Checkpoint 1.1.17" aria-label="Copy heading and permalink for Checkpoint 1.1.17">🔗</a></div>
+</article></details>
+<article class="definition definition-like" id="def-variables"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-variables-1-1">Typically, we record more than a single type of data in each experiment. Each characteristic recorded in a set of data is called a <em class="alert">variable</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-variables-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 1.1.18"><a tabindex="-1" href="#def-variables" title="Copy heading and permalink for Definition 1.1.18" aria-label="Copy heading and permalink for Definition 1.1.18">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection: Intro to Statistics"><a tabindex="-1" href="#intro-to-stats" title="Copy heading and permalink for Subsection: Intro to Statistics" aria-label="Copy heading and permalink for Subsection: Intro to Statistics">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 1.1: Introduction to Probabiliy &amp; Statistics"><a tabindex="-1" href="#biostats-notes-1-1" title="Copy heading and permalink for Section 1.1: Introduction to Probabiliy &amp; Statistics" aria-label="Copy heading and permalink for Section 1.1: Introduction to Probabiliy &amp; Statistics">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="biostats-notes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="biostats-notes-1-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="biostats-notes-1-introduction.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="biostats-notes-1-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
