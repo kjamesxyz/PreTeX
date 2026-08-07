@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="./docinfo.ptx" />
+    <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+    <book>
+        <title>Differential Equations Lecture Notes</title>
+        <subtitle>MATH-262-001 Fall 2026</subtitle>
+
+        <xi:include href="./frontmatter.ptx" />
+
+        <chapter xml:id="welcome-to-class">
+            <title>Introduction to Differential Equations</title>
+
+            <xi:include href="./notes/1_What_are_DEs.ptx" />
+            <xi:include href="./notes/1_What_are_solutions.ptx" />
+            <xi:include href="./notes/1_When_would_I_use_DEs.ptx" />
+        </chapter>
+
+    </book>
+</pretext>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What are Differential Equations?</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Classify differential equations by their type, order, linearity, and homogeneity. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-DE">
+        <statement>
+            <p>
+                A <alert> differential equation </alert> is any equation that contains the derivatives of oneor more unknown functions with respect to one or more independent variables.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-type">
+        <statement>
+            <p>
+                A DE that has only one dependent variable is called <alert> ordinary </alert>. Otherwise, it is called <alert> partial </alert>. 
+            </p>
+        </statement>
+    </definition>
+    
+    <definition xml:id="def-order">
+        <statement>
+            <p>
+                The <alert> order </alert> of a DE is the highest order of derivative that appears in the equation. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-linear">
+        <statement>
+            <p>
+                A DE is <alert> linear </alert> if the coefficient for each dependent variable and each of its derivatives can be expressed in terms of only the independent variables (or constants). 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-homogeneous">
+        <statement>
+            <p>
+                A linear DE is <alert> homogeneous </alert> if it can be written in the form <md> a_n \deriv{^ny}{x^n} + \cdots + a_1 y + a_0 = 0.</md> If there is a nonzero RHS, we call the equation <alert> nonhomogeneous </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+</section>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw1">
+    <title>📝 Homework 1 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 9</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+    </introduction>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Compute <md> \int_1^\infty \frac{1}{x^2} \, dx </md>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Compute <md> \int \frac{x^2 + 4}{x(x+2)(3x+2)} </md> using a partial fraction decomposition.
+            </p>
+        </statement>
+    </exercise>
+        
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Provide an example of a second-order, linear, nonhomogeneous, ordinary differential equation. Justify your answer.
+            </p>
+        </statement>
+    </exercise>
+
+    
+</worksheet>

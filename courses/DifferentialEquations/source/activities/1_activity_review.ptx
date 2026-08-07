@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="diffeq-act-1">
+  <title>🏫 Activity 1 - Review of Calculus</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This iactivity is due at the beginning of class on <alert>Wednesday, September 9</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise workspace="1in">
+    <statement>
+        <p>
+            Use a substitution to compute <md> \int_1^2 x^3 \cos(x^4 + 3) \, dx. </md>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Use integration by parts to compute <md> \int_{\frac{\pi}{12}}^{\frac{\pi}{6}} x^2 \cos(3x) \, dx. </md>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Use partial fraction decomposition to compute <md> \int \frac{3x+11}{x^2 - x - 6} \, dx </md>. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Determine whether the integral <md> \int_0^3 \frac{1}{\sqrt{3-x}} \, dx </md> is convergent or divergent. If convergent, compute it. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Determine the radius of convergence for the power series <md> \sum_{n=1}^\infty \frac{n(-1)^n}{4^n} (x+3)^n </md> using the ratio test. 
+        </p>
+    </statement>
+  </exercise>
+
+</worksheet>

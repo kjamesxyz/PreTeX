@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="./docinfo.ptx" />
+    <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+    <book>
+        <title>Differential Equations</title>
+        <subtitle>MATH-262-001 Fall 2026</subtitle>
+
+        <xi:include href="./frontmatter.ptx" />
+
+        <chapter xml:id="diffeq-welcome">
+            <title>Welcome to Class!</title>
+
+            <xi:include href="./syllabus.ptx" />
+        </chapter>
+
+        <chapter xml:id="diffeq-acts">
+            <title>Activities</title>
+
+            <xi:include href="./activities/1_activity_review.ptx" />
+            <xi:include href="./activities/2_activity_what_are_des.ptx" />
+            <xi:include href="./activities/3_activity_what_are_solns.ptx" />
+            <xi:include href="./activities/4_activity_when_use_des.ptx" />
+        </chapter>
+
+        <chapter xml:id="diffeq-hw">
+            <title>Homework</title>
+
+            <xi:include href="./homework/1_homework.ptx" />
+            <xi:include href="./homework/2_homework.ptx" />
+        </chapter>
+
+    </book>
+</pretext>

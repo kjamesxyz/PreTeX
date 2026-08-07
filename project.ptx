@@ -16,8 +16,14 @@
 
         <target name="diffeq-html" 
                 format="html"
-                source="./courses/DifferentialEquations/source/main.ptx"
+                source="./courses/DifferentialEquations/source/main_html.ptx"
                 publication="./courses/DifferentialEquations/publication/publication.ptx"
+                deploy-dir="output/DifferentialEquations/web"/>
+
+        <target name="diffeq-notes" 
+                format="html"
+                source="./courses/DifferentialEquations/source/main_notes.ptx"
+                publication="./courses/DifferentialEquations/publication/publication_notes.ptx"
                 deploy-dir="output/DifferentialEquations/web"/>
     </targets>
 </project>

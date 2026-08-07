@@ -1,31 +1,472 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "syllabus",
+  "id": "biostats-notes-1-1",
   "level": "1",
-  "url": "syllabus.html",
+  "url": "biostats-notes-1-1.html",
   "type": "Section",
-  "number": "",
-  "title": "Syllabus",
-  "body": " Syllabus   Welcome to MATH-132B-01 (Biostatistics)! This is the syllabus for our course. It is a document where you can find information about course policies and procedures.    Course Information    Instructor  Dr. Kohl James    Email   kjames13@svsu.edu     Meeting Room  Brown Hall Room 114    Meeting Time  Face-to-face on Mondays and Wednesdays from 2:30PM-4:20PM     Office Hours  My office is located in SW-341, but I will host office hours from 12:15p-2:15p on Mondays & Wednesdays in the MPLC (see next section). I am also available for appointment if these times do not work for you. Office hours are a great place to get help on homework, ask questions about course materials, or even just have a cup of coffee and chat. They will be your single greatest resource outside of class, so please use them!    Math & Physics Learning Center  The Math & Physics Learning Center (MPLC) is located on the second floor of Zhanow Library. Their hours of operation are TBD . The cost of the MLPC is included in your tuition, meaning you have already paid to use it! The center has on-demand tutors and free refreshments, making it an ideal place to sit to work on your assignments in this class. You can also make a a free one-on-one appointment with a tutor by calling them at (989) 964-4648 or emailing them at mathtutor@svsu.edu .    Communication about Class  If you need to get a hold of me outside of our face-to-face sessions, I am most easily reached by email at kjames13@svsu.edu. The best times to reach me are between 10:00 am and 4:00 pm on Monday-Thursday, but I respond to emails within 24 hours. I am typically out of the office over the weekends (Saturdays and Sundays) and on holidays. During these times, I will still reply to your email within 48 hours.  I will also use email as a primary method of communicating with you. I will send reminders and announcements to the class over email. When emailing me (or addressing me in person), please feel free to address me as Kohl. If it is intimidating to call me by my first name, you may call me Mr. or Dr. James. If you are emailing me about problems or technical difficulties, it is helpful for me if you can include a screenshot\/picture of the issue. I kindly request that all email correspondence remain professional (e.g. appropriate language and grammar). Finally, it will be helpful for me if you could sign your emails with your preferred name.    What do we do in MATH-132B?  The course catalog describes this course, simply, as a variant of MATH-132A with special emphasis on biology and health sciences. While this is true, it is not very descriptive.  Statistics, in general, is the study of the collection and analysis of data. In the health and biological sciences, professionals regularly deal with highly impactful and sensitive data. Interpretation and dissemination of this data are valuable and marketable capabilities for anyone interested in these professions. In this class, we will begin developing these skills with the foundations of statistical inference.    Student Learning Outcomes  Students that pass this course will be able to...   Classify types of data.    Describe quantitative data using measures of center and spread.    Organize data into diagrams.    Formulate claims into a hypothesis testing framework.    Interpret the graphs of probability distributions and use them to adjcuate claims.    Implement processes learned in class in the programming language R.       Tentative Course Schedule  Below you will find a tentative schedule for our course. There is a row for each class meeting, a column for the content that will be covered, and a column for any important dates that week. Please note that each of the following dates are subject to change.    Date  Content  Due Dates    Mon. Aug 31  Intro to Course + RStudio Setup  N\/A    Wed. Sep 2  Intro to Probability  Activity 0 & Homework 1    Mon. Sep 7  No Class (Labor Day)!  N\/A    Wed. Sep 9  Intro to Statistics     Mon. Sep 14  Data Visualization  Activity 3 & Homework 4    Wed. Sep 16  Histograms  Activity 4    Mon. Sep 21  Boxplots  Homework 5    Wed. Sep 23  Review for Midterm 1  Activity 5 & Homework 6    Mon. Sep 28  Midterm 1  Activity 6 & Homework 7    Wed. Sep 30  Normal Distributions  Activity 7    Mon. Oct 5  Normal Distributions (Cont.)  Homework 8    Wed. Oct 7  Hypothesis Testing Framework  Activity 8 & Homework 9    Mon Oct 12  Inference on Proportions  Activity 9    Wed Oct 14  Inference on Means  Activity 9    Mon Oct 19  Inferences on Two Populations  Activity 9    Wed Oct 21  Review for Midterm 2  Activity 9    Mon Oct 26  Midterm 2  Activity 9    Wed Oct 28  Goodness-of-Fit  Activity 9    Mon Nov 2  Independence  Activity 9    Wed Nov 4  Homogeneity  Activity 9    Mon Nov 9  One-Way AnoVa  Activity 9    Wed Nov 11  Linear Regression  Activity 9    Mon Nov 16  Inference on Correlation  Activity 9    Wed Nov 18  Nonparametric Testing  Activity 9    Mon Nov 23  Nonparametric Testing (Cont.)  Activity 9    Wed Nov 25  No Class (Thanksgiving)!  Activity 9    Mon Nov 30  Review for Midterm 3  Activity 9    Wed Dec 2  Midterm 3  Activity 9    Mon Dec 7  Final Project Workday  Activity 9    Wed Dec 9  Final Project Workday  Activity 9    Mon Dec 14  Final Presentation  Final Projects      Prerequisites  The completion of MATH-082 or a satisfactory score on the mathematics placement test is required for enrollment in this course.    Required Materials  The official text for the course is Mike's Biostatistics Book? by Michael R Dohm. The textbook is free and open source. It can be accessed here   A calculator and personal computer are recommended, but not strictly necessary. These tools are available in the classroom and for free at the Zhanow library outside of class.     Resources for Student Success  Many students struggle with studying for math classes. As previously mentioned, office hours are your single greatest resource for success in this class, followed by the MPLC. Outside of these resources, I have outlined some studying tips\/tricks I would recommend for our class.  Stay dilligent with your prep work. I would recommend filling out your prep work journal while watching lecture videos.  The pracitice problems section on each homework assignment is optional and will not be graded. However, I have selected these problems because they are more straight-forward ways to check your understanding of course material. I would recommend that you give some (or all) of them a try, especially for content you find particularly challenging.  Assigned problems on homework assignments are meant to mimic exam questions (or at least the formatting, difficulty, and expectations). Take them seriously, and ask questions about them!  Generative AI (like ChatGPT, Gemini, Copilot, etc.) are extremely powerful tools (even for learning), but they are not calculators nor oracles for homework solutions! When you ask them a math question, they guess what the solution should look like based on other math problem solutions its read online. While they now have much of the same functionality as a graphing calculator, the AI tool doesn't always use it when preparing your answer. While office hours and the MPLC will almost always be more helpful to you than AI, if you want to use these tools, please use them responsibly. They are excellent for generating more practice problems or answer conceptual questions regarding the material.  For additional help and resources, please consider using the below facilities on campus.  Campus Mental Health and Wellness Center   List of all current student resources available at SVSU.      Assessments and Grades  Your overall grade in the course is a weighted average computed according to the table below.   Weighted Total Distribution    Category  Weight    Engagement  10%    Homework  15%    Midterms  45%    Final Project  30%    Total  100%     The letter grade you earn in the course is determined by the table below. Please note that your weighted total will be rounded to the nearest integer before grades are reported. Also note that this is not a standard grading distribution and actually works in your favor!   Letter Grade Distribution    Letter Grade  Required Score    A  93-100%    A-  85-92%    B+  81-84%    B  77-80%    B-  73-76%    C+  69-72%    C  61-68%    D  50-60%    F  0-49%      Engagement  Your engagement in the course will directly impact your grade and will be measured through 3 primary channels.   Attendance: Your attendance in class will be measured using the name tags you will design on the first day! I will pass out name tags at the beginning of class (earning you 1 point), and I will collect them from you (earning you 1 point) for answering questions, asking questions, or dilligently working on in-class activities during class.   Activities: We will have an activity to work on every class day. Collaboration with your classmates on these assignments is highly encouraged. Each activity is worth 3 points and will be graded based on completeness. For more details, please see the rubric on Canvas.      Homework  There will be a homework assignment due every Wednesday at the beginning of class, except for the class periods immediately following exams. I will pass out a printed copy of homework assignments in class, but they will also be available on Canvas. Each homework assignment is worth 10 points and will consist of at most 5 free-response questions.    Midterms  There will be three midterm exams, each worth 15% of your grade (for a total of 45%). They are tentatively scheduled for Monday, September 28; Monday, October 26 and Wednesday, December 2. You will need a writing utensil for the exams, and you will be permitted to use RStudio on a classroom computer during the exams. No other notes or electronic devices of any kind will be permitted during exams. Exams will be free response, worth 100 points, and will be graded with partial credit.    Final Project  In lieu of a final exam, our course will have a final group project. A significant portion of this final project will involve presenting your findings. Your presentations will take place Monday, December 14 from 2:30pm - 4:20om . This date and time has been determine prior to the start of the semester and cannot be changed. Please make your best effort to clear your schedule now. For more information about the content of the final project, please look here.    Late Policy  Please observe the following late policies.  Activities: Activities will be penalized by 1 point for each class period it is late.  Homeworks: Homework assignments will be penalized by 4 points for each class period they are late.  Midterms: If you are unable to be present for a midterm exam, you are permitted one makeup exam over the course of the semester. You must notify me within 24 hours after the exam is held.  Final Presentations: There is no makeup opportunity for the presentation portion of your final project.      Extra Credit Policy  Please observe the following extra credit policies. These are the only extra credit opportunities that will be offered over the semester.  Engagement: I will drop 10 points from your engagement grade at the end of the semester, meaning that you get ``two free absences''.  Midterms: Each midterm exam will have 110 points, but will only be graded out of 100. This means you can earn up to 110% on each midterm.       Course Conduct & Policies   Academic Integrity  Collaboration and using a breadth of resources is essential to learning any subject, but it is important that all work that you submit in this class is ultimately your own. While I encourage you to work on coursework with your classmates or MPLC tutors, I do expect that the solution you write will be uniquely your own. You may borrow ideas, but not words from other sources. During exams, however, outside notes and resources are not permitted. Violations of this policy may result in a score of zero on the corresponding assignment(s) or disciplinary action in accordance with university policy. If you are ever unsure regarding fair use of outside material, please ask! I am happy to answer those questions. You should expect to struggle with difficult material (regardless of the discipline). Learning from those mistakes is a critical part of the educational process!    Technology Policy  Students may be permitted or expected to use electronic devices for in-class activities\/group work. Outside of these activities, which will be given explicit introduction, no phones or laptops of any kind are allowed during class. Tablets are permissible so long as they are used for taking notes only. This policy is in place to respect your fellow classmates, so that they can participate in a distraction-free environment.  Artificial Intelligence is arguably the hottest topic in mathematics research today. Large-Language Models (LLMs) such as ChatGPT, Google Gemini, Deepseek, etc. are powerful tools designed to predicatively generate text, but please be careful while using them for our class. They do not compute anything! The ability for these tools to solve a math problem correctly is strictly based on whether a similar problem has been worked out on the internet somewhere, making their accuracy for problems in our class a coin flip at best. They can be very helpful study tools if used to generate practice problems or answer content-based questions, but they are not oracles for solutions to differential equations.    Civility in the Classroom  A collaborative, calm, and distraction-free environment is critical to promoting learning when we are face-to-face. Incivility in the physical classroom is any action that interferes with or disrupts this order in the classroom. Incivility includes, but is not limited to consistently arriving late, consistently leaving early, using technology in a disruptive manner, excessive talking with classmates, dominating class discussion, using any language that makes others uncomfortable.  Similarly, when participating in online activities or communicating with members of this class virtually, you should be mindful of others' ideas, perspectives, and experiences. The more thoughtful and price you are when explaining your ideas or posing your questions, the more helpful others can be in their response. We all share the responsibility of maintaining a positive online experience. Below is an example of a sample email you could send.   SUBJECT: Absence from Class 7\/1  Good Evening Kohl,  I am feeling under the weather today and I don't think I will be able to participate in class today. Attached is a picture of my compelted homework to show it was finished on time. May I please turn it in to you next class period?  Best Regards,  Student     "
+  "number": "1.1",
+  "title": "Introduction to Probabiliy &amp; Statistics",
+  "body": " Introduction to Probabiliy & Statistics    Students will be able to...    Compute simple classical probabilities.  Use the addition rule to compute complementary and compound probabilities.  Distinguish between populations and samples.  Distinguish between parameters and statistics.     Intro to Probability    In probability & statistics, we call procedures with measureable outcomes experiments .      An event is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event simple . Otherwise, that event is called compound .      The sample space for an experiment is the collection of all possible simple events.      Consider conducting an experiment times. The number of times an event occurs is called its relative frequency . From this experminet, we would say has relative probability        Let be an event from an expermient with simple events. The (classical) probability of occuring is given by       As a procedure is repeated more often, the relative probabilities of all events in the sample space approach their classical probabilities.      Let be events. Then       Verify the addition rule by comparing regions in a Venn diagram.      Two events are disjoint (mutually exclusive) if they cannot occur simultaneously.      Show that if is disjoint from , then       Consider the experiment of rolling a fair 6-sided die and recording the result. Let be the event we roll a 1. Let be the event we roll less than 3.     Compute .      Is disjoint from ?      Find an event that is disjoint from , but not from .      Compute .      Compute .       Intro to Statistics    A datum is a single recorded observation or measurement.       Statistics is the science of collecting, organizing, and analyzing data.      In a statistical experiment, a population is the set of all observations or measurements that could be collected.      A characteristic of a population (e.g. proportion, average, etc.) is called a parameter .      Rarely can we collect data on an entire population. Similarly, parameters are rarely exactly known. Realistically, we may collect data from a representative group selected from the population. This group is called a sample and the estimate for the parameter that we can measure from the sample is called a statistic .      Consider trying to learn the most common age among all students at SVSU. We might not be able to reach every single student enrolled, but we can reach everyone in this classroom right now. Computing the most common age (statistic) among all students in the classroom (sample) would be an estimate for the most common age (population) on campus (the population).  Reflect on the design of this experiment. In what ways could we adapt our experiment to improve the accuracy of our measurement?      Typically, we record more than a single type of data in each experiment. Each characteristic recorded in a set of data is called a variable .     "
 },
 {
-  "id": "sec-assessments-3",
+  "id": "biostats-notes-1-1-2",
   "level": "2",
-  "url": "syllabus.html#sec-assessments-3",
-  "type": "Table",
-  "number": "1",
-  "title": "Weighted Total Distribution",
-  "body": " Weighted Total Distribution    Category  Weight    Engagement  10%    Homework  15%    Midterms  45%    Final Project  30%    Total  100%    "
+  "url": "biostats-notes-1-1.html#biostats-notes-1-1-2",
+  "type": "Objectives",
+  "number": "1.1",
+  "title": "",
+  "body": "  Students will be able to...    Compute simple classical probabilities.  Use the addition rule to compute complementary and compound probabilities.  Distinguish between populations and samples.  Distinguish between parameters and statistics.   "
 },
 {
-  "id": "sec-assessments-5",
+  "id": "def-experiment",
   "level": "2",
-  "url": "syllabus.html#sec-assessments-5",
-  "type": "Table",
-  "number": "2",
-  "title": "Letter Grade Distribution",
-  "body": " Letter Grade Distribution    Letter Grade  Required Score    A  93-100%    A-  85-92%    B+  81-84%    B  77-80%    B-  73-76%    C+  69-72%    C  61-68%    D  50-60%    F  0-49%    "
+  "url": "biostats-notes-1-1.html#def-experiment",
+  "type": "Definition",
+  "number": "1.1.1",
+  "title": "",
+  "body": "  In probability & statistics, we call procedures with measureable outcomes experiments .   "
+},
+{
+  "id": "def-event",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-event",
+  "type": "Definition",
+  "number": "1.1.2",
+  "title": "",
+  "body": "  An event is any collection of results or outcomes of a procedure. When that event cannot be broken down into further logical components, we call the event simple . Otherwise, that event is called compound .   "
+},
+{
+  "id": "def-sample-space",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-sample-space",
+  "type": "Definition",
+  "number": "1.1.3",
+  "title": "",
+  "body": "  The sample space for an experiment is the collection of all possible simple events.   "
+},
+{
+  "id": "def-relative-probability",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-relative-probability",
+  "type": "Definition",
+  "number": "1.1.4",
+  "title": "",
+  "body": "  Consider conducting an experiment times. The number of times an event occurs is called its relative frequency . From this experminet, we would say has relative probability     "
+},
+{
+  "id": "def-probability",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-probability",
+  "type": "Definition",
+  "number": "1.1.5",
+  "title": "",
+  "body": "  Let be an event from an expermient with simple events. The (classical) probability of occuring is given by    "
+},
+{
+  "id": "thm-law-of-large-numbers",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#thm-law-of-large-numbers",
+  "type": "Theorem",
+  "number": "1.1.6",
+  "title": "",
+  "body": "  As a procedure is repeated more often, the relative probabilities of all events in the sample space approach their classical probabilities.   "
+},
+{
+  "id": "thm-addition-rule",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#thm-addition-rule",
+  "type": "Theorem",
+  "number": "1.1.7",
+  "title": "",
+  "body": "  Let be events. Then    "
+},
+{
+  "id": "intro-to-prob-9",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#intro-to-prob-9",
+  "type": "Checkpoint",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  Verify the addition rule by comparing regions in a Venn diagram.   "
+},
+{
+  "id": "def-disjoint",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-disjoint",
+  "type": "Definition",
+  "number": "1.1.9",
+  "title": "",
+  "body": "  Two events are disjoint (mutually exclusive) if they cannot occur simultaneously.   "
+},
+{
+  "id": "intro-to-prob-11",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#intro-to-prob-11",
+  "type": "Checkpoint",
+  "number": "1.1.10",
+  "title": "",
+  "body": "  Show that if is disjoint from , then    "
+},
+{
+  "id": "intro-to-prob-12",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#intro-to-prob-12",
+  "type": "Checkpoint",
+  "number": "1.1.11",
+  "title": "",
+  "body": "  Consider the experiment of rolling a fair 6-sided die and recording the result. Let be the event we roll a 1. Let be the event we roll less than 3.     Compute .      Is disjoint from ?      Find an event that is disjoint from , but not from .      Compute .      Compute .    "
+},
+{
+  "id": "def-data",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-data",
+  "type": "Definition",
+  "number": "1.1.12",
+  "title": "",
+  "body": "  A datum is a single recorded observation or measurement.   "
+},
+{
+  "id": "def-statistics",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-statistics",
+  "type": "Definition",
+  "number": "1.1.13",
+  "title": "",
+  "body": "   Statistics is the science of collecting, organizing, and analyzing data.   "
+},
+{
+  "id": "def-population",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-population",
+  "type": "Definition",
+  "number": "1.1.14",
+  "title": "",
+  "body": "  In a statistical experiment, a population is the set of all observations or measurements that could be collected.   "
+},
+{
+  "id": "def-parameter",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-parameter",
+  "type": "Definition",
+  "number": "1.1.15",
+  "title": "",
+  "body": "  A characteristic of a population (e.g. proportion, average, etc.) is called a parameter .   "
+},
+{
+  "id": "def-statistic",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-statistic",
+  "type": "Definition",
+  "number": "1.1.16",
+  "title": "",
+  "body": "  Rarely can we collect data on an entire population. Similarly, parameters are rarely exactly known. Realistically, we may collect data from a representative group selected from the population. This group is called a sample and the estimate for the parameter that we can measure from the sample is called a statistic .   "
+},
+{
+  "id": "intro-to-stats-7",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#intro-to-stats-7",
+  "type": "Checkpoint",
+  "number": "1.1.17",
+  "title": "",
+  "body": "  Consider trying to learn the most common age among all students at SVSU. We might not be able to reach every single student enrolled, but we can reach everyone in this classroom right now. Computing the most common age (statistic) among all students in the classroom (sample) would be an estimate for the most common age (population) on campus (the population).  Reflect on the design of this experiment. In what ways could we adapt our experiment to improve the accuracy of our measurement?   "
+},
+{
+  "id": "def-variables",
+  "level": "2",
+  "url": "biostats-notes-1-1.html#def-variables",
+  "type": "Definition",
+  "number": "1.1.18",
+  "title": "",
+  "body": "  Typically, we record more than a single type of data in each experiment. Each characteristic recorded in a set of data is called a variable .   "
+},
+{
+  "id": "biostats-notes-1-2",
+  "level": "1",
+  "url": "biostats-notes-1-2.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Introduction to Statistics",
+  "body": " Introduction to Statistics    Students will be able to...    Distinguish between quantiative and qualitative.  Identify a datum's level of measurement.  Distinguish between sampling methods.  Discern and classify sampling errors.      In statistics, bias is a measurement of how poorly a sample's statistic estimates its population's parameter. That is to say, statistics that are poor estimates are called biased and statistics that are accurate estimates are called unbiased       When conducting a statistical experiment, bias can occur from any of the following types of mistakes.   Nonsampling errors occur due to human mistakes or factors outside of the scope of the experiment. For example, the household incomes of Saginaw residents are being estimated, but an intern accidentally delets the data for the 48601 zip code.   Sampling errors occur by luck (or bad luck) of the draw. For example, in trying to estimate what proportion of college students identify as women, 5 of the 10 randomly selected colleges happened to be all-womens colleges.   Nonrandom sampling errors occur when samples are chosen in a way that skews the data. For example, a journalist writes an editorial on Bay county opinions of the Liberty toll bridge. They interview the 50 households nearest to the bridge.      Typically, nonsampling and sampling errors are out of our control. Hence, nonrandom sampling errors are important to consider.    Selecting samples randomly is important for maintaining the integrity of any study, especially in the sciences. Below are all valid means of sampling with various use cases.   Random sampling occurs when every member of the population has an equal chance to be selected.   Systematic sampling occurs when members of the population are sampled according to a pattern.   Stratified smapling occurs when the population is systematically split into groups, called strata . Then an equal proportion of each strata is sampled.   Clustered sampling occurs when the population is divided into equally-sized groups, called clusters . Then full clusters are sampled.      Another consideration when designing experiments is the type of measurements to record.    When data collection involves passively making observations about a sample, we call the experiment observational . We describe the method of collecting these observations according to the below definitions.   Cross-Sectional studies collect all data in a single visit (or point in time).   Retrospective studies draw conclusions based on previously-collected data.   Prospective studies collect measurements across multiple visits (or points in time).      Choosing a sampling method is an important factor in eliminating bias in results.    Clinical trials are observational experiments that generally involve perscribing treatment(s) to some proportion of the participants. In this context, we refer to the treatment(s) as explanatory variables, where the measurements used to assess their condition are called response variables. Those that receive the treatment(s) are called the treatment where those that do not receive treatment are called a control group.      All data is either qualitative , meaning it can be described in words; or quantitative , meaning it can be described with numbers.      All data can be described by its level of measurement . These levels are scaffolded with how much information can be gleaned from them.   Nominal data is the shallowest level of measurement. This is qualitative data from which no information can be obtained a priori. Examples include: Blood type, Gender, Eye Color, etc.   Ordinal data is qualitative data that has a natural ordering. Examples include: Likert scale, socioeconomic status, pay scale ranking, etc.   Interval data is quantitative data (meaning a natural order is implied) that has a common interval between events in the sample space. Examples include: temperature, credit score, SAT scores, etc.   Ratio data is the finest level of measurement. This is quantitative data that both has a natural interval between events in the sample space AND the notion of an absolute zero. Examples include: height, length, weight, etc.      "
+},
+{
+  "id": "biostats-notes-1-2-2",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#biostats-notes-1-2-2",
+  "type": "Objectives",
+  "number": "1.2",
+  "title": "",
+  "body": "  Students will be able to...    Distinguish between quantiative and qualitative.  Identify a datum's level of measurement.  Distinguish between sampling methods.  Discern and classify sampling errors.   "
+},
+{
+  "id": "def-bias",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-bias",
+  "type": "Definition",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  In statistics, bias is a measurement of how poorly a sample's statistic estimates its population's parameter. That is to say, statistics that are poor estimates are called biased and statistics that are accurate estimates are called unbiased    "
+},
+{
+  "id": "def-sampling-errors",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-sampling-errors",
+  "type": "Definition",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  When conducting a statistical experiment, bias can occur from any of the following types of mistakes.   Nonsampling errors occur due to human mistakes or factors outside of the scope of the experiment. For example, the household incomes of Saginaw residents are being estimated, but an intern accidentally delets the data for the 48601 zip code.   Sampling errors occur by luck (or bad luck) of the draw. For example, in trying to estimate what proportion of college students identify as women, 5 of the 10 randomly selected colleges happened to be all-womens colleges.   Nonrandom sampling errors occur when samples are chosen in a way that skews the data. For example, a journalist writes an editorial on Bay county opinions of the Liberty toll bridge. They interview the 50 households nearest to the bridge.     "
+},
+{
+  "id": "def-sampling-methods",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-sampling-methods",
+  "type": "Definition",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  Selecting samples randomly is important for maintaining the integrity of any study, especially in the sciences. Below are all valid means of sampling with various use cases.   Random sampling occurs when every member of the population has an equal chance to be selected.   Systematic sampling occurs when members of the population are sampled according to a pattern.   Stratified smapling occurs when the population is systematically split into groups, called strata . Then an equal proportion of each strata is sampled.   Clustered sampling occurs when the population is divided into equally-sized groups, called clusters . Then full clusters are sampled.     "
+},
+{
+  "id": "def-observational-studies",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-observational-studies",
+  "type": "Definition",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  When data collection involves passively making observations about a sample, we call the experiment observational . We describe the method of collecting these observations according to the below definitions.   Cross-Sectional studies collect all data in a single visit (or point in time).   Retrospective studies draw conclusions based on previously-collected data.   Prospective studies collect measurements across multiple visits (or points in time).     "
+},
+{
+  "id": "def-clinical-trials",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-clinical-trials",
+  "type": "Definition",
+  "number": "1.2.5",
+  "title": "",
+  "body": "  Clinical trials are observational experiments that generally involve perscribing treatment(s) to some proportion of the participants. In this context, we refer to the treatment(s) as explanatory variables, where the measurements used to assess their condition are called response variables. Those that receive the treatment(s) are called the treatment where those that do not receive treatment are called a control group.   "
+},
+{
+  "id": "def-data-types",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-data-types",
+  "type": "Definition",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  All data is either qualitative , meaning it can be described in words; or quantitative , meaning it can be described with numbers.   "
+},
+{
+  "id": "def-levels-of-measurement",
+  "level": "2",
+  "url": "biostats-notes-1-2.html#def-levels-of-measurement",
+  "type": "Definition",
+  "number": "1.2.7",
+  "title": "",
+  "body": "  All data can be described by its level of measurement . These levels are scaffolded with how much information can be gleaned from them.   Nominal data is the shallowest level of measurement. This is qualitative data from which no information can be obtained a priori. Examples include: Blood type, Gender, Eye Color, etc.   Ordinal data is qualitative data that has a natural ordering. Examples include: Likert scale, socioeconomic status, pay scale ranking, etc.   Interval data is quantitative data (meaning a natural order is implied) that has a common interval between events in the sample space. Examples include: temperature, credit score, SAT scores, etc.   Ratio data is the finest level of measurement. This is quantitative data that both has a natural interval between events in the sample space AND the notion of an absolute zero. Examples include: height, length, weight, etc.     "
+},
+{
+  "id": "biostats-notes-1-3",
+  "level": "1",
+  "url": "biostats-notes-1-3.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Describing Quantitative Data",
+  "body": " Describing Quantitative Data    Students will be able to...    Compute measures of location.  Compute measures of center.  Compute measures of spread.     Measures of Location    A measure of location is a value that describes a datum's location within a data set.      The proportion of values of that are less than a datum is called the percentile for . We say that is in the percentile.      The value of that falls in the percentile is called the  quantile for . In the event of a tie between two data, is equal to their mean.    Quantiles can be computed in R with quantile(x,percent) .    The quantiles associated with the 25th, 50th, and 75th percentiles are called the first, second, and third quartile respectively.      Let denote the smallest datum and denote the larget datum. The five-number summary for a variable is the list .      Measures of Center    A measure of center is a value that describes a middling\/average value of a data set.      The mean value of a variable is We denote it when comes from a sample and when it represents a population.    Means can be computed in R with mean(x) .    Consider ordering all values of a variable from least to greatest. The median of is the second quartile of .      The mode value of a variable is the value it attains most frequently.      The midrange value of a variable is the mean of its minimum and maximum.      Measures of Spread    Let be a variable. The minimum of is the lowest value it attains. Similarly, the maximum is the highest value that attains. The range of is the interval .    Ranges can be computed in R with range(x) .    Let be a variable. The difference between its third and first quartile is called its inner-quartile range (IQR) .      The deviation of a datum is its distance from the mean.      Let be a variable with observations. Its variance is the average of the size of all its deviations. When comes from a sample, we compute When represents a population, we can take the mean instead, and we compute     Variance for samples can be computed in R with variance(x) .    The standard deviation of a variable it the square root of its variance.    Standard deviations for samples can be computed in R with sd(x) .   "
+},
+{
+  "id": "biostats-notes-1-3-2",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#biostats-notes-1-3-2",
+  "type": "Objectives",
+  "number": "1.3",
+  "title": "",
+  "body": "  Students will be able to...    Compute measures of location.  Compute measures of center.  Compute measures of spread.   "
+},
+{
+  "id": "def-measure-of-location",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-measure-of-location",
+  "type": "Definition",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  A measure of location is a value that describes a datum's location within a data set.   "
+},
+{
+  "id": "def-percentile",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-percentile",
+  "type": "Definition",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  The proportion of values of that are less than a datum is called the percentile for . We say that is in the percentile.   "
+},
+{
+  "id": "def-quantile",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-quantile",
+  "type": "Definition",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  The value of that falls in the percentile is called the  quantile for . In the event of a tie between two data, is equal to their mean.   "
+},
+{
+  "id": "def-quartile",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-quartile",
+  "type": "Definition",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  The quantiles associated with the 25th, 50th, and 75th percentiles are called the first, second, and third quartile respectively.   "
+},
+{
+  "id": "def-five-num-summ",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-five-num-summ",
+  "type": "Definition",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  Let denote the smallest datum and denote the larget datum. The five-number summary for a variable is the list .   "
+},
+{
+  "id": "def-measure-of-center",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-measure-of-center",
+  "type": "Definition",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  A measure of center is a value that describes a middling\/average value of a data set.   "
+},
+{
+  "id": "def-mean",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-mean",
+  "type": "Definition",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  The mean value of a variable is We denote it when comes from a sample and when it represents a population.   "
+},
+{
+  "id": "def-median",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-median",
+  "type": "Definition",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  Consider ordering all values of a variable from least to greatest. The median of is the second quartile of .   "
+},
+{
+  "id": "def-mode",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-mode",
+  "type": "Definition",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  The mode value of a variable is the value it attains most frequently.   "
+},
+{
+  "id": "def-midrange",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-midrange",
+  "type": "Definition",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  The midrange value of a variable is the mean of its minimum and maximum.   "
+},
+{
+  "id": "def-range",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-range",
+  "type": "Definition",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  Let be a variable. The minimum of is the lowest value it attains. Similarly, the maximum is the highest value that attains. The range of is the interval .   "
+},
+{
+  "id": "def-IQR",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-IQR",
+  "type": "Definition",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  Let be a variable. The difference between its third and first quartile is called its inner-quartile range (IQR) .   "
+},
+{
+  "id": "def-deviation",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-deviation",
+  "type": "Definition",
+  "number": "1.3.13",
+  "title": "",
+  "body": "  The deviation of a datum is its distance from the mean.   "
+},
+{
+  "id": "def-variance",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-variance",
+  "type": "Definition",
+  "number": "1.3.14",
+  "title": "",
+  "body": "  Let be a variable with observations. Its variance is the average of the size of all its deviations. When comes from a sample, we compute When represents a population, we can take the mean instead, and we compute    "
+},
+{
+  "id": "def-standard-deviation",
+  "level": "2",
+  "url": "biostats-notes-1-3.html#def-standard-deviation",
+  "type": "Definition",
+  "number": "1.3.15",
+  "title": "",
+  "body": "  The standard deviation of a variable it the square root of its variance.   "
+},
+{
+  "id": "biostats-notes-2-2-histograms",
+  "level": "1",
+  "url": "biostats-notes-2-2-histograms.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Frequency Distributions",
+  "body": " Frequency Distributions    Students will be able to...    Construct and interpret frequency distributions.      Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.     Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.     If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .     Draw a histogram of the above data using bin size 5.   "
+},
+{
+  "id": "biostats-notes-2-2-histograms-2",
+  "level": "2",
+  "url": "biostats-notes-2-2-histograms.html#biostats-notes-2-2-histograms-2",
+  "type": "Objectives",
+  "number": "2.1",
+  "title": "",
+  "body": "  Students will be able to...    Construct and interpret frequency distributions.   "
+},
+{
+  "id": "def-freq-dist",
+  "level": "2",
+  "url": "biostats-notes-2-2-histograms.html#def-freq-dist",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.   "
+},
+{
+  "id": "biostats-notes-2-2-histograms-4",
+  "level": "2",
+  "url": "biostats-notes-2-2-histograms.html#biostats-notes-2-2-histograms-4",
+  "type": "Example",
+  "number": "2.1.2",
+  "title": "",
+  "body": " Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.  "
+},
+{
+  "id": "def-histogram",
+  "level": "2",
+  "url": "biostats-notes-2-2-histograms.html#def-histogram",
+  "type": "Definition",
+  "number": "2.1.3",
+  "title": "",
+  "body": "  If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .   "
+},
+{
+  "id": "biostats-notes-2-2-histograms-6",
+  "level": "2",
+  "url": "biostats-notes-2-2-histograms.html#biostats-notes-2-2-histograms-6",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
+  "body": " Draw a histogram of the above data using bin size 5.  "
 }
 ]
 

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 3 - What are Solutions to DEs?</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, September 14</alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    What does it mean for a function to <alert> solve </alert> a differential equation?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Define the <alert>First-Order IVP</alert>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Define the <alert>Second-Order IVP</alert>.
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the function <md>\phi(x) = -\cos(x) \ln(\sec(x) + \tan(x)).</md>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Compute <m> \phi' </m> and <m> \phi'' </m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the domain of <m> \phi, \phi'</m>, and <m>\phi''</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Verify that <m> \phi </m> is a solution to the differential equation <md> y'' + y = \tan(x)</md> and find its largest interval of existence. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the ODE <md> xy' = y. </md>
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find a solution to the ODE "by inspection" (guess-and-checking). Verify your solution and find its largest interval of existence.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Now suppose we add the initial condition that <m>y(0) = 0</m>. What does this change about your solution? That is, solve the IVP <md> xy' = x; \ y(0)=0.</md>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    I claim that the function <md> \phi(x) = \begin{cases} 0 \amp \text{if} \ x \lt 0, \\ x \amp \text{if} \ x \geq 0, \end{cases} </md> does NOT solve the IVP <md> xy' = x; \ y(0)=0.</md> Why not?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  
+</worksheet>
