@@ -6,24 +6,24 @@
                 format="html"
                 source="./courses/Biostats/source/main_course.ptx"
                 publication="./courses/Biostats/publication/publication.ptx"
-                deploy-dir="output/Biostats/web"/>
+                deploy-dir="output/Biostats/web_course"/>
         
         <target name="biostats-notes" 
                 format="html"
                 source="./courses/Biostats/source/main_notes.ptx"
                 publication="./courses/Biostats/publication/publication_notes.ptx"
-                deploy-dir="output/Biostats/web"/>
+                deploy-dir="output/Biostats/web_notes"/>
 
         <target name="diffeq-html" 
                 format="html"
                 source="./courses/DifferentialEquations/source/main_html.ptx"
                 publication="./courses/DifferentialEquations/publication/publication.ptx"
-                deploy-dir="output/DifferentialEquations/web"/>
+                deploy-dir="output/DifferentialEquations/web_course"/>
 
         <target name="diffeq-notes" 
                 format="html"
                 source="./courses/DifferentialEquations/source/main_notes.ptx"
                 publication="./courses/DifferentialEquations/publication/publication_notes.ptx"
-                deploy-dir="output/DifferentialEquations/web"/>
+                deploy-dir="output/DifferentialEquations/web_notes"/>
     </targets>
 </project>
