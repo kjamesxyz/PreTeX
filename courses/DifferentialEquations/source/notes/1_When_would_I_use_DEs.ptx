@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>When would I use Differential Equations?</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Model real-world phenomena using 1st-order ODEs and IVPs. </p></li>
+        </ol>
+    </objectives>
+
+    <example>
+        <p> <alert> Problem: </alert> The population growth rate of a country grows proportionally to its existing population. Model this phenomenon using a 1st-order ODE. </p>
+
+        <p> <alert> Solution: </alert> Since <md> \frac{dP}{dt} \propto P \implies \frac{dP}{dt} = kP </md> for some <m> k \in \real </m>. </p>
+    </example>
+
+    <example>
+        <p> <alert> Problem: </alert> Find a solution to the model by inspection.</p>
+
+        <p> <alert> Solution: </alert> <md> P(t) = Ce^{kt} </md> for some <m> C \in \real </m>. </p>
+    </example>
+
+    <example>
+        <p> <alert> Problem: </alert> Now suppose that <m>R</m> individuals are permitted to immigrate into the country per year. How does this affect the model?</p>
+
+        <p> <alert> Solution: </alert> Suppose <m> P(0) = P_0 </m>. Then <m> P(t) = P_0 e^{kt} </m>. Then <md> P(1) = P_0 e^k = R \implies k = \ln\left(\frac{R}{P_0}\right). </md> </p> 
+        <p> Alternatively, we could just write <md> \frac{dP}{dt} = kP + R. </md> </p>
+    </example>
+
+</section>

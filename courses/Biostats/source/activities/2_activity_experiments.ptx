@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 2 - Experiment Design</title>
+
+  <introduction>
+    <p> This assignment is due at the beginning of class on <alert> Monday, September 14 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+        <p>
+            A medical researcher hypothesizes that GLP-1 medications, which are designed to stabilize Insulin-Like Growth Factors (ILGFs) in diabetic patients, could be used to assist nondiabetic patients with weight loss. They have found 100 patients willing to participate in the study. 
+        </p>
+    </introduction>
+
+    <task workspace="2in">
+        <statement>
+            <p>
+                For each level of measurement (nominal, ordinal, interval, and ratio), list one measurement (relevant to the study) that could be recorded from the patients. Justify your answers.
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                Which observation strategy (cross-sectional, retrospective, or prospective) would be best-suited for this experiment? Why? 
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="3in">
+        <statement>
+            <p>
+                For each sampling method we have discussed (random, systematic, stratified, and cluster), design a sampling scheme that could be used to assign the treatment group. 
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                Between all sampling schemes you designed above, which do you think would produce the least bias in the results? Why?
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+</worksheet>

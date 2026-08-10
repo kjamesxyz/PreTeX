@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw2">
+    <title>📝 Homework 2 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 14</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the differential equation <md>\ddot{x} + x = 0.</md>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Show that <m>x(t) = c_1 \cos(t) + c_2 \sin(t) </m> is a two-parameter family of solutions on <m>(-\infty,\infty)</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Now suppose the ODE has the initial conditions that <m>x\left(\frac{\pi}{2}\right) = 0</m> and <m>x'\left(\frac{\pi}{2}\right) = 1</m>. Find the particular solution to this IVP.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                One molecule of chemical <m>A</m> and one molecule of chemical <m>B</m> can be combined to form one molecule of chemical <m>C</m>. Suppose you begin with <m>A_0</m> molecules of chemical <m>A</m> and <m>B_0</m> molecules of chemical <m>B</m>. Write a first-order differential equation that models the rate of formation of chemical <m>C</m>. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+            <introduction>
+                <p>
+                    A tank is holding 1000L of pure water. A brine solution (0.1 kg/L) is poured into the tank at a constant rate of 6L/min. The solution in the tank is always kept well-stirred and is drained out of the tank at 6 L/min. The concentration of salt in the mixture is measured over time. 
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Draw a picture of the scenario.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Identify and label the dependent and independent variabels in the scenario. 
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Write (but do not solve) an initial value problem that models the amount of salt in the tank over time. 
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+    
+</worksheet>

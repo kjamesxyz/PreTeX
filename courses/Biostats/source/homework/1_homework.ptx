@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="hw1">
+<title>📝 Homework 1</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 9</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+    </introduction>
+
+    
+    <exercise>
+        <introduction>
+            <p> Consider the experiment of rolling a fair 6-sided die. Find three distinct events <m> E,F,G </m> such that </p>
+        </introduction> 
+        <task>
+            <statement>
+                <p>
+                    <m>\cal{P}(E) = \frac{1}{6} </m> 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\cal{P}(F) = \frac{1}{2} </m> 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\cal{P}(G) = \frac{2}{3} </m> 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p> Of the 10,000 loans recorded in RStudio's <c>loans</c> data set, 1,495 loans were joint applications, 4,789 applicant had a mortgage, and 950 fell into both categories. Use this data to fill in the Venn Diagram below. </p>
+            <image source="images/venn_diagram.png" width="50%">
+                <shortdescription>An empty Venn Diagram in a box.</shortdescription>
+            </image>
+        </statement>
+    </exercise>
+
+    <exercise workspace="0.5in">
+        <statement> 
+            <p> "Banglish" is a colloquial term for Romaised Bengali. BANTEN is an open data set consisting of 14,000 Banglish-English sentence pairs used to train AI to translate Banglish to English. Identify the statistic measured from this sample. Then infer the population and parameter of interest for the study. </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the data set below 
+            </p>
+            <tabular>
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Sex</cell>
+                        <cell>Sleep</cell>
+                        <cell>Bedtime</cell>
+                        <cell>Countries</cell>
+                        <cell>Dread</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>Male</cell>
+                        <cell>5</cell>
+                        <cell>12-2</cell>
+                        <cell>13</cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>Female</cell>
+                        <cell>7</cell>
+                        <cell>10-12</cell>
+                        <cell>7</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>Female</cell>
+                        <cell>5.5</cell>
+                        <cell>12-2</cell>
+                        <cell>1</cell>
+                        <cell>4</cell>
+                    </row>
+                </tabular>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    List all variables in this data set. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How many data points are there? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is the sample size? 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet>

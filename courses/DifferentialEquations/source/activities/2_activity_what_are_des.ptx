@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 2 - What are Differential Equations?</title>
+
+  <introduction>
+    <p> This assignment is due at the beginning of class on <alert> Wednesday, September 9 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+      <p>
+        <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Define what makes a DE <alert>linear</alert>.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Define what makes a linear DE <alert>homogeneous</alert>.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <introduction>
+      <p>
+        For each of the following differential equations, determine their type, order, linearity, and homogeneity. Explain each answer. 
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          <m>y' + \cos(y) = x^3</m>
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>yy'' + y^2y' + \frac{1}{x} = y</m>
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>\partial_t^2 u = c^2 \nabla^2 u</m>
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>e^{\sin(t^2)} \frac{d^2x}{dt^2} + \omega^2 t \frac{d^3x}{dt^3} = e^{-t}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>\partial_t u = c^2 \nabla^2 u - u(1 - u) + e^{-t}\sin(t)</m>
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  
+</worksheet>

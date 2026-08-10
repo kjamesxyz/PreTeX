@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 3 - Describing Quantitative Data</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Wednesday, Septemeber 16 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                During the lecture, we have seen the syntax for computing quantiles, means, ranges, variances, and standard deviations. Record each of those commands in the space below. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Create a new RStudio script named <c>SECTION#_LASTNAME_FIRSTNAME_Activity3.r</c>. Then, follow the procedure below. When you have finished the procedure, please submit your R script on Canvas. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Import the library <c>datasets</c> using the <c>library()</c> command. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Store the data set called <c>iris</c> with a name you will remember using the command <c>YOUR_NAME &lt;- datasets::iris </c>. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    R stores data sets in special formats called "data frames". Typically, when looking for help with programming in R, authors will use the shorthand <c>df</c> to refer to whatever data frame you're using in your program. Now that you have stored it, open (look at) the iris data frame by using the <c>View(df)</c> command <alert> in the console</alert>.  
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    In the space below, write all of the variables in this data set. What is the sample size? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    When referencing a variable (column) in a data frame in an R program, you must <alert>extract</alert> the column from the data frame. When you write <c>df</c> in your code, this refers to the entire data set. But <c>df$col</c> refers to the column <c>col</c> "extracted" from the data frame <c>df</c>. Write the name of a column of your choice into your R script. Describe what happens when you run this line in the space below. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <introduction>
+                <p>
+                    Choose a single variable in the data set. Compute each of the following measures in a separate line of your script.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Mean
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Variance
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Standard deviation
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Range
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Median
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Inner-quartile range
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </exercise>
+</worksheet>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What are Differential Equations?</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Verify solutions to differential equations. </p></li>
+            <li><p> Find intervals of existence for solutions to differential equations. </p></li>
+            <li><p> Use initial conditions to determine parameters in families of solutions. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-solution">
+        <statement>
+            <p>
+                Consider the <m>n^{\text{th}}</m>-order differential equation <md> F(x,u,u', \ldots, u^{(n)}) = 0. </md> We say that <m> \phi(x) </m> is a <alert> solution </alert> to the differential equation on the interval <m> I </m> provided it makes <md> F(x, \phi, \phi', \ldots, \phi^{(n)}) = 0. </md> and identity. We call <m>I</m> the <alert> interval of existence </alert> for the solution.  
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Observe that <m> y = e^{-x/2} </m> is a solution to the ODE <md>2y' + y = 0</md> on <m>(-\infty,\infty)</m> since <md> 2y' = 2 \cdot -\frac{1}{2}e^{-\frac{x}{2}}.</md> But notice that adding any constant coefficient to <m>y</m> is also a solution. 
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-family-of-solutions">
+        <statement>
+            <p>
+                Solutions to ODEs that contain arbitrary constants (parameters) are called <alert>families</alert> of solutions. If there are <m>n</m> such constants, we call those solutions <alert> <m>n</m>-parameter families of solutions </alert>. When specific values for the parameters are chosen, we call the resulting solution a <alert> particular solutions </alert>.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-ivps">
+        <statement>
+            <p>
+                Consider the problem of solving <md> \deriv{^n y}{x^n} = f\left( x, y, y', \ldots, y^{(n-1)}\right) </md>  on <m> (-\infty,\infty) </m> subject to the conditions <md>y(x_0) = y_0, \ y'(x_0) = y_1, \ \ldots, \ y^{(n-1)}(x_0) = y_{n-1},</md> where <m>y_0,\ldots,y_{n-1} \in \real </m>. We call this an <alert>initial value problem (IVP) </alert> on account of the additional <alert> initial conditions (IC's) </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <p> Note the <m>n^{\text{th}}</m>-order equation has <m>n</m> initial conditions involving its first <m>n-1</m> derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions. </p>
+</section>

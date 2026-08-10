@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 4 - When would I use Differential Equations?</title>   
+    
+    <exercise workspace="0.5in">
+        <introduction>
+            <p>
+                Unstable isotopes of atoms can transmute into stable isotopes by shedding subatomic particles from their nulcei in a process called <alert> radioactive decay</alert>. 
+            </p>
+        </introduction> 
+
+        <task>
+            <statement>
+                <p>
+                    The rate at which isotopes decay is proportional to the amount of isotope remaining. Write a first-order ODE that models this phenomenon. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The amount of radioactive isotope remaining decays exponentially in time. Write an algebraic equation that models this phenomenon. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Compare and contrast the models you wrote in parts (a) and (b). What quantities can be found using each? What are the advantages and disadvantages to using either model? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The amount of time required for half of a radiactive sample to undergo this decay is called the <alert> half-time </alert> of the isotope. What quantity from your models could be obtained using this information? 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+    <introduction>
+      <p>
+        <alert>Torricelli's law</alert> states that the speed <m>v</m> of the efflux (discharge/draining) of a fluid through a hole at the bottom of a tank filled to depth <m>h</m> is the same as the speed a solid body would attain from falling the same distance. 
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation <md>
+            \text{Kinetic Energy} = \frac{1}{2} m v^2 = mgh = \text{Potential Energy}
+          </md> Solve this equation for <m>v</m>.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Toricelli's law tells us that your solution for part (a) also represents how fast the water is passing through the hole. Suppose the hole in the bottom of the tank has area <m>A</m>. Use this with your answer to part (a) to find an expression for how much water (a volume) passes through the hole per unit time. 
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Use your answer from part (b) to write a differential equation to model the rate of change of the amount of fluid <m>V</m> in the tank at time <m>t</m>. 
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Assume the tank is cylindrical with radius <m>R</m>. Adapt your model from part (c) to instead model the depth of the fluid. 
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose now that fluid is pumped into the tank at a constant rate of <m>V_{\text{in}}</m>. What changes does this make to your model from part (c)? From part (d)?
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+
+</worksheet>

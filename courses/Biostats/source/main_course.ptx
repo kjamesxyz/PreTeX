@@ -22,6 +22,16 @@
             <title>Activities</title>
             
             <xi:include href="./activities/1_activity_intro.ptx"/>
+            <xi:include href="./activities/2_activity_experiments.ptx"/>
+            <xi:include href="./activities/3_activity_measures.ptx"/>
+            <xi:include href="./activities/4_activity_histograms.ptx"/>
+        </chapter>
+
+        <chapter xml:id="biostats-homework">
+            <title>Homework</title>
+            
+            <xi:include href="./homework/1_homework.ptx"/>
+            <xi:include href="./homework/2_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">
