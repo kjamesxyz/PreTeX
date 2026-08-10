@@ -20,6 +20,7 @@
         <chapter xml:id="biostats-notes-2-data-visualization">
             <title>Data Visualization</title>
             
+            <xi:include href="./notes/2_boxplots.ptx"/>
             <xi:include href="./notes/2_frequency_dists.ptx"/>
         </chapter>
     </book>

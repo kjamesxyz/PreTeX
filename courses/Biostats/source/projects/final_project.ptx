@@ -24,12 +24,49 @@
     <title>Written Report</title>
     
     <p>
-      The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on each of the below assignments. Each assignment corresponds to one section of your final report, and their contribution to your 
-
-      <ul>
-          <li><p> Activity - </p></li>
-      </ul>
+      The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on each of the below activities from class. Each of the sections will be worth the number of points listed beside it. 
     </p>
+  
+    <tabular>
+      <row header="yes">
+        <cell>Activity Topic</cell> 
+        <cell> Points </cell>
+      </row>
+      <row>
+        <cell> Histograms </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Boxplots </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Hypothesis Testing (1 Stat) </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Hypothesis Testing (2 Stats) </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Independence </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> One-Way AnOVa </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Regression </cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Nonparametric Testing </cell> 
+        <cell> 10 </cell>
+      </row>
+    </tabular>
+
+    <p> In addition to the sections listed above, you will also formulate your own scientific question (that remains unanswered) based on your group's data set. For this portion of the assignment, you will need to determine and conduct an appropriate statistical experiment to help answer your question. Then, you will use the results of your test to draw a final conclusion. </p>
   </subsection>
 
 </section>

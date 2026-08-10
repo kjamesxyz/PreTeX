@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-2-1-boxplots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Boxplots </title> 
+
+    <definition xml:id="def-outlier">
+        <statement>
+            <p>
+                Let <m>X</m> be a quantitative data set with IQR <m>q</m>. If <m>x</m> has the property that <md>|x - \xbar| \leq 1.5 q,</md> we call <m>x</m> an <alert> outlier </alert> of <m>X</m>. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-boxplot">
+        <statement>
+            <p>
+                A diagram that visualizes the five number summary of a data set is called a <alert>boxplot</alert>. The IQR of the data is contained in a box with a vertical line through the median. Whiskers are then drawn outward from the box to the minimum and maximum (non-outlier) of the set. Asterisks are used to plot all outliers. 
+            </p>
+        </statement>
+    </definition>
+</section>
