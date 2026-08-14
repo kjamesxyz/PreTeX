@@ -255,7 +255,12 @@
 
   <paragraphs xml:id="biostats-syllabus-mats">
     <title>Required Materials</title>
-    <p> The official text for the course is <alert>Mike's Biostatistics Book?</alert> by Michael R Dohm. The textbook is free and open source. It can be accessed  <url href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Mikes_Biostatistics_Book_(Dohm)"> here </url> </p>
+    <p> There is no official text for the course, but I suggest using the below free, open-source textbooks. 
+      <ul>  
+        <li><p> <url href="https://www.openintro.org/book/os/">OpenIntro Statistic </url> can be confusing to access for the first time. It will ask you for a donation, but <alert> the donation is optional </alert>. To access the book without donation, simply set the price to $0. </p></li>
+        <li><p> <url href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Mikes_Biostatistics_Book_(Dohm)"> Mike's Biostatistics Book </url> is another great resource, but can be a little bit tricky to navigate. </p> </li>
+      </ul>
+    </p>
 
     <p> A calculator and personal computer are recommended, but not strictly necessary. These tools are available in the classroom and for free at the Zhanow library outside of class. </p>
   </paragraphs>
