@@ -13,7 +13,7 @@
             <title>Welcome to Class!</title>
 
             <xi:include href="./syllabus.ptx" />
-            <xi:include href="./syllabus2.ptx" />
+            <!-- <xi:include href="./syllabus2.ptx" /> -->
         </chapter>
 
         <chapter xml:id="diffeq-acts">

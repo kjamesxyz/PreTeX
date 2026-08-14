@@ -4,8 +4,10 @@
   <title>MATH-132B Final Project</title>
 
   <introduction>
-    <p> Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medicaly, and/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 65 points) and a 15-minute presentation (worth 35 points) on your findings. </p>
+    <p> Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medicaly, and/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 100 points) and a 15-minute presentation (worth 50 points) on your findings. </p>
   </introduction>
+
+  
 
   <subsection xml:id="biostats-projects-final-data-selection">
     <title>Selecting a Group and Data Set</title>
@@ -16,7 +18,27 @@
 
     <p>
         Your data set must satisfy each of the below criteria. 
+
+        <ul>
+          <li><p> Your data is connected to at least one group member's career interests (the more members, the better). </p></li>
+          <li><p> Your set has a sample size of at least 100. </p></li>
+          <li><p> Your set contains at least 3 quantitative variables. 
+            <ul> 
+              <li><p> There is at least one pair of disjoint quantitative variables. </p></li>
+              <li><p> There is at least one pair of nondisjoint quantitative variables. </p></li>
+            </ul>
+          </p></li>
+          
+          <li><p> Your set contains at least 3 qualitative variables. 
+            <ul> 
+              <li><p> There is at least one pair of disjoint qualitative variables. </p></li>
+              <li><p> There is at least one pair of nondisjoint qualitative variables. </p></li>
+            </ul>
+          </p></li>
+          
+        </ul>
     </p>
+    
     
   </subsection>
 
@@ -24,9 +46,28 @@
     <title>Written Report</title>
     
     <p>
-      The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on each of the below activities from class. Each of the sections will be worth the number of points listed beside it. 
+      The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on select activities from class as well as a scientific question of your group's interest. 
     </p>
-  
+
+    <p> 
+      For each of these experiments, you will write a brief "lab report", where you will respond to each of the following prompts. 
+
+      <ol>
+        <li><p> State your null and alternative hypotheses. </p></li>
+        <li><p> Explain any steps necessary to clean your data set. </p></li>
+        <li><p> Explain all statistical methods you implemented to test your hypotheses. </p></li>
+        <li><p> Include any figures produced and appropriately caption them. Ensure that all relevant quantities are labeled in your figures. </p></li>
+        <li><p> Report the results from your statistical test(s) using language from the course. </p></li>
+        <li><p> Interpret these results in plain language. </p></li>
+      </ol>
+
+      Specific instructions in steps 3 and 4 will be outlined in the corresponding activities over the course of the semester. For each portion, a rubric will be made available on Canvas. 
+    </p> 
+
+    <p>
+      This written report is worth 100 points. The total point distribution for the written portion of the project is given below.
+    </p>
+    
     <tabular>
       <row header="yes">
         <cell>Activity Topic</cell> 
@@ -34,7 +75,7 @@
       </row>
       <row>
         <cell> Histograms </cell> 
-        <cell> 10 </cell>
+        <cell> 8 </cell>
       </row>
       <row>
         <cell> Boxplots </cell> 
@@ -42,11 +83,11 @@
       </row>
       <row>
         <cell> Hypothesis Testing (1 Stat) </cell> 
-        <cell> 10 </cell>
+        <cell> 6 </cell>
       </row>
       <row>
         <cell> Hypothesis Testing (2 Stats) </cell> 
-        <cell> 10 </cell>
+        <cell> 8 </cell>
       </row>
       <row>
         <cell> Independence </cell> 
@@ -54,7 +95,7 @@
       </row>
       <row>
         <cell> One-Way AnOVa </cell> 
-        <cell> 10 </cell>
+        <cell> 14 </cell>
       </row>
       <row>
         <cell> Regression </cell> 
@@ -62,11 +103,78 @@
       </row>
       <row>
         <cell> Nonparametric Testing </cell> 
-        <cell> 10 </cell>
+        <cell> 14 </cell>
+      </row>
+      <row>
+        <cell> Dealer's Choice </cell> 
+        <cell> 20 </cell>
+      </row>
+      <row>
+        <cell> <alert> Total </alert> </cell> 
+        <cell> <alert> 100 </alert> </cell>
       </row>
     </tabular>
 
-    <p> In addition to the sections listed above, you will also formulate your own scientific question (that remains unanswered) based on your group's data set. For this portion of the assignment, you will need to determine and conduct an appropriate statistical experiment to help answer your question. Then, you will use the results of your test to draw a final conclusion. </p>
+  
+  </subsection>
+
+  <subsection xml:id="biostats-projects-final-presentation">
+    <title>Oral Team Presentation</title>
+    
+    <p>
+      Your team will give an oral presentation to the rest of the class on <alert> Monday, December 14.</alert> There will be <alert> NO MAKEUP OPPORTUNITIES </alert> offered for this portion of the final project, except in the event of a verifiable emergency. Failure to present will result in a score of 0 for this portion of the final project. 
+    </p>
+
+    <p>
+      Each group must create a visual aide of their choice. Many students choose to make a slideshow, but you may also choose to create a scientific poster, record and edit a video, or something of your own design (provided instructor permission). The visual aide must be displayed during the final presentation. 
+    </p>
+
+    <p>
+      This portion of the assignment is worth 50 points. Your team's presentation will be assessed based on various aspects, given below. A Canvas rubric will be made available clearly explaining the assessment criteria for each aspect at a later date. Some aspects of your team's presentation will be assessed on an individual basis. The total point distribution for the presentation portion of the assignment is given below, and categories scored on an individual basis are marked with an asterisk. 
+    </p>
+
+    <tabular>
+      <row header="yes">
+        <cell> Presentation Aspect</cell> 
+        <cell> Points </cell>
+      </row>
+      <row>
+        <cell> Visual Aide </cell> 
+        <cell> 8 </cell>
+      </row>
+      <row>
+        <cell> Content Coverage </cell> 
+        <cell> 16 </cell>
+      </row>
+      <row>
+        <cell> Dissemination </cell> 
+        <cell> 8 </cell>
+      </row>
+      <row>
+        <cell> Communication*</cell> 
+        <cell> 10 </cell>
+      </row>
+      <row>
+        <cell> Professionalism* </cell> 
+        <cell> 4 </cell>
+      </row>
+      <row>
+        <cell> Question &amp; Answer* </cell> 
+        <cell> 4 </cell>
+      </row>
+      <row>
+        <cell> <alert> Total </alert> </cell> 
+        <cell> <alert> 50 </alert> </cell>
+      </row>
+    </tabular>
+  </subsection>
+
+  <subsection xml:id="biostats-projects-final-peer-evaluation">
+    <title>Group vs. Individual Assessment</title>
+    
+    <p> The report and presentation produced from this project will be graded as a single entity, meaning all group members should anticipate to earn the same grade. I am aware, however, that this is only fair provided that all group members dedicate an equivalent amount of work to the project.  </p>
+
+    <p> To this end, you will all conduct a "peer evaluation form" at the end of the final project, where you will rank your group members' communication, work ethic, and contribution to your finished project on a scale of 1-5. I will report to you the mean score your group awarded you in each category. For every category you earn an average score of less than 3, you will <alert> lose 30 points </alert> on your final project. </p>
   </subsection>
 
 </section>
