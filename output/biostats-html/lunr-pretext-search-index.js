@@ -232,7 +232,88 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "MATH-132B Final Project",
-  "body": " MATH-132B Final Project   Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medically, and\/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 100 points) and a 15-minute presentation (worth 50 points) on your findings.    Why are we doing this?  The National Association for Colleges and Employers (NACE) cite career readiness as \"a foundation from which to demonstrate requisite core competencies that broadly prepare the college educated for success in the workplace and lifelong career management.\" They list and define 8 core competencies that college graduates should possess as desireable job candidates. This assignment is designed to help you hone these competencies while also practicing the material from the course.    Selecting a Group and Data Set  This portion of the final project is worth 10 points. Your group and your group's data set must be selected by the beginning of class on Monday, September 14 . Each group must consist of betweem 4-6 people. Please note that you will be working closely with your group throughout the course of the semester.  Your data set must satisfy each of the below criteria.  Your data is connected to at least one group member's career interests (the more members, the better).  Your set contains at least 3 quantitative variables  Each variable has a sample size of at least 50.  There is at least one pair of disjoint quantitative variables.  There is at least one pair of nondisjoint quantitative variables.    Your set contains at least 3 qualitative variables.  Each variable has a sample size of at least 50.  There is at least one pair of disjoint qualitative variables.  There is at least one pair of nondisjoint qualitative variables.        Written Report  The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on select activities from class as well as a scientific question of your group's interest.  For each of these experiments, you will write a brief \"lab report\", where you will respond to each of the following prompts.  State your null and alternative hypotheses.  Explain any steps necessary to clean your data set.  Explain all statistical methods you implemented to test your hypotheses.  Include any figures produced and appropriately caption them. Ensure that all relevant quantities are labeled in your figures.  Report the results from your statistical test(s) using language from the course.  Interpret these results in plain language.  Specific instructions in steps 3 and 4 will be outlined in the corresponding activities over the course of the semester. For each portion, a rubric will be made available on Canvas.  This written report is worth 100 points. The total point distribution for the written portion of the project is given below.    Activity Topic  Points    Histograms  8    Boxplots  10    Hypothesis Testing (1 Stat)  6    Hypothesis Testing (2 Stats)  8    Independence  10    One-Way AnOVa  14    Regression  10    Nonparametric Testing  14    Dealer's Choice  20     Total    100       Oral Team Presentation  Your team will give an oral presentation to the rest of the class on Monday, December 14. There will be NO MAKEUP OPPORTUNITIES offered for this portion of the final project, except in the event of a verifiable emergency. Failure to present will result in a score of 0 for this portion of the final project.  Each group must create a visual aide of their choice. Many students choose to make a slideshow, but you may also choose to create a scientific poster, record and edit a video, or something of your own design (provided instructor permission). The visual aide must be displayed during the final presentation.  This portion of the assignment is worth 50 points. Your team's presentation will be assessed based on various aspects, given below. A Canvas rubric will be made available clearly explaining the assessment criteria for each aspect at a later date. Some aspects of your team's presentation will be assessed on an individual basis. The total point distribution for the presentation portion of the assignment is given below, and categories scored on an individual basis are marked with an asterisk.    Presentation Aspect  Points    Visual Aide  8    Content Coverage  16    Dissemination  8    Communication*  10    Professionalism*  4    Question & Answer*  4     Total    50       Division of Labor  For each portion of the final project, you must assign a team lead . Each group member must be selected as a team lead at least once. The team lead is responsible for each of the following.  Submitting an R script to Canvas.  Submiting a draft of the corresponding section of the written report.  Disseminating feedback on their submission to the rest of the group.    Please note that team leads are not solely responsible for the content submitted . The only personal obligation for being a team lead is making these submissions. As a team lead, fulfilling these obligations late will penalize your personal grade by 10 points. Failure to fulfill these obligations at all will penalize your personal grade by 20 points. An agreement signed by all members of the group will be turned in alongside on Monday, September 14.     Group vs. Individual Assessment  The report and presentation produced from this project will be graded as a single entity, meaning all group members should anticipate to earn the same grade. I am aware, however, that this is only fair provided that all group members dedicate an equivalent amount of work to the project.  To this end, you will all conduct a \"peer evaluation form\" at the end of the final project, where you will anonymously evaluate your group members' performance in several categories on a scale of 1-5. I will report to you the mean score your group awarded you in each category. For every category you earn a mean score of less than 3, you will lose 20 points on your written report.  This policy is to incentivize all students to be accountable to their group members, and contribute equitably to your projects.   "
+  "body": " MATH-132B Final Project   Throughout the semester, you and your group members will conduct a series of statistical experiments on a biologically, ecologically, medically, and\/or pharmaceutically-oriented data set. The culmination of your efforts will be a written analysis (worth 100 points) and a 15-minute presentation (worth 50 points) on your findings.    Why are we doing this?  The National Association for Colleges and Employers (NACE) cite career readiness as \"a foundation from which to demonstrate requisite core competencies that broadly prepare the college educated for success in the workplace and lifelong career management.\" They list and define 8 core competencies that college graduates should possess as desireable job candidates. This assignment is designed to help you hone these competencies while also practicing the material from the course.    Selecting a Group and Data Set  This portion of the final project is worth 10 points. Your group and your group's data set must be selected by the beginning of class on Monday, September 14 . Each group must consist of betweem 4-6 people. Please note that you will be working closely with your group throughout the course of the semester.  Your data set must satisfy each of the below criteria.  Your data is connected to at least one group member's career interests (the more members, the better).  Your set contains at least 3 quantitative variables  Each variable has a sample size of at least 50.  There is at least one pair of disjoint quantitative variables.  There is at least one pair of nondisjoint quantitative variables.    Your set contains at least 3 qualitative variables.  Each variable has a sample size of at least 50.  There is at least one pair of disjoint qualitative variables.  There is at least one pair of nondisjoint qualitative variables.        Written Report  The majority of the credit for this assignment will come from work that you do over the course of the semester. The report you write will be based on select activities from class as well as a scientific question of your group's interest.  For each of these experiments, you will write a brief \"lab report\", where you will respond to each of the following prompts.  State your null and alternative hypotheses.  Explain any steps necessary to clean your data set.  Explain all statistical methods you implemented to test your hypotheses.  Include any figures produced and appropriately caption them. Ensure that all relevant quantities are labeled in your figures.  Report the results from your statistical test(s) using language from the course.  Interpret these results in plain language.  Specific instructions in steps 3 and 4 will be outlined in the corresponding activities over the course of the semester. For each portion, a rubric will be made available on Canvas.  This written report is worth 100 points. The total point distribution for the written portion of the project is given below.    Activity Topic  Points    Histograms  8    Boxplots  10    Hypothesis Testing (1 Stat)  6    Hypothesis Testing (2 Stats)  8    Independence  10    One-Way AnOVa  14    Regression  10    Nonparametric Testing  14    Dealer's Choice  20     Total    100       Oral Team Presentation  Your team will give an oral presentation to the rest of the class on Monday, December 14. There will be NO MAKEUP OPPORTUNITIES offered for this portion of the final project, except in the event of a verifiable emergency. Failure to present will result in a score of 0 for this portion of the final project.  Each group must create a visual aide of their choice. Many students choose to make a slideshow, but you may also choose to create a scientific poster, record and edit a video, or something of your own design (provided instructor permission). The visual aide must be displayed during the final presentation.  This portion of the assignment is worth 50 points. Your team's presentation will be assessed based on various aspects, given below. A Canvas rubric will be made available clearly explaining the assessment criteria for each aspect at a later date. Some aspects of your team's presentation will be assessed on an individual basis. The total point distribution for the presentation portion of the assignment is given below, and categories scored on an individual basis are marked with an asterisk.    Presentation Aspect  Points    Visual Aide  8    Content Coverage  16    Dissemination  8    Communication*  10    Professionalism*  4    Question & Answer*  4     Total    50       Division of Labor  For each portion of the final project, you must assign a team lead . Each group member must be selected as a team lead at least once. The team lead is responsible for each of the following.  Submitting an R script to Canvas.  Submiting a draft of the corresponding section of the written report.  Disseminating feedback on their submission to the rest of the group.    Please note that team leads are not solely responsible for the content submitted . The only personal obligation for being a team lead is making these submissions. As a team lead, fulfilling these obligations late will penalize your personal grade by 10 points. Failure to fulfill these obligations at all will penalize your personal grade by 20 points. An agreement signed by all members of the group will be turned in alongside on Monday, September 14.     Group vs. Individual Assessment  The report and presentation produced from this project will be graded as a single entity, meaning all group members should anticipate to earn the same grade. I am aware, however, that this is only fair provided that all group members dedicate an equivalent amount of work to the project.  To this end, you will all conduct a \"peer evaluation form\" at the end of the final project, where you will anonymously evaluate your group members' performance in several categories on a scale of 1-5. I will report to you the mean score your group awarded you in each category. For every category you earn a mean score of less than 3, you will lose 20 points on your written report. Failure to compelte these evaluations will result in a 20 point penalty to your score.  This policy is to incentivize all students to be accountable to their group members, and contribute equitably to your projects. Moreover, this policy is reflective of the workplace. Most this practice is consistent with the NACE compentencies, as it reflects real workplace practices and gives you guidelines for assessing yourself and others on their career readiness.   "
+},
+{
+  "id": "biostats-final-project-peer-eval",
+  "level": "1",
+  "url": "biostats-final-project-peer-eval.html",
+  "type": "🏫 Activity",
+  "number": "4.2",
+  "title": "Peer Evaluation",
+  "body": " Peer Evaluation    Instructions  This assignment is due at the beginning of class on Monday, December 14 . Failure to complete this assignment on time will result in a 20 point penalty to your final grade.  Write your name at the top of the evaluation sheet, then write the first name and last initial of each of your group members in the Group Member row.  For the first member of your group you listed, read the statements below. Use the likert scale given on the evaluation sheet to assign a score to the group member for each statement. Record your results on the evaluation sheet.      This team member listened to me.      I could get a hold of this team member outside of class.       This team member respected my ideas when I suggested them.      This team member contributed equitably to the project.       I felt comfortable around this team member.      This team member was present and prepared for working meetings.       This team member met expectations as a team lead.      This team member was helpful in overcoming obstacles or solving problems.      Use the likert scale below    Score  Meaning    1  Strongly Disagree    2  Disagree    3  Neutral or Unknown    4  Agree    5  Strongly Agree    to fill out the score sheet below according to the directions on the front side of this sheet.     Group Member          1         2         3         4         5         6         7         8             "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-2",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1",
+  "title": "",
+  "body": "  This team member listened to me.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-3",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-3",
+  "type": "Worksheet Exercise",
+  "number": "4.2.2",
+  "title": "",
+  "body": "  I could get a hold of this team member outside of class.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-4",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  This team member respected my ideas when I suggested them.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-5",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4.2.4",
+  "title": "",
+  "body": "  This team member contributed equitably to the project.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-6",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-6",
+  "type": "Worksheet Exercise",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  I felt comfortable around this team member.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-7",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-7",
+  "type": "Worksheet Exercise",
+  "number": "4.2.6",
+  "title": "",
+  "body": "  This team member was present and prepared for working meetings.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-8",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-8",
+  "type": "Worksheet Exercise",
+  "number": "4.2.7",
+  "title": "",
+  "body": "  This team member met expectations as a team lead.   "
+},
+{
+  "id": "biostats-final-project-peer-eval-2-9",
+  "level": "2",
+  "url": "biostats-final-project-peer-eval.html#biostats-final-project-peer-eval-2-9",
+  "type": "Worksheet Exercise",
+  "number": "4.2.8",
+  "title": "",
+  "body": "  This team member was helpful in overcoming obstacles or solving problems.   "
 }
 ]
 

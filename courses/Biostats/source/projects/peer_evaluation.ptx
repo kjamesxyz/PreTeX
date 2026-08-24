@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-final-project-peer-eval" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Peer Evaluation</title>
+<page>
+    <paragraphs>
+        <title>Instructions</title>
+        <p> This assignment is due at the beginning of class on <alert> Monday, December 14 </alert>. Failure to complete this assignment on time will result in a 20 point penalty to your final grade.</p>
+
+        <p> Write your name at the top of the evaluation sheet, then write the first name and last initial of each of your group members in the <alert> Group Member </alert> row. </p>
+
+        <p> For the first member of your group you listed, read the statements below. Use the likert scale given on the evaluation sheet to assign a score to the group member for each statement. Record your results on the evaluation sheet. </p> 
+    </paragraphs>
+    
+    <!-- Communication -->
+    <exercise>
+        <statement>
+            <p>
+                This team member listened to me. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                I could get a hold of this team member outside of class. 
+            </p>
+        </statement>
+    </exercise>
+
+    <!-- Teamwork -->
+    <exercise>
+        <statement>
+            <p>
+                This team member respected my ideas when I suggested them. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                This team member contributed equitably to the project. 
+            </p>
+        </statement>
+    </exercise>
+
+    <!-- Professionalism -->
+    <exercise>
+        <statement>
+            <p>
+                I felt comfortable around this team member. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                This team member was present and prepared for working meetings. 
+            </p>
+        </statement>
+    </exercise>
+
+    <!-- Leadership -->
+    <exercise>
+        <statement>
+            <p>
+                This team member met expectations as a team lead. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                This team member was helpful in overcoming obstacles or solving problems. 
+            </p>
+        </statement>
+    </exercise>
+</page> 
+
+<page>
+    <p> Use the likert scale below </p> 
+        <tabular>
+        <row header="yes">
+            <cell>Score</cell>
+            <cell>Meaning</cell>
+        </row>
+        <row>
+            <cell>1</cell>
+            <cell>Strongly Disagree</cell>
+        </row>
+        <row>
+            <cell>2</cell>
+            <cell>Disagree</cell>
+        </row>
+        <row>
+            <cell>3</cell>
+            <cell>Neutral or Unknown</cell>
+        </row>
+        <row>
+            <cell>4</cell>
+            <cell>Agree</cell>
+        </row>
+        <row>
+            <cell>5</cell>
+            <cell>Strongly Agree</cell>
+        </row>
+    </tabular>
+
+    <p> to fill out the score sheet below according to the directions on the front side of this sheet. </p> 
+
+    <tabular>
+        <!-- Names of group members -->
+        <row header="yes" bottom="medium">
+            <cell><alert>Group Member</alert></cell>
+            <cell><p><fillin characters="12"/></p></cell>
+            <cell><p><fillin characters="12"/></p></cell>
+            <cell><p><fillin characters="12"/></p></cell>
+            <cell><p><fillin characters="12"/></p></cell>
+            <cell><p><fillin characters="12"/></p></cell>
+        </row>
+
+        <!-- Scores for each prompt -->
+        <row>
+            <cell>1</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>2</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>3</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>4</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>5</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>6</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>7</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+
+        <row>
+            <cell>8</cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+            <cell><p><fillin characters="3"/></p></cell>
+        </row>
+    </tabular>
+
+    <!-- <tabular>
+        <row header="yes" bottom="medium">
+            <cell><alert> Prompt </alert></cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>1</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>2</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>3</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>4</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>5</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>6</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>7</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+        <row>
+            <cell>8</cell>
+            <cell/><cell/><cell/><cell/><cell/><cell/>
+        </row>
+    </tabular> -->
+    
+</page>
+    
+
+  <!-- <exercise>
+    <statement>
+      <p>
+        <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+      </p>
+    </statement> -->
+
+  <!-- </exercise> -->
+
+</worksheet>

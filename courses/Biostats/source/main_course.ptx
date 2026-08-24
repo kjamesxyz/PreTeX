@@ -37,6 +37,7 @@
             <title>Projects</title>
             
             <xi:include href="./projects/final_project.ptx" />
+            <xi:include href="./projects/peer_evaluation.ptx" />
         </chapter>
     </book>
 </pretext>
