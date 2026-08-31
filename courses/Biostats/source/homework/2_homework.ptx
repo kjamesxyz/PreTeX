@@ -29,7 +29,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Which variable(s), if any, are nominal? Explain.
+                    Which variable(s), if any, are ordinal? Explain.
                 </p>
             </statement>
         </task>
@@ -51,7 +51,7 @@
 
     <exercise>
         <introduction>
-            <p> Using the <c>penguins</c> data set from problem 1, compute each of the following using RStudio. Write the line of code you used to produce your result. </p>
+            <p> Using the <c>penguins</c> data set from problem 1, compute each of the following using RStudio. Write the line of code you used to produce your result. You may need to add the optional argument <c>na.rm=TRUE</c> to skip over missing data points.  </p>
         </introduction> 
         <task workspace="0.25in">
             <statement>
@@ -78,13 +78,6 @@
             <statement>
                 <p>
                     Median bill length
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Mode home island
                 </p>
             </statement>
         </task>
