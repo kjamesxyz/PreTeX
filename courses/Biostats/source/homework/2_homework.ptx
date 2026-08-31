@@ -4,7 +4,16 @@
 <title>📝 Homework 2</title>
     <introduction>
         <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 16</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 3.1-3.8 from OpenIntro Statistics (pg. 93)</p></li>
+                <li><p> Problems 1.35-1.44 from OpenIntro Statistics (pg. 38)</p></li>
+            </ol> 
+        </p>
     </introduction>
+
+
 
     <exercise workspace="1.5in">
         <statement>
