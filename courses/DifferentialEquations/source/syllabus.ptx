@@ -55,13 +55,13 @@
     <p> My office is located in SW-341. This can be a bit difficult to find. The best way to get there is to use the staircase across the hall from the main entrance to the Zhanow library. Take the stairs to the top (third floor) and go down the hallway on your left as you exit the stairwell. My office is about halfway down the hall on the left. My office hours will be offered at the below times. </p>
     <blockquote>
       <p>
-        Monday: 12:00p-2:15p
+        Monday: 1:00p-2:15p
       </p>
       <p>
-        Tuesday (MPLC): 2:30p-4:00p
+        Tuesday (MPLC): 3:00p-4:30p
       </p>
       <p>
-        Wednesday: 12:00p-2:15p
+        Wednesday: 1:00p-2:15p
       </p>
     </blockquote>
     
@@ -128,176 +128,6 @@
       </p>
     </paragraphs>
 
-    <paragraphs xml:id="syllabus-schedule">
-      <title>Tentative Course Schedule</title>
-      <p>
-        Below you will find a tentative schedule for our course. There is a row for each class meeting, a column for the content that will be covered, and a column for any important dates that week. Please note that each of the following dates are subject to change. 
-      </p>
-
-    <tabular>
-      <row header="yes" bottom="major">
-        <cell>Date</cell>
-        <cell>Content</cell> 
-        <cell>Due Dates</cell>
-      </row>
-      <row>
-        <cell>Mon. Aug 31</cell>
-        <cell>Intro to Course + Calculus Review</cell> 
-        <cell></cell> 
-      </row>
-      <row>
-        <cell>Wed. Sep 2</cell>
-        <cell> What are Differential Equations? </cell> 
-        <cell>Activity 1</cell> 
-      </row>
-      <row>
-        <cell>Mon. Sep 7</cell>
-        <cell><alert>No Class (Labor Day)!</alert></cell> 
-        <cell>N/A</cell> 
-      </row>
-      <row>
-        <cell>Wed. Sep 9</cell>
-        <cell> Solutions to Differential Equations </cell> 
-        <cell>Activity 2 &amp; Homework 1</cell> 
-      </row>
-      <row>
-        <cell>Mon. Sep 14</cell>
-        <cell>When would I use Differential Equations?</cell> 
-        <cell>Activity 3</cell> 
-      </row>
-      <row>
-        <cell>Wed. Sep 16</cell>
-        <cell>Separable ODEs</cell> 
-        <cell>Activity 4 &amp; Homework 2</cell> 
-      </row>
-      <row>
-        <cell>Mon. Sep 21</cell>
-        <cell>Exact Equations</cell> 
-        <cell>Activity 5</cell> 
-      </row>
-      <row>
-        <cell>Wed. Sep 23</cell>
-        <cell>First-Order Linear ODEs</cell> 
-        <cell>Activity 6 &amp; Homework 3</cell> 
-      </row>
-      <row>
-        <cell>Mon. Sep 28</cell>
-        <cell>Review for Midterm 1</cell> 
-        <cell>Activity 7</cell> 
-      </row>
-      <row>
-        <cell>Wed. Sep 30</cell>
-        <cell>Midterm 1</cell> 
-        <cell>Homework 4</cell> 
-      </row>
-      <row>
-        <cell>Mon. Oct 5</cell>
-        <cell>Existence &amp; Uniqueness</cell> 
-        <cell></cell> 
-      </row>
-      <row>
-        <cell>Wed. Oct 7</cell>
-        <cell>Higher-Order Linear Homogeneous ODEs</cell> 
-        <cell>Activity 8</cell> 
-      </row>
-      <row>
-        <cell>Mon Oct 12</cell>
-        <cell>Method of Undetermined Coefficients</cell> 
-        <cell>Activity 9</cell> 
-      </row>
-      <row>
-        <cell>Wed Oct 14</cell>
-        <cell>Variation of Parameters</cell> 
-        <cell>Activity 10 &amp; Homework 5</cell> 
-      </row>
-      <row>
-        <cell>Mon Oct 19</cell>
-        <cell>Review for Midterm 2 </cell> 
-        <cell>Activity 11</cell> 
-      </row>
-      <row>
-        <cell>Wed Oct 21</cell>
-        <cell>Midterm 2 </cell> 
-        <cell>Homework 6</cell> 
-      </row>
-      <row>
-        <cell>Mon Oct 26</cell>
-        <cell>Phase Portraits</cell> 
-        <cell></cell> 
-      </row>
-      <row>
-        <cell>Wed Oct 28</cell>
-        <cell>Modelling with ODEs</cell> 
-        <cell>Activity 12</cell> 
-      </row>
-      <row>
-        <cell>Mon Nov 2</cell>
-        <cell>Laplace Transforms</cell> 
-        <cell>Activity 13</cell> 
-      </row>
-      <row>
-        <cell>Wed Nov 4</cell>
-        <cell>Laplace Transforms (Cont.)</cell> 
-        <cell>Activity 14 &amp; Homework 7</cell> 
-      </row>
-      <row>
-        <cell>Mon Nov 9</cell>
-        <cell>Power Series Solutions</cell> 
-        <cell>Activity 15</cell> 
-      </row>
-      <row>
-        <cell>Wed Nov 11</cell>
-        <cell>Power Series Solutions (Cont.)</cell> 
-        <cell>Activity 16 &amp; Homework 8</cell> 
-      </row>
-      <row>
-        <cell>Mon Nov 16</cell>
-        <cell>Review for Midterm 3</cell> 
-        <cell>Activity 17</cell> 
-      </row>
-      <row>
-        <cell>Wed Nov 18</cell>
-        <cell>Midterm 3</cell> 
-        <cell>Homework 9</cell> 
-      </row>
-      <row>
-        <cell>Mon Nov 23</cell>
-        <cell>Numerical Methods</cell> 
-        <cell></cell> 
-      </row>
-      <row>
-        <cell>Wed Nov 25</cell>
-        <cell><alert>No Class (Thanksgiving)!</alert></cell> 
-        <cell></cell> 
-      </row>
-      <row>
-        <cell>Mon Nov 30</cell>
-        <cell>Runge-Kutta methods</cell> 
-        <cell>Activity 18</cell> 
-      </row>
-      <row>
-        <cell>Wed Dec 2</cell>
-        <cell>Classifying PDEs</cell> 
-        <cell>Activity 19 &amp; Homework 10</cell> 
-      </row>
-      <row>
-        <cell>Mon Dec 7</cell>
-        <cell>Review for Final Exam</cell> 
-        <cell>Activity 20</cell> 
-      </row>
-      <row>
-        <cell>Wed Dec 9</cell>
-        <cell>Review for Final Exam</cell> 
-        <cell>Homework 11</cell> 
-      </row>
-      <row>
-        <cell>Mon Dec 14</cell>
-        <cell>Final Exam</cell> 
-        <cell></cell> 
-      </row>
-    </tabular>
-    </paragraphs>
-
     <paragraphs xml:id="syllabus-prereq">
       <title>Prerequisites</title>
       <p>
@@ -323,9 +153,13 @@
     <p>
       Many students struggle with studying for math classes. As previously mentioned, office hours are your single greatest resource for success in this class, followed by the MPLC. Outside of these resources, I have outlined some studying tips/tricks I would recommend for our class. 
       <ol>
-        <li><p> The pracitice problems section on each homework assignment is optional and will not be graded. However, I have selected these problems because they are more straight-forward ways to check your understanding of course material. I would recommend that you give some (or all) of them a try, especially for content you find particularly challenging. </p></li>
+        <li><p> I will repeat here that <alert> Office Hours are your best resource! </alert> </p></li>
+        <li><p> The MPLC will be your next best resource. They have the answer keys to all of your assignments and they will have copies of my lecture notes (what I write on-screen during class) in case you miss a day. </p></li>
+        <li><p> Stay dilligent with your prep work. Remember that this is a resource for you on your exams! </p></li>
+        <li><p> The definitions are the single most important thing for you to know going into your exams. If a definition is not listed in your prep work journal, this should be the very first thing you study in preparation for exams. </p></li>
+        <li><p> The pracitice problems sections on homework assignments are optional and will not be graded. However, I have selected these problems because they are more straight-forward ways to check your understanding of course material. I would recommend that you give some (or all) of them a try, especially for content you find particularly challenging. </p></li>
         <li><p> Assigned problems on homework assignments are meant to mimic exam questions (or at least the formatting, difficulty, and expectations). Take them seriously, and ask questions about them! </p></li>
-        <li><p> Generative AI (like ChatGPT, Gemini, Copilot, etc.) are extremely powerful tools (even for learning), but they are not calculators nor oracles for homework solutions! When you ask them a math question, they <alert>guess</alert> what the solution should look like based on other math problem solutions its read online. While they now have much of the same functionality as a graphing calculator, the AI tool doesn't always use it when preparing your answer. While office hours and the MPLC will almost always be more helpful to you than AI, if you want to use these tools, please use them responsibly. They are excellent for generating more practice problems or demystifying concepts from the course. </p></li>
+        <li><p> Generative AI (like ChatGPT, Gemini, Copilot, etc.) are extremely powerful tools (even for learning), but they are not calculators nor oracles for homework solutions! When you ask them a math question, they <alert>guess</alert> what the solution should look like based on other math problem solutions its read online. While they now have much of the same functionality as a graphing calculator, the AI tool doesn't always use it when preparing your answer. While office hours and the MPLC will almost always be more helpful to you than AI, if you want to use these tools, please use them responsibly. They are excellent for generating more practice problems or answer conceptual questions regarding the material. </p></li>
       </ol>
 
       For additional help and resources, please consider using the below facilities on campus. 
@@ -437,7 +271,7 @@
     <paragraphs>
       <title>Homework</title>
       <p>
-        There will be a homework assignment due every Wednesday (except for the first week of class, over Thanksgiving break, and the Wednesdays following exams). I will pass out a printed copies of homework assignments in class, but they will also be available on Canvas. Each homework assignment is worth 20 points and consist of 2 portions.  
+        There will be a homework assignment due every Wednesday (except for the first week of class, over Thanksgiving break, and the Wednesdays following exams). I will pass out a printed copies of homework assignments in class, but they will also be available on Canvas. Each homework assignment is worth 20 points and consist of up to 2 portions.  
         <ol> 
           <li><p> <alert>Assigned Problems:</alert> These 1-3 problems are assigned and will require handwritten solutions to be submitted in-person. </p></li>
           <li><p> <alert>Practice Problems:</alert> These are more straight-forward shorter problems typically assigned from our course textbook. You do not need to submit these solutions as they will not be graded for credit. These are mostly here as study materials for you. </p> </li>
@@ -524,4 +358,174 @@
     </paragraphs>
   </subsection>
   
+  <subsection xml:id="diffeq-syllabus-schedule">
+    <title>Tentative Course Schedule</title>
+      <p>
+        Below you will find a tentative schedule for our course. There is a row for each class meeting, a column for the content that will be covered, and a column for any important dates that week. Please note that each of the following dates are subject to change. 
+      </p>
+
+      <tabular>
+        <row header="yes" bottom="major">
+          <cell>Date</cell>
+          <cell>Content</cell> 
+          <cell>Due Dates</cell>
+        </row>
+        <row>
+          <cell>Mon. Aug 31</cell>
+          <cell>Intro to Course + Calculus Review</cell> 
+          <cell></cell> 
+        </row>
+        <row>
+          <cell>Wed. Sep 2</cell>
+          <cell> What are Differential Equations? </cell> 
+          <cell>Activity 1</cell> 
+        </row>
+        <row>
+          <cell>Mon. Sep 7</cell>
+          <cell><alert>No Class (Labor Day)!</alert></cell> 
+          <cell>N/A</cell> 
+        </row>
+        <row>
+          <cell>Wed. Sep 9</cell>
+          <cell> Solutions to Differential Equations </cell> 
+          <cell>Activity 2 &amp; Homework 1</cell> 
+        </row>
+        <row>
+          <cell>Mon. Sep 14</cell>
+          <cell>When would I use Differential Equations?</cell> 
+          <cell>Activity 3</cell> 
+        </row>
+        <row>
+          <cell>Wed. Sep 16</cell>
+          <cell>Separable ODEs</cell> 
+          <cell>Activity 4 &amp; Homework 2</cell> 
+        </row>
+        <row>
+          <cell>Mon. Sep 21</cell>
+          <cell>Exact Equations</cell> 
+          <cell>Activity 5</cell> 
+        </row>
+        <row>
+          <cell>Wed. Sep 23</cell>
+          <cell>First-Order Linear ODEs</cell> 
+          <cell>Activity 6 &amp; Homework 3</cell> 
+        </row>
+        <row>
+          <cell>Mon. Sep 28</cell>
+          <cell>Review for Midterm 1</cell> 
+          <cell>Activity 7</cell> 
+        </row>
+        <row>
+          <cell>Wed. Sep 30</cell>
+          <cell>Midterm 1</cell> 
+          <cell>Homework 4</cell> 
+        </row>
+        <row>
+          <cell>Mon. Oct 5</cell>
+          <cell>Existence &amp; Uniqueness</cell> 
+          <cell></cell> 
+        </row>
+        <row>
+          <cell>Wed. Oct 7</cell>
+          <cell>Higher-Order Linear Homogeneous ODEs</cell> 
+          <cell>Activity 8</cell> 
+        </row>
+        <row>
+          <cell>Mon Oct 12</cell>
+          <cell>Method of Undetermined Coefficients</cell> 
+          <cell>Activity 9</cell> 
+        </row>
+        <row>
+          <cell>Wed Oct 14</cell>
+          <cell>Variation of Parameters</cell> 
+          <cell>Activity 10 &amp; Homework 5</cell> 
+        </row>
+        <row>
+          <cell>Mon Oct 19</cell>
+          <cell>Review for Midterm 2 </cell> 
+          <cell>Activity 11</cell> 
+        </row>
+        <row>
+          <cell>Wed Oct 21</cell>
+          <cell>Midterm 2 </cell> 
+          <cell>Homework 6</cell> 
+        </row>
+        <row>
+          <cell>Mon Oct 26</cell>
+          <cell>Phase Portraits</cell> 
+          <cell></cell> 
+        </row>
+        <row>
+          <cell>Wed Oct 28</cell>
+          <cell>Modelling with ODEs</cell> 
+          <cell>Activity 12</cell> 
+        </row>
+        <row>
+          <cell>Mon Nov 2</cell>
+          <cell>Laplace Transforms</cell> 
+          <cell>Activity 13</cell> 
+        </row>
+        <row>
+          <cell>Wed Nov 4</cell>
+          <cell>Laplace Transforms (Cont.)</cell> 
+          <cell>Activity 14 &amp; Homework 7</cell> 
+        </row>
+        <row>
+          <cell>Mon Nov 9</cell>
+          <cell>Power Series Solutions</cell> 
+          <cell>Activity 15</cell> 
+        </row>
+        <row>
+          <cell>Wed Nov 11</cell>
+          <cell>Power Series Solutions (Cont.)</cell> 
+          <cell>Activity 16 &amp; Homework 8</cell> 
+        </row>
+        <row>
+          <cell>Mon Nov 16</cell>
+          <cell>Review for Midterm 3</cell> 
+          <cell>Activity 17</cell> 
+        </row>
+        <row>
+          <cell>Wed Nov 18</cell>
+          <cell>Midterm 3</cell> 
+          <cell>Homework 9</cell> 
+        </row>
+        <row>
+          <cell>Mon Nov 23</cell>
+          <cell>Numerical Methods</cell> 
+          <cell></cell> 
+        </row>
+        <row>
+          <cell>Wed Nov 25</cell>
+          <cell><alert>No Class (Thanksgiving)!</alert></cell> 
+          <cell></cell> 
+        </row>
+        <row>
+          <cell>Mon Nov 30</cell>
+          <cell>Runge-Kutta methods</cell> 
+          <cell>Activity 18</cell> 
+        </row>
+        <row>
+          <cell>Wed Dec 2</cell>
+          <cell>Classifying PDEs</cell> 
+          <cell>Activity 19 &amp; Homework 10</cell> 
+        </row>
+        <row>
+          <cell>Mon Dec 7</cell>
+          <cell>Review for Final Exam</cell> 
+          <cell>Activity 20</cell> 
+        </row>
+        <row>
+          <cell>Wed Dec 9</cell>
+          <cell>Review for Final Exam</cell> 
+          <cell>Homework 11</cell> 
+        </row>
+        <row>
+          <cell>Mon Dec 14</cell>
+          <cell>Final Exam</cell> 
+          <cell></cell> 
+        </row>
+      </tabular>
+    
+  </subsection>
 </section>
