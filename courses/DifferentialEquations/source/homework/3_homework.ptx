@@ -10,7 +10,6 @@
         <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
             <ol> 
                 <li><p> Problems 1-27 (odds) in Exercises 2.2 (pg. 50)</p></li>
-                <li><p> Read through and work alongside all examples given in section 1.3 (pgs. 19-27). </p></li>
             </ol> 
         </p>
     </introduction>
@@ -18,7 +17,7 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                Show that the ODE <md> e^xy \deriv{y}{x} = e^{-y} + e^{-2x - y} </md> is separable. Then find its general solution. 
+                Show that the ODE <md> e^xy \deriv{y}{x} = e^{-y} + e^{-2x - y} </md> is separable. Then find its general solution. You may give an implicit solution.
             </p>
         </statement>
     </exercise>
@@ -26,7 +25,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Solve the IVP <md> 2\sqrt{\theta} \deriv{r}{\theta} = \cos^2(r), \ r(4) = \frac{\pi}{4}. </md> You may give an implicit solution. 
+                Solve the IVP <md> 2\sqrt{\theta} \deriv{r}{\theta} = \cos^2(r), \ r(4) = \frac{\pi}{4} </md> is separable. You may give an implicit solution. 
             </p>
         </statement>
     </exercise>

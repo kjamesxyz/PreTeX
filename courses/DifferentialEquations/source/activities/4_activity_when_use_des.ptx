@@ -33,14 +33,6 @@
                 </p>
             </statement>
         </task>
-
-        <task>
-            <statement>
-                <p>
-                    The amount of time required for half of a radiactive sample to undergo this decay is called the <alert> half-time </alert> of the isotope. What quantity from your models could be obtained using this information? 
-                </p>
-            </statement>
-        </task>
     </exercise>
 
     <exercise>
@@ -49,6 +41,20 @@
         <alert>Torricelli's law</alert> states that the speed <m>v</m> of the efflux (discharge/draining) of a fluid through a hole at the bottom of a tank filled to depth <m>h</m> is the same as the speed a solid body would attain from falling the same distance. 
       </p>
     </introduction>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Suppose a tank is filled with water <m>h</m> meters deep. The tank cracks producing a hole with cross-sectional area <m>A</m>. Write a first-order ODE that models the rate of efflux of the water.
+        </p>
+      </statement>
+
+      <hint>
+        <p>
+          Consider the volume as a function of <m>h</m> first, then use implicit differentiation.
+        </p>
+      </hint>
+    </task>
 
     <task workspace="1in">
       <statement>
@@ -63,7 +69,21 @@
     <task workspace="0.5in">
       <statement>
         <p>
-          Toricelli's law tells us that your solution for part (a) also represents how fast the water is passing through the hole. Suppose the hole in the bottom of the tank has area <m>A</m>. Use this with your answer to part (a) to find an expression for how much water (a volume) passes through the hole per unit time. 
+          Use your answer to part (b) to write a first-order ODE model for the rate of efflux of water. 
+        </p>
+      </statement>
+
+      <hint>
+        <p>
+          Recall that flux is an area times a velocity.
+        </p>
+      </hint>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use the volume models you created in parts (a) and (c) to write a first-order ODE model for the rate of change of the fill level. 
         </p>
       </statement>
     </task>
@@ -71,15 +91,7 @@
     <task workspace="0.5in">
       <statement>
         <p>
-          Use your answer from part (b) to write a differential equation to model the rate of change of the amount of fluid <m>V</m> in the tank at time <m>t</m>. 
-        </p>
-      </statement>
-    </task>
-
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          Assume the tank is cylindrical with radius <m>R</m>. Adapt your model from part (c) to instead model the depth of the fluid. 
+          Assume the hole in the tank is circular with radius <m>R</m>. Adapt your model from part (d) to instead model the depth of the fluid. 
         </p>
       </statement>
     </task>
@@ -87,7 +99,7 @@
     <task workspace="1in">
       <statement>
         <p>
-          Suppose now that fluid is pumped into the tank at a constant rate of <m>V_{\text{in}}</m>. What changes does this make to your model from part (c)? From part (d)?
+          Suppose now that fluid is pumped into the tank at a constant rate of <m>V_{\text{in}}</m>. What changes does this make to your model from part (d)? From part (e)?
         </p>
       </statement>
     </task>

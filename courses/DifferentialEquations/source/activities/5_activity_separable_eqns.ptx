@@ -6,7 +6,7 @@
   <exercise workspace="0.5in">
     <statement>
         <p>
-            Show that the differential equation <md> dy = (1 + x + y + xy) \, dx </md> is separable.
+            Show that the differential equation <md> dy = (1 + x + y + xy) \, dx </md> is separable. You <alert>do NOT need to solve</alert>.
         </p>
     </statement>
   </exercise>
