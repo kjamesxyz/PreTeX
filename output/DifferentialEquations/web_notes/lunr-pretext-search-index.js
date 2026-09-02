@@ -69,8 +69,8 @@ var ptx_lunr_docs = [
   "url": "diffeq-notes-1-2.html",
   "type": "Section",
   "number": "1.2",
-  "title": "What are Differential Equations?",
-  "body": " What are Differential Equations?    Students will be able to...    Verify solutions to differential equations.  Find intervals of existence for solutions to differential equations.  Use initial conditions to determine parameters in families of solutions.      Consider the -order differential equation We say that is a solution to the differential equation on the interval provided it makes and identity. We call the interval of existence for the solution.      Observe that is a solution to the ODE on since But notice that adding any constant coefficient to is also a solution.      Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When specific values for the parameters are chosen, we call the resulting solution a particular solutions .      Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .    Note the -order equation has initial conditions involving its first derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions.  "
+  "title": "What are Solutions to DEs?",
+  "body": " What are Solutions to DEs?    Students will be able to...    Verify solutions to differential equations.  Find intervals of existence for solutions to differential equations.  Use initial conditions to determine parameters in families of solutions.      Consider the -order differential equation We say that is a solution to the differential equation on the interval provided it makes and identity. We call the interval of existence for the solution.      Observe that is a solution to the ODE on since But notice that adding any constant coefficient to is also a solution.      Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When a solution has no parameters, we call it particular .      If an -parameter family of solutions solves an -order ODE on , we call it a general solution to the ODE.      Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .    Note the -order equation has initial conditions involving its first derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions.  "
 },
 {
   "id": "diffeq-notes-1-2-2",
@@ -106,14 +106,23 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.2.3",
   "title": "",
-  "body": "  Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When specific values for the parameters are chosen, we call the resulting solution a particular solutions .   "
+  "body": "  Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When a solution has no parameters, we call it particular .   "
+},
+{
+  "id": "def-gen-solution-sorta",
+  "level": "2",
+  "url": "diffeq-notes-1-2.html#def-gen-solution-sorta",
+  "type": "Definition",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  If an -parameter family of solutions solves an -order ODE on , we call it a general solution to the ODE.   "
 },
 {
   "id": "def-ivps",
   "level": "2",
   "url": "diffeq-notes-1-2.html#def-ivps",
   "type": "Definition",
-  "number": "1.2.4",
+  "number": "1.2.5",
   "title": "",
   "body": "  Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .   "
 },
@@ -161,6 +170,96 @@ var ptx_lunr_docs = [
   "number": "1.3.3",
   "title": "",
   "body": "  Problem: Now suppose that individuals are permitted to immigrate into the country per year. How does this affect the model?   Solution: Suppose . Then . Then   Alternatively, we could just write   "
+},
+{
+  "id": "diffeq-notes-2-1",
+  "level": "1",
+  "url": "diffeq-notes-2-1.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Separable Equations",
+  "body": " Separable Equations    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.      A first-order ODE is separable if it can be written in one of the following forms       Solve the IVP     Notice that So this equation is separable by definition. We first, separate the variables  Integrating both sides, we obtain Applying our initial condition shows that Therefore, the solution is     "
+},
+{
+  "id": "diffeq-notes-2-1-2",
+  "level": "2",
+  "url": "diffeq-notes-2-1.html#diffeq-notes-2-1-2",
+  "type": "Objectives",
+  "number": "2.1",
+  "title": "",
+  "body": "  Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.   "
+},
+{
+  "id": "def-separable",
+  "level": "2",
+  "url": "diffeq-notes-2-1.html#def-separable",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  A first-order ODE is separable if it can be written in one of the following forms    "
+},
+{
+  "id": "diffeq-notes-2-1-4",
+  "level": "2",
+  "url": "diffeq-notes-2-1.html#diffeq-notes-2-1-4",
+  "type": "Example",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  Solve the IVP     Notice that So this equation is separable by definition. We first, separate the variables  Integrating both sides, we obtain Applying our initial condition shows that Therefore, the solution is    "
+},
+{
+  "id": "diffeq-notes-2-2",
+  "level": "1",
+  "url": "diffeq-notes-2-2.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Exact ODEs",
+  "body": " Exact ODEs    Students will be able to...    Classify ODEs as exact using the definition.  Solve exact ODEs using exact differentials.      Suppose is differentiable. Its (total) differential is     Using the context of a total differential, we can reframe the way we think about solutions to ODEs. Consider the differential equation We can rewrite this compactly as using the chain rule. Instead of thinking about a function that satisfies this equation for all , we can think about in the context of zeroing-out the differential of the function .    Let be differentiable. If its total differential , then we call it exact . Hence, the differential equation is called exact provided that       Suppose is exact. Then level curves of the function whose exact differential is defines the general solution.    Let's talk game plan. If we know the equation is exact, then there is some function whose exact differential is . In other words, Now, we can compute and compare it to . This should help us identify . Integrating once more makes known and we can write down the function .    Show the equation is exact, then find the general solution.    Note that So, the equation is exact. Since , we can write Differentiating both sides with respect to gives which should equal . Thus, it must be that Therefore, we can conclude that the general solution is defined implicitly to be     "
+},
+{
+  "id": "diffeq-notes-2-2-2",
+  "level": "2",
+  "url": "diffeq-notes-2-2.html#diffeq-notes-2-2-2",
+  "type": "Objectives",
+  "number": "2.2",
+  "title": "",
+  "body": "  Students will be able to...    Classify ODEs as exact using the definition.  Solve exact ODEs using exact differentials.   "
+},
+{
+  "id": "def-total-differential",
+  "level": "2",
+  "url": "diffeq-notes-2-2.html#def-total-differential",
+  "type": "Definition",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  Suppose is differentiable. Its (total) differential is    "
+},
+{
+  "id": "def-exact",
+  "level": "2",
+  "url": "diffeq-notes-2-2.html#def-exact",
+  "type": "Definition",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  Let be differentiable. If its total differential , then we call it exact . Hence, the differential equation is called exact provided that    "
+},
+{
+  "id": "thm-exact-eqn-gen-sol",
+  "level": "2",
+  "url": "diffeq-notes-2-2.html#thm-exact-eqn-gen-sol",
+  "type": "Theorem",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Suppose is exact. Then level curves of the function whose exact differential is defines the general solution.   "
+},
+{
+  "id": "diffeq-notes-2-2-8",
+  "level": "2",
+  "url": "diffeq-notes-2-2.html#diffeq-notes-2-2-8",
+  "type": "Example",
+  "number": "2.2.4",
+  "title": "",
+  "body": "  Show the equation is exact, then find the general solution.    Note that So, the equation is exact. Since , we can write Differentiating both sides with respect to gives which should equal . Thus, it must be that Therefore, we can conclude that the general solution is defined implicitly to be    "
 }
 ]
 

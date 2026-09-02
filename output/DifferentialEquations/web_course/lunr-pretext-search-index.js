@@ -172,6 +172,42 @@ var ptx_lunr_docs = [
   "body": "   Torricelli's law states that the speed of the efflux (discharge\/draining) of a fluid through a hole at the bottom of a tank filled to depth is the same as the speed a solid body would attain from falling the same distance.     Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation Solve this equation for .      Toricelli's law tells us that your solution for part (a) also represents how fast the water is passing through the hole. Suppose the hole in the bottom of the tank has area . Use this with your answer to part (a) to find an expression for how much water (a volume) passes through the hole per unit time.      Use your answer from part (b) to write a differential equation to model the rate of change of the amount of fluid in the tank at time .      Assume the tank is cylindrical with radius . Adapt your model from part (c) to instead model the depth of the fluid.      Suppose now that fluid is pumped into the tank at a constant rate of . What changes does this make to your model from part (c)? From part (d)?    "
 },
 {
+  "id": "diffeq-act-5",
+  "level": "1",
+  "url": "diffeq-act-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 5 - Separable Equations",
+  "body": " 🏫 Activity 5 - Separable Equations    Show that the differential equation is separable.      Use separation of variables to find a general solution to       Consider the differential equation      Find the general solution using separation of variables.      There is one solution that cannot be described by the general solution above. What is it?      Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a \"slider\" for your constant of integration.      Suppose we added the initial condition . How would this affect your solution?      Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not?     "
+},
+{
+  "id": "diffeq-act-5-2",
+  "level": "2",
+  "url": "diffeq-act-5.html#diffeq-act-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that the differential equation is separable.   "
+},
+{
+  "id": "diffeq-act-5-3",
+  "level": "2",
+  "url": "diffeq-act-5.html#diffeq-act-5-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use separation of variables to find a general solution to    "
+},
+{
+  "id": "diffeq-act-5-4",
+  "level": "2",
+  "url": "diffeq-act-5.html#diffeq-act-5-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the differential equation      Find the general solution using separation of variables.      There is one solution that cannot be described by the general solution above. What is it?      Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a \"slider\" for your constant of integration.      Suppose we added the initial condition . How would this affect your solution?      Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not?    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
@@ -214,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "📝 Homework 2",
-  "body": " 📝 Homework 2    Instructions: This assignment is due Wednesday, September 14 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-24 in Exercises 1.1 (pg. 10)  Read through and work alongside all examples given in section 1.3 (pgs. 19-27).       Consider the differential equation      Show that is a two-parameter family of solutions on .      Now suppose the ODE has the initial conditions that and . Find the particular solution to this IVP.       One molecule of chemical and one molecule of chemical can be combined to form one molecule of chemical . Suppose you begin with molecules of chemical and molecules of chemical . Write a first-order differential equation that models the rate of formation of chemical .      A tank is holding 1000L of pure water. A brine solution (0.1 kg\/L) is poured into the tank at a constant rate of 6L\/min. The solution in the tank is always kept well-stirred and is drained out of the tank at 6 L\/min. The concentration of salt in the mixture is measured over time.     Draw a picture of the scenario.      Identify and label the dependent and independent variabels in the scenario.      Write (but do not solve) an initial value problem that models the amount of salt in the tank over time.     "
+  "body": " 📝 Homework 2    Instructions: This assignment is due Wednesday, September 16 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-24 in Exercises 1.1 (pg. 10)  Read through and work alongside all examples given in section 1.3 (pgs. 19-27).       Consider the differential equation      Show that is a two-parameter family of solutions on .      Now suppose the ODE has the initial conditions that and . Find the particular solution to this IVP.       One molecule of chemical and one molecule of chemical can be combined to form one molecule of chemical . Suppose you begin with molecules of chemical and molecules of chemical . Write a first-order differential equation that models the rate of formation of chemical .      A tank is holding 1000L of pure water. A brine solution (0.1 kg\/L) is poured into the tank at a constant rate of 6L\/min. The solution in the tank is always kept well-stirred and is drained out of the tank at 6 L\/min. The concentration of salt in the mixture is measured over time.     Draw a picture of the scenario.      Identify and label the dependent and independent variabels in the scenario.      Write (but do not solve) an initial value problem that models the amount of salt in the tank over time.     "
 },
 {
   "id": "diffeq-hw2-3",
@@ -242,6 +278,42 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  A tank is holding 1000L of pure water. A brine solution (0.1 kg\/L) is poured into the tank at a constant rate of 6L\/min. The solution in the tank is always kept well-stirred and is drained out of the tank at 6 L\/min. The concentration of salt in the mixture is measured over time.     Draw a picture of the scenario.      Identify and label the dependent and independent variabels in the scenario.      Write (but do not solve) an initial value problem that models the amount of salt in the tank over time.    "
+},
+{
+  "id": "diffeq-hw3",
+  "level": "1",
+  "url": "diffeq-hw3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 3",
+  "body": " 📝 Homework 3    Instructions: This assignment is due Wednesday, September 23 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-27 (odds) in Exercises 2.2 (pg. 50)  Read through and work alongside all examples given in section 1.3 (pgs. 19-27).       Show that the ODE is separable. Then find its general solution.      Solve the IVP You may give an implicit solution.      Show that the ODE is exact. Then find its general solution.    "
+},
+{
+  "id": "diffeq-hw3-3",
+  "level": "2",
+  "url": "diffeq-hw3.html#diffeq-hw3-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that the ODE is separable. Then find its general solution.   "
+},
+{
+  "id": "diffeq-hw3-4",
+  "level": "2",
+  "url": "diffeq-hw3.html#diffeq-hw3-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve the IVP You may give an implicit solution.   "
+},
+{
+  "id": "diffeq-hw3-5",
+  "level": "2",
+  "url": "diffeq-hw3.html#diffeq-hw3-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Show that the ODE is exact. Then find its general solution.   "
 }
 ]
 

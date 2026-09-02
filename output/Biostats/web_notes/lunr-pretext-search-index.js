@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Histograms",
-  "body": " Histograms    Students will be able to...    Construct and interpret frequency distributions.  Construct and interpret histograms.      Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.     Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.     If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .     Draw a histogram of the above data using bin size 5.   "
+  "body": " Histograms    Students will be able to...    Construct and interpret frequency distributions.  Construct and interpret histograms.      Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.     Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.     If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .     Draw a histogram of the above data using bin size 5. Note the convention for bin size is to round up to data sig. figs. or to one fewer if tied then start from half a smallest-place-value below the smallest datum.   "
 },
 {
   "id": "biostats-notes-2-2-histograms-2",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.4",
   "title": "",
-  "body": " Draw a histogram of the above data using bin size 5.  "
+  "body": " Draw a histogram of the above data using bin size 5. Note the convention for bin size is to round up to data sig. figs. or to one fewer if tied then start from half a smallest-place-value below the smallest datum.  "
 }
 ]
 
