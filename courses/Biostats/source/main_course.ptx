@@ -24,6 +24,7 @@
             <xi:include href="./activities/2_activity_experiments.ptx"/>
             <xi:include href="./activities/3_activity_measures.ptx"/>
             <xi:include href="./activities/4_activity_histograms.ptx"/>
+            <xi:include href="./activities/R1_exam_1_review.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">

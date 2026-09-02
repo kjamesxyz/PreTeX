@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="biostats-notes-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Introduction to Statistics</title>
+    <title>Introduction to Experiment Design</title>
     
     <objectives>
         <introduction>
@@ -10,7 +10,7 @@
             </p>
         </introduction>
         <ol>
-            <li><p> Distinguish between quantiative and qualitative. </p></li>
+            <li><p> Distinguish between quantiative and qualitative data. </p></li>
             <li><p> Identify a datum's level of measurement. </p></li>
             <li><p> Distinguish between sampling methods. </p></li>
             <li><p> Discern and classify sampling errors. </p></li>

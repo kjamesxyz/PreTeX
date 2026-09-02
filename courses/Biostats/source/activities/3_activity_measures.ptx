@@ -7,12 +7,20 @@
         <p> This assignment is due at the beginning of class on <alert> Wednesday, Septemeber 16 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
     </introduction>
 
-    <exercise workspace="1in">
-        <statement>
-            <p>
-                During the lecture, we have seen the syntax for computing quantiles, means, ranges, variances, and standard deviations. Record each of those commands in the space below. 
-            </p>
-        </statement>
+    <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Suppose that <c>vec</c> is a character vector. Record a <alert>single command</alert> you can use in R to compute its quantiles, mean, range, variance, and standard deviation.
+                </p>
+            </statement>
+        </task>
     </exercise>
 
     <exercise>
