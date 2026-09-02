@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "🏫 Activity",
   "number": "2.3",
   "title": "🏫 Activity 3 - Describing Quantitative Data",
-  "body": " 🏫 Activity 3 - Describing Quantitative Data   This assignment is due at the beginning of class on Wednesday, Septemeber 16 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.     During the lecture, we have seen the syntax for computing quantiles, means, ranges, variances, and standard deviations. Record each of those commands in the space below.      Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity3.r . Then, follow the procedure below. When you have finished the procedure, please submit your R script on Canvas.     Import the library datasets using the library() command.      Store the data set called iris with a name you will remember using the command YOUR_NAME <- datasets::iris .      R stores data sets in special formats called \"data frames\". Typically, when looking for help with programming in R, authors will use the shorthand df to refer to whatever data frame you're using in your program. Now that you have stored it, open (look at) the iris data frame by using the View(df) command in the console .      In the space below, write all of the variables in this data set. What is the sample size?      When referencing a variable (column) in a data frame in an R program, you must extract the column from the data frame. When you write df in your code, this refers to the entire data set. But df$col refers to the column col \"extracted\" from the data frame df . Write the name of a column of your choice into your R script. Describe what happens when you run this line in the space below.      Choose a single variable in the data set. Compute each of the following measures in a separate line of your script.     Mean      Variance      Standard deviation      Range      Median      Inner-quartile range      "
+  "body": " 🏫 Activity 3 - Describing Quantitative Data   This assignment is due at the beginning of class on Wednesday, Septemeber 16 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Suppose that vec is a character vector. Record a single command you can use in R to compute its quantiles, mean, range, variance, and standard deviation.       Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity3.r . Then, follow the procedure below. When you have finished the procedure, please submit your R script on Canvas.     Import the library datasets using the library() command.      Store the data set called iris with a name you will remember using the command YOUR_NAME <- datasets::iris .      R stores data sets in special formats called \"data frames\". Typically, when looking for help with programming in R, authors will use the shorthand df to refer to whatever data frame you're using in your program. Now that you have stored it, open (look at) the iris data frame by using the View(df) command in the console .      In the space below, write all of the variables in this data set. What is the sample size?      When referencing a variable (column) in a data frame in an R program, you must extract the column from the data frame. When you write df in your code, this refers to the entire data set. But df$col refers to the column col \"extracted\" from the data frame df . Write the name of a column of your choice into your R script. Describe what happens when you run this line in the space below.      Choose a single variable in the data set. Compute each of the following measures in a separate line of your script.     Mean      Variance      Standard deviation      Range      Median      Inner-quartile range      "
 },
 {
   "id": "biostats-act-3-3",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2.3.1",
   "title": "",
-  "body": "  During the lecture, we have seen the syntax for computing quantiles, means, ranges, variances, and standard deviations. Record each of those commands in the space below.   "
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Suppose that vec is a character vector. Record a single command you can use in R to compute its quantiles, mean, range, variance, and standard deviation.    "
 },
 {
   "id": "biostats-act-3-4",
@@ -143,6 +143,24 @@ var ptx_lunr_docs = [
   "number": "2.4.1",
   "title": "",
   "body": "  Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity4.r . Then follow the procedure below. When you have finished the procedure, please submit your R script on Canvas.     Import the library ggplot2 and build the data set for your group's final project.      Choose a quantitative variable from your data set. Use the table() command to create a frequency distribution of your data set. Set the optional argument useNA = \"no\" . Would you say this frequency distribution is a helpful way to visualize your data? Why or why not?      The ggplot() is a powerful command for making all types of figures, including histograms. Every ggplot needs to have at least data and axes. So, to instantiate the ggplot, we can use the command ggplot(df, aes(x=var)) . Here, df represents your data frame and var represents the variable you have selected for this portion of the project. The aes() command labels your x axis with your variable of choice. Running this line of code should build a blank axes that you can view in the \"View\" tab in the bottom-right panel. Why do you suspect the graph is blank?      So far, we have only asked R to build us a plot using our desired variable data, but we haven't told it what type of plot. We need to add a histogram to our plot. We can do this by concatonating (adding on) the code + geom_histogram() to the end of the line.      Play with the optional arguments color , fill , and linewidth to change the aesthetics of your plot. Describe what each of these arguments do in the space below.      Graphs are a meaningless if they don't tell you what information they display! Let's add labels by concatonating the command labs() . You can set the title , y , and x arguments to label the image, y-axis, and x-axis respectively. Be sure to include units where appropriate.      Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. In the space below, describe the shape of your data and choose which histogram you believe is the best way to represent the data. Why?    "
+},
+{
+  "id": "review-1",
+  "level": "1",
+  "url": "review-1.html",
+  "type": "🏫 Activity",
+  "number": "2.5",
+  "title": "🎯 Midterm 1 Review",
+  "body": " 🎯 Midterm 1 Review   This assignment is designed to help you prepare for the first midterm. It will not be graded.     Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 3     "
+},
+{
+  "id": "review-1-3",
+  "level": "2",
+  "url": "review-1.html#review-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 3    "
 },
 {
   "id": "biostats-hw1",
