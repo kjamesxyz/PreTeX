@@ -9,12 +9,19 @@
 
         <xi:include href="./frontmatter.ptx" />
 
-        <chapter xml:id="welcome-to-class">
+        <chapter xml:id="chapter-1-intro">
             <title>Introduction to Differential Equations</title>
 
             <xi:include href="./notes/1_What_are_DEs.ptx" />
             <xi:include href="./notes/1_What_are_solutions.ptx" />
             <xi:include href="./notes/1_When_would_I_use_DEs.ptx" />
+        </chapter>
+
+        <chapter xml:id="chapter-2-solving-first-order">
+            <title>Solving First-Order ODEs</title>
+
+            <xi:include href="./notes/2_Separable_Equations.ptx" />
+            <xi:include href="./notes/2_Exact_Equations.ptx" />
         </chapter>
 
     </book>

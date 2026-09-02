@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="diffeq-notes-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>What are Differential Equations?</title>
+    <title>What are Solutions to DEs?</title>
     
     <objectives>
         <introduction>
@@ -32,10 +32,20 @@
         </statement>
     </example>
 
+    
+
     <definition xml:id="def-family-of-solutions">
         <statement>
             <p>
-                Solutions to ODEs that contain arbitrary constants (parameters) are called <alert>families</alert> of solutions. If there are <m>n</m> such constants, we call those solutions <alert> <m>n</m>-parameter families of solutions </alert>. When specific values for the parameters are chosen, we call the resulting solution a <alert> particular solutions </alert>.
+                Solutions to ODEs that contain arbitrary constants (parameters) are called <alert>families</alert> of solutions. If there are <m>n</m> such constants, we call those solutions <alert> <m>\mathbf{n}</m>-parameter families of solutions </alert>. When a solution has no parameters, we call it <alert> particular </alert>.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-gen-solution-sorta">
+        <statement>
+            <p>
+                If an <m>n</m>-parameter family of solutions solves an <m>n^{\text{th}}</m>-order ODE on <m>(-\infty,\infty)</m>, we call it a <alert> general </alert> solution to the ODE. 
             </p>
         </statement>
     </definition>

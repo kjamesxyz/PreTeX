@@ -64,6 +64,6 @@
     </definition>
 
     <example>
-        <p> Draw a histogram of the above data using bin size 5. </p>
+        <p> Draw a histogram of the above data using bin size 5. Note the convention for bin size is to <alert> round up to data sig. figs. or to one fewer if tied </alert> then start from half a smallest-place-value below the smallest datum. </p>
     </example>
 </section>

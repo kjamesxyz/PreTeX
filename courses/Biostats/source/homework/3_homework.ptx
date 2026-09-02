@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw3">
+<title>📝 Homework 3</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 23</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 2.10-2.20 from OpenIntro Statistics (pg. 57-60)</p></li>
+            </ol> 
+        </p>
+
+        <table>
+
+                <title>Xanthid crab clutch size</title>
+
+                <tabular>
+
+                    <row header="yes">
+                        <cell>Clutch</cell><cell>Number of Eggs</cell>
+                        <cell>Clutch</cell><cell>Number of Eggs</cell>
+                    </row>
+
+                    <row>
+                        <cell>1</cell><cell>1,959</cell>
+                        <cell>24</cell><cell>5,749</cell>
+                    </row>
+
+                    <row>
+                        <cell>2</cell><cell>4,534</cell>
+                        <cell>25</cell><cell>6,837</cell>
+                    </row>
+
+                    <row>
+                        <cell>3</cell><cell>7,020</cell>
+                        <cell>26</cell><cell>8,639</cell>
+                    </row>
+
+                    <row>
+                        <cell>4</cell><cell>6,725</cell>
+                        <cell>27</cell><cell>7,417</cell>
+                    </row>
+
+                    <row>
+                        <cell>5</cell><cell>6,964</cell>
+                        <cell>28</cell><cell>6,082</cell>
+                    </row>
+
+                    <row>
+                        <cell>6</cell><cell>7,428</cell>
+                        <cell>29</cell><cell>10,241</cell>
+                    </row>
+
+                    <row>
+                        <cell>7</cell><cell>9,359</cell>
+                        <cell>30</cell><cell>962</cell>
+                    </row>
+
+                    <row>
+                        <cell>8</cell><cell>9,166</cell>
+                        <cell>31</cell><cell>3,894</cell>
+                    </row>
+
+                    <row>
+                        <cell>9</cell><cell>2,802</cell>
+                        <cell>32</cell><cell>1,801</cell>
+                    </row>
+
+                    <row>
+                        <cell>10</cell><cell>2,462</cell>
+                        <cell>33</cell><cell>5,099</cell>
+                    </row>
+
+                    <row>
+                        <cell>11</cell><cell>4,000</cell>
+                        <cell>34</cell><cell>6,627</cell>
+                    </row>
+
+                    <row>
+                        <cell>12</cell><cell>3,378</cell>
+                        <cell>35</cell><cell>4,484</cell>
+                    </row>
+
+                    <row>
+                        <cell>13</cell><cell>7,343</cell>
+                        <cell>36</cell><cell>5,633</cell>
+                    </row>
+
+                    <row>
+                        <cell>14</cell><cell>4,189</cell>
+                        <cell>37</cell><cell>4,148</cell>
+                    </row>
+
+                    <row>
+                        <cell>15</cell><cell>8,973</cell>
+                        <cell>38</cell><cell>6,588</cell>
+                    </row>
+
+                    <row>
+                        <cell>16</cell><cell>4,327</cell>
+                        <cell>39</cell><cell>5,847</cell>
+                    </row>
+
+                    <row>
+                        <cell>17</cell><cell>2,412</cell>
+                        <cell>40</cell><cell>4,632</cell>
+                    </row>
+
+                    <row>
+                        <cell>18</cell><cell>7,624</cell>
+                        <cell>41</cell><cell>6,472</cell>
+                    </row>
+
+                    <row>
+                        <cell>19</cell><cell>1,548</cell>
+                        <cell>42</cell><cell>8,372</cell>
+                    </row>
+
+                    <row>
+                        <cell>20</cell><cell>4,801</cell>
+                        <cell>43</cell><cell>8,225</cell>
+                    </row>
+
+                    <row>
+                        <cell>21</cell><cell>737</cell>
+                        <cell>44</cell><cell>6,142</cell>
+                    </row>
+
+                    <row>
+                        <cell>22</cell><cell>5,321</cell>
+                        <cell>45</cell><cell>12,130</cell>
+                    </row>
+
+                    <row>
+                        <cell>23</cell><cell>849</cell>
+                        <cell></cell><cell></cell>
+                    </row>
+
+                </tabular>
+
+            </table>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                The Xanthid crab is native to the shores near Gloucester Point, VA. In a field study, 45 Xanthid crab egg clutches were discoverd and the number of eggs in each clutch was counted. The results from the study are shown in the table above. 
+            </p>   
+
+            
+        </introduction>
+
+        <task workspace="2.5in">
+            <statement>
+                <p>
+                    Sketch a histogram for the data using 5 bins (categories). Clearly label the axes on your graph and show how you have computed the bin size. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Describe the shape of the histogram you drew in part (a). 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Build a 5 number summary for the data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Find the range and inner-quartile range of the data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Are there any outliers for the data? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Sketch a boxplot for the data. Clearly label all relevant data points. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your boxplot to explain the shape of the data. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>

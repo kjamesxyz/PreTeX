@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 5 - Separable Equations</title>   
+
+  <exercise workspace="0.5in">
+    <statement>
+        <p>
+            Show that the differential equation <md> dy = (1 + x + y + xy) \, dx </md> is separable.
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Use separation of variables to find a general solution to <md> \deriv{y}{x} = \frac{(x-1)y^5}{x^2(2y^3 - y)}.</md>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="3in">
+    <introduction>
+        <p>
+            Consider the differential equation <md> \deriv{y}{x} = y^2. </md>
+        </p>
+    </introduction>
+
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                Find the general solution using separation of variables.
+            </p>
+        </statement>
+    </task> 
+
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                There is one solution that cannot be described by the general solution above. What is it?
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="0in">
+        <statement>
+            <p>
+                Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a "slider" for your constant of integration. 
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Suppose we added the initial condition <m>y(x_0) = y_0</m>. How would this affect your solution?
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not? 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+</worksheet> 

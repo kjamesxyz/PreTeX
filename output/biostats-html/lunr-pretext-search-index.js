@@ -226,6 +226,33 @@ var ptx_lunr_docs = [
   "body": "  Using the penguins data set from problem 1, compute each of the following using RStudio. Write the line of code you used to produce your result. You may need to add the optional argument na.rm=TRUE to skip over missing data points.     Mean bill depth      Range of flipper lengths      Standard deviation in body mass      Median bill length    "
 },
 {
+  "id": "biostats-hw3",
+  "level": "1",
+  "url": "biostats-hw3.html",
+  "type": "🏫 Activity",
+  "number": "3.3",
+  "title": "📝 Homework 3",
+  "body": " 📝 Homework 3    Instructions: This assignment is due Wednesday, September 23 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 2.10-2.20 from OpenIntro Statistics (pg. 57-60)     Xanthid crab clutch size    Clutch Number of Eggs  Clutch Number of Eggs    1 1,959  24 5,749    2 4,534  25 6,837    3 7,020  26 8,639    4 6,725  27 7,417    5 6,964  28 6,082    6 7,428  29 10,241    7 9,359  30 962    8 9,166  31 3,894    9 2,802  32 1,801    10 2,462  33 5,099    11 4,000  34 6,627    12 3,378  35 4,484    13 7,343  36 5,633    14 4,189  37 4,148    15 8,973  38 6,588    16 4,327  39 5,847    17 2,412  40 4,632    18 7,624  41 6,472    19 1,548  42 8,372    20 4,801  43 8,225    21 737  44 6,142    22 5,321  45 12,130    23 849         The Xanthid crab is native to the shores near Gloucester Point, VA. In a field study, 45 Xanthid crab egg clutches were discoverd and the number of eggs in each clutch was counted. The results from the study are shown in the table above.     Sketch a histogram for the data using 5 bins (categories). Clearly label the axes on your graph and show how you have computed the bin size.      Describe the shape of the histogram you drew in part (a).      Build a 5 number summary for the data.      Find the range and inner-quartile range of the data.      Are there any outliers for the data?      Sketch a boxplot for the data. Clearly label all relevant data points.      Use your boxplot to explain the shape of the data.     "
+},
+{
+  "id": "biostats-hw3-2-3",
+  "level": "2",
+  "url": "biostats-hw3.html#biostats-hw3-2-3",
+  "type": "Table",
+  "number": "3",
+  "title": "Xanthid crab clutch size",
+  "body": " Xanthid crab clutch size    Clutch Number of Eggs  Clutch Number of Eggs    1 1,959  24 5,749    2 4,534  25 6,837    3 7,020  26 8,639    4 6,725  27 7,417    5 6,964  28 6,082    6 7,428  29 10,241    7 9,359  30 962    8 9,166  31 3,894    9 2,802  32 1,801    10 2,462  33 5,099    11 4,000  34 6,627    12 3,378  35 4,484    13 7,343  36 5,633    14 4,189  37 4,148    15 8,973  38 6,588    16 4,327  39 5,847    17 2,412  40 4,632    18 7,624  41 6,472    19 1,548  42 8,372    20 4,801  43 8,225    21 737  44 6,142    22 5,321  45 12,130    23 849     "
+},
+{
+  "id": "biostats-hw3-3",
+  "level": "2",
+  "url": "biostats-hw3.html#biostats-hw3-3",
+  "type": "Worksheet Exercise",
+  "number": "3.3.1",
+  "title": "",
+  "body": "  The Xanthid crab is native to the shores near Gloucester Point, VA. In a field study, 45 Xanthid crab egg clutches were discoverd and the number of eggs in each clutch was counted. The results from the study are shown in the table above.     Sketch a histogram for the data using 5 bins (categories). Clearly label the axes on your graph and show how you have computed the bin size.      Describe the shape of the histogram you drew in part (a).      Build a 5 number summary for the data.      Find the range and inner-quartile range of the data.      Are there any outliers for the data?      Sketch a boxplot for the data. Clearly label all relevant data points.      Use your boxplot to explain the shape of the data.    "
+},
+{
   "id": "biostats-projects-final",
   "level": "1",
   "url": "biostats-projects-final.html",

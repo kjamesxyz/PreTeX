@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>First-Order Linear ODEs</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Classify ODEs as linear or nonlinear using the definition. </p></li>
+            <li><p> Solve first-order linear ODEs using integrating factors. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-linear-first-order">
+        <statement>
+            <p>
+                Recall that a first-order ODE is <alert> linear </alert> if and only if it can be written in the form <md> a_1(x) \deriv{y}{x} + a_0(x)y = f(x) </md> When <m> f(x) \equiv 0 </m>, we say the equation is also <alert> homogeneous</alert>. Dividing the coefficient <m>a_1(x)</m> from both sides of the equation produces the <alert> standard form </alert> of the equation <md> \deriv{y}{x} + P(x) y = Q(x).</md>
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        Let's first consider the homogeneous case, that is that <m>f(x) = Q(x) = 0</m>. In this case, the equation is separable. We can write 
+        <md> 
+            <mrow> \frac{dy}{y} =\amp -P(x) \, dx </mrow>
+            <mrow> y =\amp Ce^{-\int P(x)\, dx} </mrow>
+        </md>
+    </p>
+
+    <p>
+        Suppose now, though, that the equation is nonhomogeneous. 
+    </p>
+</section>

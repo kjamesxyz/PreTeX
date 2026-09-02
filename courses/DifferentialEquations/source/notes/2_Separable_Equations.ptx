@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Separable Equations</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Identify and solve separable first-order ODEs by separation of variables. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-separable">
+        <statement>
+            <p>
+                A first-order ODE is <alert>separable</alert> if it can be written in one of the following forms <md> \deriv{y}{x} = X(x)Y(y) \ \text{or} \ X(x)dx = Y(y) dy. </md>
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Solve the IVP <md> \deriv{y}{x} = -6xy, \ y(0) = 7. </md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Notice that <md> \deriv{y}{x} = (-6x)(y). </md> So this equation is separable by definition. We first, <alert> separate the variables </alert> <md> \frac{1}{y} dy = -6x \, dx .</md> Integrating both sides, we obtain <md> \ln|y| = -3x^2 + C  \implies y = Ce^{-3x^2}.</md> Applying our initial condition shows that <md> y(0) = C = 7.</md> Therefore, the solution is <md> y(x) = 7e^{-3x^2}.</md>
+            </p>
+        </solution>
+    </example>
+</section>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exact ODEs</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Classify ODEs as exact using the definition. </p></li>
+            <li><p> Solve exact ODEs using exact differentials. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-total-differential">
+        <statement>
+            <p>
+                Suppose <m>z = f(x,y)</m> is differentiable. Its <alert> (total) differential </alert> is <md> dz = \pderiv{f}{x} \, dx + \pderiv{f}{y} \, dy. </md>
+            </p>
+        </statement>
+    </definition>
+
+    <p> 
+        Using the context of a total differential, we can reframe the way we think about solutions to ODEs. Consider the differential equation <md> M(x,y) \, dx + N(x,y) \, dy = 0. </md> We can rewrite this compactly as <md> d(?) = 0 </md> using the chain rule. Instead of thinking about a function <m>y(x)</m> that satisfies this equation for all <m> x </m>, we can think about <m>y</m> in the context of zeroing-out the differential of the function <m>f(x,y) = ?</m>.
+    </p>
+
+    <definition xml:id="def-exact">
+        <statement>
+            <p>
+                Let <m>z=f(x,y)</m> be differentiable. If its total differential <md>df = M(x,y) \, dx + N(x,y) dy \equiv 0</md>, then we call it <alert> exact</alert>. Hence, the differential equation <md> M(x,y) \, dx + N(x,y) dy \equiv 0</md> is called <alert> exact </alert> provided that <md> \pderiv{M}{y} = \pderiv{N}{x}. </md> 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-exact-eqn-gen-sol">
+        <statement>
+            <p>
+                Suppose <md> M(x,y) \, dx + N(x,y) dy \equiv 0</md> is exact. Then level curves of the function <m>f(x,y)</m> whose exact differential is <md> df = M \, dx + N \, dy </md> defines the general solution.
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <p>
+        Let's talk game plan. If we know the equation <md> M(x,y) \, dx + N(x,y) dy \equiv 0</md> is exact, then there is some function <m>f(x,y)</m> whose exact differential is <m>Mdx + Ndy</m>. In other words, <md> \pderiv{f}{x} = M \implies f(x,y) = \int M \ dx + Y(y).</md> Now, we can compute <md> \pderiv{f}{y} = \partial_y \left[ \int M(x,y) \, dx \right] + Y'(y) </md> and compare it to <m>N(x,y)</m>. This should help us identify <m>Y'(y)</m>. Integrating once more makes <m> Y(y) </m> known and we can write down the function <m>f</m>.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Show the equation <md> (\sin(y) - y \sin(x))\, dx + (\cos(x) + x \cos(y) - y) \, dy = 0 </md> is exact, then find the general solution. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Note that 
+                <md> 
+                    <mrow> M_y = \partial_y \left[ \sin(y) - y \sin(x) \right] =\amp \ \cos(y) - \sin(x) </mrow> 
+                    <mrow> N_x = \partial_x \left[\cos(x) + x \cos(y) - y \right] =\amp \ \cos(y) - \sin(x) </mrow>
+                </md> 
+                So, the equation is exact. Since <m>f_x = M</m>, we can write <md> f(x,y) = \int M \, dx = x \sin(y) + y \cos(x) + Y(y). </md> Differentiating both sides with respect to <m> y </m> gives <md> f_y = x \cos(y) + \cos(x) + Y'(y) </md> which should equal <m> N </m>. Thus, it must be that <md> Y'(y) = -y \implies Y(y) = -\frac{1}{2}y^2 + C.</md> Therefore, we can conclude that the general solution is defined implicitly to be <md>\cos(x) + x \cos(y) - \frac{1}{2}y^2 + C = 0.</md>
+            </p>
+        </solution>
+    </example>
+</section>
