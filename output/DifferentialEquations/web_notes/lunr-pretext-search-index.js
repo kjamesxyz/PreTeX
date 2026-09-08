@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "What are Solutions to DEs?",
-  "body": " What are Solutions to DEs?    Students will be able to...    Verify solutions to differential equations.  Find intervals of existence for solutions to differential equations.  Use initial conditions to determine parameters in families of solutions.      Consider the -order differential equation We say that is a solution to the differential equation on the interval provided it makes and identity. We call the interval of existence for the solution.      Observe that is a solution to the ODE on since But notice that adding any constant coefficient to is also a solution.      Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When a solution has no parameters, we call it particular .      If an -parameter family of solutions solves an -order ODE on , we call it a general solution to the ODE.      Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .    Note the -order equation has initial conditions involving its first derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions.  "
+  "body": " What are Solutions to DEs?    Students will be able to...    Verify solutions to differential equations.  Find intervals of existence for solutions to differential equations.  Use initial conditions to determine parameters in families of solutions.      Consider the -order differential equation We say that is a solution to the differential equation on the interval provided it makes and identity. We call the interval of existence for the solution.      Observe that is a solution to the ODE on since       Solutions to ODEs that contain arbitrary constants (parameters) are called families of solutions. If there are such constants, we call those solutions  -parameter families of solutions . When a solution has no parameters, we call it particular .      If an -parameter family of solutions solves an -order ODE on , we call it a general solution to the ODE.      Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .      Verify that is a one-parameter family of solutions to the ODE on . Then, suppose . Find a solution to this IVP.    We have . So solves the IVP.    Note the -order equation has initial conditions involving its first derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions.  "
 },
 {
   "id": "diffeq-notes-1-2-2",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.2.2",
   "title": "",
-  "body": "  Observe that is a solution to the ODE on since But notice that adding any constant coefficient to is also a solution.   "
+  "body": "  Observe that is a solution to the ODE on since    "
 },
 {
   "id": "def-family-of-solutions",
@@ -125,6 +125,15 @@ var ptx_lunr_docs = [
   "number": "1.2.5",
   "title": "",
   "body": "  Consider the problem of solving on subject to the conditions where . We call this an initial value problem (IVP) on account of the additional initial conditions (IC's) .   "
+},
+{
+  "id": "diffeq-notes-1-2-8",
+  "level": "2",
+  "url": "diffeq-notes-1-2.html#diffeq-notes-1-2-8",
+  "type": "Example",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  Verify that is a one-parameter family of solutions to the ODE on . Then, suppose . Find a solution to this IVP.    We have . So solves the IVP.   "
 },
 {
   "id": "diffeq-notes-1-3",
