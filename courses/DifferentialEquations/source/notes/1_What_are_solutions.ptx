@@ -27,7 +27,7 @@
     <example>
         <statement>
             <p>
-                Observe that <m> y = e^{-x/2} </m> is a solution to the ODE <md>2y' + y = 0</md> on <m>(-\infty,\infty)</m> since <md> 2y' = 2 \cdot -\frac{1}{2}e^{-\frac{x}{2}}.</md> But notice that adding any constant coefficient to <m>y</m> is also a solution. 
+                Observe that <m> y = e^{-x/2} </m> is a solution to the ODE <md>2y' + y = 0</md> on <m>(-\infty,\infty)</m> since <md> 2y' = 2 \cdot -\frac{1}{2}e^{-\frac{x}{2}}.</md> 
             </p>
         </statement>
     </example>
@@ -57,6 +57,20 @@
             </p>
         </statement>
     </definition>
+
+    <example>
+        <statement>
+            <p>
+                Verify that <m> y = Ce^{-x/2} </m> is a one-parameter family of solutions to the ODE <md> 2y' = 2 \cdot -\frac{1}{2}e^{-\frac{x}{2}}</md> on <m>(-\infty, \infty)</m>. Then, suppose <m>y(0) = 3</m>. Find a solution to this IVP.   
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We have <m>y(0) = C = r</m>. So <m> y = 3e^{-x/2}</m> solves the IVP. 
+            </p>
+        </solution>
+    </example>
 
     <p> Note the <m>n^{\text{th}}</m>-order equation has <m>n</m> initial conditions involving its first <m>n-1</m> derivatives all evaluated at the same point. Also notice that solving everywhere is inherently baked into the definition of IVP. In practice, we use these IC's to determine particular solutions. </p>
 </section>

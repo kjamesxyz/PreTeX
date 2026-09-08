@@ -25,7 +25,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Solve the IVP <md> 2\sqrt{\theta} \deriv{r}{\theta} = \cos^2(r), \ r(4) = \frac{\pi}{4} </md> is separable. You may give an implicit solution. 
+                Solve the IVP <md> 2\sqrt{\theta} \deriv{r}{\theta} = \cos^2(r), \ r(4) = \frac{\pi}{4} </md> . You may give an implicit solution. 
             </p>
         </statement>
     </exercise>
