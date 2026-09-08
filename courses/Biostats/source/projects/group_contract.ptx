@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-final-project-contract" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Group Contract</title>
+    
+    <paragraphs>
+        <title>Group Members</title>
+        <p> Please list all members of the group by full name and student ID number in the lines below. </p>
+
+        <p>1. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>  
+        <p>2. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>  
+        <p>3. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>  
+        <p>4. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>  
+        <p>5. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>  
+        <p>6. Name: <fillin characters="25"/> ID: <fillin characters="12"/></p>
+
+    </paragraphs>
+
+    <paragraphs>
+        <title>Team Leads</title>
+        <p> It is important that you work as a group to complete the work for each portion of the project. To emulate real team projects in the work force, your group must assign a team lead for each portion of the assignment. The team lead is responsible for completing each of the following clerical tasks in addition to assisting with the work for the project. 
+            <ol>
+                <li><p> When the corresponding activity is due, the team lead will submit a single R script on behalf of your entire team for the assignment. </p></li>
+                <li><p> When the corresponding activity is due, the team lead will submit a single PDF copy of the rough draft for that portion of the written report. </p></li>
+                <li><p> The team lead will receive feedback on your group's code through their submission to Canvas. It is their responsibility to relay that feedback to the rest of the group in a timely manner. </p></li>
+                <li><p> The team lead will be responsible for presenting the information related to their portion of the proejct during the final presentation. </p></li>
+            </ol>
+
+        Please note that <alert> it is not the team lead's sole responsibility to complete the work </alert> for their portion of the assignment. They are simply elected to handle the logisitcs of turning in the report and managing the communication of feedback. 
+        </p>
+
+        <p> In the lines below, please list which group member you have elected to lead each portion of the assignment. Please keep in mind when delegating tasks that not each portion of the assignment will have the same workload. You can use the number of points each portion is worth as a way to eastimate the workload for that portion. Please note that <alert> each group member must serve as a team lead at least once </alert>. </p>
+
+        <p>Histograms: <fillin characters="25"/></p>  
+        <p>Boxplots: <fillin characters="25"/></p>  
+        <p>Hypothesis Testing (1 Stat): <fillin characters="25"/></p>  
+        <p>Hypothesis Testing (2 Stats): <fillin characters="25"/></p>  
+        <p>Independence: <fillin characters="25"/></p>  
+        <p>One-Way AnOVa: <fillin characters="25"/></p>
+        <p>Regression: <fillin characters="25"/></p>
+        <p>Nonparametric Testing: <fillin characters="25"/></p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Signatures</title>
+        <p> Each group member must sign the lines below and this document must be turned in to the instructor by <alert> Monday, September 14 </alert> in order to receive full credit for the group selection portion of the final project. By signing your name below, you are taking accountability for fulfilling the duties listed on this assignment. Please sign your names in the same order they are listed above. </p>
+
+        <p>1. <fillin characters="25"/></p>  
+        <p>2. <fillin characters="25"/></p>  
+        <p>3. <fillin characters="25"/></p>  
+        <p>4. <fillin characters="25"/></p>  
+        <p>5. <fillin characters="25"/></p>  
+        <p>6. <fillin characters="25"/></p>
+    </paragraphs>
+    
+</worksheet>
