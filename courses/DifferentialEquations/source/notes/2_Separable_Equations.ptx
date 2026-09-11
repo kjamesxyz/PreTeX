@@ -23,6 +23,42 @@
     </definition>
 
     <example>
+        <introduction>
+            <p>
+                Determine whether EOTF are separable. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    <md> \deriv{y}{x} = -6xy </md> 
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Notice that <md> \deriv{y}{x} = (-6x) \cdot (y) \ \text{or} \ \frac{1}{y} \, dy = -6x \, dx. </md> So, this is separable.
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <md> \deriv{y}{x} = -6x + y </md>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    S.O.L.
+                </p>
+            </solution>
+        </task>
+    </example>
+
+    <example>
         <statement>
             <p>
                 Solve the IVP <md> \deriv{y}{x} = -6xy, \ y(0) = 7. </md>

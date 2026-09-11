@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="exam1">
+<page>
+    <title>Exam 1 - MATH-132B-01</title>
+
+    <p>
+        <alert>Instructions:</alert> You have 110 minutes to take this exam. You are permitted your signed prep work journal and access to RStudio on a classroom computer during the exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
+    </p>
+
+    <p>
+        <alert>Multiple Choice:</alert> There are 10 multiple choice questions, each worth 4 points. Select one answer in each question by circling the letter corresponding to your selected answer. There is only one correct answer for each question. You will not be penalized for incorrect answers. 
+    </p>
+
+    <p>
+        <alert> For problems 1-2</alert>, consider the following experiment. A fair six-sided die is rolled once and the result is recorded. 
+    </p>
+    <exercise>
+        <statement>
+            <p>
+                Which of the following events is simple?
+                <ol marker="A." cols="2">
+                    <li><p> Rolling an even number </p></li>
+                    <li><p> Rolling a number greater than 2 </p></li>
+                    <li><p> Rolling a 6 </p></li>
+                    <li><p> Rolling a prime number </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>E</m> be the event a prime number is rolled. Which of the following events are disjoint from <m>E</m>?
+                <ol marker="A." cols="2">
+                    <li><p> Rolling a 6 </p></li>
+                    <li><p> Rolling an even number </p></li>
+                    <li><p> Rolling a 1 </p></li>
+                    <li><p> Rolling an odd number </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <p>
+        <alert> For problems 3-5</alert>, consider the following experiment. A bag contains 30 marbles; 23 of them have stripes and 15 of them have spots. All marbles in the bag have at least one pattern. A marble is drawn from the bag at random.
+    </p>
+
+    <exercise>
+        <statement>
+            <p> 
+                What is the probability a striped marble is drawn?
+                <ol marker="A." cols="4">
+                    <li><p> <m> \frac{23}{30} </m> </p></li>
+                    <li><p> <m> \frac{15}{30} </m> </p></li>
+                    <li><p> <m> \frac{8}{30} </m> </p></li>
+                    <li><p> <m> \frac{7}{30} </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p> 
+                What is the probability a marble is drawn that is NOT spotted?
+                <ol marker="A." cols="4">
+                    <li><p> <m> \frac{3}{5} </m> </p></li>
+                    <li><p> <m> \frac{1}{3} </m> </p></li>
+                    <li><p> <m> \frac{1}{5} </m> </p></li>
+                    <li><p> <m> \frac{1}{2} </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p> 
+                What is the probability a marble is drawn that is spotted AND striped?
+                <ol marker="A." cols="4">
+                    <li><p> <m> \frac{1}{2} </m> </p></li>
+                    <li><p> <m> \frac{4}{15} </m> </p></li>
+                    <li><p> <m> \frac{1}{6} </m> </p></li>
+                    <li><p> <m> \frac{19}{15} </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</page>
+<page>
+    <p>
+        <alert> For problems </alert>, consider the following experiment. A pharmaceutical company is testing their new drug for plaque psoriasis. They are able to recruit 60 female and 40 male afflicted individuals for the trial. The drug is perscribed to 30 randomly selected females and 20 randomly selected males. A placebo is assigned to the remaining participants. To measure the effects of the drug, they ask patients to return every 2 weeks over the next 3 months. The percentage of the body afflicted is measured at each visit. 
+    </p>
+    <exercise>
+        <statement>
+            <p>
+                What sampling method was used in this experiment?
+                <ol marker="A." cols="4">
+                    <li><p> Random </p></li>
+                    <li><p> Stratified </p></li>
+                    <li><p> Systematic </p></li>
+                    <li><p> Cluster </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Which of the following best describe each measurement taken from a patient?
+                <ol marker="A." cols="4">
+                    <li><p> Statistic </p></li>
+                    <li><p> Parameter </p></li>
+                    <li><p> Datum </p></li>
+                    <li><p> Sample </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                What type of data is being recorded in this experiment?
+                <ol marker="A." cols="4">
+                    <li><p> Nominal </p></li>
+                    <li><p> Ordinal </p></li>
+                    <li><p> Interval </p></li>
+                    <li><p> Ratio </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                What is the sample size of this experiment?
+                <ol marker="A." cols="4">
+                    <li><p> 100 </p></li>
+                    <li><p> 60 </p></li>
+                    <li><p> 40 </p></li>
+                    <li><p> 50% </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Which of the following best describe the nature of the study?
+                <ol marker="A." cols="4">
+                    <li><p> Restrospective </p></li>
+                    <li><p> Cross-Sectional </p></li>
+                    <li><p> Prospective </p></li>
+                    <li><p> Nonparametric </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    
+
+</page>
+
+<page>
+    <p>
+        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
+            </p>
+            <image source="images/boxplot_cement.png" width="55%">
+                <shortdescription>3 boxplots labeled (from left to right) Copper, CopperHazel, and Hazel.</shortdescription>
+            </image>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify any outlier(s) in each data set. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write the 5 number summary for the "Copper" data set.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Describe the shape of each data set? Justify your answers. 
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+
+<page>
+    <exercise>
+        <introduction>
+            <p>
+                The histograms below show the heights of 100 males and 100 female. 
+            </p>
+            <image source="images/hist_height.png" width="50%">
+                <shortdescription>2 histograms labeled (from top to bottom) male and female.</shortdescription>
+            </image>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    How many men are shorter than 175 cm? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    How many women are between 160 and 180 cm tall? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Do males or females exhibit more variation in height? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    By randomly selecting one female from the study, use the bins provided to estimate what their height is most likely to be?
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+</page>
+    
+    
+</worksheet>

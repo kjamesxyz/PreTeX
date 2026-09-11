@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="./docinfo.ptx" />
+    <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+    <book>
+        <title>Biostatics Exams</title>
+        <subtitle>MATH-132B Fall 2026</subtitle>
+
+        <xi:include href="./frontmatter_exams.ptx" />
+
+        
+
+        <chapter xml:id="biostats-exam1">
+            <title>Exam 1</title>
+
+            <xi:include href="./exams/1_exam.ptx" />
+        </chapter>
+    </book>
+</pretext>

@@ -14,6 +14,11 @@
                 publication="./courses/Biostats/publication/publication_notes.ptx"
                 deploy-dir="output/Biostats/web_notes"/>
 
+        <target name="biostats-exams" 
+                format="html"
+                source="./courses/Biostats/source/main_exams.ptx"
+                publication="./courses/Biostats/publication/publication_exams.ptx"/>
+
         <target name="diffeq-html" 
                 format="html"
                 source="./courses/DifferentialEquations/source/main_html.ptx"

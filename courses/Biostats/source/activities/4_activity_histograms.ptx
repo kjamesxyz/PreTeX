@@ -67,9 +67,25 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. In the space below, describe the shape of your data and choose which histogram you believe is the best way to represent the data. Why?
+                    Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. Use your histograms to determine the shape of your data. Which diagram is most useful for interpreting your data? The answers to these questions will be included in your 
                 </p>
             </statement>
         </task>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                <alert> Written Report: </alert> This portion of your written report should respond to each of the following prompts. 
+                <ol> 
+                    <li><p> Explain any techniques used to clean your data (if applicable). </p></li>
+                    <li><p> Include the three histograms you generated in problem 1f. </p></li>
+                    <li><p> Use your histograms to describe the shape of your data. </p></li>
+                    <li><p> Which of the histograms you generated are most helpful for interpreting the shape of your data? Why? </p></li>
+                    <li><p> Use plain language to intepret what your histogram suggests about your data set. </p></li>
+                </ol>
+                When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the "📊Histogram Check-in" assignment on Canvas (see Week 3 module). 
+            </p>
+        </statement>
     </exercise>
 </worksheet>

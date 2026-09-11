@@ -6,7 +6,7 @@
     <definition xml:id="def-outlier">
         <statement>
             <p>
-                Let <m>X</m> be a quantitative data set with IQR <m>q</m>. If <m>x</m> has the property that <md>|x - \xbar| \leq 1.5 q,</md> we call <m>x</m> an <alert> outlier </alert> of <m>X</m>. 
+                Let <m>X</m> be a quantitative data set with IQR <m>q</m>. If <m>x</m> has the property that <md>|x - \bar{x}| \geq 1.5 q,</md> we call <m>x</m> an <alert> outlier </alert> of <m>X</m>. 
             </p>
         </statement>
     </definition>
@@ -18,4 +18,32 @@
             </p>
         </statement>
     </definition>
+
+    <example>
+        <statement>
+            <p>
+                Create a boxplot for the following data. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>20</cell>
+                    <cell>52</cell>
+                    <cell>86</cell>
+                    <cell>80</cell>
+                    <cell>44</cell>
+                    <cell>49</cell>
+                    <cell>57</cell>
+                    <cell>41</cell>
+                    <cell>44</cell>
+                    <cell>55</cell>
+                </row>
+            </tabular>
+        </statement>
+
+        <solution>
+            <image source="images/box_plot.png">
+                <shortdescription>A boxplot with 5 number summary 20, 44, 50.5, 56.5, 86; and outliers 20, 80, and 86.</shortdescription>
+            </image>
+        </solution>
+    </example>
 </section>
