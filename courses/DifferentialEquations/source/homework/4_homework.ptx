@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw4">
+    <title>📝 Homework 4 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, September 30</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 1-29 (odds) in Exercises 2.4 (pg. 60-61)</p></li>
+                <li><p> Problems 1-29 (odds) in Exercises 2.3 (pg. 60-61)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Show that <md> (2xy - \sec^2(x)) \, dx + (x^2 + 2y) \, dy </md> is exact, then solve it.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Show that <md> \cos(\theta) \deriv{r}{\theta} + r \sin(\theta) = 1 </md> is linear, then find the general solution using an integrating factor. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the ODE <md> (t + u + 1) \, dt + du = 0. </md> 
+            </p>
+        </introduction>
+        
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is the ODE separable? Justify your answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is the ODE exact? Justify your answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is the ODE linear? Justify your answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Solve the ODE using any method. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>

@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "🏫 Activity 4 - When would I use Differential Equations?",
-  "body": " 🏫 Activity 4 - When would I use Differential Equations?    Unstable isotopes of atoms can transmute into stable isotopes by shedding subatomic particles from their nulcei in a process called radioactive decay .     The rate at which isotopes decay is proportional to the amount of isotope remaining. Write a first-order ODE that models this phenomenon.      The amount of radioactive isotope remaining decays exponentially in time. Write an algebraic equation that models this phenomenon.      Compare and contrast the models you wrote in parts (a) and (b). What quantities can be found using each? What are the advantages and disadvantages to using either model?      The amount of time required for half of a radiactive sample to undergo this decay is called the half-time of the isotope. What quantity from your models could be obtained using this information?        Torricelli's law states that the speed of the efflux (discharge\/draining) of a fluid through a hole at the bottom of a tank filled to depth is the same as the speed a solid body would attain from falling the same distance.     Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation Solve this equation for .      Toricelli's law tells us that your solution for part (a) also represents how fast the water is passing through the hole. Suppose the hole in the bottom of the tank has area . Use this with your answer to part (a) to find an expression for how much water (a volume) passes through the hole per unit time.      Use your answer from part (b) to write a differential equation to model the rate of change of the amount of fluid in the tank at time .      Assume the tank is cylindrical with radius . Adapt your model from part (c) to instead model the depth of the fluid.      Suppose now that fluid is pumped into the tank at a constant rate of . What changes does this make to your model from part (c)? From part (d)?     "
+  "body": " 🏫 Activity 4 - When would I use Differential Equations?    Unstable isotopes of atoms can transmute into stable isotopes by shedding subatomic particles from their nulcei in a process called radioactive decay .     The rate at which isotopes decay is proportional to the amount of isotope remaining. Write a first-order ODE that models this phenomenon.      The amount of radioactive isotope remaining decays exponentially in time. Write an algebraic equation that models this phenomenon.      Compare and contrast the models you wrote in parts (a) and (b). What quantities can be found using each? What are the advantages and disadvantages to using either model?        Torricelli's law states that the speed of the efflux (discharge\/draining) of a fluid through a hole at the bottom of a tank filled to depth is the same as the speed a solid body would attain from falling the same distance.     Suppose a tank is filled with water meters deep. The tank cracks producing a hole with cross-sectional area . Write a first-order ODE that models the rate of efflux of the water.    Consider the volume as a function of first, then use implicit differentiation.      Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation Solve this equation for .      Use your answer to part (b) to write a first-order ODE model for the rate of efflux of water.    Recall that flux is an area times a velocity.      Use the volume models you created in parts (a) and (c) to write a first-order ODE model for the rate of change of the fill level.      Assume the hole in the tank is circular with radius . Adapt your model from part (d) to instead model the depth of the fluid.      Suppose now that fluid is pumped into the tank at a constant rate of . What changes does this make to your model from part (d)? From part (e)?     "
 },
 {
   "id": "diffeq-act-4-2",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Unstable isotopes of atoms can transmute into stable isotopes by shedding subatomic particles from their nulcei in a process called radioactive decay .     The rate at which isotopes decay is proportional to the amount of isotope remaining. Write a first-order ODE that models this phenomenon.      The amount of radioactive isotope remaining decays exponentially in time. Write an algebraic equation that models this phenomenon.      Compare and contrast the models you wrote in parts (a) and (b). What quantities can be found using each? What are the advantages and disadvantages to using either model?      The amount of time required for half of a radiactive sample to undergo this decay is called the half-time of the isotope. What quantity from your models could be obtained using this information?    "
+  "body": "  Unstable isotopes of atoms can transmute into stable isotopes by shedding subatomic particles from their nulcei in a process called radioactive decay .     The rate at which isotopes decay is proportional to the amount of isotope remaining. Write a first-order ODE that models this phenomenon.      The amount of radioactive isotope remaining decays exponentially in time. Write an algebraic equation that models this phenomenon.      Compare and contrast the models you wrote in parts (a) and (b). What quantities can be found using each? What are the advantages and disadvantages to using either model?    "
 },
 {
   "id": "diffeq-act-4-3",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "   Torricelli's law states that the speed of the efflux (discharge\/draining) of a fluid through a hole at the bottom of a tank filled to depth is the same as the speed a solid body would attain from falling the same distance.     Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation Solve this equation for .      Toricelli's law tells us that your solution for part (a) also represents how fast the water is passing through the hole. Suppose the hole in the bottom of the tank has area . Use this with your answer to part (a) to find an expression for how much water (a volume) passes through the hole per unit time.      Use your answer from part (b) to write a differential equation to model the rate of change of the amount of fluid in the tank at time .      Assume the tank is cylindrical with radius . Adapt your model from part (c) to instead model the depth of the fluid.      Suppose now that fluid is pumped into the tank at a constant rate of . What changes does this make to your model from part (c)? From part (d)?    "
+  "body": "   Torricelli's law states that the speed of the efflux (discharge\/draining) of a fluid through a hole at the bottom of a tank filled to depth is the same as the speed a solid body would attain from falling the same distance.     Suppose a tank is filled with water meters deep. The tank cracks producing a hole with cross-sectional area . Write a first-order ODE that models the rate of efflux of the water.    Consider the volume as a function of first, then use implicit differentiation.      Conservation of energy tells us that the speed the falling body would obtain can be found from solving the equation Solve this equation for .      Use your answer to part (b) to write a first-order ODE model for the rate of efflux of water.    Recall that flux is an area times a velocity.      Use the volume models you created in parts (a) and (c) to write a first-order ODE model for the rate of change of the fill level.      Assume the hole in the tank is circular with radius . Adapt your model from part (d) to instead model the depth of the fluid.      Suppose now that fluid is pumped into the tank at a constant rate of . What changes does this make to your model from part (d)? From part (e)?    "
 },
 {
   "id": "diffeq-act-5",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "🏫 Activity 5 - Separable Equations",
-  "body": " 🏫 Activity 5 - Separable Equations    Show that the differential equation is separable.      Use separation of variables to find a general solution to       Consider the differential equation      Find the general solution using separation of variables.      There is one solution that cannot be described by the general solution above. What is it?      Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a \"slider\" for your constant of integration.      Suppose we added the initial condition . How would this affect your solution?      Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not?     "
+  "body": " 🏫 Activity 5 - Separable Equations    Show that the differential equation is separable. You do NOT need to solve .      Use separation of variables to find a general solution to       Consider the differential equation      Find the general solution using separation of variables.      There is one solution that cannot be described by the general solution above. What is it?      Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a \"slider\" for your constant of integration.      Suppose we added the initial condition . How would this affect your solution?      Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not?     "
 },
 {
   "id": "diffeq-act-5-2",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Show that the differential equation is separable.   "
+  "body": "  Show that the differential equation is separable. You do NOT need to solve .   "
 },
 {
   "id": "diffeq-act-5-3",
@@ -206,6 +206,114 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Consider the differential equation      Find the general solution using separation of variables.      There is one solution that cannot be described by the general solution above. What is it?      Use a graphing utility (like desmos.com) to sketch the graph of the solutions you found in parts (a) and (b). It may be helpful to create a \"slider\" for your constant of integration.      Suppose we added the initial condition . How would this affect your solution?      Can you find an initial condition that generates multiple solutions? If so, what is it? If not, why not?    "
+},
+{
+  "id": "diffeq-act-6",
+  "level": "1",
+  "url": "diffeq-act-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 6 - Exact Equations",
+  "body": " 🏫 Activity 6 - Exact Equations   This activity is due at the beginning of class on Wednesday, October 7 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What does it mean for an ODE to be exact ?       Determine whether is exact.      Show that is exact. Then solve it using exact differentials.      Find such that the differential equation is exact.      Find a function such that is exact.    "
+},
+{
+  "id": "diffeq-act-6-3",
+  "level": "2",
+  "url": "diffeq-act-6.html#diffeq-act-6-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What does it mean for an ODE to be exact ?    "
+},
+{
+  "id": "diffeq-act-6-4",
+  "level": "2",
+  "url": "diffeq-act-6.html#diffeq-act-6-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Determine whether is exact.   "
+},
+{
+  "id": "diffeq-act-6-5",
+  "level": "2",
+  "url": "diffeq-act-6.html#diffeq-act-6-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Show that is exact. Then solve it using exact differentials.   "
+},
+{
+  "id": "diffeq-act-6-6",
+  "level": "2",
+  "url": "diffeq-act-6.html#diffeq-act-6-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find such that the differential equation is exact.   "
+},
+{
+  "id": "diffeq-act-6-7",
+  "level": "2",
+  "url": "diffeq-act-6.html#diffeq-act-6-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Find a function such that is exact.   "
+},
+{
+  "id": "diffeq-act-7",
+  "level": "1",
+  "url": "diffeq-act-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 7 - Linear Equations",
+  "body": " 🏫 Activity 7 - Linear Equations   This activity is due at the beginning of class on Wednesday, October 7 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write down the formula for the integrating factor that can be used to solve first-order linear ODEs.       Show that is linear. Then solve it using integrating factors.      Solve the IVP and give the largest interval of existence for the solution you found.      Solve the IVP where       A pacemaker is a medical device that regulates pulse. It is comprised of a switch, a battery with constant voltage , a capacitor with capacitance , and the heart behaves as a resistor with constant resistance . When the switch is closed, the capacitor begins to charge. When the switch is open, the capacitor discharges into the heard causing it to beat. During this discharge, the electric potential across the heart varies inversely with both the capacitance and resistance.     Write a first-order ODE to model the rate of change of electric potential during the discharge of the pacemaker.      Find an algebraic model for the electric potential as a function of time by solving the equation you derived in part (a).      Suppose that after 4 seconds, the electric potential across the heart is equal to that of the battery. How does this change your answers to part (a) and (b)? What additional information can you infer?     "
+},
+{
+  "id": "diffeq-act-7-3",
+  "level": "2",
+  "url": "diffeq-act-7.html#diffeq-act-7-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write down the formula for the integrating factor that can be used to solve first-order linear ODEs.    "
+},
+{
+  "id": "diffeq-act-7-4",
+  "level": "2",
+  "url": "diffeq-act-7.html#diffeq-act-7-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Show that is linear. Then solve it using integrating factors.   "
+},
+{
+  "id": "diffeq-act-7-5",
+  "level": "2",
+  "url": "diffeq-act-7.html#diffeq-act-7-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve the IVP and give the largest interval of existence for the solution you found.   "
+},
+{
+  "id": "diffeq-act-7-6",
+  "level": "2",
+  "url": "diffeq-act-7.html#diffeq-act-7-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Solve the IVP where    "
+},
+{
+  "id": "diffeq-act-7-7",
+  "level": "2",
+  "url": "diffeq-act-7.html#diffeq-act-7-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  A pacemaker is a medical device that regulates pulse. It is comprised of a switch, a battery with constant voltage , a capacitor with capacitance , and the heart behaves as a resistor with constant resistance . When the switch is closed, the capacitor begins to charge. When the switch is open, the capacitor discharges into the heard causing it to beat. During this discharge, the electric potential across the heart varies inversely with both the capacitance and resistance.     Write a first-order ODE to model the rate of change of electric potential during the discharge of the pacemaker.      Find an algebraic model for the electric potential as a function of time by solving the equation you derived in part (a).      Suppose that after 4 seconds, the electric potential across the heart is equal to that of the battery. How does this change your answers to part (a) and (b)? What additional information can you infer?    "
 },
 {
   "id": "diffeq-hw1",
@@ -286,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "📝 Homework 3",
-  "body": " 📝 Homework 3    Instructions: This assignment is due Wednesday, September 23 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-27 (odds) in Exercises 2.2 (pg. 50)  Read through and work alongside all examples given in section 1.3 (pgs. 19-27).       Show that the ODE is separable. Then find its general solution.      Solve the IVP You may give an implicit solution.      Show that the ODE is exact. Then find its general solution.    "
+  "body": " 📝 Homework 3    Instructions: This assignment is due Wednesday, September 23 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-27 (odds) in Exercises 2.2 (pg. 50)       Show that the ODE is separable. Then find its general solution. You may give an implicit solution.      Solve the IVP . You may give an implicit solution.      Show that the ODE is exact. Then find its general solution.    "
 },
 {
   "id": "diffeq-hw3-3",
@@ -295,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Show that the ODE is separable. Then find its general solution.   "
+  "body": "  Show that the ODE is separable. Then find its general solution. You may give an implicit solution.   "
 },
 {
   "id": "diffeq-hw3-4",
@@ -304,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Solve the IVP You may give an implicit solution.   "
+  "body": "  Solve the IVP . You may give an implicit solution.   "
 },
 {
   "id": "diffeq-hw3-5",
@@ -314,6 +422,42 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Show that the ODE is exact. Then find its general solution.   "
+},
+{
+  "id": "diffeq-hw4",
+  "level": "1",
+  "url": "diffeq-hw4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 4",
+  "body": " 📝 Homework 4    Instructions: This assignment is due Wednesday, September 30 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-29 (odds) in Exercises 2.4 (pg. 60-61)  Problems 1-29 (odds) in Exercises 2.3 (pg. 60-61)       Show that is exact, then solve it.      Show that is linear, then find the general solution using an integrating factor.      Consider the ODE      Is the ODE separable? Justify your answer.      Is the ODE exact? Justify your answer.      Is the ODE linear? Justify your answer.      Solve the ODE using any method.     "
+},
+{
+  "id": "diffeq-hw4-3",
+  "level": "2",
+  "url": "diffeq-hw4.html#diffeq-hw4-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that is exact, then solve it.   "
+},
+{
+  "id": "diffeq-hw4-4",
+  "level": "2",
+  "url": "diffeq-hw4.html#diffeq-hw4-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Show that is linear, then find the general solution using an integrating factor.   "
+},
+{
+  "id": "diffeq-hw4-5",
+  "level": "2",
+  "url": "diffeq-hw4.html#diffeq-hw4-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the ODE      Is the ODE separable? Justify your answer.      Is the ODE exact? Justify your answer.      Is the ODE linear? Justify your answer.      Solve the ODE using any method.    "
 }
 ]
 
