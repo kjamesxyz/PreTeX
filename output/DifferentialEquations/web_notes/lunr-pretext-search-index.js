@@ -269,6 +269,51 @@ var ptx_lunr_docs = [
   "number": "2.2.4",
   "title": "",
   "body": "  Show the equation is exact, then find the general solution.    Note that So, the equation is exact. Since , we can write Differentiating both sides with respect to gives which should equal . Thus, it must be that Therefore, we can conclude that the general solution is defined implicitly to be    "
+},
+{
+  "id": "diffeq-notes-2-3",
+  "level": "1",
+  "url": "diffeq-notes-2-3.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "First-Order Linear ODEs",
+  "body": " First-Order Linear ODEs    Students will be able to...    Classify ODEs as linear or nonlinear using the definition.  Solve first-order linear ODEs using integrating factors.      Recall that a first-order ODE is linear if and only if it can be written in the form When , we say the equation is also homogeneous . Dividing the coefficient from both sides of the equation produces the standard form of the equation     Let's first consider the homogeneous case, that is that . In this case, the equation is separable. We can write   Suppose now, though, that the equation is nonhomogeneous. Surely, the solution exponential we found above should still be a part of the \"DNA\" of the solution, as the term is still in the equation. But this time, we should expect a different particular solution. That is, we may expect a solution of the same form, but this time the parameter may vary . We suppose Substituting this expression into the ODE gives us that Therefore, we see the particular solution is   Here's a clever trick to make this formula much easier. First, we compute If we multiply both sides of the general solution by , then we get But, applying the product rule, we can simply write this as How does this help?    We can follow the following steps to solve first-order, linear, ODEs.   Write the equation in standard form.    Compute the integrating factor  .    Write the equation using the product rule.    Integrate both sides to find the general solution.         Solve     Following the steps from theorem , we write the equation as Next, we compute the integrating factor Now, we can use the product rule trick to write the equation as Integrating both sides of the equation with respect to gives us Therefore, the general solution is     "
+},
+{
+  "id": "diffeq-notes-2-3-2",
+  "level": "2",
+  "url": "diffeq-notes-2-3.html#diffeq-notes-2-3-2",
+  "type": "Objectives",
+  "number": "2.3",
+  "title": "",
+  "body": "  Students will be able to...    Classify ODEs as linear or nonlinear using the definition.  Solve first-order linear ODEs using integrating factors.   "
+},
+{
+  "id": "def-linear-first-order",
+  "level": "2",
+  "url": "diffeq-notes-2-3.html#def-linear-first-order",
+  "type": "Definition",
+  "number": "2.3.1",
+  "title": "",
+  "body": "  Recall that a first-order ODE is linear if and only if it can be written in the form When , we say the equation is also homogeneous . Dividing the coefficient from both sides of the equation produces the standard form of the equation    "
+},
+{
+  "id": "thm-solving-linear-first-order-ODEs",
+  "level": "2",
+  "url": "diffeq-notes-2-3.html#thm-solving-linear-first-order-ODEs",
+  "type": "Theorem",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  We can follow the following steps to solve first-order, linear, ODEs.   Write the equation in standard form.    Compute the integrating factor  .    Write the equation using the product rule.    Integrate both sides to find the general solution.      "
+},
+{
+  "id": "diffeq-notes-2-3-8",
+  "level": "2",
+  "url": "diffeq-notes-2-3.html#diffeq-notes-2-3-8",
+  "type": "Example",
+  "number": "2.3.3",
+  "title": "",
+  "body": "  Solve     Following the steps from theorem , we write the equation as Next, we compute the integrating factor Now, we can use the product rule trick to write the equation as Integrating both sides of the equation with respect to gives us Therefore, the general solution is    "
 }
 ]
 
