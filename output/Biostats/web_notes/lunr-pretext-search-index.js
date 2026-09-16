@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Boxplots",
-  "body": " Boxplots    Let be a quantitative data set with IQR . If has the property that we call an outlier of .      A diagram that visualizes the five number summary of a data set is called a boxplot . The IQR of the data is contained in a box with a vertical line through the median. Whiskers are then drawn outward from the box to the minimum and maximum (non-outlier) of the set. Asterisks are used to plot all outliers.    "
+  "body": " Boxplots    Let be a quantitative data set with IQR . If has the property that we call an outlier of .      A diagram that visualizes the five number summary of a data set is called a boxplot . The IQR of the data is contained in a box with a vertical line through the median. Whiskers are then drawn outward from the box to the minimum and maximum (non-outlier) of the set. Asterisks are used to plot all outliers.      Create a boxplot for the following data.    20  52  86  80  44  49  57  41  44  55       A boxplot with 5 number summary 20, 44, 50.5, 56.5, 86; and outliers 20, 80, and 86.     "
 },
 {
   "id": "def-outlier",
@@ -451,13 +451,22 @@ var ptx_lunr_docs = [
   "body": "  A diagram that visualizes the five number summary of a data set is called a boxplot . The IQR of the data is contained in a box with a vertical line through the median. Whiskers are then drawn outward from the box to the minimum and maximum (non-outlier) of the set. Asterisks are used to plot all outliers.   "
 },
 {
+  "id": "biostats-notes-2-1-boxplots-4",
+  "level": "2",
+  "url": "biostats-notes-2-1-boxplots.html#biostats-notes-2-1-boxplots-4",
+  "type": "Example",
+  "number": "2.1.3",
+  "title": "",
+  "body": "  Create a boxplot for the following data.    20  52  86  80  44  49  57  41  44  55       A boxplot with 5 number summary 20, 44, 50.5, 56.5, 86; and outliers 20, 80, and 86.    "
+},
+{
   "id": "biostats-notes-2-2-histograms",
   "level": "1",
   "url": "biostats-notes-2-2-histograms.html",
   "type": "Section",
   "number": "2.2",
   "title": "Histograms",
-  "body": " Histograms    Students will be able to...    Construct and interpret frequency distributions.  Construct and interpret histograms.      Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.     Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.     If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .     Draw a histogram of the above data using bin size 5. Note the convention for bin size is to round up to data sig. figs. or to one fewer if tied then start from half a smallest-place-value below the smallest datum.   "
+  "body": " Histograms    Students will be able to...    Construct and interpret frequency distributions.  Construct and interpret histograms.      Consider repeating an experiment and measuring the frequency of each event in the sample space. The frequency distribution of the data is the function that relates the event to its frequency. Similarly, we can build a relative frequency distribution to map the event to the proportion of the sample space it constitues. Finally, a cumulative frequency distribution maps each event to the sum of its and its predecessors' relative frequencies.      Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Build a frequency, relative frequency, and cumulative frequency distribution.      Grade Freq. Rel. Freq. Cumul. Freq.    51  2  0.1  0.1    53  1  0.05  0.15    55  1  0.05  0.2    57  1  0.05  0.25    60  3  0.15  0.4    61  1  0.05  0.45    62  1  0.05  0.5    63  1  0.05  0.55                  96  1  0.05  1.0        If we categorize the data into intervals of equal size, we can visualize the frequency distribution by plotting the subintervals on one axis and the frequency on the other axis. This type of diagram is called a histogram , and we call the subintervals bins .     Draw a histogram of the above data using bin size 5. Note the convention for bin size is to round up to data sig. figs. or to one fewer if tied then start from half a smallest-place-value below the smallest datum.   "
 },
 {
   "id": "biostats-notes-2-2-histograms-2",
@@ -484,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.2",
   "title": "",
-  "body": " Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Buils a frequency, relative frequency, and cumulative frequency distribution.  "
+  "body": "  Below is a set of midterm grades from a statistics class.    51  51  53  55  57  60  60  60  61  62    63  74  76  77  81  81  83  90  95  96    Build a frequency, relative frequency, and cumulative frequency distribution.      Grade Freq. Rel. Freq. Cumul. Freq.    51  2  0.1  0.1    53  1  0.05  0.15    55  1  0.05  0.2    57  1  0.05  0.25    60  3  0.15  0.4    61  1  0.05  0.45    62  1  0.05  0.5    63  1  0.05  0.55                  96  1  0.05  1.0     "
 },
 {
   "id": "def-histogram",

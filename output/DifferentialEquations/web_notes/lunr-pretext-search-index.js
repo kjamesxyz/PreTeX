@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Separable Equations",
-  "body": " Separable Equations    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.      A first-order ODE is separable if it can be written in one of the following forms       Solve the IVP     Notice that So this equation is separable by definition. We first, separate the variables  Integrating both sides, we obtain Applying our initial condition shows that Therefore, the solution is     "
+  "body": " Separable Equations    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.      A first-order ODE is separable if it can be written in one of the following forms       Determine whether EOTF are separable.          Notice that So, this is separable.           S.O.L.       Solve the IVP     Notice that So this equation is separable by definition. We first, separate the variables  Integrating both sides, we obtain Applying our initial condition shows that Therefore, the solution is     "
 },
 {
   "id": "diffeq-notes-2-1-2",
@@ -213,6 +213,15 @@ var ptx_lunr_docs = [
   "url": "diffeq-notes-2-1.html#diffeq-notes-2-1-4",
   "type": "Example",
   "number": "2.1.2",
+  "title": "",
+  "body": "  Determine whether EOTF are separable.          Notice that So, this is separable.           S.O.L.    "
+},
+{
+  "id": "diffeq-notes-2-1-5",
+  "level": "2",
+  "url": "diffeq-notes-2-1.html#diffeq-notes-2-1-5",
+  "type": "Example",
+  "number": "2.1.3",
   "title": "",
   "body": "  Solve the IVP     Notice that So this equation is separable by definition. We first, separate the variables  Integrating both sides, we obtain Applying our initial condition shows that Therefore, the solution is    "
 },

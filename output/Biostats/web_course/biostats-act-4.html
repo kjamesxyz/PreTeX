@@ -58,15 +58,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.10';
+eBookConfig.runestone_version = '8.2.13';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/prefix-runtime.a45d14e8fc8c534a.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.538acb8e671a3b5d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.1bda041f5a098305.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -139,6 +139,7 @@ eBookConfig.enable_chatcodes =  false;
 \renewcommand{\bf}[1]{\mathbf{#1}}
 \renewcommand{\cal}[1]{\mathcal{#1}}
 \newcommand{\scr}[1]{\mathscr{#1}}
+\renewcommand{\bar}[1]{\overline{#1}}
 
 \newcommand{\bfepsilon}{\boldsymbol{\epsilon}}
 \newcommand{\bfpsi}{\boldsymbol{\psi}}
@@ -155,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth1 focused" data-preexpanded-levels="0" data-max-levels="1"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="biostats-frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="biostats-welcome-to-class.html" class="internal"><span class="codenumber">1</span> <span class="title">Welcome to Class!</span></a></div>
@@ -281,11 +282,47 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" aria-hidden="true" data-description="Task 2.4.1.f"><a tabindex="-1" href="#biostats-act-4-3-7" title="Copy heading and permalink for Task 2.4.1.f" aria-label="Copy heading and permalink for Task 2.4.1.f">🔗</a></div>
 </article>
 <article class="task exercise-like" id="biostats-act-4-3-8"><h3 class="heading"><span class="codenumber">(g)</span></h3>
-<div class="para" id="biostats-act-4-3-8-1-1">Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. In the space below, describe the shape of your data and choose which histogram you believe is the best way to represent the data. Why?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="biostats-act-4-3-8-1-1">Repeat the steps above to create 3 histograms for your data with different bin sizes. Color the smallest bin red, the medium-sized bin blue, and the largest bin green. Use your histograms to determine the shape of your data. Which diagram is most useful for interpreting your data? The answers to these questions will be included in your<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 2.4.1.g"><a tabindex="-1" href="#biostats-act-4-3-8" title="Copy heading and permalink for Task 2.4.1.g" aria-label="Copy heading and permalink for Task 2.4.1.g">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2.4.1"><a tabindex="-1" href="#biostats-act-4-3" title="Copy heading and permalink for Worksheet Exercise 2.4.1" aria-label="Copy heading and permalink for Worksheet Exercise 2.4.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="biostats-act-4-4"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="para logical" id="biostats-act-4-4-1-1">
+<div class="para">
+<em class="alert">Written Report:</em> This portion of your written report should respond to each of the following prompts.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="biostats-act-4-4-1-1-2">
+<li id="biostats-act-4-4-1-1-2-1">
+<div class="para" id="biostats-act-4-4-1-1-2-1-1">Explain any techniques used to clean your data (if applicable).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2.4.2.a"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-1" title="Copy heading and permalink for Item 2.4.2.a" aria-label="Copy heading and permalink for Item 2.4.2.a">🔗</a></div>
+</li>
+<li id="biostats-act-4-4-1-1-2-2">
+<div class="para" id="biostats-act-4-4-1-1-2-2-1">Include the three histograms you generated in problem 1f.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2.4.2.b"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-2" title="Copy heading and permalink for Item 2.4.2.b" aria-label="Copy heading and permalink for Item 2.4.2.b">🔗</a></div>
+</li>
+<li id="biostats-act-4-4-1-1-2-3">
+<div class="para" id="biostats-act-4-4-1-1-2-3-1">Use your histograms to describe the shape of your data.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2.4.2.c"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-3" title="Copy heading and permalink for Item 2.4.2.c" aria-label="Copy heading and permalink for Item 2.4.2.c">🔗</a></div>
+</li>
+<li id="biostats-act-4-4-1-1-2-4">
+<div class="para" id="biostats-act-4-4-1-1-2-4-1">Which of the histograms you generated are most helpful for interpreting the shape of your data? Why?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2.4.2.d"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-4" title="Copy heading and permalink for Item 2.4.2.d" aria-label="Copy heading and permalink for Item 2.4.2.d">🔗</a></div>
+</li>
+<li id="biostats-act-4-4-1-1-2-5">
+<div class="para" id="biostats-act-4-4-1-1-2-5-1">Use plain language to intepret what your histogram suggests about your data set.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2.4.2.e"><a tabindex="-1" href="#biostats-act-4-4-1-1-2-5" title="Copy heading and permalink for Item 2.4.2.e" aria-label="Copy heading and permalink for Item 2.4.2.e">🔗</a></div>
+</li>
+</ol>
+<div class="para">When your rough draft is complete, your team lead should submit it in PDF format along with your team’s R script to the "📊Histogram Check-in" assignment on Canvas (see Week 3 module).</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#biostats-act-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2.4.2"><a tabindex="-1" href="#biostats-act-4-4" title="Copy heading and permalink for Worksheet Exercise 2.4.2" aria-label="Copy heading and permalink for Worksheet Exercise 2.4.2">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="🏫 Activity 2.4: 🏫 Activity 4 - Histograms"><a tabindex="-1" href="#biostats-act-4" title="Copy heading and permalink for 🏫 Activity 2.4: 🏫 Activity 4 - Histograms" aria-label="Copy heading and permalink for 🏫 Activity 2.4: 🏫 Activity 4 - Histograms">🔗</a></div>
 </section>
 </div>
