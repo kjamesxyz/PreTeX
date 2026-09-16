@@ -10,7 +10,7 @@
         <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
             <ol> 
                 <li><p> Problems 1-29 (odds) in Exercises 2.4 (pg. 60-61)</p></li>
-                <li><p> Problems 1-29 (odds) in Exercises 2.3 (pg. 60-61)</p></li>
+                <li><p> Problems 1-29 (odds) in Exercises 2.3 (pg. 68-69)</p></li>
             </ol> 
         </p>
     </introduction>
@@ -18,7 +18,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Show that <md> (2xy - \sec^2(x)) \, dx + (x^2 + 2y) \, dy </md> is exact, then solve it.
+                Show that <md> (2xy - \sec^2(x)) \, dx + (x^2 + 2y) \, dy = 0 </md> is exact, then solve it.
             </p>
         </statement>
     </exercise>
