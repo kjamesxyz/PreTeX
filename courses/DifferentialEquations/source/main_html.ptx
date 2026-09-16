@@ -24,6 +24,8 @@
             <xi:include href="./activities/3_activity_what_are_solns.ptx" />
             <xi:include href="./activities/4_activity_when_use_des.ptx" />
             <xi:include href="./activities/5_activity_separable_eqns.ptx" />
+            <xi:include href="./activities/6_activity_exact_eqns.ptx" />
+            <xi:include href="./activities/7_activity_linear_eqns.ptx" />
         </chapter>
 
         <chapter xml:id="diffeq-hw">
@@ -32,6 +34,7 @@
             <xi:include href="./homework/1_homework.ptx" />
             <xi:include href="./homework/2_homework.ptx" />
             <xi:include href="./homework/3_homework.ptx" />
+            <xi:include href="./homework/4_homework.ptx" />
         </chapter>
 
     </book>

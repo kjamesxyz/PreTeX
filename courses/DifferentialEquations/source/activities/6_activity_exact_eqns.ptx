@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 6 - Exact Equations</title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Wednesday, October 7</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    What does it mean for an ODE to be <alert>exact</alert>?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Determine whether <md> \left( x^2y^3 - \frac{1}{1+9x^2} \right) \deriv{x}{y} + x^3 y^2 = 0 </md> is exact. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Show that <md> \left( 1+ \ln(x) + \frac{y}{x} \right) \, dx = (1 - \ln(x)) \, dy </md> is exact. Then solve it using exact differentials. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find <m>k</m> such that the differential equation <md> (6xy^3 + \cos(y)) \, dy = (x \sin(y) - 2kx^2y^2) \, dy </md> is exact.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Find a function <m>M(x,y)</m> such that <md> M(x,y)\,dx + \left(xe^y + 2xy + \frac{1}{x} \right) \, dy = 0 </md> is exact. 
+            </p>
+        </statement>
+    </exercise>
+
+    
+
+    
+</worksheet> 

@@ -22,6 +22,7 @@
 
             <xi:include href="./notes/2_Separable_Equations.ptx" />
             <xi:include href="./notes/2_Exact_Equations.ptx" />
+            <xi:include href="./notes/2_Linear_Equations.ptx" />
         </chapter>
 
     </book>

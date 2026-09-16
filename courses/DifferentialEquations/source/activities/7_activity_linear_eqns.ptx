@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 7 - Linear Equations</title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Wednesday, October 7</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write down the formula for the <alert> integrating factor </alert> that can be used to solve first-order linear ODEs.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Show that <md> (1 + x) \deriv{y}{x} - xy = x + x^2 </md> is linear. Then solve it using integrating factors. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Solve the IVP <md>y \deriv{x}{y} - x = 2y^2; \ y(1) = 5 </md> and give the largest interval of existence for the solution you found. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Solve the IVP <md> \deriv{P}{t} + 2t = f(t); \ y(0) = 1, </md> where <md> f(t) = \begin{cases} 1 \amp \text{if} \ 0 \leq x \leq 1 \\ -1 \amp \text{if} \ x \gt 1 \end{cases} </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                A pacemaker is a medical device that regulates pulse. It is comprised of a switch, a battery with constant voltage <m>E_0</m>, a capacitor with capacitance <m>C</m>, and the heart behaves as a resistor with constant resistance <m>R</m>. When the switch is closed, the capacitor begins to charge. When the switch is open, the capacitor discharges into the heard causing it to beat. During this discharge, the electric potential across the heart varies inversely with both the capacitance and resistance. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a first-order ODE to model the rate of change of electric potential during the discharge of the pacemaker. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Find an algebraic model for the electric potential as a function of time by solving the equation you derived in part (a). 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Suppose that after 4 seconds, the electric potential across the heart is equal to that of the battery. How does this change your answers to part (a) and (b)? What additional information can you infer?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet> 
