@@ -154,11 +154,47 @@ var ptx_lunr_docs = [
   "body": "   Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the three histograms you generated in problem 1f.  Use your histograms to describe the shape of your data.  Which of the histograms you generated are most helpful for interpreting the shape of your data? Why?  Use plain language to intepret what your histogram suggests about your data set.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Histogram Check-in\" assignment on Canvas (see Week 3 module).   "
 },
 {
+  "id": "biostats-act-5",
+  "level": "1",
+  "url": "biostats-act-5.html",
+  "type": "🏫 Activity",
+  "number": "2.5",
+  "title": "🏫 Activity 5 - Boxplots",
+  "body": " 🏫 Activity 5 - Boxplots   This assignment is due at the beginning of class on Wednesday, September 23 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.   This activity is part of your final project. Extra care should be taken in completing this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics are comprise the 5 number summary ?       Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity5.r . Then follow the procedure below. When you have finished the procedure, please submit your R script to the \"Activity 5\" assignment on Canvas.     Import the library ggplot2 and build the data set for your group's final project.      We will use the same quantitative variable in this portion of the project that you used in the Histograms portion of the project. Use the summary command to build its 5 number summary. Write the summary in the space below.      Create a new ggplot based on your data set that uses mapping=aes(y=your_var_from_part_a) . Add to it a geom_boxplot() .      According to your plot, how many outliers does this variable have? How can you tell?      Let's emulate a clustered sample. Choose a qualitative variable from your data set that doesn't have too many different outcomes. Then, create a boxplot for the variable you chose in part (a) for each cluster by changing our mapping to be mapping=aes(x=qual_var, y=quant_var) .      Using the plot you generated in part (d), answer each of the following questions. Be sure to explain how you got each answer.     Which has the widest IQR?      Which has the greatest number of outliers?      Which has the smallest median?         Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the single and clustered boxplots.  Use the single boxplot to explain the shape of your data.  Do you notice any trends\/patterns in your data by clustering it?  In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Boxplots Check-in\" assignment on Canvas (see Week 4 module).    "
+},
+{
+  "id": "biostats-act-5-3",
+  "level": "2",
+  "url": "biostats-act-5.html#biostats-act-5-3",
+  "type": "Worksheet Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics are comprise the 5 number summary ?    "
+},
+{
+  "id": "biostats-act-5-4",
+  "level": "2",
+  "url": "biostats-act-5.html#biostats-act-5-4",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity5.r . Then follow the procedure below. When you have finished the procedure, please submit your R script to the \"Activity 5\" assignment on Canvas.     Import the library ggplot2 and build the data set for your group's final project.      We will use the same quantitative variable in this portion of the project that you used in the Histograms portion of the project. Use the summary command to build its 5 number summary. Write the summary in the space below.      Create a new ggplot based on your data set that uses mapping=aes(y=your_var_from_part_a) . Add to it a geom_boxplot() .      According to your plot, how many outliers does this variable have? How can you tell?      Let's emulate a clustered sample. Choose a qualitative variable from your data set that doesn't have too many different outcomes. Then, create a boxplot for the variable you chose in part (a) for each cluster by changing our mapping to be mapping=aes(x=qual_var, y=quant_var) .      Using the plot you generated in part (d), answer each of the following questions. Be sure to explain how you got each answer.     Which has the widest IQR?      Which has the greatest number of outliers?      Which has the smallest median?     "
+},
+{
+  "id": "biostats-act-5-5",
+  "level": "2",
+  "url": "biostats-act-5.html#biostats-act-5-5",
+  "type": "Worksheet Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": "   Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the single and clustered boxplots.  Use the single boxplot to explain the shape of your data.  Do you notice any trends\/patterns in your data by clustering it?  In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Boxplots Check-in\" assignment on Canvas (see Week 4 module).   "
+},
+{
   "id": "review-1",
   "level": "1",
   "url": "review-1.html",
   "type": "🏫 Activity",
-  "number": "2.5",
+  "number": "2.6",
   "title": "🎯 Midterm 1 Review",
   "body": " 🎯 Midterm 1 Review   This assignment is designed to help you prepare for the first midterm. It will not be graded.     Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 1  Activity 3     "
 },
@@ -167,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "review-1.html#review-1-3",
   "type": "Worksheet Exercise",
-  "number": "2.5.1",
+  "number": "2.6.1",
   "title": "",
   "body": "  Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 1  Activity 3    "
 },
