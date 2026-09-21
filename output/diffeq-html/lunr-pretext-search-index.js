@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "🏫 Activity 6 - Exact Equations",
-  "body": " 🏫 Activity 6 - Exact Equations   This activity is due at the beginning of class on Wednesday, October 7 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What does it mean for an ODE to be exact ?       Determine whether is exact.      Show that is exact. Then solve it using exact differentials.      Find such that the differential equation is exact.      Find a function such that is exact.    "
+  "body": " 🏫 Activity 6 - Exact Equations   This activity is due at the beginning of class on Wednesday, October 7 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What does it mean for an ODE to be exact ?       Determine whether is exact.      Find such that the differential equation is exact.      Find a function such that is exact.      Show that is exact. Then solve it using exact differentials.    "
 },
 {
   "id": "diffeq-act-6-3",
@@ -241,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Show that is exact. Then solve it using exact differentials.   "
+  "body": "  Find such that the differential equation is exact.   "
 },
 {
   "id": "diffeq-act-6-6",
@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Find such that the differential equation is exact.   "
+  "body": "  Find a function such that is exact.   "
 },
 {
   "id": "diffeq-act-6-7",
@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Find a function such that is exact.   "
+  "body": "  Show that is exact. Then solve it using exact differentials.   "
 },
 {
   "id": "diffeq-act-7",

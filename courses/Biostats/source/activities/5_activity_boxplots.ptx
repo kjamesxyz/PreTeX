@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 5 - Boxplots</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Wednesday, September 23 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+
+        <p> <alert> This activity is part of your final project. </alert> Extra care should be taken in completing this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    What statistics comprise the <alert>5 number summary</alert>?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Create a new RStudio script named <c>SECTION#_LASTNAME_FIRSTNAME_Activity5.r</c>. Then follow the procedure below. When you have finished the procedure, please submit your R script to the "Activity 5" assignment on Canvas. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Import the library <c>ggplot2</c> and build the data set for your group's final project. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    We will use the same quantitative variable in this portion of the project that you used in the Histograms portion of the project. Use the <c>summary</c> command to build its 5 number summary. Write the summary in the space below.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Create a new ggplot based on your data set that uses <c>mapping=aes(y=your_var_from_part_a)</c>. Add to it a <c>geom_boxplot()</c>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    According to your plot, how many outliers does this variable have? How can you tell?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Let's emulate a clustered sample. Choose a qualitative variable from your data set that doesn't have too many different outcomes. Then, create a boxplot for the variable you chose in part (a) for each cluster by changing our mapping to be <c>mapping=aes(x=qual_var, y=quant_var)</c>. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <introduction>
+                <p>
+                    Using the plot you generated in part (d), answer each of the following questions. Be sure to explain how you got each answer.
+                </p>
+            </introduction>
+
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Which has the widest IQR?
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Which has the greatest number of outliers?
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Which has the smallest median?
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                <alert> Written Report: </alert> This portion of your written report should respond to each of the following prompts. 
+                <ol> 
+                    <li><p> Explain any techniques used to clean your data (if applicable). </p></li>
+                    <li><p> Include the single and clustered boxplots. </p></li>
+                    <li><p> Use the single boxplot to explain the shape of your data. </p></li>
+                    <li><p> Do you notice any trends/patterns in your data by clustering it? </p></li>
+                    <li><p> In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots. </p></li>
+                </ol>
+                When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the "📊Boxplots Check-in" assignment on Canvas (see Week 4 module). 
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

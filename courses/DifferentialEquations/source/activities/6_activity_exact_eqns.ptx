@@ -33,18 +33,12 @@
         </statement>
     </exercise>
 
-    <exercise workspace="3in">
-        <statement>
-            <p>
-                Show that <md> \left( 1+ \ln(x) + \frac{y}{x} \right) \, dx = (1 - \ln(x)) \, dy </md> is exact. Then solve it using exact differentials. 
-            </p>
-        </statement>
-    </exercise>
+    
 
     <exercise workspace="2in">
         <statement>
             <p>
-                Find <m>k</m> such that the differential equation <md> (6xy^3 + \cos(y)) \, dy = (x \sin(y) - 2kx^2y^2) \, dy </md> is exact.
+                Find <m>k</m> such that the differential equation <md> (6xy^3 + \cos(y)) \, dx = (x \sin(y) - 2kx^2y^2) \, dy </md> is exact.
             </p>
         </statement>
     </exercise>
@@ -57,7 +51,13 @@
         </statement>
     </exercise>
 
-    
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Show that <md> \left( 1+ \ln(x) + \frac{y}{x} \right) \, dx = (1 - \ln(x)) \, dy </md> is exact. Then solve it using exact differentials. 
+            </p>
+        </statement>
+    </exercise>
 
     
 </worksheet> 
