@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="exam1">
-<page>
     <title>Exam 1 - MATH-132B-01</title>
+<page>
+    
 
     <p>
         <alert>Instructions:</alert> You have 110 minutes to take this exam. You are permitted your signed prep work journal and access to RStudio on a classroom computer during the exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
