@@ -165,7 +165,7 @@
 
 <page>
     <p>
-        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, <alert> write the code you used in as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
     </p>
 
     <exercise>
