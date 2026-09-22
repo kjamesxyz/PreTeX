@@ -37,7 +37,7 @@
                 <ol marker="A." cols="2">
                     <li><p> Rolling a 6 </p></li>
                     <li><p> Rolling an even number </p></li>
-                    <li><p> Rolling a 1 </p></li>
+                    <li><p> Rolling a 3 </p></li>
                     <li><p> Rolling an odd number </p></li>
                 </ol>
             </p>
@@ -160,7 +160,6 @@
         </statement>
     </exercise>
 
-    
 
 </page>
 
@@ -172,11 +171,45 @@
     <exercise>
         <introduction>
             <p>
-                A
+                A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
             </p>
         </introduction>
-    </exercise>
 
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Describe a sampling technique that could potentially introduce a nonrandom sampling error in this study.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Describe a way the scientist could design a stratified sample for this experiment. Then, give an example of how a nonsampling error could be obtained from this study.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Describe a way the scientist could design a clustered sample for this experiment. Then, give an example of how a sampling error could be obtained from this study. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Describe the data the scientist is recording by listing its type, level of measurement, and whether it is discrete, continuous, or neither. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</page> 
+
+<page>
     <exercise>
         <introduction>
             <p>
@@ -198,7 +231,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Write the 5 number summary for the "Copper" data set.
+                    Use the image to estimate the 5 number summary for the "Copper" data set.
                 </p>
             </statement>
         </task>
@@ -218,17 +251,17 @@
     <exercise>
         <introduction>
             <p>
-                The histograms below show the heights of 100 males and 100 female. 
+                The histogram below shows the measured heights of black cherry trees. 
             </p>
-            <image source="images/hist_height.png" width="50%">
-                <shortdescription>2 histograms labeled (from top to bottom) male and female.</shortdescription>
+            <image source="images/cherry_tree_histogram.svg" width="50%">
+                <shortdescription>A histogram with frequency on the y-axis and height (feet) on the x-axis.</shortdescription>
             </image>
         </introduction>
 
         <task workspace="0.25in">
             <statement>
                 <p>
-                    How many men are shorter than 175 cm? 
+                    How many cherry trees were sampled?
                 </p>
             </statement>
         </task>
@@ -236,7 +269,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    How many women are between 160 and 180 cm tall? 
+                    How many trees are less than 75 feet tall?
                 </p>
             </statement>
         </task>
@@ -244,7 +277,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Do males or females exhibit more variation in height? 
+                    How many cherry trees are between 70 and 85 feet tall? 
                 </p>
             </statement>
         </task>
@@ -252,7 +285,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    By randomly selecting one female from the study, use the bins provided to estimate what their height is most likely to be?
+                    Use the histogram to describe the shape of the data.
                 </p>
             </statement>
         </task>
@@ -328,7 +361,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Find the 35th percentile. What is the corresponding quantile?
+                    Find the 35th percentile.
                 </p>
             </statement>
         </task>
