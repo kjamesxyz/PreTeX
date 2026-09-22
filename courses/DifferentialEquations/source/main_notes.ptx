@@ -25,5 +25,11 @@
             <xi:include href="./notes/2_Linear_Equations.ptx" />
         </chapter>
 
+        <chapter xml:id="chapter-3-higher-order-ODEs">
+            <title>Solving Higher-Order ODEs</title>
+
+            <xi:include href="./notes/3_Existence.ptx" />
+        </chapter>
+
     </book>
 </pretext>

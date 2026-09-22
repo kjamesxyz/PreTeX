@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Existence &amp; Uniqueness</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Identify and solve separable first-order ODEs by separation of variables. </p></li>
+        </ol>
+    </objectives>
+
+    <theorem xml:id="thm-superposition">
+        <title>Principle of Superposition</title>
+        
+        
+        <statement>
+            <p>
+                Suppose <m>y_1, \ldots, y_k</m> are all solutions to an nth-order homogeneous ODE on an interval <m>I</m>. Then, the linear combination <md> y := c_1y_1(x) + c_2y_2(x) + \cdots + c_ky_k(x),</md> is also a solution. 
+            </p>
+        </statement>
+
+        <proof>
+            <p>
+                We will prove the case that <m>k=2</m>. Let <m>y_1, y_2</m> solve the equation <md> Ly = 0 </md> and suppose that <m>L</m> is linear. Then <md> L[c_1 y_1 + c_2 y_2] = c_1 L[y_1] + c_2 L[y_2] = 0.</md> Therefore, <m>y</m> is a solution. 
+            </p>
+        </proof>
+    </theorem>
+    
+
+    <theorem xml:id="thm-ivp-existence">
+        <title>Existence and Uniqueness of Solutions to IVPs</title>
+        
+        
+        <statement>
+            <p>
+                Consider the <m>n^{\text{th}}</m>-order linear IVP 
+                <md>
+                    <mrow> a_n(x) \deriv{^ny}{x^n} + a_{n-1}(x) \deriv{^{(n-1)}y}{x^{(n-1)}} + \cdots + a_1(x) \deriv{y}{x} + a_0(x) y = \amp f(x) </mrow>
+                    <mrow> y(x_0) = y_0, y'(x_0) = y_1, \ldots, y^{(n-1)}(x_0) = \amp  y_{n-1}. </mrow>
+                </md>
+                If <m>a_n, \ldots, a_1, a_0</m>, and <m>f</m> be continuous on an interval <m>I</m> containing <m>x_0</m> with the property that <m>a_n(x) \neq 0</m> for all <m>x \in I </m>. Then, there is a unique solution <m>y</m> to the IVP.
+            </p>
+        </statement>
+    </theorem>
+    
+
+</section>

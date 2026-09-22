@@ -138,8 +138,8 @@
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
     <css
         theme="default-modern"
-        primary-color="#CD001A"
-        secondary-color="#002A4E"
+        primary-color="#994d00"
+        secondary-color="#004d99"
         provide-dark-mode="no"
     />
 
