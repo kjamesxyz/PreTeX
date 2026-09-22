@@ -171,6 +171,14 @@
     <exercise>
         <introduction>
             <p>
+                A
+            </p>
+        </introduction>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
                 The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
             </p>
             <image source="images/boxplot_cement.png" width="55%">
@@ -248,6 +256,89 @@
             </statement>
         </task>
 
+    </exercise>
+
+    
+</page>
+
+<page>
+    <exercise>
+        <introduction>
+            <p>
+                The heights of 11 patients (in inches) are given below. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>62</cell>
+                    <cell>64</cell>
+                    <cell>69</cell> 
+                    <cell>70</cell> 
+                    <cell>70</cell>
+                    <cell>71</cell>
+                    <cell>72</cell>
+                    <cell>73</cell>
+                    <cell>74</cell>
+                    <cell>75</cell>
+                    <cell>77</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the mean height. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Find the median height.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine the inner-quartile range of the data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine the range of the data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write the 5-number summary for the data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Find the 35th percentile. What is the corresponding quantile?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the standard deviation from the sample.
+                </p>
+            </statement>
+        </task>
     </exercise>
 </page>
     
