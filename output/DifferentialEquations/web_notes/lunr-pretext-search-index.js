@@ -323,6 +323,42 @@ var ptx_lunr_docs = [
   "number": "2.3.3",
   "title": "",
   "body": "  Solve     Following the steps from theorem , we write the equation as Next, we compute the integrating factor Now, we can use the product rule trick to write the equation as Integrating both sides of the equation with respect to gives us Therefore, the general solution is    "
+},
+{
+  "id": "diffeq-notes-3-1",
+  "level": "1",
+  "url": "diffeq-notes-3-1.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Existence &amp; Uniqueness",
+  "body": " Existence & Uniqueness    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.     Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    "
+},
+{
+  "id": "diffeq-notes-3-1-2",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-2",
+  "type": "Objectives",
+  "number": "3.1",
+  "title": "",
+  "body": "  Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.   "
+},
+{
+  "id": "thm-superposition",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-superposition",
+  "type": "Theorem",
+  "number": "3.1.1",
+  "title": "Principle of Superposition.",
+  "body": " Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.   "
+},
+{
+  "id": "thm-ivp-existence",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-ivp-existence",
+  "type": "Theorem",
+  "number": "3.1.2",
+  "title": "Existence and Uniqueness of Solutions to IVPs.",
+  "body": " Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.   "
 }
 ]
 
