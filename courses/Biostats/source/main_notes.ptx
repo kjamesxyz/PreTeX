@@ -23,5 +23,19 @@
             <xi:include href="./notes/2_boxplots.ptx"/>
             <xi:include href="./notes/2_frequency_dists.ptx"/>
         </chapter>
+
+        <chapter xml:id="biostats-notes-3-prob-dists">
+            <title>Probability Distributions</title>
+            
+            <xi:include href="./notes/3_probability_dists.ptx" />
+            <xi:include href="./notes/3_sampling_dists.ptx" />
+        </chapter>
+
+        <chapter xml:id="biostats-notes-4-hyp-tests">
+            <title>Hypothesis Testing</title>
+            
+            <xi:include href="./notes/4_hyp_test_framework.ptx" />
+            <xi:include href="./notes/4_confidence_intervals.ptx" />
+        </chapter>
     </book>
 </pretext>

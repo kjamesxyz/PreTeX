@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-3-1-prob-dists" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Probability Distributions</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Understand and write using distribution notation. </p></li>
+            <li><p> Compute, interpret, and compare Z-scores. </p></li>
+            <li><p> Represent cumulative probabilities as shaded areas. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        We have seen that histograms are a powerful tool for visualizing discrete random variables. Suppose we wanted to build a similar tool, now, for continuous random variables. 
+    </p>
+
+    <definition xml:id="def-pdf">
+        <statement>
+            <p>
+                Let <m>X</m> be a CRV. The smooth curve obtained by building a histogram with "infinitely-many bins" is called the <alert> density function </alert> for <m>X</m>. When the total area under the density function is equal to 1, we call it a <alert> probability density function (PDF) </alert>. When the relative frequency distribution of <m>X</m> is described by the PDF <m>\cal{P}[X=x]</m>, we say that "<m>X</m> is distributed according to <m>\cal{P}</m>". 
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        We have already seen some ways to describe the shape of data qualitatively. Distributions are ways to describe the shape of data quantitatively. Let's start by looking at some shapes we already know.  
+    </p>
+
+    <definition xml:id="def-uniform-dist">
+        <statement>
+            <p>
+                We say <m>X</m> is <alert> uniform </alert> if every outcome for <m>X</m> is equally likely. Hence, if the range of <m>X</m> is <m>b - a</m>, we say <m>X</m> is <alert> uniformly distributed </alert> if it has the PDF <md> f(x) = \begin{cases} \frac{1}{b-a} \amp \text{for} \ a \leq x \leq b; \\ 0 \amp \text{otherwise}. \end{cases} </md> We write <m>X \sim U[a,b]</m>. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-normal-dist">
+        <statement>
+            <p>
+                Suppose that <m>X</m> has mean <m>\mu</m> and standard deviation <m>\sigma</m>. We say that <m>X</m> is <alert> normally distributed </alert> if it has the PDF <md> f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}. </md> We write <m> X \sim N(\mu, \sigma) </m>. We call the special case that <m> \mu = 0 </m> and <m> \sigma = 1 </m> the <alert> standard normal distribution </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-empirical-rule">
+        <statement>
+            <p>
+                Suppose that <m>X \sim N(\mu,\sigma) </m>. Then 
+                <ul>
+                    <li><p>68% of the data falls within <m>\sigma</m> of <m>\mu</m>.</p></li>
+                    <li><p>95% of the data falls within <m>2\sigma</m> of <m>\mu</m>.</p></li>
+                    <li><p>99.7% of the data falls within <m>3\sigma</m> of <m>\mu</m>.</p></li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <image source="images/normal-dist-info.jpg">
+        <shortdescription>A diagram depicting a normal distribution and how to interpret it.</shortdescription>
+    </image>
+
+    <p>
+        We have seen that the spread of our data changes the way we have to interpret differences between the values of our data. For example, a difference of "1" between two data points is significant on a 1-5 scale, but less significant on a 1-1000 scale. To do this, we use a tool called a Z-score, which is a measurement of how many standard deviations the data point is away from the mean. 
+    </p>
+
+    <definition xml:id="def-z-score">
+        <statement>
+            <p>
+                Suppose that <m>x \in X \sim N(\mu,\sigma) </m>. Its <alert> Z-score </alert> is <md> Z_x = \frac{x - \mu}{\sigma}. </md> By convention, Z-scores are always rounded to 2 decimal places.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                In 2026, the mean SAT score was 1029 with a standard deviation of 229. The mean ACT score was 19.2 with standard deviation 5.8. Suppose that Jack scored 1300 on his SAT and Jill scored 24 on her ACT. Who performed better? 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                It is difficult, on face value, to answer this question because the exams are scored on vastly different scales. So, we will need to standardize their scores first. To do this, we compute each of their Z-scores. 
+
+                <md>
+                    <mrow> Z_{\text{Jack}} \amp = \frac{1300 - 1029}{229} \approx 1.18 </mrow>
+                    <mrow> Z_{\text{Jill}} \amp = \frac{24 - 19.2}{5.8} \approx 0.83 </mrow>
+                </md>
+                
+                Thus, since Jack scored "more std. devs. above the mean" than Jill did, Jack did better by comparison. 
+            </p>
+        </solution>
+    </example>
+
+    <theorem xml:id="thm-cumulative-prob">
+        <statement>
+            <p>
+                Suppose <m>x \in X \sim N(\mu, \sigma) </m>. Then <m>\cal{P}[X \leq x]</m> is the <alert> left-tailed </alert> area under the PDF at <m>x</m>. 
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                In 2026, the mean SAT score was 1029 with a standard deviation of 229. The mean ACT score was 19.2 with standard deviation 5.8. Suppose that Jack scored 1300 on his SAT and Jill scored 24 on her ACT. What percentile did each student score in? 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We want to find <m>\cal{P}[s \leq 1029]</m> and <m>\cal{P}[a \leq 24]</m>. We can do this in R with the command <c>pnorm(x, mean, sd)</c>. 
+            </p>
+        </solution>
+    </example>
+    
+
+</section>

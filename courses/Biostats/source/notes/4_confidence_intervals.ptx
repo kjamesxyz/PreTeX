@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-4-2-confidence-intervals" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Confidence Intervals</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Identify and write null and alternative hypotheses in words and symbols. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-confidence-interval">
+        <statement>
+            <p>
+                Let <m>\hat{p}</m> be a point estimate for a parameter <m>p</m> computed from a sample of size <m>n</m>. If we are <m>(1-\alpha)</m>% confident that <m>p</m> falls within a certain range of values, we call the range of values the <alert>confidence interval</alert> with <alert>confidence level</alert> <m>(1-\alpha)</m>%, or <alert> significance level </alert> <m>\alpha</m>.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Suppose that a sample <m>n=36</m> is drawn from a random variable <m>X</m> with standard deviation <m>\sigma = 3</m>. It is discovered that <m>\bar{x}=20</m>. 
+            </p>
+        </statement>
+    </example>
+</section>

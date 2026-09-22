@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-4-1-hyp-test-framework" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Framework for Hypothesis Testing</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Identify and write null and alternative hypotheses in words and symbols. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-hyp-test">
+        <statement>
+            <p>
+                In statistics, a <alert>hypothesis</alert> is a claim regarding a parameter. <alert>Hypothesis Tests</alert> are statistical experiments that determine the validity of a hypothesis.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-null-and-alt-hyps">
+        <statement>
+            <p>
+                The assertion that a parameter takes on a particular value is called the <alert> null hypothesis </alert> and is denoted <m>H_0</m>. The claim that a parameter takes on a range of values is called an <alert> alternative hypothesis </alert> and is denoted <m>H_1</m>. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <introduction>
+            <p>
+                For each of the following, state the null and alternative hypotheses. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    The mean annual salary of a data scientist is $130,000. 
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>H_0</m>: The annual salary is $130,000. (<m>\mu= 130,000</m>)
+                    <m>H_1</m>: The annual salary is NOT $130,000. (<m>\mu \neq 130,000</m>)
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The mean annual salary of a data scientist is over $80,000. 
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>H_0</m>: The annual salary is $80,000. (<m>\mu \geq 80,000</m>)
+                    <m>H_1</m>: The annual salary is greater than $80,000. (<m>\mu \lt 80,000</m>)
+                </p>
+            </solution>
+        </task>
+    </example>
+
+    <tabular>
+        <row header="yes">
+            <cell>Trial Procedure</cell><cell>Statistics Procedure</cell><cell>Remarks</cell>
+        </row>
+        <row>
+            <cell>All defendents are innocent until found guilty.</cell>
+            <cell>We have to assume <m>H_0</m> holds true.</cell>
+            <cell>Innocence (no change to criminal status) is the default.</cell>
+        </row>
+        <row>
+            <cell>The prosecution compiles and presents evidence of guilt.</cell>
+            <cell>A researcher random samples the population and computes relevant statistics. </cell>
+            <cell>In both cases, evidence is being compiled to assert the claim that the status quo is wrong.</cell>
+        </row>
+        <row>
+            <cell>The prosecution must convince the jury the defendent is guilty "beyond a reasonable doubt".</cell>
+            <cell>The researcher must show that the computed statistics are "statistically significant". </cell>
+            <cell>There is no way the jurors could know with true certainty if the defendent is guilty. But, the prosecution may be able to provide evidence that is damning enough to convince the jury beyond a reasonable doubt. Similarly, if the researcher's statistics are extremely unlikely to occur under the null hypothesis, this may be significant-enough evidence to reject the status quo. </cell>
+        </row>
+        <row>
+            <cell>The defendent is either found guilty or not guilty.</cell>
+            <cell><m>H_0</m> is either rejected or not. </cell>
+            <cell>Either the evidence was contrary enough to the status quo or it wasn't.</cell>
+        </row>
+    </tabular>
+
+    <p> The question remains: What makes evidence statistically significant? </p>
+
+
+</section>

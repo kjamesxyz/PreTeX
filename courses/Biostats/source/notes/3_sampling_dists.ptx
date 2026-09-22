@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-3-2-sampling-dists" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sampling Distributions</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Understand and write using sampling distribution notation. </p></li>
+            <li><p> Distinguish between cases where Central Limit Theorem applies. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-inference">
+        <statement>
+            <p>
+                <alert>Statistical inference</alert> is the process by which we assess how accurately a statistic estimates a parameter. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-point-estimate">
+        <statement>
+            <p>
+                Let <m>p</m> be a parameter. A <alert> point estimate </alert> for <m>p</m> is the corresponding statistic <m>\hat{p}</m> obtained from a single random sample. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-sampling-dist">
+        <statement>
+            <p>
+                Let <m>p</m> be a parameter. The collection of all possible point estimates of the same size is a <alert> sampling distribution </alert> for <m>p</m>. It is denoted by <m>P</m> 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                The heights of my siblings and I (in inches) are given below. 
+            </p>
+
+            <tabular>
+                <row header="yes">
+                    <cell>Sibling</cell><cell>Height</cell>
+                </row>
+                <row>
+                    <cell>Kohl</cell><cell>69</cell>
+                </row>
+                <row>
+                    <cell>Brooklyn</cell><cell>68</cell>
+                </row>
+                <row>
+                    <cell>Gretta</cell><cell>70</cell>
+                </row>
+                <row>
+                    <cell>Barrett</cell><cell>74</cell>
+                </row>
+            </tabular>
+
+            <p>
+                Build a sampling distribution for the mean and standard deviation for all size-2 samples. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Let <m>H</m> denote the random variable for height. The distributions are given below.
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Sample</cell><cell><m>\bar{X}</m></cell><cell><m>S</m></cell>
+                    <cell>Kohl, Brooklyn</cell><cell><c>mean(c(69,68))</c> = 68.5</cell><cell><c>sd(c(69,68))</c> = 0.71</cell>
+                </row>
+            </tabular>
+        </solution>
+    </example>
+
+    <p>
+        Notice in the previous example that <m>\bar{X}</m> is a DRV on which we can measure statistics. Before continuing, it will be worthwile to establish some notation. Let <m>P</m> be a sampling distribution for parameter <m>p</m>. Suppose we measure the statistic <m>\hat{q}</m> on <m>P</m>. We denote this as <m>P_{\hat{q}}</m>. For example, <m> \mu_{\xbar} </m> denotes the mean of the sampling distribution of means. 
+    </p> 
+
+    <example>
+        <statement>
+            <p>
+                Using the data from the previous example, compute <m> \mu_{\bar{x}}, \mu_s \sigma_{\bar{x}}, \sigma_s </m>.  
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-central-limit-theorem">
+        <statement>
+            <p>
+                Consider taking samples of size <m>n</m> from a CRV <m>X</m> with mean <m>\mu</m> and standard deviation <m>\sigma</m>. As <m>n \to \infty</m>, the sampling distribution of <m>\bar{x}</m> becomes normal with mean <m>\mu</m> and standard deviation <m>\frac{\sigma}{\sqrt{n}}</m>.
+            </p>
+        </statement>
+    </theorem>
+
+    <p>
+        A general rule of thumb is that the sampling distribution is "sufficiently normal" provided you have a sample size of at least 30. 
+    </p>
+
+    
+    
+</section>
