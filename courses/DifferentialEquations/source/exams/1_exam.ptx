@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="exam1">
+    <title>Exam 1 - MATH-262-02</title>
+
+    <p>
+        <alert>Instructions:</alert> You have 110 minutes to take this exam. Please answer each question in the space provided. Answers without justification may <alert> earn no credit </alert>. You are permitted your signed prep work journal and a calculator on this exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
+    </p>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Classify the differential equation <md> x^2 y'' + xy' + x^2 y = y + \ln(x) </md> according to its type, order, linearity, and homogeneity. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Verify that <md> r(\theta) = \frac{1}{\frac{1}{2} - \ln|\theta|} </md> is a solution to the equation <md> \deriv{r}{\theta} = \frac{r^2}{\theta} </md> and find its largest interval of existence.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Solve <md> \dfrac{2ty}{t^2 + 1} - 2t - (2 - \ln(t^2 + 1)) y'(t) = 0 </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                A 1000 gallon tank catches runoff from a chemical process. Suppose the tank initially contains 800 gallons of polluted water with 2 oz of pollutants. Polluted water runoff begins to flow into the tank at 3 gal/min. The runoff contains 5 oz of pollutants per gallon. The solution is piped to a water treatment plant at 3 gal/min. 
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write a first-order IVP that models the concentration (in oz/gal) of pollutants <m>p</m> after <m>t</m> minutes.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Solve the equation you defined in part (a) using any method. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How long does it take for the tank to accumulate 500 oz of pollutants? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose that regulation required the chemical process to be slowed once the tank accumulates 500 oz of pollutants in such a way that only 2 gal/min of runoff is produced. How would this affect the ODE model you wrote in part (a)? The algebraic model you found in part (b)?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    
+</worksheet>

@@ -171,7 +171,7 @@
     <exercise>
         <introduction>
             <p>
-                A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
+                [16 points] A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
             </p>
         </introduction>
 
@@ -213,7 +213,7 @@
     <exercise>
         <introduction>
             <p>
-                The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
+                [19 points] The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
             </p>
             <image source="images/boxplot_cement.png" width="55%">
                 <shortdescription>3 boxplots labeled (from left to right) Copper, CopperHazel, and Hazel.</shortdescription>
@@ -239,7 +239,15 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Describe the shape of each data set? Justify your answers. 
+                    Is the "Copper" data set or the "Hazel" data set more normal? Justify your answers. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Which data set has the widest IQR?
                 </p>
             </statement>
         </task>
@@ -251,7 +259,7 @@
     <exercise>
         <introduction>
             <p>
-                The histogram below shows the measured heights of black cherry trees. 
+                [13 points] The histogram below shows the measured heights of black cherry trees. 
             </p>
             <image source="images/cherry_tree_histogram.svg" width="50%">
                 <shortdescription>A histogram with frequency on the y-axis and height (feet) on the x-axis.</shortdescription>
@@ -299,7 +307,7 @@
     <exercise>
         <introduction>
             <p>
-                The heights of 11 patients (in inches) are given below. 
+                [24 points] The heights of 11 patients (in inches) are given below. 
             </p>
             <tabular>
                 <row>
@@ -370,6 +378,14 @@
             <statement>
                 <p>
                     Compute the standard deviation from the sample.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Does the data have any outliers? Why or why not?
                 </p>
             </statement>
         </task>

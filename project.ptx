@@ -30,5 +30,10 @@
                 source="./courses/DifferentialEquations/source/main_notes.ptx"
                 publication="./courses/DifferentialEquations/publication/publication_notes.ptx"
                 deploy-dir="output/DifferentialEquations/web_notes"/>
+
+        <target name="diffeq-exams" 
+                format="html"
+                source="./courses/DifferentialEquations/source/main_exams.ptx"
+                publication="./courses/DifferentialEquations/publication/publication_exams.ptx"/>
     </targets>
 </project>
