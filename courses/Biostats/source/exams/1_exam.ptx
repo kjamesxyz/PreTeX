@@ -165,13 +165,13 @@
 
 <page>
     <p>
-        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, <alert> write the code you used in as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, refer to the data set as <c>df</c> and <alert> write the code you used as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
     </p>
 
     <exercise>
         <introduction>
             <p>
-                [16 points] A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
+                [13 points] A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
             </p>
         </introduction>
 
@@ -213,7 +213,7 @@
     <exercise>
         <introduction>
             <p>
-                [19 points] The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
+                [15 points] The boxplots given below each show olive moments from rat lung tissue samples. Each boxplot corresponds to a different treatment.  
             </p>
             <image source="images/boxplot_cement.png" width="55%">
                 <shortdescription>3 boxplots labeled (from left to right) Copper, CopperHazel, and Hazel.</shortdescription>
@@ -252,6 +252,13 @@
             </statement>
         </task>
         
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Which data set has the widest range?
+                </p>
+            </statement>
+        </task>
     </exercise>
 </page>
 
@@ -259,7 +266,7 @@
     <exercise>
         <introduction>
             <p>
-                [13 points] The histogram below shows the measured heights of black cherry trees. 
+                [9 points] The histogram below shows the measured heights of black cherry trees. 
             </p>
             <image source="images/cherry_tree_histogram.svg" width="50%">
                 <shortdescription>A histogram with frequency on the y-axis and height (feet) on the x-axis.</shortdescription>
@@ -307,7 +314,7 @@
     <exercise>
         <introduction>
             <p>
-                [24 points] The heights of 11 patients (in inches) are given below. 
+                [20 points] The heights of 11 patients (in inches) are given below. 
             </p>
             <tabular>
                 <row>
@@ -389,6 +396,46 @@
                 </p>
             </statement>
         </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Sketch a boxplot for the data in the space below. Clearly label your number line with all relevant quantities. 
+                </p>
+            </statement>
+        </task> 
+    </exercise>
+</page>
+
+<page>
+    <exercise>
+        <statement>
+            <p>
+                [13 points] The scores for 11 students on a biostatistics exam are given in the table below. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>40</cell>
+                    <cell>55</cell>
+                    <cell>61</cell> 
+                    <cell>65</cell> 
+                    <cell>68</cell>
+                    <cell>70</cell>
+                    <cell>72</cell>
+                    <cell>74</cell>
+                    <cell>80</cell>
+                    <cell>84</cell>
+                    <cell>85</cell>
+                </row>
+            </tabular>
+        
+            <p>
+                Plot a histogram with 5 bins in the axes provided below. Clearly label your axes and the endpoints of each bin. 
+            </p>
+            <image source="images/blankQ1axes.jpg" width="50%">
+                <shortdescription>A blank set of axes showing only the 1st quadrant.</shortdescription>
+            </image>
+        </statement>
     </exercise>
 </page>
     
