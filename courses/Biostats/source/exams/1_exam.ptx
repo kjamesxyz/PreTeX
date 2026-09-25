@@ -45,7 +45,7 @@
     </exercise>
 
     <p>
-        <alert> For problems 3-5</alert>, consider the following experiment. A bag contains 30 marbles; 23 of them have stripes and 15 of them have spots. All marbles in the bag have at least one pattern. A marble is drawn from the bag at random.
+        <alert> For problems 3-5</alert>, consider the following experiment. A bag contains 30 marbles; 23 of them have stripes and 15 of them have spots. All marbles in the bag have at least one of these patterns. A marble is drawn from the bag at random.
     </p>
 
     <exercise>
@@ -92,7 +92,7 @@
 </page>
 <page>
     <p>
-        <alert> For problems </alert>, consider the following experiment. A pharmaceutical company is testing their new drug for plaque psoriasis. They are able to recruit 60 female and 40 male afflicted individuals for the trial. The drug is perscribed to 30 randomly selected females and 20 randomly selected males. A placebo is assigned to the remaining participants. To measure the effects of the drug, they ask patients to return every 2 weeks over the next 3 months. The percentage of the body afflicted is measured at each visit. 
+        <alert> For problems 6-10</alert>, consider the following experiment. A pharmaceutical company is testing their new drug for plaque psoriasis. They are able to recruit 60 female and 40 male afflicted individuals for the trial. The drug is perscribed to 30 randomly selected females and 20 randomly selected males. A placebo is assigned to the remaining participants. To measure the effects of the drug, they ask patients to return every 2 weeks over the next 3 months. The percentage of the body afflicted is measured at each visit. 
     </p>
     <exercise>
         <statement>
@@ -165,13 +165,13 @@
 
 <page>
     <p>
-        <alert>Free Response:</alert> There are free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, refer to the data set as <c>df</c> and <alert> write the code you used as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+        <alert>Free Response:</alert> There are 5 free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, refer to the data set as <c>df</c> and <alert> write the code you used as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
     </p>
 
     <exercise>
         <introduction>
             <p>
-                [13 points] A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose a randomly-selected group of the earwigs to the pesticide.
+                [13 points] A scientist is studying the effects of a pesticides on earwigs. They have a sample of 200 earwigs, 140 of which are European earwigs and 60 of which are striped earwigs. They plan to expose some of the earwigs to the pesticide, then record the number of individuals that survive.
             </p>
         </introduction>
 
@@ -432,7 +432,7 @@
             <p>
                 Plot a histogram with 5 bins in the axes provided below. Clearly label your axes and the endpoints of each bin. 
             </p>
-            <image source="images/blankQ1axes.jpg" width="50%">
+            <image source="images/blankQ1axes.jpg" width="70%">
                 <shortdescription>A blank set of axes showing only the 1st quadrant.</shortdescription>
             </image>
         </statement>
