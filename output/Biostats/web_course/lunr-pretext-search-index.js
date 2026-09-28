@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "🏫 Activity",
   "number": "2.5",
   "title": "🏫 Activity 5 - Boxplots",
-  "body": " 🏫 Activity 5 - Boxplots   This assignment is due at the beginning of class on Wednesday, September 23 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.   This activity is part of your final project. Extra care should be taken in completing this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics are comprise the 5 number summary ?       Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity5.r . Then follow the procedure below. When you have finished the procedure, please submit your R script to the \"Activity 5\" assignment on Canvas.     Import the library ggplot2 and build the data set for your group's final project.      We will use the same quantitative variable in this portion of the project that you used in the Histograms portion of the project. Use the summary command to build its 5 number summary. Write the summary in the space below.      Create a new ggplot based on your data set that uses mapping=aes(y=your_var_from_part_a) . Add to it a geom_boxplot() .      According to your plot, how many outliers does this variable have? How can you tell?      Let's emulate a clustered sample. Choose a qualitative variable from your data set that doesn't have too many different outcomes. Then, create a boxplot for the variable you chose in part (a) for each cluster by changing our mapping to be mapping=aes(x=qual_var, y=quant_var) .      Using the plot you generated in part (d), answer each of the following questions. Be sure to explain how you got each answer.     Which has the widest IQR?      Which has the greatest number of outliers?      Which has the smallest median?         Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the single and clustered boxplots.  Use the single boxplot to explain the shape of your data.  Do you notice any trends\/patterns in your data by clustering it?  In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Boxplots Check-in\" assignment on Canvas (see Week 4 module).    "
+  "body": " 🏫 Activity 5 - Boxplots   This assignment is due at the beginning of class on Wednesday, September 23 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.   This activity is part of your final project. Extra care should be taken in completing this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics comprise the 5 number summary ?       Create a new RStudio script named SECTION#_LASTNAME_FIRSTNAME_Activity5.r . Then follow the procedure below. When you have finished the procedure, please submit your R script to the \"Activity 5\" assignment on Canvas.     Import the library ggplot2 and build the data set for your group's final project.      We will use the same quantitative variable in this portion of the project that you used in the Histograms portion of the project. Use the summary command to build its 5 number summary. Write the summary in the space below.      Create a new ggplot based on your data set that uses mapping=aes(y=your_var_from_part_a) . Add to it a geom_boxplot() .      According to your plot, how many outliers does this variable have? How can you tell?      Let's emulate a clustered sample. Choose a qualitative variable from your data set that doesn't have too many different outcomes. Then, create a boxplot for the variable you chose in part (a) for each cluster by changing our mapping to be mapping=aes(x=qual_var, y=quant_var) .      Using the plot you generated in part (d), answer each of the following questions. Be sure to explain how you got each answer.     Which has the widest IQR?      Which has the greatest number of outliers?      Which has the smallest median?         Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the single and clustered boxplots.  Use the single boxplot to explain the shape of your data.  Do you notice any trends\/patterns in your data by clustering it?  In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Boxplots Check-in\" assignment on Canvas (see Week 4 module).    "
 },
 {
   "id": "biostats-act-5-3",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2.5.1",
   "title": "",
-  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics are comprise the 5 number summary ?    "
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     What statistics comprise the 5 number summary ?    "
 },
 {
   "id": "biostats-act-5-4",
@@ -190,22 +190,67 @@ var ptx_lunr_docs = [
   "body": "   Written Report: This portion of your written report should respond to each of the following prompts.  Explain any techniques used to clean your data (if applicable).  Include the single and clustered boxplots.  Use the single boxplot to explain the shape of your data.  Do you notice any trends\/patterns in your data by clustering it?  In this Histograms portion of the assignment, you were asked to draw conclusions about your data set from the histograms you generated. Explain how you could draw the same conclusions from your boxplots.  When your rough draft is complete, your team lead should submit it in PDF format along with your team's R script to the \"📊Boxplots Check-in\" assignment on Canvas (see Week 4 module).   "
 },
 {
-  "id": "review-1",
+  "id": "biostats-act-6",
   "level": "1",
-  "url": "review-1.html",
+  "url": "biostats-act-6.html",
   "type": "🏫 Activity",
   "number": "2.6",
-  "title": "🎯 Midterm 1 Review",
-  "body": " 🎯 Midterm 1 Review   This assignment is designed to help you prepare for the first midterm. It will not be graded.     Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 1  Activity 3     "
+  "title": "🏫 Activity 6 - Normal Distributions",
+  "body": " 🏫 Activity 6 - Normal Distributions   This assignment is due at the beginning of class on Monday, October 5 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing a Z-score by hand.      What R command can be used to convert Z-scores into percentiles?      What R command can be use to convert percentiles into Z-scores?       For each of the following, suppose . Sketch a rough cumulative probability diagram for each of the following scenarios.                                  The graduate requisite exam (GRE) is a comprehensive skills exam that some graduate schools require prospective students to take. There is a Verbal Reasoning section whose scores are normally distributed with mean 157 and standard deviation 7. There is also a Quantitative reasoning section whose scores are normally distributed with a mean of 153 and standard deviation of 7.67. Your instructor scored 161 on the verbal reasoning and 158 on the quantitative reasoning sections respectively (not to brag or anything).     Let be the random variable representing the verbal reasoning section scores and let be the random variable representing the quantitative reasoning section scores. Summarize the information in the paragraph above by writing in distribution notation.      Determine your instructor's Z-score for under each distribution.      In which category did your instructor score higher? In which category was his Z-score higher? Explain how these results can be true at the same time?      Use RStudio to find what percentile your instructor score in for each section of the GRE. Interpret your results in plain language.     "
 },
 {
-  "id": "review-1-3",
+  "id": "biostats-act-6-3",
   "level": "2",
-  "url": "review-1.html#review-1-3",
+  "url": "biostats-act-6.html#biostats-act-6-3",
   "type": "Worksheet Exercise",
   "number": "2.6.1",
   "title": "",
-  "body": "  Make sure that all prep work questions have been completed! You have a prep work question on each of the following activities.   Activity 1  Activity 3    "
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing a Z-score by hand.      What R command can be used to convert Z-scores into percentiles?      What R command can be use to convert percentiles into Z-scores?    "
+},
+{
+  "id": "biostats-act-6-4",
+  "level": "2",
+  "url": "biostats-act-6.html#biostats-act-6-4",
+  "type": "Worksheet Exercise",
+  "number": "2.6.2",
+  "title": "",
+  "body": "  For each of the following, suppose . Sketch a rough cumulative probability diagram for each of the following scenarios.                               "
+},
+{
+  "id": "biostats-act-6-5",
+  "level": "2",
+  "url": "biostats-act-6.html#biostats-act-6-5",
+  "type": "Worksheet Exercise",
+  "number": "2.6.3",
+  "title": "",
+  "body": "  The graduate requisite exam (GRE) is a comprehensive skills exam that some graduate schools require prospective students to take. There is a Verbal Reasoning section whose scores are normally distributed with mean 157 and standard deviation 7. There is also a Quantitative reasoning section whose scores are normally distributed with a mean of 153 and standard deviation of 7.67. Your instructor scored 161 on the verbal reasoning and 158 on the quantitative reasoning sections respectively (not to brag or anything).     Let be the random variable representing the verbal reasoning section scores and let be the random variable representing the quantitative reasoning section scores. Summarize the information in the paragraph above by writing in distribution notation.      Determine your instructor's Z-score for under each distribution.      In which category did your instructor score higher? In which category was his Z-score higher? Explain how these results can be true at the same time?      Use RStudio to find what percentile your instructor score in for each section of the GRE. Interpret your results in plain language.    "
+},
+{
+  "id": "biostats-act-7",
+  "level": "1",
+  "url": "biostats-act-7.html",
+  "type": "🏫 Activity",
+  "number": "2.7",
+  "title": "🏫 Activity 7 - Sampling Distributions",
+  "body": " 🏫 Activity 7 - Sampling Distributions   This assignment is due at the beginning of class on Monday, October 12 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.     Suppose that is a CRV. Write what each of the following symbols mean in words:       Suppose is a random variable with mean and .     Construct the sampling distribution of sample means with size 50 for and write it in distribution notation. Clearly state any results\/theorems you have used to obtain your answer.      Suppose now that you are taking samples of size 20. Does this change the sampling distribution of sample means for ?      Suppose now that you are taking samples of size 20, but you know that is normally-distributed. Does this change the sampling distribution of sample means for ?     "
+},
+{
+  "id": "biostats-act-7-3",
+  "level": "2",
+  "url": "biostats-act-7.html#biostats-act-7-3",
+  "type": "Worksheet Exercise",
+  "number": "2.7.1",
+  "title": "",
+  "body": "  Suppose that is a CRV. Write what each of the following symbols mean in words:    "
+},
+{
+  "id": "biostats-act-7-4",
+  "level": "2",
+  "url": "biostats-act-7.html#biostats-act-7-4",
+  "type": "Worksheet Exercise",
+  "number": "2.7.2",
+  "title": "",
+  "body": "  Suppose is a random variable with mean and .     Construct the sampling distribution of sample means with size 50 for and write it in distribution notation. Clearly state any results\/theorems you have used to obtain your answer.      Suppose now that you are taking samples of size 20. Does this change the sampling distribution of sample means for ?      Suppose now that you are taking samples of size 20, but you know that is normally-distributed. Does this change the sampling distribution of sample means for ?    "
 },
 {
   "id": "biostats-hw1",
@@ -314,6 +359,33 @@ var ptx_lunr_docs = [
   "number": "3.3.1",
   "title": "",
   "body": "  The Xanthid crab is native to the shores near Gloucester Point, VA. In a field study, 45 Xanthid crab egg clutches were discoverd and the number of eggs in each clutch was counted. The results from the study are shown in the table above.     Sketch a histogram for the data using 5 bins (categories). Clearly label the axes on your graph and show how you have computed the bin size.      Describe the shape of the histogram you drew in part (a).      Build a 5 number summary for the data.      Find the range and inner-quartile range of the data.      Are there any outliers for the data?      Sketch a boxplot for the data. Clearly label all relevant data points.      Use your boxplot to explain the shape of the data.    "
+},
+{
+  "id": "biostats-hw4",
+  "level": "1",
+  "url": "biostats-hw4.html",
+  "type": "🏫 Activity",
+  "number": "3.4",
+  "title": "📝 Homework 4",
+  "body": " 📝 Homework 4    Instructions: This assignment is due Wednesday, October 7 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 4.4-4.10 from OpenIntro Statistics (pg. 142-143)       In 1969, pheasants in Montana were found to have mercury contamination. It was hypothesizes the contaminats were caused by eating seeds from plants treated with methyl mercury. Let denote the mercury level (in parts-per-million) of a randomly chosen pheasant. Assume .     What are the population mean and standard deviation?      What is the probability a randomly chosen pheasant has a mercury level under 0.3 ppm? Write the claim symbolically. Then, sketch a cumulative probability diagram for the claim.      Compute . Write the claim in plain language. Then, sketch a cumulative probability diagram for the claim.      Determine the 80th percentile for the mercury level. Then, sketch a cumulative probability diagram for the claim.      Determine the range of mercury levels that contain the middlemost 95% of pheasants. Then, sketch a cumulative probability diagram for the claim.       Reconsider the scenario in problem 1, but this time suppose . Repeat parts (a)-(d) under this assumption.    "
+},
+{
+  "id": "biostats-hw4-3",
+  "level": "2",
+  "url": "biostats-hw4.html#biostats-hw4-3",
+  "type": "Worksheet Exercise",
+  "number": "3.4.1",
+  "title": "",
+  "body": "  In 1969, pheasants in Montana were found to have mercury contamination. It was hypothesizes the contaminats were caused by eating seeds from plants treated with methyl mercury. Let denote the mercury level (in parts-per-million) of a randomly chosen pheasant. Assume .     What are the population mean and standard deviation?      What is the probability a randomly chosen pheasant has a mercury level under 0.3 ppm? Write the claim symbolically. Then, sketch a cumulative probability diagram for the claim.      Compute . Write the claim in plain language. Then, sketch a cumulative probability diagram for the claim.      Determine the 80th percentile for the mercury level. Then, sketch a cumulative probability diagram for the claim.      Determine the range of mercury levels that contain the middlemost 95% of pheasants. Then, sketch a cumulative probability diagram for the claim.    "
+},
+{
+  "id": "biostats-hw4-4",
+  "level": "2",
+  "url": "biostats-hw4.html#biostats-hw4-4",
+  "type": "Worksheet Exercise",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  Reconsider the scenario in problem 1, but this time suppose . Repeat parts (a)-(d) under this assumption.   "
 },
 {
   "id": "biostats-projects-final",
