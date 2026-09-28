@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "🏫 Activity 8 - Solving ODEs with Substitutions",
-  "body": " 🏫 Activity 8 - Solving ODEs with Substitutions   This activity is due at the beginning of class on Wednesday, September 30 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for a function to be homogeneous of degree .      Write down our new definition of a homogeneous equation.       Suppose . Show that the IVP is homogeneous, then solve it.      Any differential equation of the form where is called a Bernoulli equation .     Show that, when , the Bernoulli equation is linear.      Show that, when , the Bernoulli equation is linear.      Suppose and . First, divide both sides of the Bernoulli equation by . Then use the substitution to reduce the Bernoulli equation to be linear.       Use the process outlined in the previous question to find a general solution to       Describe the process by which to perform a substitution in your own words.    "
+  "body": " 🏫 Activity 8 - Solving ODEs with Substitutions   This activity is due at the beginning of class on Wednesday, September 30 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for a function to be homogeneous of degree .      Write down our new definition of a homogeneous equation.       Suppose . Show that the IVP is homogeneous, then solve it using an appropriate substitution.      Any differential equation of the form where is called a Bernoulli equation .     Show that, when , the Bernoulli equation is linear.      Show that, when , the Bernoulli equation is linear.      Suppose and . First, divide both sides of the Bernoulli equation by . Then use the substitution to reduce the Bernoulli equation to be linear.       Use the process outlined in the previous question to find an explicit general solution to       Describe the process by which to perform a substitution in your own words.    "
 },
 {
   "id": "diffeq-act-8-3",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose . Show that the IVP is homogeneous, then solve it.   "
+  "body": "  Suppose . Show that the IVP is homogeneous, then solve it using an appropriate substitution.   "
 },
 {
   "id": "diffeq-act-8-5",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Use the process outlined in the previous question to find a general solution to    "
+  "body": "  Use the process outlined in the previous question to find an explicit general solution to    "
 },
 {
   "id": "diffeq-act-8-7",
