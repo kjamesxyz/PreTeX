@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 8 - Solving ODEs with Substitutions</title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Wednesday, September 30</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Define what it means for a function to be <alert> homogeneous of degree <m>\alpha</m></alert>. 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write down our new definition of a homogeneous equation. 
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+
+    <exercise workspace="4in">
+        <statement>
+            <p>
+                Suppose <m>y := y(x)</m>. Show that the IVP <md> (x^2 + 2y^2) \frac{dx}{dy} = xy; \ y(-1) = 1 </md> is homogeneous, then solve it. 
+            </p>
+        </statement>
+    </exercise>
+
+
+    <exercise>
+        <introduction>
+            <p>
+                Any differential equation of the form <md number="yes">
+                    \deriv{y}{x} + P(x)y = Q(x) y^n
+                </md> where <m>n</m> is called a <alert>Bernoulli equation</alert>. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                Show that, when <m>n=0</m>, the Bernoulli equation is linear.  
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Show that, when <m>n=1</m>, the Bernoulli equation is linear. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Suppose <m>n\neq 0</m> and <m>n \neq 1</m>. First, divide both sides of the Bernoulli equation by <m>y^n</m>. Then use the substitution <m>u = y^{1-n}</m> to <alert>reduce</alert> the Bernoulli equation to be linear. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Use the process outlined in the previous question to find a general solution to <md>
+                x \deriv{y}{x} + y = \frac{1}{y^2}.
+            </md>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            Describe the process by which to perform a substitution in your own words. 
+        </p>
+    </statement>
+  </exercise>
+
+</worksheet> 

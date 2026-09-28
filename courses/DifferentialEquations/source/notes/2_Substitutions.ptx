@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-2-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Substitutions</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Make a change of variables (substitution) in ODEs. </p></li>
+            <li><p> Derive substitutions to simplify the structure of first-order ODEs. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        We can make substitutions in DEs to make them simpler just like we can with integrals. 
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Suppose <m>y = y(x)</m>. Solve <md> x\, dx + (y - 2x) \, dy </md> with a substitution.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Consider the substitution <md> u(x) := \frac{y}{x} \implies y = ux. </md> Then, by product rule, we get <md> dy = x \, du + u \, dx. </md> Plugging this into the ODE, we find 
+                <md> 
+                    <mrow> x \, dx + (ux - 2x)(x \, du + u \, dx) \amp = 0 \implies </mrow>
+                    <mrow> dx + (u - 2)(x \, du + u \, dx) \amp = 0 \implies </mrow>
+                    <mrow> (u - 1)^2 \, dx + x(u-2) \, du \amp = 0 \implies </mrow>
+                    <mrow> \frac{u-2}{(u-1)^2} \, du \amp = -\frac{dx}{x} </mrow>
+                </md> 
+                which is separable!
+            </p>
+        </solution>
+        
+    </example>
+
+    <p>
+        The intuition for the above substitution may seem arbitrary at first. But, notice we can rewrite the equation as <md> \frac{dy}{dx} = \frac{1}{2 - \frac{y}{x}}. </md> This makes it a little more obvious how this substitution makes the equation separable. In general, this pattern works for homogeneous equations. But we will need to look at a broader definition of homogeneity: one that works for nonlinear DEs (like this one) as well. 
+    </p>
+
+    <definition xml:id="def-homog-fn">
+        <statement>
+            <p>
+                A function <m>f(x,y)</m> is said to be <alert> homogeneous with degree <m>\alpha</m> </alert> provided <md> f(tx, ty) = t^\alpha f(x,y). </md>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-homog-eqn">
+        <statement>
+            <p>
+                The ODE <md> M(x,y) \, dx + N(x,y) \, dy = 0 </md> is said to be <alert> homogeneous </alert> provided that both <m>M,N</m> are homogeneous functions of the same degree. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-homog-to-separable-sub">
+        <statement>
+            <p>
+                Suppose the equation <md> M(x,y) \, dx + N(x,y) \, dy = 0 </md> is homogeneous. Then the substitution <md> u(x) = \frac{y}{x} </md> causes the equation to become separable. 
+            </p>
+        </statement>
+
+        <proof>
+            <p>
+                First, note that <md> y = ux </md> under this substitution. Also note, by definition, there is some <m>\alpha \in \nat</m> such that <md> M(x,y) = M(x,ux) = x^\alpha M(1,u). </md> We can draw the same conclusion for <m>N</m>. Hence, we can write the equation as 
+                <md>
+                    <mrow> M(1,u) \, dx + N(1,u) [u \, dx + x \, du] \amp = 0 </mrow>
+                    <mrow> [M(1,u) + u N(1,u)] \, dx + xN(1,u) \, du \amp = 0 </mrow>
+                    <mrow> \frac{N(1,u)}{M(1,u) + u N(1,u)} \, du \amp = -\frac{dx}{x} </mrow>
+                </md>
+                which is separable. 
+            </p>
+        </proof>
+    </theorem>
+
+    
+    
+
+</section>
