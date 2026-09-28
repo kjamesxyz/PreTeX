@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 8 - Hypothesis Testing Framework </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, October 12 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                The claim is made that the mean heigh of adult men is 174.1 cm. 
+            </p>
+        </introduction> 
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write the null and alternative hypothesis using both symbols and words.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    In this scenario, what would it mean to reject the null hypothesis?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    In this scenario, what would it mean to fail to reject the null hypothesis?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What would it mean to commit a type-1 error in this context? Give an example of an experimental error that could cause this to occur.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What would it mean to commit a type-2 error in this context? Give an example of an experimental error that could cause this to occur.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the claim that at least 30% of TikToks on your for-you page are ads. To test this claim, you spend a night doomscrolling where you watch 130 TikToks on your for-you page and record 34 ads. 
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Indentify the population, sample, parameter, and statistic of interest in this study.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    State the null and alternative hypotheses in both words and symbols. 
+                </p>
+            </statement>
+        </task>
+
+        
+
+    </exercise>
+
+
+</worksheet>

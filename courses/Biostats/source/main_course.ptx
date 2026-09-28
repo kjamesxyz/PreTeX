@@ -25,7 +25,9 @@
             <xi:include href="./activities/3_activity_measures.ptx"/>
             <xi:include href="./activities/4_activity_histograms.ptx"/>
             <xi:include href="./activities/5_activity_boxplots.ptx"/>
-            <xi:include href="./activities/R1_exam_1_review.ptx"/>
+            
+            <xi:include href="./activities/6_activity_normal_dists.ptx"/>
+            <xi:include href="./activities/7_activity_sampling_dists.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
@@ -34,6 +36,7 @@
             <xi:include href="./homework/1_homework.ptx"/>
             <xi:include href="./homework/2_homework.ptx"/>
             <xi:include href="./homework/3_homework.ptx"/>
+            <xi:include href="./homework/4_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">

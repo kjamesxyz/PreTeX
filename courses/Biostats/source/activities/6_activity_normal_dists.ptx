@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 6 - Normal Distributions </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, October 5 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write the formula for computing a Z-score by hand.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What R command can be used to convert Z-scores into percentiles?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What R command can be use to convert percentiles into Z-scores?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                For each of the following, suppose <m>Z \sim (0,1) </m>. Sketch a rough cumulative probability diagram for each of the following scenarios. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\cal{P}[Z \lt -1.35]</m> 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\cal{P}[Z \geq 0.48]</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\cal{P}[-2.35 \lt Z \lt -1.2]</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m> \cal{P}[|Z| \leq 0.5] </m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The graduate requisite exam (GRE) is a comprehensive skills exam that some graduate schools require prospective students to take. There is a Verbal Reasoning section whose scores are normally distributed with mean 157 and standard deviation 7. There is also a Quantitative reasoning section whose scores are normally distributed with a mean of 153 and standard deviation of 7.67. Your instructor scored 161 on the verbal reasoning and 158 on the quantitative reasoning sections respectively (not to brag or anything).
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Let <m>V</m> be the random variable representing the verbal reasoning section scores and let <m>Q</m> be the random variable representing the quantitative reasoning section scores. Summarize the information in the paragraph above by writing <m>V,Q</m> in distribution notation. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Determine your instructor's Z-score for under each distribution. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    In which category did your instructor score higher? In which category was his Z-score higher? Explain how these results can be true at the same time? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use RStudio to find what percentile your instructor score in for each section of the GRE. Interpret your results in plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>

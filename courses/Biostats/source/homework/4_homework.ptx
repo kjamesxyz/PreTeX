@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw4">
+<title>📝 Homework 4</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 7</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 4.4-4.10 from OpenIntro Statistics (pg. 142-143)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                In 1969, pheasants in Montana were found to have mercury contamination. It was hypothesizes the contaminats were caused by eating seeds from plants treated with methyl mercury. Let <m>X</m> denote the mercury level (in parts-per-million) of a randomly chosen pheasant. Assume <m>X \sim \cal{N}(0.25, 0.08)</m>. 
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    What are the population mean and standard deviation? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is the probability a randomly chosen pheasant has a mercury level under 0.3 ppm? Write the claim symbolically. Then, sketch a cumulative probability diagram for the claim.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                   Compute <m>\cal{P}[X \geq 0.17]</m>. Write the claim in plain language.  Then, sketch a cumulative probability diagram for the claim.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine the 80th percentile for the mercury level. Then, sketch a cumulative probability diagram for the claim.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine the range of mercury levels that contain the middlemost 95% of pheasants. Then, sketch a cumulative probability diagram for the claim.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Reconsider the scenario in problem 1, but this time suppose <m>X \sim \cal{U}[0,0.5]</m>. Repeat parts (a)-(d) under this assumption. 
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

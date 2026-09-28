@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-7" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 7 - Sampling Distributions </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Wednesday, October 7</alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Suppose that <m>X</m> is a CRV. Write what each of the following symbols mean in words: <md> \bar{x}, s, \mu, \sigma, \mu_{\bar{x}}, \mu_{s}, \sigma_{\bar{x}}, \sigma_{s}. </md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+        <introduction>
+            <p>
+                Suppose <m> X \</m> is a random variable with mean <m>\mu=150</m> and <m> \sigma=25</m>. 
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Construct the sampling distribution of sample means with size 50 for <m>X</m> and write it in distribution notation. Clearly state any results/theorems you have used to obtain your answer. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose now that you are taking samples of size 20. Does this change the sampling distribution of sample means for <m>X</m>?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose now that you are taking samples of size 20, but you know that <m> X </m> is normally-distributed. Does this change the sampling distribution of sample means for <m>X</m>?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+</worksheet>
