@@ -36,7 +36,7 @@
     <exercise workspace="4in">
         <statement>
             <p>
-                Suppose <m>y := y(x)</m>. Show that the IVP <md> (x^2 + 2y^2) \frac{dx}{dy} = xy; \ y(-1) = 1 </md> is homogeneous, then solve it. 
+                Suppose <m>y := y(x)</m>. Show that the IVP <md> (x^2 + 2y^2) \frac{dx}{dy} = xy; \ y(-1) = 1 </md> is homogeneous, then solve it using an appropriate substitution. 
             </p>
         </statement>
     </exercise>
@@ -80,7 +80,7 @@
   <exercise workspace="2in">
     <statement>
         <p>
-            Use the process outlined in the previous question to find a general solution to <md>
+            Use the process outlined in the previous question to find an <alert>explicit</alert> general solution to <md>
                 x \deriv{y}{x} + y = \frac{1}{y^2}.
             </md>
         </p>
