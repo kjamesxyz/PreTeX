@@ -323,6 +323,96 @@ var ptx_lunr_docs = [
   "number": "2.3.3",
   "title": "",
   "body": "  Solve     Following the steps from theorem , we write the equation as Next, we compute the integrating factor Now, we can use the product rule trick to write the equation as Integrating both sides of the equation with respect to gives us Therefore, the general solution is    "
+},
+{
+  "id": "diffeq-notes-2-4",
+  "level": "1",
+  "url": "diffeq-notes-2-4.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Substitutions",
+  "body": " Substitutions    Students will be able to...    Make a change of variables (substitution) in ODEs.  Derive substitutions to simplify the structure of first-order ODEs.    We can make substitutions in DEs to make them simpler just like we can with integrals.    Suppose . Solve with a substitution.    Consider the substitution Then, by product rule, we get Plugging this into the ODE, we find which is separable!    The intuition for the above substitution may seem arbitrary at first. But, notice we can rewrite the equation as This makes it a little more obvious how this substitution makes the equation separable. In general, this pattern works for homogeneous equations. But we will need to look at a broader definition of homogeneity: one that works for nonlinear DEs (like this one) as well.    A function is said to be homogeneous with degree  provided       The ODE is said to be homogeneous provided that both are homogeneous functions of the same degree.      Suppose the equation is homogeneous. Then the substitution causes the equation to become separable.    First, note that under this substitution. Also note, by definition, there is some such that We can draw the same conclusion for . Hence, we can write the equation as which is separable.    "
+},
+{
+  "id": "diffeq-notes-2-4-2",
+  "level": "2",
+  "url": "diffeq-notes-2-4.html#diffeq-notes-2-4-2",
+  "type": "Objectives",
+  "number": "2.4",
+  "title": "",
+  "body": "  Students will be able to...    Make a change of variables (substitution) in ODEs.  Derive substitutions to simplify the structure of first-order ODEs.   "
+},
+{
+  "id": "diffeq-notes-2-4-4",
+  "level": "2",
+  "url": "diffeq-notes-2-4.html#diffeq-notes-2-4-4",
+  "type": "Example",
+  "number": "2.4.1",
+  "title": "",
+  "body": "  Suppose . Solve with a substitution.    Consider the substitution Then, by product rule, we get Plugging this into the ODE, we find which is separable!   "
+},
+{
+  "id": "def-homog-fn",
+  "level": "2",
+  "url": "diffeq-notes-2-4.html#def-homog-fn",
+  "type": "Definition",
+  "number": "2.4.2",
+  "title": "",
+  "body": "  A function is said to be homogeneous with degree  provided    "
+},
+{
+  "id": "def-homog-eqn",
+  "level": "2",
+  "url": "diffeq-notes-2-4.html#def-homog-eqn",
+  "type": "Definition",
+  "number": "2.4.3",
+  "title": "",
+  "body": "  The ODE is said to be homogeneous provided that both are homogeneous functions of the same degree.   "
+},
+{
+  "id": "thm-homog-to-separable-sub",
+  "level": "2",
+  "url": "diffeq-notes-2-4.html#thm-homog-to-separable-sub",
+  "type": "Theorem",
+  "number": "2.4.4",
+  "title": "",
+  "body": "  Suppose the equation is homogeneous. Then the substitution causes the equation to become separable.    First, note that under this substitution. Also note, by definition, there is some such that We can draw the same conclusion for . Hence, we can write the equation as which is separable.   "
+},
+{
+  "id": "diffeq-notes-3-1",
+  "level": "1",
+  "url": "diffeq-notes-3-1.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Existence &amp; Uniqueness",
+  "body": " Existence & Uniqueness    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.     Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    "
+},
+{
+  "id": "diffeq-notes-3-1-2",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-2",
+  "type": "Objectives",
+  "number": "3.1",
+  "title": "",
+  "body": "  Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.   "
+},
+{
+  "id": "thm-superposition",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-superposition",
+  "type": "Theorem",
+  "number": "3.1.1",
+  "title": "Principle of Superposition.",
+  "body": " Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.   "
+},
+{
+  "id": "thm-ivp-existence",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-ivp-existence",
+  "type": "Theorem",
+  "number": "3.1.2",
+  "title": "Existence and Uniqueness of Solutions to IVPs.",
+  "body": " Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.   "
 }
 ]
 

@@ -316,6 +316,60 @@ var ptx_lunr_docs = [
   "body": "  A pacemaker is a medical device that regulates pulse. It is comprised of a switch, a battery with constant voltage , a capacitor with capacitance , and the heart behaves as a resistor with constant resistance . When the switch is closed, the capacitor begins to charge. When the switch is open, the capacitor discharges into the heard causing it to beat. During this discharge, the electric potential across the heart varies inversely with both the capacitance and resistance.     Write a first-order ODE to model the rate of change of electric potential during the discharge of the pacemaker.      Find an algebraic model for the electric potential as a function of time by solving the equation you derived in part (a).      Suppose that after 4 seconds, the electric potential across the heart is equal to that of the battery. How does this change your answers to part (a) and (b)? What additional information can you infer?    "
 },
 {
+  "id": "diffeq-act-8",
+  "level": "1",
+  "url": "diffeq-act-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 8 - Solving ODEs with Substitutions",
+  "body": " 🏫 Activity 8 - Solving ODEs with Substitutions   This activity is due at the beginning of class on Wednesday, September 30 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for a function to be homogeneous of degree .      Write down our new definition of a homogeneous equation.       Suppose . Show that the IVP is homogeneous, then solve it.      Any differential equation of the form where is called a Bernoulli equation .     Show that, when , the Bernoulli equation is linear.      Show that, when , the Bernoulli equation is linear.      Suppose and . First, divide both sides of the Bernoulli equation by . Then use the substitution to reduce the Bernoulli equation to be linear.       Use the process outlined in the previous question to find a general solution to       Describe the process by which to perform a substitution in your own words.    "
+},
+{
+  "id": "diffeq-act-8-3",
+  "level": "2",
+  "url": "diffeq-act-8.html#diffeq-act-8-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for a function to be homogeneous of degree .      Write down our new definition of a homogeneous equation.    "
+},
+{
+  "id": "diffeq-act-8-4",
+  "level": "2",
+  "url": "diffeq-act-8.html#diffeq-act-8-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose . Show that the IVP is homogeneous, then solve it.   "
+},
+{
+  "id": "diffeq-act-8-5",
+  "level": "2",
+  "url": "diffeq-act-8.html#diffeq-act-8-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Any differential equation of the form where is called a Bernoulli equation .     Show that, when , the Bernoulli equation is linear.      Show that, when , the Bernoulli equation is linear.      Suppose and . First, divide both sides of the Bernoulli equation by . Then use the substitution to reduce the Bernoulli equation to be linear.    "
+},
+{
+  "id": "diffeq-act-8-6",
+  "level": "2",
+  "url": "diffeq-act-8.html#diffeq-act-8-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Use the process outlined in the previous question to find a general solution to    "
+},
+{
+  "id": "diffeq-act-8-7",
+  "level": "2",
+  "url": "diffeq-act-8.html#diffeq-act-8-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Describe the process by which to perform a substitution in your own words.   "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
