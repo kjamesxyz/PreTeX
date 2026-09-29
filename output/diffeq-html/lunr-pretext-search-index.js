@@ -512,6 +512,51 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Consider the ODE      Is the ODE separable? Justify your answer.      Is the ODE exact? Justify your answer.      Is the ODE linear? Justify your answer.      Solve the ODE using any method.    "
+},
+{
+  "id": "diffeq-hw5",
+  "level": "1",
+  "url": "diffeq-hw5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 5",
+  "body": " 📝 Homework 5    Instructions: This assignment is due Wednesday, October 14 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-29 (odds) in Exercises 4.1 (pg. 128-129)  Problems 1-19 (odds) in Exercises 4.2 (pg. 132-133)  Problems 1-35 (odds) in Exercises 4.3 (pg. 138-139)       Show that is a solution to Then, use reduction of order to find a second solution.      Find the general solution to       Find the general solution to       Find the general solution to     "
+},
+{
+  "id": "diffeq-hw5-3",
+  "level": "2",
+  "url": "diffeq-hw5.html#diffeq-hw5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that is a solution to Then, use reduction of order to find a second solution.   "
+},
+{
+  "id": "diffeq-hw5-4",
+  "level": "2",
+  "url": "diffeq-hw5.html#diffeq-hw5-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the general solution to    "
+},
+{
+  "id": "diffeq-hw5-5",
+  "level": "2",
+  "url": "diffeq-hw5.html#diffeq-hw5-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the general solution to    "
+},
+{
+  "id": "diffeq-hw5-6",
+  "level": "2",
+  "url": "diffeq-hw5.html#diffeq-hw5-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find the general solution to    "
 }
 ]
 

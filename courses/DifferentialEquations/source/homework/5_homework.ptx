@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw5">
+    <title>📝 Homework 5 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 14</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 1-29 (odds) in Exercises 4.1 (pg. 128-129)</p></li>
+                <li><p> Problems 1-19 (odds) in Exercises 4.2 (pg. 132-133)</p></li>
+                <li><p> Problems 1-35 (odds) in Exercises 4.3 (pg. 138-139)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Show that <m>y = e^{2x}</m> is a solution to <md> y'' - 4y' + 4y = 0. </md> Then, use reduction of order to find a second solution. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Find the general solution to <md> y'' - 36y = 0. </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Find the general solution to <md> \deriv{^2 u}{dt^2} - 10 \deriv{u}{t} + 25 u = 0. </md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Find the general solution to <md> 3\ddot{x} + x = 0. </md>
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>
