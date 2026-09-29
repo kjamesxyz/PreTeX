@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 9 - Existence, Uniqueness, &amp; Special Cases </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, October 12</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Define what it means for a function to be <alert> homogeneous of degree <m>\alpha</m></alert>. 
+                </p>
+            </statement>
+        </task>

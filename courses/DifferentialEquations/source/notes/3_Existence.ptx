@@ -47,6 +47,8 @@
             </p>
         </statement>
     </theorem>
+
+    <p> Recall an nth-order linear ODE is <alert>homogeneous</alert> if it has not forcing function. </p> 
     
 
 </section>

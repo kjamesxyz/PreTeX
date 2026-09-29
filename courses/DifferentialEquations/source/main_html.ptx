@@ -13,7 +13,6 @@
             <title>Welcome to Class!</title>
 
             <xi:include href="./syllabus.ptx" />
-            <!-- <xi:include href="./syllabus2.ptx" /> -->
         </chapter>
 
         <chapter xml:id="diffeq-acts">
@@ -36,6 +35,7 @@
             <xi:include href="./homework/2_homework.ptx" />
             <xi:include href="./homework/3_homework.ptx" />
             <xi:include href="./homework/4_homework.ptx" />
+            <xi:include href="./homework/5_homework.ptx" />
         </chapter>
 
     </book>
