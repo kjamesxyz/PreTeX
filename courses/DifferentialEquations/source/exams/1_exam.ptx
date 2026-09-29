@@ -18,7 +18,15 @@
     <exercise workspace="1.5in">
         <statement>
             <p>
-                Verify that <md> r(\theta) = \frac{1}{\frac{1}{2} - \ln|\theta|} </md> is a solution to the equation <md> \deriv{r}{\theta} = \frac{r^2}{\theta} </md> and find its largest interval of existence.
+                Verify that <md> r(\theta) = \frac{1}{\frac{1}{2} - \ln|\theta| } </md> is a solution to the equation <md> \deriv{r}{\theta} = \frac{r^2}{\theta} </md> and find its largest interval of existence.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+        <statement>
+            <p>
+                Determine whether the differential equation <md> 6y^2x \, dx - dy = 0 </md> is separable, exact, and/or linear. 
             </p>
         </statement>
     </exercise>
@@ -26,7 +34,23 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Solve <md> \dfrac{2ty}{t^2 + 1} - 2t - (2 - \ln(t^2 + 1)) y'(t) = 0 </md>
+                Solve <md> 2\deriv{u}{t} - u = 4 \sin(3t). </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Solve <md> \dfrac{2ty}{t^2 + 1} - 2t - (2 - \ln(t^2 + 1)) y'(t) = 0.</md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Use the substitution <md> u = 4x - y </md> to solve the IVP <md> y' = e^{4x - y} </md> While you may give your solution implicitly, it should not include <m>u</m>. 
             </p>
         </statement>
     </exercise>
