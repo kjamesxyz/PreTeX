@@ -253,6 +253,33 @@ var ptx_lunr_docs = [
   "body": "  Suppose is a random variable with mean and .     Construct the sampling distribution of sample means with size 50 for and write it in distribution notation. Clearly state any results\/theorems you have used to obtain your answer.      Suppose now that you are taking samples of size 20. Does this change the sampling distribution of sample means for ?      Suppose now that you are taking samples of size 20, but you know that is normally-distributed. Does this change the sampling distribution of sample means for ?    "
 },
 {
+  "id": "biostats-act-8",
+  "level": "1",
+  "url": "biostats-act-8.html",
+  "type": "🏫 Activity",
+  "number": "2.8",
+  "title": "🏫 Activity 8 - Hypothesis Testing Framework",
+  "body": " 🏫 Activity 8 - Hypothesis Testing Framework   This assignment is due at the beginning of class on Monday, October 12 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.     The claim is made that the mean heigh of adult men is 174.1 cm.     Write the null and alternative hypothesis using both symbols and words.      In this scenario, what would it mean to reject the null hypothesis?      In this scenario, what would it mean to fail to reject the null hypothesis?      What would it mean to commit a type-1 error in this context? Give an example of an experimental error that could cause this to occur.      What would it mean to commit a type-2 error in this context? Give an example of an experimental error that could cause this to occur.       Consider the claim that at least 30% of TikToks on your for-you page are ads. To test this claim, you spend a night doomscrolling where you watch 130 TikToks on your for-you page and record 34 ads.     Indentify the population, sample, parameter, and statistic of interest in this study.      State the null and alternative hypotheses in both words and symbols.     "
+},
+{
+  "id": "biostats-act-8-3",
+  "level": "2",
+  "url": "biostats-act-8.html#biostats-act-8-3",
+  "type": "Worksheet Exercise",
+  "number": "2.8.1",
+  "title": "",
+  "body": "  The claim is made that the mean heigh of adult men is 174.1 cm.     Write the null and alternative hypothesis using both symbols and words.      In this scenario, what would it mean to reject the null hypothesis?      In this scenario, what would it mean to fail to reject the null hypothesis?      What would it mean to commit a type-1 error in this context? Give an example of an experimental error that could cause this to occur.      What would it mean to commit a type-2 error in this context? Give an example of an experimental error that could cause this to occur.    "
+},
+{
+  "id": "biostats-act-8-4",
+  "level": "2",
+  "url": "biostats-act-8.html#biostats-act-8-4",
+  "type": "Worksheet Exercise",
+  "number": "2.8.2",
+  "title": "",
+  "body": "  Consider the claim that at least 30% of TikToks on your for-you page are ads. To test this claim, you spend a night doomscrolling where you watch 130 TikToks on your for-you page and record 34 ads.     Indentify the population, sample, parameter, and statistic of interest in this study.      State the null and alternative hypotheses in both words and symbols.    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",
