@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-3-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Method of Undetermined Coefficients </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Determine appropriate trial functions for the method of undetermined coefficients. </p></li>
+            <li><p> Determine appropriate annihilators for the method of undetermined coefficients. </p></li>
+            <li><p> Use the method of undetermined coefficients to solve nonhomogeneous linear ODEs. </p></li>
+        </ol>
+    </objectives>
+
+
+    <example>
+        <statement>
+            <p>
+                Solve <md> y'' + y' - 6y = 2x </md> using undetermined coefficients. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Recall that the general solution has the form <m>y = y_c + y_p </m>. Hence, with all nonhomogeneous linear ODEs, we must first start by solving the complementary equation <md> y'' + y' - 6y = 0 </md> The roots of the characteristic polynomial are <m>\lambda = -3, 2 </m>. Hence, the complementary solution is <md> y_c(x) = c_1 e^{-3x} + c_2 e^{2x}. </md> Next, we need to find the particular solution. Notice that our complementary solution has no way of generating a term that looks like <m> 2x </m> as we take its derivatives. This tells us there must be some other piece of the puzzle contained by our particular solution. Intuition would tell us that we should have a linear component to our solution, so we might try a solution of the form <m>\tilde{y} = Ax + B </m>. This would give <md> y'' + y' - 6y = A - 6(Ax + B) = -6Ax + (B + A) = 2x. </md> From this one equation, we can build two equations to solve for our undetermine coefficients. The coefficients on the linear terms should match, so <md>-6A = 2 \implies A = -\frac{1}{3} </md> and we should not have a constant term, so <md> B + A = 0 \implies B = \frac{1}{3}. </md> Therefore, the particular solution is <md> y_p = -\frac{1}{3} x + \frac{1}{3} </md> and the general solution is <md> y = c_1 e^{-3x} + c_2 e^{2x}-\frac{1}{3} x + \frac{1}{3}. </md> 
+            </p>
+        </solution>
+    </example>
+
+    <definition xml:id="def-annihilator">
+        <statement>
+            <p>
+                The differential operator <m>L</m> is an <alert> annihilator </alert> for the function <m>f(x) </m> provided <md> L[f(x)] = 0 </md> for all <m>x</m>. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-annihilator-rules">
+        <statement>
+            <p>
+                The operator <m>\cal{D}^n</m> annihilates all polynomials of degree less than <m> n </m>. The operator <m>(\cal{D} - a)^n </m> annihilates functions of the form <m>x^ke^{ax}</m> where <m>k \lt n-1</m>. 
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                Find an annihilator for <m> f(x) = (x^3 - 2x)e^{4x} </m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The operator <m> (\cal{D} - 4)^4 </m> annihilates. 
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Redo earlier example with annihilators. 
+            </p>
+        </statement>
+    </example>
+    
+
+</section>
