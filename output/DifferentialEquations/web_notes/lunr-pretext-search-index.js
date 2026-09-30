@@ -384,8 +384,8 @@ var ptx_lunr_docs = [
   "url": "diffeq-notes-3-1.html",
   "type": "Section",
   "number": "3.1",
-  "title": "Existence &amp; Uniqueness",
-  "body": " Existence & Uniqueness    Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.     Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    "
+  "title": "Existence &amp; Uniqueness for Linear ODEs",
+  "body": " Existence & Uniqueness for Linear ODEs    Students will be able to...    Recall and apply theorems related to existence and uniquness of solutions to linear ODEs.  Distinguish between particular, complementary, fundamental, and general solutions.      We say is a linear operator if, for all constants and all functions we have the property that       The derivative is a linear operator, since we have      Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    Why talk about it?    Consider the second-order linear ODE The general solution to this equation has the form A boundary condition is similar to an initial condition, but may be given at any input. Consider the following cases.  Under BCs , we get a single unique solution as expected (existence and uniquness).  Under BCs , we get infinitely-many solutions (existence only).  Under BCs , we get no solutions.      Recall an nth-order linear ODE is homogeneous if it has not forcing function.    The functions are said to be linearly independent on the interval provided for all only when . Otherwise, we say the functions are linearly dependent .      The functions are linearly dependent since for all . The functiond are linearly independent, since the only way to guarantee for all is to take .      Let be at least times differentiable. Their Wronskian is       The functions are linearly-independent on if and only if their Wronskian is nonzero on .      Suppose solve an nth-order homogeneous linear differential equation on . We call them fundamental solutions if they are lienarly independent.      Every linear nth-order homogeneous ODE has a fundamental set of solutions.      Let be fundamental solutions to an nth-order linear homogeneous ODE on . The general solution of the equation on is .      Suppose is an nth-order linear nonhomogeneous ODE. The equation is called the complementary equation to the nonhomogeneous ODE, and its solution is the complementary solution .      Let be a particular solution to an nth-order linear nonhomogeneous ODE on and let be its corresponding complementary solution. Then is the general solution to the nonhomogeneous equation.    "
 },
 {
   "id": "diffeq-notes-3-1-2",
@@ -394,14 +394,32 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "3.1",
   "title": "",
-  "body": "  Students will be able to...    Identify and solve separable first-order ODEs by separation of variables.   "
+  "body": "  Students will be able to...    Recall and apply theorems related to existence and uniquness of solutions to linear ODEs.  Distinguish between particular, complementary, fundamental, and general solutions.   "
+},
+{
+  "id": "def-linear-operator",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-linear-operator",
+  "type": "Definition",
+  "number": "3.1.1",
+  "title": "",
+  "body": "  We say is a linear operator if, for all constants and all functions we have the property that    "
+},
+{
+  "id": "diffeq-notes-3-1-4",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-4",
+  "type": "Example",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  The derivative is a linear operator, since we have    "
 },
 {
   "id": "thm-superposition",
   "level": "2",
   "url": "diffeq-notes-3-1.html#thm-superposition",
   "type": "Theorem",
-  "number": "3.1.1",
+  "number": "3.1.3",
   "title": "Principle of Superposition.",
   "body": " Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.   "
 },
@@ -410,9 +428,153 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "diffeq-notes-3-1.html#thm-ivp-existence",
   "type": "Theorem",
-  "number": "3.1.2",
+  "number": "3.1.4",
   "title": "Existence and Uniqueness of Solutions to IVPs.",
   "body": " Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.   "
+},
+{
+  "id": "diffeq-notes-3-1-8",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-8",
+  "type": "Example",
+  "number": "3.1.5",
+  "title": "",
+  "body": "  Consider the second-order linear ODE The general solution to this equation has the form A boundary condition is similar to an initial condition, but may be given at any input. Consider the following cases.  Under BCs , we get a single unique solution as expected (existence and uniquness).  Under BCs , we get infinitely-many solutions (existence only).  Under BCs , we get no solutions.     "
+},
+{
+  "id": "def-linearly-independent",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-linearly-independent",
+  "type": "Definition",
+  "number": "3.1.6",
+  "title": "",
+  "body": "  The functions are said to be linearly independent on the interval provided for all only when . Otherwise, we say the functions are linearly dependent .   "
+},
+{
+  "id": "diffeq-notes-3-1-11",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-11",
+  "type": "Example",
+  "number": "3.1.7",
+  "title": "",
+  "body": "  The functions are linearly dependent since for all . The functiond are linearly independent, since the only way to guarantee for all is to take .   "
+},
+{
+  "id": "def-Wronskian",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-Wronskian",
+  "type": "Definition",
+  "number": "3.1.8",
+  "title": "",
+  "body": "  Let be at least times differentiable. Their Wronskian is    "
+},
+{
+  "id": "thm-lin-indep-criteria",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-lin-indep-criteria",
+  "type": "Theorem",
+  "number": "3.1.9",
+  "title": "",
+  "body": "  The functions are linearly-independent on if and only if their Wronskian is nonzero on .   "
+},
+{
+  "id": "def-fundamental-sols",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-fundamental-sols",
+  "type": "Definition",
+  "number": "3.1.10",
+  "title": "",
+  "body": "  Suppose solve an nth-order homogeneous linear differential equation on . We call them fundamental solutions if they are lienarly independent.   "
+},
+{
+  "id": "thm-existence-linear-homog",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-existence-linear-homog",
+  "type": "Theorem",
+  "number": "3.1.11",
+  "title": "",
+  "body": "  Every linear nth-order homogeneous ODE has a fundamental set of solutions.   "
+},
+{
+  "id": "thm-general-sol-linear-homog",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-general-sol-linear-homog",
+  "type": "Theorem",
+  "number": "3.1.12",
+  "title": "",
+  "body": "  Let be fundamental solutions to an nth-order linear homogeneous ODE on . The general solution of the equation on is .   "
+},
+{
+  "id": "def-complementary-soln",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-complementary-soln",
+  "type": "Definition",
+  "number": "3.1.13",
+  "title": "",
+  "body": "  Suppose is an nth-order linear nonhomogeneous ODE. The equation is called the complementary equation to the nonhomogeneous ODE, and its solution is the complementary solution .   "
+},
+{
+  "id": "thm-general-sol-linear-nonhomog",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-general-sol-linear-nonhomog",
+  "type": "Theorem",
+  "number": "3.1.14",
+  "title": "",
+  "body": "  Let be a particular solution to an nth-order linear nonhomogeneous ODE on and let be its corresponding complementary solution. Then is the general solution to the nonhomogeneous equation.   "
+},
+{
+  "id": "diffeq-notes-3-2",
+  "level": "1",
+  "url": "diffeq-notes-3-2.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Reduction of Order",
+  "body": " Reduction of Order    Students will be able to...    Use reduction of order techniques to find additional solutions of ODEs.    Consider a 2nd-order linear ODE. If we know one solution , we can use it to obtain a second solution that is linearly-indpendent using a process called reduction of order .    Given that solves the problem on , find another solution.    "
+},
+{
+  "id": "diffeq-notes-3-2-2",
+  "level": "2",
+  "url": "diffeq-notes-3-2.html#diffeq-notes-3-2-2",
+  "type": "Objectives",
+  "number": "3.2",
+  "title": "",
+  "body": "  Students will be able to...    Use reduction of order techniques to find additional solutions of ODEs.   "
+},
+{
+  "id": "diffeq-notes-3-2-4",
+  "level": "2",
+  "url": "diffeq-notes-3-2.html#diffeq-notes-3-2-4",
+  "type": "Example",
+  "number": "3.2.1",
+  "title": "",
+  "body": "  Given that solves the problem on , find another solution.   "
+},
+{
+  "id": "diffeq-notes-3-3",
+  "level": "1",
+  "url": "diffeq-notes-3-3.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Method of Characteristics",
+  "body": " Method of Characteristics    Students will be able to...    Use the method of characteristics to find fundamental solutions to linear homogeneous ODEs.    Consider the ODE We have seen that exponentials often work out for us, so assuming the solution has the form would give . Seeing that for all , our problem boils down to solving the quadratic equation     The characteristic equation for the ODE is when we exchange derivative order for algebraic degree.    Naturally, since we are solving a quadratic equation, we may have the following cases.   Distinct real roots: we get    Repeated real roots: we get .   Complex conjugate roots: we get     "
+},
+{
+  "id": "diffeq-notes-3-3-2",
+  "level": "2",
+  "url": "diffeq-notes-3-3.html#diffeq-notes-3-3-2",
+  "type": "Objectives",
+  "number": "3.3",
+  "title": "",
+  "body": "  Students will be able to...    Use the method of characteristics to find fundamental solutions to linear homogeneous ODEs.   "
+},
+{
+  "id": "def-characteristic-eqn",
+  "level": "2",
+  "url": "diffeq-notes-3-3.html#def-characteristic-eqn",
+  "type": "Definition",
+  "number": "3.3.1",
+  "title": "",
+  "body": "  The characteristic equation for the ODE is when we exchange derivative order for algebraic degree.   "
 }
 ]
 
