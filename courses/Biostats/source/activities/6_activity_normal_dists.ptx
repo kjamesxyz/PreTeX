@@ -42,7 +42,7 @@
     <exercise>
         <introduction>
             <p>
-                For each of the following, suppose <m>Z \sim (0,1) </m>. Sketch a rough cumulative probability diagram for each of the following scenarios. 
+                For each of the following, suppose <m>Z \sim (0,1) </m>. Sketch a rough cumulative probability diagram for each of the following scenarios, then use R to compute the probabilities. Write a sentence to explain what this quantity represents. 
             </p>
         </introduction>
 
@@ -94,7 +94,7 @@
             </statement>
         </task>
 
-        <task workspace="0.75in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Determine your instructor's Z-score for under each distribution. 

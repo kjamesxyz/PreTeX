@@ -35,7 +35,7 @@
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                    Compute <m>\cal{P}[X \geq 0.17]</m>. Write the claim in plain language.  Then, sketch a cumulative probability diagram for the claim.
@@ -43,7 +43,7 @@
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Determine the 80th percentile for the mercury level. Then, sketch a cumulative probability diagram for the claim.
@@ -51,7 +51,7 @@
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Determine the range of mercury levels that contain the middlemost 95% of pheasants. Then, sketch a cumulative probability diagram for the claim.
