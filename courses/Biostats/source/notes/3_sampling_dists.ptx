@@ -53,10 +53,10 @@
                     <cell>Kohl</cell><cell>69</cell>
                 </row>
                 <row>
-                    <cell>Brooklyn</cell><cell>68</cell>
+                    <cell>Brooklyn</cell><cell>67</cell>
                 </row>
                 <row>
-                    <cell>Gretta</cell><cell>70</cell>
+                    <cell>Gretta</cell><cell>68</cell>
                 </row>
                 <row>
                     <cell>Barrett</cell><cell>74</cell>
@@ -82,7 +82,7 @@
     </example>
 
     <p>
-        Notice in the previous example that <m>\bar{X}</m> is a DRV on which we can measure statistics. Before continuing, it will be worthwile to establish some notation. Let <m>P</m> be a sampling distribution for parameter <m>p</m>. Suppose we measure the statistic <m>\hat{q}</m> on <m>P</m>. We denote this as <m>P_{\hat{q}}</m>. For example, <m> \mu_{\xbar} </m> denotes the mean of the sampling distribution of means. 
+        Notice in the previous example that <m>\bar{X}</m> is a DRV on which we can measure statistics. Before continuing, it will be worthwile to establish some notation. Let <m>P</m> be a sampling distribution for parameter <m>p</m>. Suppose we measure the statistic <m>\hat{q}</m> on <m>P</m>. We denote this as <m>P_{\hat{q}}</m>. For example, <m> \mu_{\bar{x}} </m> denotes the mean of the sampling distribution of means. 
     </p> 
 
     <example>
@@ -96,7 +96,7 @@
     <theorem xml:id="thm-central-limit-theorem">
         <statement>
             <p>
-                Consider taking samples of size <m>n</m> from a CRV <m>X</m> with mean <m>\mu</m> and standard deviation <m>\sigma</m>. As <m>n \to \infty</m>, the sampling distribution of <m>\bar{x}</m> becomes normal with mean <m>\mu</m> and standard deviation <m>\frac{\sigma}{\sqrt{n}}</m>.
+                Consider taking samples of size <m>n</m> from a CRV <m>X</m> with proportion <m>p</m>. As <m>n \to \infty</m>, the sampling distribution of <m>\hat{p}</m> becomes normal with mean <m>p</m> and standard deviation <m>\sqrt{\frac{p(1-p)}{n}}</m>.
             </p>
         </statement>
     </theorem>

@@ -58,8 +58,8 @@
             <p>
                 A botanist believes that a particular population of wildflowers has grown more purple. Old records suggest the population is 35% purple, but the botanist believes that proportion to be greater now. She states the hypotheses
                 <md>
-                    <mrow> H_0: \amp p \gt 0.35 </mrow>
-                    <mrow> H_1: \amp p \leq 0.35 </mrow>
+                    <mrow> H_0: \amp \ p \gt 0.35 </mrow>
+                    <mrow> H_1: \amp \ p \leq 0.35 </mrow>
                 </md>
                
             </p>
