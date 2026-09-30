@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="diffeq-notes-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Existence &amp; Uniqueness</title>
+    <title>Existence &amp; Uniqueness for Linear ODEs</title>
 
     <objectives>
         <introduction>
@@ -10,9 +10,26 @@
             </p>
         </introduction>
         <ol>
-            <li><p> Identify and solve separable first-order ODEs by separation of variables. </p></li>
+            <li><p> Recall and apply theorems related to existence and uniquness of solutions to linear ODEs. </p></li>
+            <li><p> Distinguish between particular, complementary, fundamental, and general solutions. </p></li>
         </ol>
     </objectives>
+
+    <definition xml:id="def-linear-operator">
+        <statement>
+            <p>
+                We say <m>L</m> is a <alert>linear operator</alert> if, for all constants <m>\alpha, \beta</m> and all functions <m>f,g</m> we have the property that <md> L[\alpha f(x)  + \beta g(x)] = \alpha L[f(x)] + \beta L[g(x)]. </md> 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                The derivative is a linear operator, since we have <md> \cal{D}[\alpha f(x) + \beta g(x) ] = \deriv{}{x}[\alpha f(x) + \beta g(x) ] = \alpha f'(x) + \beta g'(x) = \alpha \mathcal{D}[f(x)] + \beta \mathcal{D}[g(x)]. </md>
+            </p>
+        </statement>
+    </example>
 
     <theorem xml:id="thm-superposition">
         <title>Principle of Superposition</title>
@@ -48,7 +65,97 @@
         </statement>
     </theorem>
 
-    <p> Recall an nth-order linear ODE is <alert>homogeneous</alert> if it has not forcing function. </p> 
+    <p>
+        Why talk about it?
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Consider the second-order linear ODE <md> x'' + 16x = 0. </md> The general solution to this equation has the form <md> x(t) = c_1 \cos(4t) + c_2 \sin(4t). </md> A <alert>boundary condition</alert> is similar to an initial condition, but may be given at any input. Consider the following cases. 
+                <ol>
+                    <li><p> Under BCs <m> x(0) = x\left(\frac{\pi}{8}\right) = 0 </m>, we get a single unique solution as expected (existence and uniquness).</p></li>
+                    <li><p> Under BCs <m> x(0) = x\left(\frac{\pi}{2}\right) = 0 </m>, we get infinitely-many solutions (existence only). </p></li>
+                    <li><p> Under BCs <m> x(0) = 0, x\left(\frac{\pi}{2}\right) = 1 </m>, we get no solutions. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+
+    <p> 
+        Recall an nth-order linear ODE is <alert>homogeneous</alert> if it has not forcing function. 
+    </p> 
+
+    <definition xml:id="def-linearly-independent">
+        <statement>
+            <p>
+                The functions <m>f_1, f_2, \ldots, f_n</m> are said to be <alert> linearly independent </alert> on the interval <m>I</m> provided <md> c_1 f_1 + c_2 f_2 + \cdots + c_n f_n = 0 </md> for all <m>x \in I</m> only when <m> c_1 = c_2 = \cdots = c_n = 0 </m>. Otherwise, we say the functions are <alert> linearly dependent </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                The functions <md> f_1(x) = 1, f_2(x) = x, f_3(x) = 4-3x </md> are linearly dependent since <md> 4 f_1(x) - 3 f_2(x) - f_3(x) = 0 </md> for all <m>x</m>. The functiond <md> g_1(x) = 1, g_2(x) = x, g_3(x) = x^2 </md> are linearly independent, since the only way to guarantee <md> c_1 + c_2x + c_3x^2 = 0 </md> for all <m>x</m> is to take <m>c_1 = c_2 = c_3 = 0 </m>.  
+            </p>
+        </statement>
+    </example>
     
+    <definition xml:id="def-Wronskian">
+        <statement>
+            <p>
+                Let <m> f_1, \ldots, f_n </m> be at least <m>n-1</m> times differentiable. Their <alert> Wronskian </alert> is <md> W(f_1, \ldots, f_n) = \begin{vmatrix} f_1 \amp f_2 \amp \cdots \amp f_n \\ f_1' \amp f_2' \amp \cdots \amp f_n' \\ \vdots \amp \vdots \amp \ddots \amp \vdots \\ f^{(n-1)}_1 \amp f^{(n-1)}_2 \amp \cdots \amp f^{(n-1)}_n \end{vmatrix} </md>
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-lin-indep-criteria">
+        <statement>
+            <p>
+                The functions <m> f_1, \ldots, f_n </m> are linearly-independent on <m> I </m> if and only if their Wronskian is nonzero on <m> I </m>. 
+            </p>
+        </statement>
+    </theorem>
+
+    <definition xml:id="def-fundamental-sols">
+        <statement>
+            <p>
+                Suppose <m>y_1, \ldots, y_n </m> solve an nth-order homogeneous linear differential equation on <m>I</m>. We call them <alert> fundamental solutions </alert> if they are lienarly independent. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-existence-linear-homog">
+        <statement>
+            <p>
+                Every linear nth-order homogeneous ODE has a fundamental set of solutions. 
+            </p>
+        </statement>
+    </theorem>
+
+    <theorem xml:id="thm-general-sol-linear-homog">
+        <statement>
+            <p>
+                Let <m>y_1, \ldots, y_n</m> be fundamental solutions to an nth-order linear homogeneous ODE on <m> I </m>. The <alert> general solution </alert> of the equation on <m>I</m> is <md> y(x) = c_1 y_1 + \cdots + c_2 y_2 </md>. 
+            </p>
+        </statement>
+    </theorem>
+
+    <definition xml:id="def-complementary-soln">
+        <statement>
+            <p>
+                Suppose <md> \cal{L}[y] = f(x) </md> is an nth-order linear nonhomogeneous ODE. The equation <md> \cal{L}[y] = 0 </md> is called the <alert> complementary equation </alert> to the nonhomogeneous ODE, and its solution is the <alert> complementary solution </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-general-sol-linear-nonhomog">
+        <statement>
+            <p>
+                Let <m>y_p</m> be a particular solution to an nth-order linear nonhomogeneous ODE on <m> I</m> and let <m>y_c</m> be its corresponding complementary solution. Then <md> y(x) = y_c + y_p. </md>  is the <alert> general solution </alert> to the nonhomogeneous equation. 
+            </p>
+        </statement>
+    </theorem>
 
 </section>

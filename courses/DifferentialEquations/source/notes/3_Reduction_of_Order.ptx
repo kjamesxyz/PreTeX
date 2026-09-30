@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Reduction of Order </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Use reduction of order techniques to find additional solutions of ODEs. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        Consider a 2nd-order linear ODE. If we know one solution <m>y_1</m>, we can use it to obtain a second solution <m>y_2</m> that is linearly-indpendent using a process called <alert> reduction of order </alert>. 
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Given that <m>y_1(x) = e^x </m> solves the problem <m>y'' - y = 0</m> on <m>(-\infty, \infty)</m>, find another solution. 
+            </p>
+        </statement>
+    </example>
+
+</section>

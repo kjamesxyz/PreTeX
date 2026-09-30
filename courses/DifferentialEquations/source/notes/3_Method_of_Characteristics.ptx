@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-3-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Method of Characteristics</title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Use the method of characteristics to find fundamental solutions to linear homogeneous ODEs. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        Consider the ODE <md> ay'' + by' + cy = 0. </md> We have seen that exponentials often work out for us, so assuming the solution has the form <m>y = e^{\lambda x} </m> would give <m> (a\lambda^2 + b \lambda + c)e^{\lambda x} = 0 </m>. Seeing that <m>e^{\lambda x} \neq 0 </m> for all <m> x </m>, our problem boils down to solving the quadratic equation <md> (a\lambda^2 + b \lambda + c) = 0. </md> 
+    </p>
+
+    <definition xml:id="def-characteristic-eqn">
+        <statement>
+            <p>
+                The <alert>characteristic equation</alert> for the ODE is when we exchange derivative order for algebraic degree. 
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        Naturally, since we are solving a quadratic equation, we may have the following cases. 
+
+        <ol> 
+            <li><p> <alert> Distinct real roots: </alert> we get <m>y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x} </m> </p></li> 
+            <li><p> <alert> Repeated real roots: </alert> we get <m> y(x) = c_1e^{\lambda x} + c_2 e^{\lambda x} </m>. </p></li>
+            <li><p> <alert> Complex conjugate roots: </alert> we get <m>y(x) = e^{\text{Re}(\lambda) x} \left(c_1 \sin(\text{Im}(\lambda)x) + c_2 \cos(\text{Im}(\lambda)x) \right). </m> </p></li> 
+        </ol>
+    </p>
+
+</section> 

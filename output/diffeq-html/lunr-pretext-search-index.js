@@ -370,6 +370,51 @@ var ptx_lunr_docs = [
   "body": "  Describe the process by which to perform a substitution in your own words.   "
 },
 {
+  "id": "diffeq-act-9",
+  "level": "1",
+  "url": "diffeq-act-9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 9 - Existence, Uniqueness, &amp; Special Cases",
+  "body": " 🏫 Activity 9 - Existence, Uniqueness, & Special Cases   This activity is due at the beginning of class on Monday, October 12 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Suppose are times differentiable. Write the formula for .       Explain the difference between the fundamental, complementary, particular, and general solution(s) to an nth-order linear nonhomogeneous ODE.      Consider the differential equation      Write and solve the characteristic equation to show only one distinct (two repeated) real root(s).      Let denote the root you found in part (a). We can only determine that is a solution a priori. Verify that is a solution on .      Let , where is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that is a solution, and use the ODE to solve for .      Verify that is linearly independent from .      Use your work above to write the general solution to the ODE. How does this compare with your notes?       In the case we have a complex conjugate pair as roots to a characteristic equation, we have seen that     Write down the formulat for the general solution.       Euler's formula is a famous mathematical result that shows Apply Euler's formula to the expression .      We can equivalently write our general solution as Use your work from part (b) to show this is the same formula you wrote in part (a).     "
+},
+{
+  "id": "diffeq-act-9-3",
+  "level": "2",
+  "url": "diffeq-act-9.html#diffeq-act-9-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Suppose are times differentiable. Write the formula for .    "
+},
+{
+  "id": "diffeq-act-9-4",
+  "level": "2",
+  "url": "diffeq-act-9.html#diffeq-act-9-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Explain the difference between the fundamental, complementary, particular, and general solution(s) to an nth-order linear nonhomogeneous ODE.   "
+},
+{
+  "id": "diffeq-act-9-5",
+  "level": "2",
+  "url": "diffeq-act-9.html#diffeq-act-9-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the differential equation      Write and solve the characteristic equation to show only one distinct (two repeated) real root(s).      Let denote the root you found in part (a). We can only determine that is a solution a priori. Verify that is a solution on .      Let , where is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that is a solution, and use the ODE to solve for .      Verify that is linearly independent from .      Use your work above to write the general solution to the ODE. How does this compare with your notes?    "
+},
+{
+  "id": "diffeq-act-9-6",
+  "level": "2",
+  "url": "diffeq-act-9.html#diffeq-act-9-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  In the case we have a complex conjugate pair as roots to a characteristic equation, we have seen that     Write down the formulat for the general solution.       Euler's formula is a famous mathematical result that shows Apply Euler's formula to the expression .      We can equivalently write our general solution as Use your work from part (b) to show this is the same formula you wrote in part (a).    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",

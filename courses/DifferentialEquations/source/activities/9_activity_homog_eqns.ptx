@@ -19,7 +19,97 @@
         <task>
             <statement>
                 <p>
-                    Define what it means for a function to be <alert> homogeneous of degree <m>\alpha</m></alert>. 
+                    Suppose <m>f_1, \ldots, f_n</m> are <m>n-1</m> times differentiable. Write the formula for <m> W(f_1, \ldots, f_n) </m>. 
                 </p>
             </statement>
         </task>
+    </exercise>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Explain the difference between the fundamental, complementary, particular, and general solution(s) to an nth-order linear nonhomogeneous ODE. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the differential equation <md> y'' - 6y' + 9y = 0. </md>  
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write and solve the characteristic equation to show only one distinct (two repeated) real root(s). 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Let <m>\lambda</m> denote the root you found in part (a). We can only determine that <m>y_1 = e^{\lambda x} </m> is a solution a priori. Verify that <m> y_1 </m> is a solution on <m>(-\infty, \infty)</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Let <m> y_2 = u(x) y_1(x) </m>, where <m>u(x)</m> is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that <m>y_2</m> is a solution, and use the ODE to solve for <m> u </m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Verify that <m> y_1 </m> is linearly independent from <m>y_2</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Use your work above to write the general solution to the ODE. How does this compare with your notes? 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <introduction>
+            <p>
+                In the case we have a complex conjugate pair <m> \lambda = a \pm bi </m> as roots to a characteristic equation, we have seen that 
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write down the formulat for the general solution. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    <alert> Euler's formula </alert> is a famous mathematical result that shows <md> e^{i \theta} = \cos(\theta) + i \sin(\theta). </md> Apply Euler's formula to the expression <m> e^{ibx} </m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    We can equivalently write our general solution as <md> y(x) = c_1e^{a + bix} + c_2e^{a - bix} = e^{ax} (c_1 e^{bix} + c_2 e^{-bix}). </md> Use your work from part (b) to show this is the same formula you wrote in part (a). 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet> 

@@ -26,6 +26,7 @@
             <xi:include href="./activities/6_activity_exact_eqns.ptx" />
             <xi:include href="./activities/7_activity_linear_eqns.ptx" />
             <xi:include href="./activities/8_activity_substitutions.ptx" />
+            <xi:include href="./activities/9_activity_homog_eqns.ptx" />
         </chapter>
 
         <chapter xml:id="diffeq-hw">
