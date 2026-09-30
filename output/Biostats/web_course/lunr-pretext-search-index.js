@@ -415,6 +415,33 @@ var ptx_lunr_docs = [
   "body": "  Reconsider the scenario in problem 1, but this time suppose . Repeat parts (a)-(d) under this assumption.   "
 },
 {
+  "id": "biostats-hw5",
+  "level": "1",
+  "url": "biostats-hw5.html",
+  "type": "🏫 Activity",
+  "number": "3.5",
+  "title": "📝 Homework 5",
+  "body": " 📝 Homework 5    Instructions: This assignment is due Wednesday, October 14 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 5.1-5.2 from OpenIntro Statistics (pg. 179)  Problems 5.3-5.6, parts (a)-(c) only, from OpenIntro Statistics (pg. 179-180)       An occupational therapist finds that the mean heart rate across all patients that visited her on a particular day was 84 bpm. They suspect the mean heart rate of their patients is over 80 bpm.     Identify the population, parameter, sample, and statistic for the study.      Suppose is the mean heart rate of all of her patients. Write the relevant sampling distribution for this problem in both symbols and words.      State the null and alternative hypotheses in both words and symbols. Clearly define the symbols you use.      Explain what a type 1 error would mean in this context. Type 2?       A botanist believes that a particular population of wildflowers has grown more purple. Old records suggest the population is 35% purple, but the botanist believes that proportion to be greater now. She states the hypotheses      The botanist has made an error in stating her hypotheses. Identify the mistake and suggest a correction.      Upon making your suggested corrections, the botanist's investigation suggests they've failed to reject the null hypothesis. Interpret what this means in plain language.     "
+},
+{
+  "id": "biostats-hw5-3",
+  "level": "2",
+  "url": "biostats-hw5.html#biostats-hw5-3",
+  "type": "Worksheet Exercise",
+  "number": "3.5.1",
+  "title": "",
+  "body": "  An occupational therapist finds that the mean heart rate across all patients that visited her on a particular day was 84 bpm. They suspect the mean heart rate of their patients is over 80 bpm.     Identify the population, parameter, sample, and statistic for the study.      Suppose is the mean heart rate of all of her patients. Write the relevant sampling distribution for this problem in both symbols and words.      State the null and alternative hypotheses in both words and symbols. Clearly define the symbols you use.      Explain what a type 1 error would mean in this context. Type 2?    "
+},
+{
+  "id": "biostats-hw5-4",
+  "level": "2",
+  "url": "biostats-hw5.html#biostats-hw5-4",
+  "type": "Worksheet Exercise",
+  "number": "3.5.2",
+  "title": "",
+  "body": "  A botanist believes that a particular population of wildflowers has grown more purple. Old records suggest the population is 35% purple, but the botanist believes that proportion to be greater now. She states the hypotheses      The botanist has made an error in stating her hypotheses. Identify the mistake and suggest a correction.      Upon making your suggested corrections, the botanist's investigation suggests they've failed to reject the null hypothesis. Interpret what this means in plain language.    "
+},
+{
   "id": "biostats-projects-final",
   "level": "1",
   "url": "biostats-projects-final.html",
