@@ -15,14 +15,14 @@
         </statement>
     </exercise>
 
-    <exercise workspace="1in">
+    <exercise>
         <introduction>
             <p>
-                Suppose <m> X \</m> is a random variable with mean <m>\mu=150</m> and <m> \sigma=25</m>. 
+                Suppose <m> X </m> is a random variable with mean <m>\mu=150</m> and <m> \sigma=25</m>. 
             </p>
         </introduction>
 
-        <task workspace="1in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Construct the sampling distribution of sample means with size 50 for <m>X</m> and write it in distribution notation. Clearly state any results/theorems you have used to obtain your answer. 
