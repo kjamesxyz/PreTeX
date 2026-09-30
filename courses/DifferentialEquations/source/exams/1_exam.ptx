@@ -11,10 +11,10 @@
         <alert>Note:</alert> Unless otherwise stated, you may give implicit solutions. 
     </p>
 
-    <exercise workspace="1in">
+    <exercise workspace="1.5in">
         <statement>
             <p>
-                Classify the differential equation <md> x^2 y'' + xy' + x^2 y = y + \ln(x) </md> according to its type, order, linearity, and homogeneity. 
+                [20 points] Classify the differential equation <md> x^2 y'' + xy' + x^2 y = y + \ln(x) </md> according to its type, order, linearity, and homogeneity. 
             </p>
         </statement>
     </exercise>
@@ -22,23 +22,15 @@
     <exercise workspace="1.5in">
         <statement>
             <p>
-                Verify that <md> r(\theta) = \frac{1}{\frac{1}{2} - \ln|\theta| } </md> is a solution to the equation <md> \deriv{r}{\theta} = \frac{r^2}{\theta} </md> and find its largest interval of existence.
+                [10 points] Verify that <md> r(\theta) = \frac{1}{\frac{1}{2} - \ln(\theta) } </md> is a solution to the equation <md> \deriv{r}{\theta} = \frac{r^2}{\theta} </md> and find its largest interval of existence.
             </p>
         </statement>
     </exercise>
 
-    <exercise workspace="4in">
+    <exercise workspace="1.5in">
         <statement>
             <p>
-                Determine whether the differential equation <md> 6y^2x \, dx - dy = 0 </md> is separable, exact, and/or linear. 
-            </p>
-        </statement>
-    </exercise>
-
-    <exercise workspace="3in">
-        <statement>
-            <p>
-                Solve <md> 2\deriv{u}{t} - u = 4 \sin(3t). </md>
+                [18 points] Determine whether the differential equation <md> 6y^2x \, dx - dy = 0 </md> is separable, exact, and/or linear. 
             </p>
         </statement>
     </exercise>
@@ -46,7 +38,20 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Solve <md> \dfrac{2ty}{t^2 + 1} - 2t - (2 - \ln(t^2 + 1)) y'(t) = 0.</md>
+                [14 points] Solve <md> 2\deriv{u}{t} - u = 4 \sin(3t). </md>
+            </p>
+        </statement>
+        <hint>
+            <p>
+                <m> \int e^{ax} \sin(bx) \, dx = \frac{e^{ax}}{a^2 + b^2} (a \sin(bx) - b \cos(bx)) + C</m>.
+            </p>
+        </hint>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                [16 points] Solve <md> \dfrac{2ty}{t^2 + 1} - 2t - (2 - \ln(t^2 + 1)) y'(t) = 0.</md>
             </p>
         </statement>
     </exercise>
@@ -54,22 +59,27 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                Use the substitution <md> u = 4x - y </md> to solve the IVP <md> y' = e^{4x - y} </md> While you may give your solution implicitly, it should not include <m>u</m>. 
+                [18 points] Use the substitution <md> u = 4x - y </md> to solve the IVP <md> y' = e^{4x - y} </md> While you may give your solution implicitly, it should not include <m>u</m>. 
             </p>
         </statement>
+        <hint>
+            <p>
+                <m> \int \frac{1}{a - e^x} \, dx = \frac{1}{a} (x - \ln(a(a-e^x))) + C.</m>
+            </p>
+        </hint>
     </exercise>
 
     <exercise>
         <introduction>
             <p>
-                A 1000 gallon tank catches runoff from a chemical process. Suppose the tank initially contains 800 gallons of polluted water with 2 oz of pollutants. Polluted water runoff begins to flow into the tank at 3 gal/min. The runoff contains 5 oz of pollutants per gallon. The solution is piped to a water treatment plant at 3 gal/min. 
+                [32 points] A large tank catches runoff from a chemical process. Suppose the tank initially contains 800 gallons of polluted water with 2 oz of pollutants. Polluted water runoff begins to flow into the tank at 3 gal/min. The runoff contains 5 oz of pollutants per gallon. The solution is piped out of the tank to a water treatment plant at 3 gal/min. You may assume the contents of the tank remain well-mixed. 
             </p>
         </introduction>
 
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Write a first-order IVP that models the concentration (in oz/gal) of pollutants <m>p</m> after <m>t</m> minutes.
+                    Write a first-order IVP that models the amount (in oz) of pollutants <m>p</m> after <m>t</m> minutes.
                 </p>
             </statement>
         </task>
@@ -85,7 +95,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    How long does it take for the tank to accumulate 500 oz of pollutants? 
+                    How long does it take for the tank to accumulate 4 oz of pollutants? 
                 </p>
             </statement>
         </task>
@@ -93,7 +103,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Suppose that regulation required the chemical process to be slowed once the tank accumulates 500 oz of pollutants in such a way that only 2 gal/min of runoff is produced. How would this affect the ODE model you wrote in part (a)? The algebraic model you found in part (b)?
+                    Suppose that regulation required the chemical process to be slowed if the tank ever contains more than 4oz of pollutants. When this happens, the runoff slows to 2 gal/min. How would this affect the ODE model you wrote in part (a)? The algebraic model you found in part (b)?
                 </p>
             </statement>
         </task>
