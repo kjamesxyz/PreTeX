@@ -28,6 +28,7 @@
             
             <xi:include href="./activities/6_activity_normal_dists.ptx"/>
             <xi:include href="./activities/7_activity_sampling_dists.ptx"/>
+            <xi:include href="./activities/8_activity_hyp_test_framework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
