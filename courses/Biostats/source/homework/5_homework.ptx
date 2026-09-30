@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw5">
+<title>📝 Homework 5</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 14</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 5.1-5.2 from OpenIntro Statistics (pg. 179)</p></li>
+                <li><p> Problems 5.3-5.6, parts (a)-(c) only, from OpenIntro Statistics (pg. 179-180)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                An occupational therapist finds that the mean heart rate across all patients that visited her on a particular day was 84 bpm. They suspect the mean heart rate of their patients is over 80 bpm. 
+            </p>
+        </introduction>
+        
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify the population, parameter, sample, and statistic for the study. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose <m>\mu</m> is the mean heart rate of all of her patients. Write the relevant sampling distribution for this problem in both symbols and words.  
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    State the null and alternative hypotheses in both words and symbols. Clearly define the symbols you use.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Explain what a type 1 error would mean in this context. Type 2? 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <introduction>
+            <p>
+                A botanist believes that a particular population of wildflowers has grown more purple. Old records suggest the population is 35% purple, but the botanist believes that proportion to be greater now. She states the hypotheses
+                <md>
+                    <mrow> H_0: \amp p \gt 0.35 </mrow>
+                    <mrow> H_1: \amp p \leq 0.35 </mrow>
+                </md>
+               
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The botanist has made an error in stating her hypotheses. Identify the mistake and suggest a correction. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Upon making your suggested corrections, the botanist's investigation suggests they've failed to reject the null hypothesis. Interpret what this means in plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet>

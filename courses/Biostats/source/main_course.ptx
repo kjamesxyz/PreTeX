@@ -38,6 +38,7 @@
             <xi:include href="./homework/2_homework.ptx"/>
             <xi:include href="./homework/3_homework.ptx"/>
             <xi:include href="./homework/4_homework.ptx"/>
+            <xi:include href="./homework/5_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">
