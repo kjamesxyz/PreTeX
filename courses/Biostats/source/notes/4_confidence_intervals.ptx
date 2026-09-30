@@ -22,11 +22,30 @@
         </statement>
     </definition>
 
+    <p>
+        Keep in mind that there is rarely every a way to truley know the parameter we are after. The best we can typically do is to give a range that we suspect it falls in. The range is not necessarily correct, but we have some measureable way to determine how likely it does. 
+    </p>
+
     <example>
         <statement>
             <p>
-                Suppose that a sample <m>n=36</m> is drawn from a random variable <m>X</m> with standard deviation <m>\sigma = 3</m>. It is discovered that <m>\bar{x}=20</m>. 
+                Suppose that a sample <m>n=36</m> is drawn from a norammly-distributed random variable <m>X</m> with standard deviation <m>\sigma = 3</m>. It is discovered that <m>\bar{x}=20</m>. Build a 95% confidence interval for <m>\mu</m>
             </p>
         </statement>
+
+        <solution>
+            <p>
+                We want to find <m>a,b</m> such that <m> a \leq \mu \leq b </m>. It is not possible to know <m>a,b</m> for certain, but we can build a reasonable estimate using information about the sampling distribution. Recall CLT tells us that <m> \xbar \sim N(\mu, 0.5) </m>. Draw a cumul. prob. diagram in <m>X</m> space. Move it to <m>Z</m> space. The corresponding thresholds are the ends of the confidence interval. 
+            </p>
+        </solution>
     </example>
+
+    <theorem xml:id="thm-steps-for-CIs">
+        <statement>
+            <p>
+                Suppose 
+            </p>
+        </statement>
+    </theorem>
+    
 </section>
