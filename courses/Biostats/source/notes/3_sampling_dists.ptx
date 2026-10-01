@@ -98,6 +98,10 @@
             <p>
                 Consider taking samples of size <m>n</m> from a CRV <m>X</m> with proportion <m>p</m>. As <m>n \to \infty</m>, the sampling distribution of <m>\hat{p}</m> becomes normal with mean <m>p</m> and standard deviation <m>\sqrt{\frac{p(1-p)}{n}}</m>.
             </p>
+
+            <p>
+                Similarly, taking samples with mean <m>\bar{x}</m> yields a sampling distribution that becomes increasingly normal with mean <m>\mu</m> and standard deviation <m>\frac{\sigma}{\sqrt{n}}</m>. 
+            </p>
         </statement>
     </theorem>
 
