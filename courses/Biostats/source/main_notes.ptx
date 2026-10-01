@@ -36,6 +36,8 @@
             
             <xi:include href="./notes/4_hyp_test_framework.ptx" />
             <xi:include href="./notes/4_confidence_intervals.ptx" />
+            <xi:include href="./notes/4_hyp_test_one_prop.ptx" />
+            <xi:include href="./notes/4_hyp_test_one_mean.ptx" />
         </chapter>
     </book>
 </pretext>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-4-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Hypothesis Testing on One Mean</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Use confidence intervals to test hypotheses on sample means. </p></li>
+            <li><p> Use a P-test to test hypotheses on sample means. </p></li>
+            <li><p> Determine when a <m>Z</m> or <m>T</m> distribution is appropriate. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        Recall CLT tells us that the sampling distribution of sample means from sufficiently-large samples of size <m>n</m> from a CRV <m>X</m> are normally distributed with mean <m>\mu</m> and standard error <m>\frac{\sigma}{\sqrt{n}}</m>. 
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Suppose <m>\bar{x} = 20, n = 36</m>, and <m>\sigma = 3</m>. Build a 95% confidence interval for <m>\mu</m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have <md> SE = \frac{\sigma}{\sqrt{n}} = \frac{3}{\sqrt{36}} = 0.5. </md> Hence, the CI is <m>[19,21]</m>. 
+            </p>
+        </solution>
+    </example>   
+
+    <p>
+        Notice that building the confidence interval required us to know the standard deviation for the population. We would rarely ever know this information in practice, however. Instead, we would need to approximate <m>\sigma</m> from our sample's standard deviation <m>s</m>. You can imagine that this negatively impacts our certainty. When we make this change, we call the resulting test statistic <m>T</m> as opposed to <m>Z</m>. That is...
+    </p>
+
+    <definition xml:id="def-T-distribution">
+        <statement>
+            <p>
+                Let <m>\bar{x}</m> be a sample mean from <m>X</m> with sample size <m>n</m>. Let <m>s</m> be the standard deviation associated with the same sample. The <alert> <m>T</m>-score </alert> for the sample is <md> T_{n-1} = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}. </md> We say it has <m>n-1</m> <alert> degrees of freedom </alert>. 
+            </p>
+
+            <p>
+                The PDF associated to <m>T_{n-1}</m> is called the <alert> (Student's) T-Distribution </alert>. It is bell-shaped with mean <m>\mu</m> and standard deviation <m>\frac{s}{\sqrt{n}}</m>, but it is <alert> NOT NORMAL </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+
+
+</section>

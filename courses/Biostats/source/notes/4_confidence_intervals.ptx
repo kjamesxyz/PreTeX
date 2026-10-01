@@ -10,7 +10,9 @@
             </p>
         </introduction>
         <ol>
-            <li><p> Identify and write null and alternative hypotheses in words and symbols. </p></li>
+            <li><p> Discern between standard errors and margins of error. </p></li>
+            <li><p> Compute confidence intervals. </p></li>
+            <li><p> Interpret the results of confidence intervals. </p></li>
         </ol>
     </objectives>
 
@@ -29,13 +31,25 @@
     <example>
         <statement>
             <p>
-                Suppose that a sample <m>n=36</m> is drawn from a norammly-distributed random variable <m>X</m> with standard deviation <m>\sigma = 3</m>. It is discovered that <m>\bar{x}=20</m>. Build a 95% confidence interval for <m>\mu</m>
+                Suppose that a sample <m>n=36</m> is drawn from a norammly-distributed random variable <m>X</m> with <m>\hat{p}=0.20</m>. Build a 95% confidence interval for <m>p</m>
             </p>
         </statement>
 
         <solution>
             <p>
-                We want to find <m>a,b</m> such that <m> a \leq \mu \leq b </m>. It is not possible to know <m>a,b</m> for certain, but we can build a reasonable estimate using information about the sampling distribution. Recall CLT tells us that <m> \xbar \sim N(\mu, 0.5) </m>. Draw a cumul. prob. diagram in <m>X</m> space. Move it to <m>Z</m> space. The corresponding thresholds are the ends of the confidence interval. 
+                We want to find <m>a,b</m> such that <m> a \leq p \leq b </m>. It is not possible to know <m>a,b</m> for certain, but we can build a reasonable estimate using information about the sampling distribution. Draw a cumul. prob. diagram in <m>X</m> space. Move it to <m>Z</m> space. The corresponding thresholds are the ends of the confidence interval. 
+            </p>
+
+            <p>
+                We want to find the "threshold Z-scores" that enclose the middle <m>(1-\alpha)</m>%, or the scores that exclude the outer <m>\frac{\alpha}{2}</m>%. This can be quickly done in R with the <c>qnorm</c> command. We find that these values are <m>Z_a = -1.96</m> and <m>Z_b = 1.96</m>. An advantage of the normal distribution is its symmetry. <alert>These numbers will always be opposites for a normal distribution</alert>. We call them the <alert> critical values </alert> for the confidence interval and write <m> Z^* = 1.96 </m>. 
+            </p>
+
+            <p>
+                The Central Limit Theorem tells us that <m> \hat{p} \to p </m> as <m> n \to \infty </m>. Since our <m>n</m> is sufficiently large, it's reasonable to assume that <m>X_p</m> is normally distributed and that <m> \hat{p} \approx p </m>. In sampling distribution space, now we have a different standard deviation. We call the standard deviation of the sampling distribution the <alert> standard error </alert>. Moving from Z space to sample space, we measure in standard errors, rather than standard deviations. This tells us that <md> [-1.96, 1.96]_Z = [\phat - 1.96*SE, \phat + 1.96*SE] \approx [0.133, 0.267] . </md>
+            </p>
+
+            <p>
+                This is the <alert> confidence interval </alert>. Remember that we are using the CLT to make the assumption that <m> p \approx \hat{p} </m> in this case. So the way we interpret this conclusion is: We are 95% confident the population proportion <m> p </m> falls between 0.133 and 0.267. 
             </p>
         </solution>
     </example>
@@ -43,7 +57,33 @@
     <theorem xml:id="thm-steps-for-CIs">
         <statement>
             <p>
-                Suppose 
+                Suppose we have sample proportion <m> \hat{p} </m>, which estimates <m> p </m> from a sample of size <m> n </m>. To build a <m>(1-\alpha)</m>% confidence interval, we can follow the steps below. 
+
+                <ol>
+                    <li>
+                        <p>
+                            Identify the critical value <m>Z^*</m> such that <m> \cal{P}[Z \leq Z^*] = \frac{\alpha}{2} </m>. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Compute the standard error: <m> \sqrt{\frac{\hat{p}(1- \hat{p})}{n}} </m>. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Compute the margin of error: <m> Z^* \cdot SE </m>. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The confidence interval includes all numbers within the margin of error from your sample proportion: <m> [\hat{p} - ME, \hat{p} + ME] </m>. 
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
     </theorem>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-4-3-hyp-test-one-prop" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Hypothesis Testing on One Proportion</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Use confidence intervals to test hypotheses on sample proportions. </p></li>
+            <li><p> Use a P-test to test hypotheses on sample proportions. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        In our framework for hypothesis testing, we discussed the need to show significant evidence toward rejecting or failing to reject our null hypotheses. Confidence intervals are one tool by which we can do this. 
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Big Toothpaste wants you to believe that 9 in 10 dentists prefer Sensodyne. You put on your tinfoil hat and ask 100 dentists for their prefered brand of toothpaste, but only 72 prefer Sensodyne. Should you record a caffeine-fueled video essay about it to YouTube? 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The null and alternative hypotheses are
+                <md>
+                    <mrow> H_0 : \amp \ p = 0.9 </mrow>
+                    <mrow> H_1 : \amp \ p \neq 0.9 </mrow>
+                </md>
+                
+                We have mentioned that we assume <m>H_0</m> unless significant evidence shows otherwise. The purpose of a hypothesis test is to <alert>attempt to reject <m>H_0</m></alert>. Let's build a case against it using a 95% confidence interval. 
+            </p>
+
+            <p>
+                Under this assumption, we compute <md> Z^* = 1.96 \ \text{and} \ SE \approx 0.095. </md> Hence, the confidence interval is <m>[0.71,1.09]</m>. Remember this means: assuming <m>H_0</m> is true, a random sample will produce a proportion between 90.5% and 99.5% 95% of the time. Since our sample falls within this range, it means that our sample is NOT UN-likely to occur. Show rejection region on the bell curve. 
+            </p>
+
+            <p>
+                Since our sample proportion falls within the confidence interval, we do not have sufficient evidence to suggest the null hypothesis. It is NOT UN-likely that 9 in 10 dentists prefer Sensodyne. 
+            </p>
+        </solution>
+        
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Let's reconsider the same example but adjust a couple of things. This time, let's suppose the claim is that at least 9 in 10 dentists prefer Sensodyne, and that you are willing to concede on your morals and will accept 90% confidence. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                This changes our hypotheses to be 
+                <md>
+                    <mrow> H_0 : \amp \ p \geq 0.9 </mrow>
+                    <mrow> H_1 : \amp \ p \lt 0.9 </mrow>
+                </md>
+                If we look at the probability distribution, we only care about one side of the null proportion. In this scenario, we may want to use a <alert> P-Test </alert> instead of a confidence interval test. 
+            </p>
+
+            <p>
+                We first compute the so-called <alert> P-value </alert>. This is really just the cumulative probability for our sample. The Z-score for our sample is <m>Z_{0.75} \approx -1.89 </m>, giving it a cumulative probability (P-value) of 0.03 &lt; 0.05. Therefore, we do have sufficient evidence to reject the null hypothesis.
+            </p>
+
+            <p>
+                In this case, we would say: We are 90% confident that fewer than 9 in 10 dentists prefer Sensodyne. 
+            </p>
+        </solution>
+    </example>
+
+</section>
