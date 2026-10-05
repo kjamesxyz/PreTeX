@@ -94,7 +94,20 @@
         </row>
     </tabular>
 
+
+    <p> Based on our choice, since nothing is certain, we may make an error. There are two types of errors we can make. </p> 
+
+    <definition xml:id="def-hyp-test-errors">
+        <statement>
+            <p>
+                When conducting a hypothesis test, a <alert> type 1 error (false positive) </alert> occurs when we reject the null hypothesis when it was true. Conversely, a <alert> type 2 error (false negative) </alert> occurs when we fail to reject the null hypothesis when it was false. 
+            </p>
+        </statement>
+    </definition>
+
+    
     <p> The question remains: What makes evidence statistically significant? </p>
+
 
 
 </section>
