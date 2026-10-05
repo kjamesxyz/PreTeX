@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Sampling Distributions",
-  "body": " Sampling Distributions    Students will be able to...    Understand and write using sampling distribution notation.  Distinguish between cases where Central Limit Theorem applies.       Statistical inference is the process by which we assess how accurately a statistic estimates a parameter.      Let be a parameter. A point estimate for is the corresponding statistic obtained from a single random sample.      Let be a parameter. The collection of all possible point estimates of the same size is a sampling distribution for . It is denoted by       The heights of my siblings and I (in inches) are given below.    Sibling Height    Kohl 69    Brooklyn 68    Gretta 70    Barrett 74    Build a sampling distribution for the mean and standard deviation for all size-2 samples.    Let denote the random variable for height. The distributions are given below.    Sample  Kohl, Brooklyn mean(c(69,68)) = 68.5 sd(c(69,68)) = 0.71      Notice in the previous example that is a DRV on which we can measure statistics. Before continuing, it will be worthwile to establish some notation. Let be a sampling distribution for parameter . Suppose we measure the statistic on . We denote this as . For example, denotes the mean of the sampling distribution of means.    Using the data from the previous example, compute .      Consider taking samples of size from a CRV with mean and standard deviation . As , the sampling distribution of becomes normal with mean and standard deviation .    A general rule of thumb is that the sampling distribution is \"sufficiently normal\" provided you have a sample size of at least 30.  "
+  "body": " Sampling Distributions    Students will be able to...    Understand and write using sampling distribution notation.  Distinguish between cases where Central Limit Theorem applies.       Statistical inference is the process by which we assess how accurately a statistic estimates a parameter.      Let be a parameter. A point estimate for is the corresponding statistic obtained from a single random sample.      Let be a parameter. The collection of all possible point estimates of the same size is a sampling distribution for . It is denoted by       The heights of my siblings and I (in inches) are given below.    Sibling Height    Kohl 69    Brooklyn 67    Gretta 68    Barrett 74    Build a sampling distribution for the mean and standard deviation for all size-2 samples.    Let denote the random variable for height. The distributions are given below.    Sample  Kohl, Brooklyn mean(c(69,68)) = 68.5 sd(c(69,68)) = 0.71      Notice in the previous example that is a DRV on which we can measure statistics. Before continuing, it will be worthwile to establish some notation. Let be a sampling distribution for parameter . Suppose we measure the statistic on . We denote this as . For example, denotes the mean of the sampling distribution of means.    Using the data from the previous example, compute .      Consider taking samples of size from a CRV with proportion . As , the sampling distribution of becomes normal with mean and standard deviation .  Similarly, taking samples with mean yields a sampling distribution that becomes increasingly normal with mean and standard deviation .    A general rule of thumb is that the sampling distribution is \"sufficiently normal\" provided you have a sample size of at least 30.  "
 },
 {
   "id": "biostats-notes-3-2-sampling-dists-2",
@@ -655,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.2.4",
   "title": "",
-  "body": "  The heights of my siblings and I (in inches) are given below.    Sibling Height    Kohl 69    Brooklyn 68    Gretta 70    Barrett 74    Build a sampling distribution for the mean and standard deviation for all size-2 samples.    Let denote the random variable for height. The distributions are given below.    Sample  Kohl, Brooklyn mean(c(69,68)) = 68.5 sd(c(69,68)) = 0.71     "
+  "body": "  The heights of my siblings and I (in inches) are given below.    Sibling Height    Kohl 69    Brooklyn 67    Gretta 68    Barrett 74    Build a sampling distribution for the mean and standard deviation for all size-2 samples.    Let denote the random variable for height. The distributions are given below.    Sample  Kohl, Brooklyn mean(c(69,68)) = 68.5 sd(c(69,68)) = 0.71     "
 },
 {
   "id": "biostats-notes-3-2-sampling-dists-8",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "3.2.6",
   "title": "",
-  "body": "  Consider taking samples of size from a CRV with mean and standard deviation . As , the sampling distribution of becomes normal with mean and standard deviation .   "
+  "body": "  Consider taking samples of size from a CRV with proportion . As , the sampling distribution of becomes normal with mean and standard deviation .  Similarly, taking samples with mean yields a sampling distribution that becomes increasingly normal with mean and standard deviation .   "
 },
 {
   "id": "biostats-notes-4-1-hyp-test-framework",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Framework for Hypothesis Testing",
-  "body": " Framework for Hypothesis Testing    Students will be able to...    Identify and write null and alternative hypotheses in words and symbols.      In statistics, a hypothesis is a claim regarding a parameter. Hypothesis Tests are statistical experiments that determine the validity of a hypothesis.      The assertion that a parameter takes on a particular value is called the null hypothesis and is denoted . The claim that a parameter takes on a range of values is called an alternative hypothesis and is denoted .      For each of the following, state the null and alternative hypotheses.     The mean annual salary of a data scientist is $130,000.     : The annual salary is $130,000. ( ) : The annual salary is NOT $130,000. ( )      The mean annual salary of a data scientist is over $80,000.     : The annual salary is $80,000. ( ) : The annual salary is greater than $80,000. ( )       Trial Procedure Statistics Procedure Remarks    All defendents are innocent until found guilty.  We have to assume holds true.  Innocence (no change to criminal status) is the default.    The prosecution compiles and presents evidence of guilt.  A researcher random samples the population and computes relevant statistics.  In both cases, evidence is being compiled to assert the claim that the status quo is wrong.    The prosecution must convince the jury the defendent is guilty \"beyond a reasonable doubt\".  The researcher must show that the computed statistics are \"statistically significant\".  There is no way the jurors could know with true certainty if the defendent is guilty. But, the prosecution may be able to provide evidence that is damning enough to convince the jury beyond a reasonable doubt. Similarly, if the researcher's statistics are extremely unlikely to occur under the null hypothesis, this may be significant-enough evidence to reject the status quo.    The defendent is either found guilty or not guilty.  is either rejected or not.  Either the evidence was contrary enough to the status quo or it wasn't.    The question remains: What makes evidence statistically significant?  "
+  "body": " Framework for Hypothesis Testing    Students will be able to...    Identify and write null and alternative hypotheses in words and symbols.      In statistics, a hypothesis is a claim regarding a parameter. Hypothesis Tests are statistical experiments that determine the validity of a hypothesis.      The assertion that a parameter takes on a particular value is called the null hypothesis and is denoted . The claim that a parameter takes on a range of values is called an alternative hypothesis and is denoted .      For each of the following, state the null and alternative hypotheses.     The mean annual salary of a data scientist is $130,000.     : The annual salary is $130,000. ( ) : The annual salary is NOT $130,000. ( )      The mean annual salary of a data scientist is over $80,000.     : The annual salary is $80,000. ( ) : The annual salary is greater than $80,000. ( )       Trial Procedure Statistics Procedure Remarks    All defendents are innocent until found guilty.  We have to assume holds true.  Innocence (no change to criminal status) is the default.    The prosecution compiles and presents evidence of guilt.  A researcher random samples the population and computes relevant statistics.  In both cases, evidence is being compiled to assert the claim that the status quo is wrong.    The prosecution must convince the jury the defendent is guilty \"beyond a reasonable doubt\".  The researcher must show that the computed statistics are \"statistically significant\".  There is no way the jurors could know with true certainty if the defendent is guilty. But, the prosecution may be able to provide evidence that is damning enough to convince the jury beyond a reasonable doubt. Similarly, if the researcher's statistics are extremely unlikely to occur under the null hypothesis, this may be significant-enough evidence to reject the status quo.    The defendent is either found guilty or not guilty.  is either rejected or not.  Either the evidence was contrary enough to the status quo or it wasn't.    Based on our choice, since nothing is certain, we may make an error. There are two types of errors we can make.    When conducting a hypothesis test, a type 1 error (false positive) occurs when we reject the null hypothesis when it was true. Conversely, a type 2 error (false negative) occurs when we fail to reject the null hypothesis when it was false.    The question remains: What makes evidence statistically significant?  "
 },
 {
   "id": "biostats-notes-4-1-hyp-test-framework-2",
@@ -721,13 +721,22 @@ var ptx_lunr_docs = [
   "body": "  For each of the following, state the null and alternative hypotheses.     The mean annual salary of a data scientist is $130,000.     : The annual salary is $130,000. ( ) : The annual salary is NOT $130,000. ( )      The mean annual salary of a data scientist is over $80,000.     : The annual salary is $80,000. ( ) : The annual salary is greater than $80,000. ( )    "
 },
 {
+  "id": "def-hyp-test-errors",
+  "level": "2",
+  "url": "biostats-notes-4-1-hyp-test-framework.html#def-hyp-test-errors",
+  "type": "Definition",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  When conducting a hypothesis test, a type 1 error (false positive) occurs when we reject the null hypothesis when it was true. Conversely, a type 2 error (false negative) occurs when we fail to reject the null hypothesis when it was false.   "
+},
+{
   "id": "biostats-notes-4-2-confidence-intervals",
   "level": "1",
   "url": "biostats-notes-4-2-confidence-intervals.html",
   "type": "Section",
   "number": "4.2",
   "title": "Confidence Intervals",
-  "body": " Confidence Intervals    Students will be able to...    Identify and write null and alternative hypotheses in words and symbols.      Let be a point estimate for a parameter computed from a sample of size . If we are % confident that falls within a certain range of values, we call the range of values the confidence interval with confidence level  %, or significance level  .      Suppose that a sample is drawn from a random variable with standard deviation . It is discovered that .    "
+  "body": " Confidence Intervals    Students will be able to...    Discern between standard errors and margins of error.  Compute confidence intervals.  Interpret the results of confidence intervals.      Let be a point estimate for a parameter computed from a sample of size . If we are % confident that falls within a certain range of values, we call the range of values the confidence interval with confidence level  %, or significance level  .    Keep in mind that there is rarely every a way to truley know the parameter we are after. The best we can typically do is to give a range that we suspect it falls in. The range is not necessarily correct, but we have some measureable way to determine how likely it does.    Suppose that a sample is drawn from a norammly-distributed random variable with . Build a 95% confidence interval for     We want to find such that . It is not possible to know for certain, but we can build a reasonable estimate using information about the sampling distribution. Draw a cumul. prob. diagram in space. Move it to space. The corresponding thresholds are the ends of the confidence interval.  We want to find the \"threshold Z-scores\" that enclose the middle %, or the scores that exclude the outer %. This can be quickly done in R with the qnorm command. We find that these values are and . An advantage of the normal distribution is its symmetry. These numbers will always be opposites for a normal distribution . We call them the critical values for the confidence interval and write .  The Central Limit Theorem tells us that as . Since our is sufficiently large, it's reasonable to assume that is normally distributed and that . In sampling distribution space, now we have a different standard deviation. We call the standard deviation of the sampling distribution the standard error . Moving from Z space to sample space, we measure in standard errors, rather than standard deviations. This tells us that   This is the confidence interval . Remember that we are using the CLT to make the assumption that in this case. So the way we interpret this conclusion is: We are 95% confident the population proportion falls between 0.133 and 0.267.      Suppose we have sample proportion , which estimates from a sample of size . To build a % confidence interval, we can follow the steps below.   Identify the critical value such that .    Compute the standard error: .    Compute the margin of error: .    The confidence interval includes all numbers within the margin of error from your sample proportion: .       "
 },
 {
   "id": "biostats-notes-4-2-confidence-intervals-2",
@@ -736,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "4.2",
   "title": "",
-  "body": "  Students will be able to...    Identify and write null and alternative hypotheses in words and symbols.   "
+  "body": "  Students will be able to...    Discern between standard errors and margins of error.  Compute confidence intervals.  Interpret the results of confidence intervals.   "
 },
 {
   "id": "def-confidence-interval",
@@ -748,13 +757,94 @@ var ptx_lunr_docs = [
   "body": "  Let be a point estimate for a parameter computed from a sample of size . If we are % confident that falls within a certain range of values, we call the range of values the confidence interval with confidence level  %, or significance level  .   "
 },
 {
-  "id": "biostats-notes-4-2-confidence-intervals-4",
+  "id": "biostats-notes-4-2-confidence-intervals-5",
   "level": "2",
-  "url": "biostats-notes-4-2-confidence-intervals.html#biostats-notes-4-2-confidence-intervals-4",
+  "url": "biostats-notes-4-2-confidence-intervals.html#biostats-notes-4-2-confidence-intervals-5",
   "type": "Example",
   "number": "4.2.2",
   "title": "",
-  "body": "  Suppose that a sample is drawn from a random variable with standard deviation . It is discovered that .   "
+  "body": "  Suppose that a sample is drawn from a norammly-distributed random variable with . Build a 95% confidence interval for     We want to find such that . It is not possible to know for certain, but we can build a reasonable estimate using information about the sampling distribution. Draw a cumul. prob. diagram in space. Move it to space. The corresponding thresholds are the ends of the confidence interval.  We want to find the \"threshold Z-scores\" that enclose the middle %, or the scores that exclude the outer %. This can be quickly done in R with the qnorm command. We find that these values are and . An advantage of the normal distribution is its symmetry. These numbers will always be opposites for a normal distribution . We call them the critical values for the confidence interval and write .  The Central Limit Theorem tells us that as . Since our is sufficiently large, it's reasonable to assume that is normally distributed and that . In sampling distribution space, now we have a different standard deviation. We call the standard deviation of the sampling distribution the standard error . Moving from Z space to sample space, we measure in standard errors, rather than standard deviations. This tells us that   This is the confidence interval . Remember that we are using the CLT to make the assumption that in this case. So the way we interpret this conclusion is: We are 95% confident the population proportion falls between 0.133 and 0.267.   "
+},
+{
+  "id": "thm-steps-for-CIs",
+  "level": "2",
+  "url": "biostats-notes-4-2-confidence-intervals.html#thm-steps-for-CIs",
+  "type": "Theorem",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  Suppose we have sample proportion , which estimates from a sample of size . To build a % confidence interval, we can follow the steps below.   Identify the critical value such that .    Compute the standard error: .    Compute the margin of error: .    The confidence interval includes all numbers within the margin of error from your sample proportion: .      "
+},
+{
+  "id": "biostats-notes-4-3-hyp-test-one-prop",
+  "level": "1",
+  "url": "biostats-notes-4-3-hyp-test-one-prop.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Hypothesis Testing on One Proportion",
+  "body": " Hypothesis Testing on One Proportion    Students will be able to...    Use confidence intervals to test hypotheses on sample proportions.  Use a P-test to test hypotheses on sample proportions.    In our framework for hypothesis testing, we discussed the need to show significant evidence toward rejecting or failing to reject our null hypotheses. Confidence intervals are one tool by which we can do this.    Big Toothpaste wants you to believe that 9 in 10 dentists prefer Sensodyne. You put on your tinfoil hat and ask 100 dentists for their prefered brand of toothpaste, but only 72 prefer Sensodyne. Should you record a caffeine-fueled video essay about it to YouTube?    The null and alternative hypotheses are We have mentioned that we assume unless significant evidence shows otherwise. The purpose of a hypothesis test is to attempt to reject . Let's build a case against it using a 95% confidence interval.  Under this assumption, we compute Hence, the confidence interval is . Remember this means: assuming is true, a random sample will produce a proportion between 90.5% and 99.5% 95% of the time. Since our sample falls within this range, it means that our sample is NOT UN-likely to occur. Show rejection region on the bell curve.  Since our sample proportion falls within the confidence interval, we do not have sufficient evidence to suggest the null hypothesis. It is NOT UN-likely that 9 in 10 dentists prefer Sensodyne.      Let's reconsider the same example but adjust a couple of things. This time, let's suppose the claim is that at least 9 in 10 dentists prefer Sensodyne, and that you are willing to concede on your morals and will accept 90% confidence.    This changes our hypotheses to be If we look at the probability distribution, we only care about one side of the null proportion. In this scenario, we may want to use a P-Test instead of a confidence interval test.  We first compute the so-called P-value . This is really just the cumulative probability for our sample. The Z-score for our sample is , giving it a cumulative probability (P-value) of 0.03 < 0.05. Therefore, we do have sufficient evidence to reject the null hypothesis.  In this case, we would say: We are 90% confident that fewer than 9 in 10 dentists prefer Sensodyne.    "
+},
+{
+  "id": "biostats-notes-4-3-hyp-test-one-prop-2",
+  "level": "2",
+  "url": "biostats-notes-4-3-hyp-test-one-prop.html#biostats-notes-4-3-hyp-test-one-prop-2",
+  "type": "Objectives",
+  "number": "4.3",
+  "title": "",
+  "body": "  Students will be able to...    Use confidence intervals to test hypotheses on sample proportions.  Use a P-test to test hypotheses on sample proportions.   "
+},
+{
+  "id": "biostats-notes-4-3-hyp-test-one-prop-4",
+  "level": "2",
+  "url": "biostats-notes-4-3-hyp-test-one-prop.html#biostats-notes-4-3-hyp-test-one-prop-4",
+  "type": "Example",
+  "number": "4.3.1",
+  "title": "",
+  "body": "  Big Toothpaste wants you to believe that 9 in 10 dentists prefer Sensodyne. You put on your tinfoil hat and ask 100 dentists for their prefered brand of toothpaste, but only 72 prefer Sensodyne. Should you record a caffeine-fueled video essay about it to YouTube?    The null and alternative hypotheses are We have mentioned that we assume unless significant evidence shows otherwise. The purpose of a hypothesis test is to attempt to reject . Let's build a case against it using a 95% confidence interval.  Under this assumption, we compute Hence, the confidence interval is . Remember this means: assuming is true, a random sample will produce a proportion between 90.5% and 99.5% 95% of the time. Since our sample falls within this range, it means that our sample is NOT UN-likely to occur. Show rejection region on the bell curve.  Since our sample proportion falls within the confidence interval, we do not have sufficient evidence to suggest the null hypothesis. It is NOT UN-likely that 9 in 10 dentists prefer Sensodyne.   "
+},
+{
+  "id": "biostats-notes-4-3-hyp-test-one-prop-5",
+  "level": "2",
+  "url": "biostats-notes-4-3-hyp-test-one-prop.html#biostats-notes-4-3-hyp-test-one-prop-5",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "",
+  "body": "  Let's reconsider the same example but adjust a couple of things. This time, let's suppose the claim is that at least 9 in 10 dentists prefer Sensodyne, and that you are willing to concede on your morals and will accept 90% confidence.    This changes our hypotheses to be If we look at the probability distribution, we only care about one side of the null proportion. In this scenario, we may want to use a P-Test instead of a confidence interval test.  We first compute the so-called P-value . This is really just the cumulative probability for our sample. The Z-score for our sample is , giving it a cumulative probability (P-value) of 0.03 < 0.05. Therefore, we do have sufficient evidence to reject the null hypothesis.  In this case, we would say: We are 90% confident that fewer than 9 in 10 dentists prefer Sensodyne.   "
+},
+{
+  "id": "biostats-notes-4-4",
+  "level": "1",
+  "url": "biostats-notes-4-4.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Hypothesis Testing on One Mean",
+  "body": " Hypothesis Testing on One Mean    Students will be able to...    Use confidence intervals to test hypotheses on sample means.  Use a P-test to test hypotheses on sample means.  Determine when a or distribution is appropriate.    Recall CLT tells us that the sampling distribution of sample means from sufficiently-large samples of size from a CRV are normally distributed with mean and standard error .    Suppose , and . Build a 95% confidence interval for .    The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have Hence, the CI is .    Notice that building the confidence interval required us to know the standard deviation for the population. We would rarely ever know this information in practice, however. Instead, we would need to approximate from our sample's standard deviation . You can imagine that this negatively impacts our certainty. When we make this change, we call the resulting test statistic as opposed to . That is...    Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -score for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with mean and standard deviation , but it is NOT NORMAL .    "
+},
+{
+  "id": "biostats-notes-4-4-2",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#biostats-notes-4-4-2",
+  "type": "Objectives",
+  "number": "4.4",
+  "title": "",
+  "body": "  Students will be able to...    Use confidence intervals to test hypotheses on sample means.  Use a P-test to test hypotheses on sample means.  Determine when a or distribution is appropriate.   "
+},
+{
+  "id": "biostats-notes-4-4-4",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#biostats-notes-4-4-4",
+  "type": "Example",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  Suppose , and . Build a 95% confidence interval for .    The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have Hence, the CI is .   "
+},
+{
+  "id": "def-T-distribution",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#def-T-distribution",
+  "type": "Definition",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -score for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with mean and standard deviation , but it is NOT NORMAL .   "
 }
 ]
 
