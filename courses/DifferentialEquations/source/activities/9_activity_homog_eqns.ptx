@@ -59,7 +59,7 @@
         <task workspace="2in">
             <statement>
                 <p>
-                    Let <m> y_2 = u(x) y_1(x) </m>, where <m>u(x)</m> is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that <m>y_2</m> is a solution. Show that <m>u</m> must have the form <md>u(x) = Ax + B </md> (for some constants <m>A,B</m>.)
+                    Let <m> y_2 = u(x) y_1(x) </m>, where <m>u(x)</m> is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that <m>y_2</m> is a solution. Show that <m>u</m> must have the form <md>u(x) = Ax + B </md> for some constants <m>A,B</m>.
                 </p>
             </statement>
             <hint>
