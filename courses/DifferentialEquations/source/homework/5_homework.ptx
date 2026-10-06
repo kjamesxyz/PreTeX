@@ -19,12 +19,12 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                Show that <m>y = e^{2x}</m> is a solution to <md> y'' - 4y' + 4y = 0. </md> Then, use reduction of order to find a second solution. 
+                Show that <m>y_1 = e^{2x}</m> is a solution to <md> y'' - 4y' + 4y = 0. </md> Then, use reduction of order to find a second solution. 
             </p>
         </statement>
     </exercise>
 
-    <exercise workspace="1in">
+    <exercise workspace="0.5in">
         <statement>
             <p>
                 Find the general solution to <md> y'' - 36y = 0. </md>
@@ -32,10 +32,10 @@
         </statement>
     </exercise>
 
-    <exercise>
+    <exercise workspace="0.5in">
         <statement>
             <p>
-                Find the general solution to <md> \deriv{^2 u}{dt^2} - 10 \deriv{u}{t} + 25 u = 0. </md> 
+                Find the general solution to <md> \deriv{^2 u}{t^2} - 10 \deriv{u}{t} + 25 u = 0. </md> 
             </p>
         </statement>
     </exercise>

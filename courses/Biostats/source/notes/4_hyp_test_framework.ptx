@@ -25,10 +25,18 @@
     <definition xml:id="def-null-and-alt-hyps">
         <statement>
             <p>
-                The assertion that a parameter takes on a particular value is called the <alert> null hypothesis </alert> and is denoted <m>H_0</m>. The claim that a parameter takes on a range of values is called an <alert> alternative hypothesis </alert> and is denoted <m>H_1</m>. 
+                The assertion that a parameter takes on a particular value is called the <alert> null hypothesis </alert> and is denoted <m>H_0</m>. The claim that a parameter takes on a range of values is called an <alert> alternative hypothesis </alert> and is denoted <m>H_1</m> or <m>H_A</m>. 
             </p>
         </statement>
     </definition>
+
+    <p>
+        When declaring hypotheses, we follow the below conventions. 
+        <ul>
+            <li><p> The null hypothesis is the status quo. It always contains an <m>=</m>. </p></li>
+            <li><p> The alternative hypothesis is always an inequality. When it contains <m>\neq</m> we call it a <alert>two-tailed test </alert>. Otherwise, when it contains <m> \gt, \lt </m> we call it a <alert>one-tailed test</alert>. </p></li>
+        </ul>
+    </p>
 
     <example>
         <introduction>
@@ -94,8 +102,12 @@
         </row>
     </tabular>
 
+    <p>
+        It is important to note that, like in a court of law, it is the burden of the prosecutor to provide signifcant evidence to overturn the status quo (innocence). In statistics, this means that it is our burden to construct an argument to provide significant enough evidence to <alert> reject <m>H_0</m></alert>. We will discuss how to build these arguments in the next section. 
+    </p>
 
-    <p> Based on our choice, since nothing is certain, we may make an error. There are two types of errors we can make. </p> 
+
+    <p> Suppose we have made the argument and reached a decision. Based on our choice, since nothing is certain, we may make an error. There are two types of errors we can make. </p> 
 
     <definition xml:id="def-hyp-test-errors">
         <statement>

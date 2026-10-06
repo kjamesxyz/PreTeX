@@ -56,18 +56,23 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="2in">
             <statement>
                 <p>
-                    Let <m> y_2 = u(x) y_1(x) </m>, where <m>u(x)</m> is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that <m>y_2</m> is a solution, and use the ODE to solve for <m> u </m>. 
+                    Let <m> y_2 = u(x) y_1(x) </m>, where <m>u(x)</m> is unknown. We suspect a particular solution to the differential equation to take this form (as in our varying parameters experiment in section 2.3). Assume that <m>y_2</m> is a solution. Show that <m>u</m> must have the form <md>u(x) = Ax + B </md> (for some constants <m>A,B</m>.)
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Try plugging <m>y_2</m> into the ODE and grouping like terms based on derivatives of <m>u</m>. 
+                </p>
+            </hint>
         </task>
 
         <task workspace="1in">
             <statement>
                 <p>
-                    Verify that <m> y_1 </m> is linearly independent from <m>y_2</m>. 
+                    Verify that <m> y_1 </m> is linearly independent from <m>y_2</m> when <m>A \neq 0</m>. 
                 </p>
             </statement>
         </task>
@@ -78,6 +83,11 @@
                     Use your work above to write the general solution to the ODE. How does this compare with your notes? 
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Note that any choice of <m>A,B</m> will suffice, provided <m>A \neq 0</m>. So, for simplicity, take <m>A = 1, B = 0</m>. 
+                </p>
+            </hint>
         </task>
     </exercise>
 
@@ -91,7 +101,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Write down the formulat for the general solution. 
+                    Write the fundamental solutions for this case as shown in class.
                 </p>
             </statement>
         </task>
@@ -107,7 +117,15 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    We can equivalently write our general solution as <md> y(x) = c_1e^{a + bix} + c_2e^{a - bix} = e^{ax} (c_1 e^{bix} + c_2 e^{-bix}). </md> Use your work from part (b) to show this is the same formula you wrote in part (a). 
+                    We can equivalently write our general solution as <md> y(x) = c_1e^{(a + bi)x} + c_2e^{(a - bi)x} = e^{ax} (c_1 e^{bix} + c_2 e^{-bix}). </md> Use your work from part (b) to write expand <m>y</m> in terms of sines and cosines. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a clever choice of parameters that can give the two fundamental solutions you wrote in part (a).
                 </p>
             </statement>
         </task>
