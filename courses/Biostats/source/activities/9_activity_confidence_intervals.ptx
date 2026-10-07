@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="biostats-act-9" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>🏫 Activity 9 - Hypothesis Testing on One Proportion </title>
+    <title>🏫 Activity 9 - Confidence Intervals </title>
 
     <introduction>
         <p> This assignment is due at the beginning of class on <alert> Wednesday, October 14 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
@@ -54,7 +54,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Use your results from part (d) to compute the confidence interval.
+                    Use your results from part (d) to compute the confidence interval. 
                 </p>
             </statement>
         </task>
@@ -62,7 +62,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Interpret your results from part (e) in plain language. 
+                    Interpret your results from part (e) in plain language. Does the parameter actually fall inside of your confidence interval?
                 </p>
             </statement>
         </task>
@@ -70,7 +70,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Sketch a standard normal probability distribution. Label it with your critical values, your statistic, and the parameter. Explain how this picture justifies your results.
+                    Sketch a standard normal probability distribution. Label it with your critical values, your statistic, and the parameter. Where does the parameter fall in relation to these
                 </p>
             </statement>
         </task>

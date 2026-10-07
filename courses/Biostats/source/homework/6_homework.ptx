@@ -16,7 +16,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                A flower wholesaler advertises that 15% of their pansies are purple. When perusing their stock at a distributer, a local florist finds 23 of the 125 pansies they have are purple. Use the florist's sample to conduct a formal hypothesis test on the wholesaler's claim. Interpret your results in plain language. 
+                A flower wholesaler advertises that 15% of their pansies are purple. When perusing their stock at a distributer, a local florist finds 23 of the 125 pansies they have are purple. Use the florist's sample to conduct a formal hypothesis test on the wholesaler's claim with 90% confidence. Interpret your results in plain language. 
             </p>
         </statement>
     </exercise>
@@ -24,7 +24,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                A pharmaceutical company claims their new pain medication activates in less than 30 minutes. A clinical trial, consisting of 12 patients, recorded a mean activation time of 34.2 minutes with a sample standard deviation of 6.1 minutes. Use the clinical trial data to conduct a formal hypothesis test on the pharmaceutical company's claims. Interpret your results in plain language. 
+                A pharmaceutical company claims their new pain medication activates in less than 30 minutes. A clinical trial, consisting of 12 patients, recorded a mean activation time of 34.2 minutes with a sample standard deviation of 6.1 minutes. Use the clinical trial data to conduct a formal hypothesis test on the pharmaceutical company's claims with 1% significance. Interpret your results in plain language. 
             </p>
         </statement>
     </exercise>
