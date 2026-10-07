@@ -25,7 +25,7 @@
     <definition xml:id="def-null-and-alt-hyps">
         <statement>
             <p>
-                The assertion that a parameter takes on a particular value is called the <alert> null hypothesis </alert> and is denoted <m>H_0</m>. The claim that a parameter takes on a range of values is called an <alert> alternative hypothesis </alert> and is denoted <m>H_1</m> or <m>H_A</m>. 
+                The assertion that there is no difference between two quantities is called a <alert> null hypothesis </alert> and is denoted <m>H_0</m>. Alternatively, the claim that there is a difference between two quantities <alert> alternative hypothesis </alert> and is denoted <m>H_1</m> or <m>H_A</m>. 
             </p>
         </statement>
     </definition>
@@ -33,8 +33,8 @@
     <p>
         When declaring hypotheses, we follow the below conventions. 
         <ul>
-            <li><p> The null hypothesis is the status quo. It always contains an <m>=</m>. </p></li>
-            <li><p> The alternative hypothesis is always an inequality. When it contains <m>\neq</m> we call it a <alert>two-tailed test </alert>. Otherwise, when it contains <m> \gt, \lt </m> we call it a <alert>one-tailed test</alert>. </p></li>
+            <li><p> The null hypothesis is the status quo. It suggests that there is no difference between the claim and reality. It always contains an <m>=</m>. </p></li>
+            <li><p> The alternative hypothesis is always an inequality. When it contains <m>\neq</m> we call it a <alert>two-tailed test </alert>. Otherwise, when it contains <m> \gt, \lt </m> we call it a <alert>one-tailed test</alert>. It suggests that there is a difference between the claim and reality. </p></li>
         </ul>
     </p>
 
@@ -81,6 +81,11 @@
             <cell>Trial Procedure</cell><cell>Statistics Procedure</cell><cell>Remarks</cell>
         </row>
         <row>
+            <cell>The prosecution accuses the defendent of guilt in a crime.</cell>
+            <cell>A claim is made regarding the relationship between two quantities.</cell>
+            <cell>This is usually inspired by some kind of empirical evidence/data.</cell>
+        </row>
+        <row>
             <cell>All defendents are innocent until found guilty.</cell>
             <cell>We have to assume <m>H_0</m> holds true.</cell>
             <cell>Innocence (no change to criminal status) is the default.</cell>
@@ -116,6 +121,24 @@
             </p>
         </statement>
     </definition>
+
+    <example>
+        <statement>
+            <p>
+                Reconsider the null hypothesis that <md>\mu = 130,000.</md> What are type 1 and 2 errors in this context?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The type 1 error (false positive) would be to reject the null hypothesis when it was actually true. That is, we claim the mean salary is NOT likely $130,000 when in actuality it was. 
+            </p>
+
+            <p>
+                The type 2 error (false negative) would be to fail to reject the null hypothesis when we should have. That is, we claim the mean salary is likely $130,000 when in actuality it was NOT.
+            </p>
+        </solution>
+    </example>
 
     
     <p> The question remains: What makes evidence statistically significant? </p>
