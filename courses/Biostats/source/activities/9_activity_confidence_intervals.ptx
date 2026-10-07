@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-9" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 9 - Hypothesis Testing on One Proportion </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Wednesday, October 14 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                The National Institute of Mental Health (NIMH) found that 8.3% of all American adults had experienced at least one major depressive episode in the past 12 months (at time of questioning). An SVSU psychology major wants to replicate these results, so they randomly survey 100 of their peers. They find that 11 of them have experienced at least one major depressive episode in the past 12 months. Consider building a 95% confidence interval on the sample data.
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify and label the parameter of interest and measured statistic in this experiment. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Determine the significance level <m>\alpha</m> and use it to compute the critical value(s) for the confidence interval. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Compute the standard error using the statistic you identified in part (a). 
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Do NOT use the population parameter.
+                </p>
+            </hint>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Use your results from parts (b)-(c) to compute the margin of error.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Use your results from part (d) to compute the confidence interval.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Interpret your results from part (e) in plain language. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Sketch a standard normal probability distribution. Label it with your critical values, your statistic, and the parameter. Explain how this picture justifies your results.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Would you accept this as sufficient evidence to reject the null hypothesis? Why or why not? 
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                In Gregor Mendel's famous genetics experiment on peas, he recorded the color of offspring. His sample showed 152 yellow peas and 428 green peas. Based on his data, build a 95% confidence interval for the true proportion of peas that are yellow. Interpret the results in plain language.
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

@@ -29,6 +29,7 @@
             <xi:include href="./activities/6_activity_normal_dists.ptx"/>
             <xi:include href="./activities/7_activity_sampling_dists.ptx"/>
             <xi:include href="./activities/8_activity_hyp_test_framework.ptx"/>
+            <xi:include href="./activities/9_activity_confidence_intervals.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
@@ -37,8 +38,10 @@
             <xi:include href="./homework/1_homework.ptx"/>
             <xi:include href="./homework/2_homework.ptx"/>
             <xi:include href="./homework/3_homework.ptx"/>
+            
             <xi:include href="./homework/4_homework.ptx"/>
             <xi:include href="./homework/5_homework.ptx"/>
+            <xi:include href="./homework/6_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">

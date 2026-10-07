@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw6">
+<title>📝 Homework 6</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 21</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 6.1-6.16 from OpenIntro Statistics (pg. 215-216)</p></li>
+                <li><p> Problems 7.1-7.14 from OpenIntro Statistics (pg. 260-261)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                A flower wholesaler advertises that 15% of their pansies are purple. When perusing their stock at a distributer, a local florist finds 23 of the 125 pansies they have are purple. Use the florist's sample to conduct a formal hypothesis test on the wholesaler's claim. Interpret your results in plain language. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                A pharmaceutical company claims their new pain medication activates in less than 30 minutes. A clinical trial, consisting of 12 patients, recorded a mean activation time of 34.2 minutes with a sample standard deviation of 6.1 minutes. Use the clinical trial data to conduct a formal hypothesis test on the pharmaceutical company's claims. Interpret your results in plain language. 
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>
