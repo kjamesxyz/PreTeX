@@ -23,13 +23,19 @@
     <example>
         <statement>
             <p>
-                Suppose <m>\bar{x} = 20, n = 36</m>, and <m>\sigma = 3</m>. Build a 95% confidence interval for <m>\mu</m>. 
+                A herpetologist believes that a species of lizard maintains a mean body temperature of 35<degree/>C. Suppose it is known that the standard deviation in body temperature is 2<degree/>C. To test this claim, they randomly sample 46 lizards and record a sample mean body temperature of <m>\bar{x}=36.1</m><degree/>C. Test their claim with 95% significance. 
             </p>
         </statement>
 
         <solution>
             <p>
-                The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have <md> SE = \frac{\sigma}{\sqrt{n}} = \frac{3}{\sqrt{36}} = 0.5. </md> Hence, the CI is <m>[19,21]</m>. 
+                Here, the hypotheses are 
+                <md>
+                    <mrow>H_0: \amp \mu = 35 </mrow>
+                    <mrow>H_1: \amp \mu \neq 35</mrow>
+                </md>
+                
+                The Central Limit Theorem applies here, so we know <md> \bar{x} \sim \cal{N}(\mu, \frac{\sigma}{\sqrt{n}}) \approx \cal{N}(35,0.2949).</md> With <m>\alpha=</m>5%, we have <m>Z^*=\pm 1.96</m>. Thus, we are 95% confident that <m>34.4 \leq \mu \leq 35.6</m>. But <m>\bar{x} \gt 35.6 </m>. Therefore, there is significant evidence to reject <m>H_0</m>. That is, the mean body termperature of these lizards is likely not 35<degree/>C. 
             </p>
         </solution>
     </example>   
@@ -41,14 +47,56 @@
     <definition xml:id="def-T-distribution">
         <statement>
             <p>
-                Let <m>\bar{x}</m> be a sample mean from <m>X</m> with sample size <m>n</m>. Let <m>s</m> be the standard deviation associated with the same sample. The <alert> <m>T</m>-score </alert> for the sample is <md> T_{n-1} = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}. </md> We say it has <m>n-1</m> <alert> degrees of freedom </alert>. 
+                Let <m>\bar{x}</m> be a sample mean from <m>X</m> with sample size <m>n</m>. Let <m>s</m> be the standard deviation associated with the same sample. The <alert> <m>T</m>-statistic </alert> for the sample is <md> T_{n-1} = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}. </md> We say it has <m>n-1</m> <alert> degrees of freedom </alert>. 
             </p>
 
             <p>
-                The PDF associated to <m>T_{n-1}</m> is called the <alert> (Student's) T-Distribution </alert>. It is bell-shaped with mean <m>\mu</m> and standard deviation <m>\frac{s}{\sqrt{n}}</m>, but it is <alert> NOT NORMAL </alert>. 
+                The PDF associated to <m>T_{n-1}</m> is called the <alert> (Student's) T-Distribution </alert>. It is bell-shaped with peak at <m>\mu</m>, but it is <alert> NOT NORMAL </alert>. Given that the standard error underestimates the standard deviation, its spread is much tighter than a normal curve. 
             </p>
         </statement>
     </definition>
+
+    <theorem xml:id="thm-T-distribution">
+        <statement>
+            <p>
+                The sampling distribution of sample means of size <m>n</m> always follows a T-distribution with <m>n-1</m> degrees of freedom.
+            </p>
+        </statement>
+    </theorem>
+
+    <corollary xml:id="cor-T-distribution">
+        <statement>
+            <p>
+                By the CLT, it must be that as <m>n \to \infty</m>, the T-distribution becomes the Z-distribution.
+            </p>
+        </statement>
+    </corollary>
+    
+    <p>
+        So what does this mean in practice? When conducting hypothesis tests on sample means, we often need to use the T-distribution instead of the Z-distribution. We call the corresponding choice the <alert> test statistic </alert> for the hypothesis test. We use the T-distribution as our test statistic if either of the following occur.
+        <ol> 
+            <li><p> We do not know <m>\sigma</m> </p></li>
+            <li><p> We have a small sample size <m>n \lt 30</m> </p></li>
+        </ol>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Suppose the researcher tests the same claim using the same sample mean and standard deviation, but this time they only sampled 11 lizards. Moreover, let us assume the more realistic case that <m>\sigma</m> is unknown. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Now that the sample is too small for CLT to apply, we must use a T distribution. This does not impact any of our hypothesis testing logic or framework, but it does impact some of the values we need to compute. The only direct change here is the shape of our diagram.
+            </p>
+
+            <p>
+                The null and alternative hypotheses remain the same. Since CLT no longer applies, we cannot use the Z distribution. Under the T-distribution, we know the standard error is <md> SE = \frac{s}{\sqrt{n}} \approx 0.5427.</md> We can compute the critical values in a similar fashion using the <c> qt(prob,df) </c> command. This shows that <m>T^*=\pm2.23</m>. Now our margin of error is <md> ME = |T^*| \cdot SE \approx 1.21. </md> Thus, we are 95% confident that the mean body temperature of these lizards is between 33.79<degree/>C and 36.21<degree/>C. Therefore, there is now insufficient evidence to reject <m>H_0</m>. That is, it is likely that the mean body temperature is 35<degree/>C.  
+            </p>
+        </solution>
+    </example>
 
 
 

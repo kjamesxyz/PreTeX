@@ -307,6 +307,51 @@ var ptx_lunr_docs = [
   "body": "  The National Institute of Mental Health (NIMH) found that 8.3% of all American adults had experienced at least one major depressive episode in the past 12 months (at time of questioning). An SVSU psychology major wants to replicate these results, so they randomly survey 100 of their peers. They find that 14 of them have experienced at least one major depressive episode in the past 12 months. Consider testing this claim with 95% confidence.     Identify and label the parameter of interest and measured statistic in this experiment.      Explain why we can apply Central Limit Theorem to this problem. Then, use CLT to build an appropriate sampling distribution.      Determine the significance level and use it to compute the critical value(s).      Compute the margin of error, then explain the difference between margins of error and standard errors.      Construct an appropriate confidence interval.      Explain what your confidence interval means in plain language.      Compute the P-value for the psychology major's sample. Explain what this number represents.      Is there sufficient evidence to reject ? Explain how your answer to part (e) supports your decision. Explain how your answer to part (g) supports your decision.      Interpret the results of your hypothesis test in plain language.    "
 },
 {
+  "id": "biostats-act-10",
+  "level": "1",
+  "url": "biostats-act-10.html",
+  "type": "🏫 Activity",
+  "number": "2.10",
+  "title": "🏫 Activity 10 - Hypothesis Testing on Means",
+  "body": " 🏫 Activity 10 - Hypothesis Testing on Means   This assignment is due at the beginning of class on Monday, October 19 . It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged.   This activity is part of your final project. Extra care should be taken in completing this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing a T-score by hand.      What R command can be used to convert T-scores into probabilities?      What R command can be use to convert probabilities into T-scores?       Under what circumstances, if any, is it still appropriate to use a Z distribution for hypothesis testing on sample means?      Sketch a diagram of the Z and T distributions. Use your diagrams to illustrate and make explicit the differences between them.       This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity10.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 10 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Hypothesis Testing on One Proportion Check-in\".     Extract and store a quantitative variable from your data set. Remove any missing data.      Compute the mean of your sample.      Ask a large language model (AI) for the value of the corresponding population parameter. For example, if your random variable were measuring the cost per fluid ounce of oil, you could ask the LLM what the mean cost per fluid ounce of oil is. Write a null and alternative hypothesis for its claim.      Use the t.test command to construct a 50%, 90%, and 99% confidence interval for the population mean.    You may need to play with the optional arguments in order to obtain these results. Type ?t.test into the console for more help.      Summarize this information in a written report. Your report should speak to each of the following prompts.     Did your data set need to be cleaned at all? If so, explain the process you used to clean the data.      Clearly state the claim that you are testing. State the null and alternative hypotheses you found in words and symbols. Identify and .      Sketch a shaded probability diagram for each of your tests. Clearly label the P-value, your sample, the critical value, and the endpoints of the confidence interval in each test. Include your diagram in your write-up. You may sketch the image by hand and insert a picture\/scan of the drawing in your written report.      State the conclusion to each of the tests you conducted. Interpret the results in plain language.      Which of the tests you conducted do you feel is an adequate level of assessment for the claim? Why?      "
+},
+{
+  "id": "biostats-act-10-3",
+  "level": "2",
+  "url": "biostats-act-10.html#biostats-act-10-3",
+  "type": "Worksheet Exercise",
+  "number": "2.10.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing a T-score by hand.      What R command can be used to convert T-scores into probabilities?      What R command can be use to convert probabilities into T-scores?    "
+},
+{
+  "id": "biostats-act-10-4",
+  "level": "2",
+  "url": "biostats-act-10.html#biostats-act-10-4",
+  "type": "Worksheet Exercise",
+  "number": "2.10.2",
+  "title": "",
+  "body": "  Under what circumstances, if any, is it still appropriate to use a Z distribution for hypothesis testing on sample means?   "
+},
+{
+  "id": "biostats-act-10-5",
+  "level": "2",
+  "url": "biostats-act-10.html#biostats-act-10-5",
+  "type": "Worksheet Exercise",
+  "number": "2.10.3",
+  "title": "",
+  "body": "  Sketch a diagram of the Z and T distributions. Use your diagrams to illustrate and make explicit the differences between them.   "
+},
+{
+  "id": "biostats-act-10-6",
+  "level": "2",
+  "url": "biostats-act-10.html#biostats-act-10-6",
+  "type": "Worksheet Exercise",
+  "number": "2.10.4",
+  "title": "",
+  "body": "   This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity10.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 10 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Hypothesis Testing on One Proportion Check-in\".     Extract and store a quantitative variable from your data set. Remove any missing data.      Compute the mean of your sample.      Ask a large language model (AI) for the value of the corresponding population parameter. For example, if your random variable were measuring the cost per fluid ounce of oil, you could ask the LLM what the mean cost per fluid ounce of oil is. Write a null and alternative hypothesis for its claim.      Use the t.test command to construct a 50%, 90%, and 99% confidence interval for the population mean.    You may need to play with the optional arguments in order to obtain these results. Type ?t.test into the console for more help.      Summarize this information in a written report. Your report should speak to each of the following prompts.     Did your data set need to be cleaned at all? If so, explain the process you used to clean the data.      Clearly state the claim that you are testing. State the null and alternative hypotheses you found in words and symbols. Identify and .      Sketch a shaded probability diagram for each of your tests. Clearly label the P-value, your sample, the critical value, and the endpoints of the confidence interval in each test. Include your diagram in your write-up. You may sketch the image by hand and insert a picture\/scan of the drawing in your written report.      State the conclusion to each of the tests you conducted. Interpret the results in plain language.      Which of the tests you conducted do you feel is an adequate level of assessment for the claim? Why?     "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",
