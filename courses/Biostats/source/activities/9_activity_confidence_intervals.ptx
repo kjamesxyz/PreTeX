@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="biostats-act-9" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>🏫 Activity 9 - Confidence Intervals </title>
+    <title>🏫 Activity 9 - Hypothesis Testing on Proportions </title>
 
     <introduction>
         <p> This assignment is due at the beginning of class on <alert> Wednesday, October 14 </alert>. It is graded based on completeness according to the rubric available on Canvas. It is open notes and collaboration with your group members is encouraged. </p>
     </introduction>
 
+    
+
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                In Gregor Mendel's famous genetics experiment on peas, he recorded the color of offspring. His sample showed 152 yellow peas and 428 green peas. Based on his data, build a 95% confidence interval for the true proportion of peas that are yellow. Interpret the results in plain language.
+            </p>
+        </statement>
+    </exercise>
+
     <exercise>
         <introduction>
             <p>
-                The National Institute of Mental Health (NIMH) found that 8.3% of all American adults had experienced at least one major depressive episode in the past 12 months (at time of questioning). An SVSU psychology major wants to replicate these results, so they randomly survey 100 of their peers. They find that 11 of them have experienced at least one major depressive episode in the past 12 months. Consider building a 95% confidence interval on the sample data.
+                The National Institute of Mental Health (NIMH) found that 8.3% of all American adults had experienced at least one major depressive episode in the past 12 months (at time of questioning). An SVSU psychology major wants to replicate these results, so they randomly survey 100 of their peers. They find that 14 of them have experienced at least one major depressive episode in the past 12 months. Consider testing this claim with 95% confidence.
             </p>
         </introduction>
 
@@ -25,7 +36,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Determine the significance level <m>\alpha</m> and use it to compute the critical value(s) for the confidence interval. 
+                   Explain why we can apply Central Limit Theorem to this problem. Then, use CLT to build an appropriate sampling distribution. 
                 </p>
             </statement>
         </task>
@@ -33,28 +44,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Compute the standard error using the statistic you identified in part (a). 
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    Do NOT use the population parameter.
-                </p>
-            </hint>
-        </task>
-
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Use your results from parts (b)-(c) to compute the margin of error.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Use your results from part (d) to compute the confidence interval. 
+                    Determine the significance level <m>\alpha</m> and use it to compute the critical value(s). 
                 </p>
             </statement>
         </task>
@@ -62,7 +52,31 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Interpret your results from part (e) in plain language. Does the parameter actually fall inside of your confidence interval?
+                    Compute the margin of error, then explain the difference between margins of error and standard errors. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Construct an appropriate confidence interval. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain what your confidence interval means in plain language. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Compute the P-value for the psychology major's sample. Explain what this number represents.
                 </p>
             </statement>
         </task>
@@ -70,7 +84,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Sketch a standard normal probability distribution. Label it with your critical values, your statistic, and the parameter. 
+                    Is there sufficient evidence to reject <m>H_0</m>? Explain how your answer to part (e) supports your decision. Explain how your answer to part (g) supports your decision.
                 </p>
             </statement>
         </task>
@@ -78,19 +92,10 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Would you accept this as sufficient evidence to reject the null hypothesis? Why or why not? 
+                    Interpret the results of your hypothesis test in plain language. 
                 </p>
             </statement>
         </task>
 
-    </exercise>
-
-
-    <exercise workspace="2in">
-        <statement>
-            <p>
-                In Gregor Mendel's famous genetics experiment on peas, he recorded the color of offspring. His sample showed 152 yellow peas and 428 green peas. Based on his data, build a 95% confidence interval for the true proportion of peas that are yellow. Interpret the results in plain language.
-            </p>
-        </statement>
     </exercise>
 </worksheet>

@@ -15,6 +15,50 @@
         </ol>
     </objectives>
 
+
+    <example>
+        <statement>
+            <p>
+                Consider the sample given in <xref ref="biostats-notes-4-2-example-1"/>. A 2026 survey conducted by the American Association for Retired People (AARP) claimed that 73% of senior citizens used social media. Test their claim with 5% significance. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Now we have all of the tools in our tool belt to conduct a full hypothesis test. First, we establish our hypotheses. 
+                <md>
+                    <mrow> H_0: \amp p = 0.73 </mrow>
+                    <mrow> H_1: \amp p \neq 0.73 </mrow>
+                </md>
+
+                We now assume the null hypothesis, that is <m>p = 0.73</m>. Under this assumption, we apply CLT to find <md> \hat{p} \sim \cal{N} (0.73, 0.0740). </md> Given that <m>\alpha = 0.05</m> still, the critical value remains the same. So we can compute the margin of error to be <md> ME = |Z^*| \cdot \sigma_{\hat{p}} \approx 0.145.</md> Now we can build a 95% confidence interval <md> [p - ME, p + ME] = [0.585,0.875]. </md> That means that in 95% of random samples of 36 senior citizens, the proportion that frequently use social media will fall between 58.5% and 87.5%. Notice that our sample proportion (of 77.78%) falls well within this confidence interval. Hence, there is insufficient evidence to reject <m>H_0</m>. That is, it is likely that the true proportion of senior citizens that frequently use social media is 77.78%. 
+            </p>
+        </solution>
+
+        <solution>
+            <p>
+                An alternate way to test these claims is through a <alert>P-test</alert>. We formulate the same hypotheses, but rather than building a confidence interval for all acceptable samples, we just measure how likely our sample is. Still under the assumption the null hypothesis is true, we compute the <m>Z</m>-score for our sample. It is <md> Z_{\hat{p}} = \frac{\hat{p} - p}{\sigma_{\hat{p}}} \approx 0.646. </md> Recall that our critical value is <m> Z^* = \pm 1.96 </m>. Since our sample's <m>Z</m>-score falls within the range of acceptable <m>Z</m>-scores, we draw the same conclusion. 
+            </p>
+        </solution>
+    </example>
+
+    <p>
+        The key distinction between the tests are 
+        <ol>
+            <li>
+                <p>
+                    <alert> CI-Test: </alert> Determines whether our point estimate falls within a range of acceptable values for the statistic. Works with data.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <alert> P-Test: </alert> Determines whether our point estimate is sufficiently likely to occur. Works with standards.
+                </p>
+            </li>
+        </ol>
+    </p>
+
+<!-- 
     <p>
         In our framework for hypothesis testing, we discussed the need to show significant evidence toward rejecting or failing to reject our null hypotheses. Confidence intervals are one tool by which we can do this. 
     </p>
@@ -73,6 +117,6 @@
                 In this case, we would say: We are 90% confident that fewer than 9 in 10 dentists prefer Sensodyne. 
             </p>
         </solution>
-    </example>
+    </example> -->
 
 </section>

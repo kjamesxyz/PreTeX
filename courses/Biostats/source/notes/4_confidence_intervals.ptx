@@ -28,15 +28,33 @@
         Keep in mind that there is rarely every a way to truley know the parameter we are after. The best we can typically do is to give a range that we suspect it falls in. The range is not necessarily correct, but we have some measureable way to determine how likely it does. 
     </p>
 
-    <example>
+    <example xml:id="biostats-notes-4-2-example-1">
         <statement>
             <p>
-                Suppose that a sample <m>n=36</m> is drawn from a norammly-distributed random variable <m>X</m> with <m>\hat{p}=0.20</m>. Build a 95% confidence interval for <m>p</m>
+                In a survey of 36 randomly selected senior citizens, 28 reported frequently using social media. Build a 95% confidence interval for the proportion of all senior citizens that frequently use social media. 
             </p>
         </statement>
 
         <solution>
+
             <p>
+                Recall the goal is to find <m>a,b</m> such that we are 95% confident that <m>p \in [a,b]</m>. 
+            </p>
+
+            <p>
+                Since <m>n \geq 30 </m>, we can apply the Central Limit Theorem. That is, we know the sampling distribution for <m>\hat{p}</m> is normal with mean <m>p</m> and standard error <m> \sqrt{\frac{p(1-p)}{n}} </m>. We do not actually know <m>p</m>, so we will have to use our point estimate <md>\hat{p} = \frac{28}{36} \approx 0.7778.</md> This gives us the approximation that <md> \mu_{\hat{p}} \approx 0.2 \ \text{and} \ \sigma_{\hat{p}} \approx 0.0667.</md> 
+            </p>
+
+            <p>
+                To capture 95% of the data, we need to find how many standard errors to move in each direction. This number of standard errors is what we call the <alert> margin of error </alert> for the interval. It is the Z-score <m>Z^*</m> that gives <md> \cal{P}[|Z| \geq Z^*] = (1-\alpha)% = 95%. </md>. You'll notice that we have "5% error" to split between evenly between the two tails on our diagram. By symmetry we can just find <m>Z^*</m> such that <md>\cal{P}[Z \leq Z^*] = \frac{\alpha}{2}.</md> Using the R command <c>qnorm(0.025)</c> gives <md> Z^* = \pm 1.96. </md> Hence, the margin of error is <md> ME = |Z^*| \cdot \sigma_{\hat{p}} = 1.96 \cdot 0.0667 = 0.1307.</md>
+            </p>
+
+            <p>
+                We are done with the logic here. If our point estimate was the true proportion, then 95% of samples would find a proportion within our margin of error from our parameter. That is, the mean proportion of seniors that frequently use social media falls between <md> [\hat{p} - ME, \hat{p} + ME] = [0.6471, 0.9085]. </md>
+            </p>
+
+
+            <!-- <p>
                 We want to find <m>a,b</m> such that <m> a \leq p \leq b </m>. It is not possible to know <m>a,b</m> for certain, but we can build a reasonable estimate using information about the sampling distribution. Draw a cumul. prob. diagram in <m>X</m> space. Move it to <m>Z</m> space. The corresponding thresholds are the ends of the confidence interval. 
             </p>
 
@@ -45,12 +63,12 @@
             </p>
 
             <p>
-                The Central Limit Theorem tells us that <m> \hat{p} \to p </m> as <m> n \to \infty </m>. Since our <m>n</m> is sufficiently large, it's reasonable to assume that <m>X_p</m> is normally distributed and that <m> \hat{p} \approx p </m>. In sampling distribution space, now we have a different standard deviation. We call the standard deviation of the sampling distribution the <alert> standard error </alert>. Moving from Z space to sample space, we measure in standard errors, rather than standard deviations. This tells us that <md> [-1.96, 1.96]_Z = [\phat - 1.96*SE, \phat + 1.96*SE] \approx [0.133, 0.267] . </md>
+                The Central Limit Theorem tells us that <m> \hat{p} \to p </m> as <m> n \to \infty </m>. Since our <m>n</m> is sufficiently large, it's reasonable to assume that <m>X_p</m> is normally distributed and that <m> \hat{p} \approx p </m>. In sampling distribution space, now we have a different standard deviation. We call the standard deviation of the sampling distribution the <alert> standard error </alert>. Moving from Z space to sample space, we measure in standard errors, rather than standard deviations. This tells us that <md> [-1.96, 1.96]_Z = [\hat{p} - 1.96*SE, \hat{p} + 1.96*SE] \approx [0.133, 0.267] . </md>
             </p>
 
             <p>
                 This is the <alert> confidence interval </alert>. Remember that we are using the CLT to make the assumption that <m> p \approx \hat{p} </m> in this case. So the way we interpret this conclusion is: We are 95% confident the population proportion <m> p </m> falls between 0.133 and 0.267. 
-            </p>
+            </p> -->
         </solution>
     </example>
 
