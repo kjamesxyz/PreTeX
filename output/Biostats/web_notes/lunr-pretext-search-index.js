@@ -817,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Hypothesis Testing on One Mean",
-  "body": " Hypothesis Testing on One Mean    Students will be able to...    Use confidence intervals to test hypotheses on sample means.  Use a P-test to test hypotheses on sample means.  Determine when a or distribution is appropriate.    Recall CLT tells us that the sampling distribution of sample means from sufficiently-large samples of size from a CRV are normally distributed with mean and standard error .    Suppose , and . Build a 95% confidence interval for .    The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have Hence, the CI is .    Notice that building the confidence interval required us to know the standard deviation for the population. We would rarely ever know this information in practice, however. Instead, we would need to approximate from our sample's standard deviation . You can imagine that this negatively impacts our certainty. When we make this change, we call the resulting test statistic as opposed to . That is...    Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -score for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with mean and standard deviation , but it is NOT NORMAL .    "
+  "body": " Hypothesis Testing on One Mean    Students will be able to...    Use confidence intervals to test hypotheses on sample means.  Use a P-test to test hypotheses on sample means.  Determine when a or distribution is appropriate.    Recall CLT tells us that the sampling distribution of sample means from sufficiently-large samples of size from a CRV are normally distributed with mean and standard error .    A herpetologist believes that a species of lizard maintains a mean body temperature of 35 C. Suppose it is known that the standard deviation in body temperature is 2 C. To test this claim, they randomly sample 46 lizards and record a sample mean body temperature of C. Test their claim with 95% significance.    Here, the hypotheses are The Central Limit Theorem applies here, so we know With 5%, we have . Thus, we are 95% confident that . But . Therefore, there is significant evidence to reject . That is, the mean body termperature of these lizards is likely not 35 C.    Notice that building the confidence interval required us to know the standard deviation for the population. We would rarely ever know this information in practice, however. Instead, we would need to approximate from our sample's standard deviation . You can imagine that this negatively impacts our certainty. When we make this change, we call the resulting test statistic as opposed to . That is...    Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -statistic for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with peak at , but it is NOT NORMAL . Given that the standard error underestimates the standard deviation, its spread is much tighter than a normal curve.      The sampling distribution of sample means of size always follows a T-distribution with degrees of freedom.      By the CLT, it must be that as , the T-distribution becomes the Z-distribution.    So what does this mean in practice? When conducting hypothesis tests on sample means, we often need to use the T-distribution instead of the Z-distribution. We call the corresponding choice the test statistic for the hypothesis test. We use the T-distribution as our test statistic if either of the following occur.  We do not know   We have a small sample size       Suppose the researcher tests the same claim using the same sample mean and standard deviation, but this time they only sampled 11 lizards. Moreover, let us assume the more realistic case that is unknown.    Now that the sample is too small for CLT to apply, we must use a T distribution. This does not impact any of our hypothesis testing logic or framework, but it does impact some of the values we need to compute. The only direct change here is the shape of our diagram.  The null and alternative hypotheses remain the same. Since CLT no longer applies, we cannot use the Z distribution. Under the T-distribution, we know the standard error is We can compute the critical values in a similar fashion using the qt(prob,df) command. This shows that . Now our margin of error is Thus, we are 95% confident that the mean body temperature of these lizards is between 33.79 C and 36.21 C. Therefore, there is now insufficient evidence to reject . That is, it is likely that the mean body temperature is 35 C.    "
 },
 {
   "id": "biostats-notes-4-4-2",
@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.4.1",
   "title": "",
-  "body": "  Suppose , and . Build a 95% confidence interval for .    The only part of the process that changes for means (compared to proportions) is the standard error's formula. For a sample mean, we have Hence, the CI is .   "
+  "body": "  A herpetologist believes that a species of lizard maintains a mean body temperature of 35 C. Suppose it is known that the standard deviation in body temperature is 2 C. To test this claim, they randomly sample 46 lizards and record a sample mean body temperature of C. Test their claim with 95% significance.    Here, the hypotheses are The Central Limit Theorem applies here, so we know With 5%, we have . Thus, we are 95% confident that . But . Therefore, there is significant evidence to reject . That is, the mean body termperature of these lizards is likely not 35 C.   "
 },
 {
   "id": "def-T-distribution",
@@ -844,7 +844,34 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.4.2",
   "title": "",
-  "body": "  Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -score for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with mean and standard deviation , but it is NOT NORMAL .   "
+  "body": "  Let be a sample mean from with sample size . Let be the standard deviation associated with the same sample. The  -statistic for the sample is We say it has  degrees of freedom .  The PDF associated to is called the (Student's) T-Distribution . It is bell-shaped with peak at , but it is NOT NORMAL . Given that the standard error underestimates the standard deviation, its spread is much tighter than a normal curve.   "
+},
+{
+  "id": "thm-T-distribution",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#thm-T-distribution",
+  "type": "Theorem",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  The sampling distribution of sample means of size always follows a T-distribution with degrees of freedom.   "
+},
+{
+  "id": "cor-T-distribution",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#cor-T-distribution",
+  "type": "Corollary",
+  "number": "4.4.4",
+  "title": "",
+  "body": "  By the CLT, it must be that as , the T-distribution becomes the Z-distribution.   "
+},
+{
+  "id": "biostats-notes-4-4-10",
+  "level": "2",
+  "url": "biostats-notes-4-4.html#biostats-notes-4-4-10",
+  "type": "Example",
+  "number": "4.4.5",
+  "title": "",
+  "body": "  Suppose the researcher tests the same claim using the same sample mean and standard deviation, but this time they only sampled 11 lizards. Moreover, let us assume the more realistic case that is unknown.    Now that the sample is too small for CLT to apply, we must use a T distribution. This does not impact any of our hypothesis testing logic or framework, but it does impact some of the values we need to compute. The only direct change here is the shape of our diagram.  The null and alternative hypotheses remain the same. Since CLT no longer applies, we cannot use the Z distribution. Under the T-distribution, we know the standard error is We can compute the critical values in a similar fashion using the qt(prob,df) command. This shows that . Now our margin of error is Thus, we are 95% confident that the mean body temperature of these lizards is between 33.79 C and 36.21 C. Therefore, there is now insufficient evidence to reject . That is, it is likely that the mean body temperature is 35 C.   "
 }
 ]
 
