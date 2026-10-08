@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Existence &amp; Uniqueness for Linear ODEs",
-  "body": " Existence & Uniqueness for Linear ODEs    Students will be able to...    Recall and apply theorems related to existence and uniquness of solutions to linear ODEs.  Distinguish between particular, complementary, fundamental, and general solutions.      We say is a linear operator if, for all constants and all functions we have the property that       The derivative is a linear operator, since we have      Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    Why talk about it?    Consider the second-order linear ODE The general solution to this equation has the form A boundary condition is similar to an initial condition, but may be given at any input. Consider the following cases.  Under BCs , we get a single unique solution as expected (existence and uniquness).  Under BCs , we get infinitely-many solutions (existence only).  Under BCs , we get no solutions.      Recall an nth-order linear ODE is homogeneous if it has not forcing function.    The functions are said to be linearly independent on the interval provided for all only when . Otherwise, we say the functions are linearly dependent .      The functions are linearly dependent since for all . The functiond are linearly independent, since the only way to guarantee for all is to take .      Let be at least times differentiable. Their Wronskian is       The functions are linearly-independent on if and only if their Wronskian is nonzero on .      Suppose solve an nth-order homogeneous linear differential equation on . We call them fundamental solutions if they are lienarly independent.      Every linear nth-order homogeneous ODE has a fundamental set of solutions.      Let be fundamental solutions to an nth-order linear homogeneous ODE on . The general solution of the equation on is .      Suppose is an nth-order linear nonhomogeneous ODE. The equation is called the complementary equation to the nonhomogeneous ODE, and its solution is the complementary solution .      Let be a particular solution to an nth-order linear nonhomogeneous ODE on and let be its corresponding complementary solution. Then is the general solution to the nonhomogeneous equation.    "
+  "body": " Existence & Uniqueness for Linear ODEs    Students will be able to...    Recall and apply theorems related to existence and uniquness of solutions to linear ODEs.  Distinguish between particular, complementary, fundamental, and general solutions.    Why talk about it?    Consider the second-order linear ODE The general solution to this equation has the form A boundary condition is similar to an initial condition, but may be given at any input. Consider the following cases.  Under BCs , we get a single unique solution as expected (existence and uniquness).  Under BCs , we get infinitely-many solutions (existence only).  Under BCs , we get no solutions.        The functions are said to be linearly independent on the interval provided for all only when . Otherwise, we say the functions are linearly dependent .      The functions are linearly dependent since for all . The functiond are linearly independent, since the only way to guarantee for all is to take .      Let be at least times differentiable. Their Wronskian is       Show that the functions are linearly independent.    We compute       The functions are linearly-independent on if and only if their Wronskian is nonzero on .      We say is a linear operator if, for all constants and all functions we have the property that       The derivative is a linear operator, since we have       Suppose solve an nth-order homogeneous linear differential equation on . We call them fundamental solutions if they are lienarly independent.      Every linear nth-order homogeneous ODE has a fundamental set of solutions.     Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.      Let be fundamental solutions to an nth-order linear homogeneous ODE on . The general solution of the equation on is .      Suppose is an nth-order linear nonhomogeneous ODE. The equation is called the complementary equation to the nonhomogeneous ODE, and its solution is the complementary solution .      Let be a particular solution to an nth-order linear nonhomogeneous ODE on and let be its corresponding complementary solution. Then is the general solution to the nonhomogeneous equation.     Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.    Recall an nth-order linear ODE is homogeneous if it has not forcing function.  "
 },
 {
   "id": "diffeq-notes-3-1-2",
@@ -397,47 +397,11 @@ var ptx_lunr_docs = [
   "body": "  Students will be able to...    Recall and apply theorems related to existence and uniquness of solutions to linear ODEs.  Distinguish between particular, complementary, fundamental, and general solutions.   "
 },
 {
-  "id": "def-linear-operator",
-  "level": "2",
-  "url": "diffeq-notes-3-1.html#def-linear-operator",
-  "type": "Definition",
-  "number": "3.1.1",
-  "title": "",
-  "body": "  We say is a linear operator if, for all constants and all functions we have the property that    "
-},
-{
   "id": "diffeq-notes-3-1-4",
   "level": "2",
   "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-4",
   "type": "Example",
-  "number": "3.1.2",
-  "title": "",
-  "body": "  The derivative is a linear operator, since we have    "
-},
-{
-  "id": "thm-superposition",
-  "level": "2",
-  "url": "diffeq-notes-3-1.html#thm-superposition",
-  "type": "Theorem",
-  "number": "3.1.3",
-  "title": "Principle of Superposition.",
-  "body": " Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.   "
-},
-{
-  "id": "thm-ivp-existence",
-  "level": "2",
-  "url": "diffeq-notes-3-1.html#thm-ivp-existence",
-  "type": "Theorem",
-  "number": "3.1.4",
-  "title": "Existence and Uniqueness of Solutions to IVPs.",
-  "body": " Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.   "
-},
-{
-  "id": "diffeq-notes-3-1-8",
-  "level": "2",
-  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-8",
-  "type": "Example",
-  "number": "3.1.5",
+  "number": "3.1.1",
   "title": "",
   "body": "  Consider the second-order linear ODE The general solution to this equation has the form A boundary condition is similar to an initial condition, but may be given at any input. Consider the following cases.  Under BCs , we get a single unique solution as expected (existence and uniquness).  Under BCs , we get infinitely-many solutions (existence only).  Under BCs , we get no solutions.     "
 },
@@ -446,16 +410,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "diffeq-notes-3-1.html#def-linearly-independent",
   "type": "Definition",
-  "number": "3.1.6",
+  "number": "3.1.2",
   "title": "",
   "body": "  The functions are said to be linearly independent on the interval provided for all only when . Otherwise, we say the functions are linearly dependent .   "
 },
 {
-  "id": "diffeq-notes-3-1-11",
+  "id": "diffeq-notes-3-1-6",
   "level": "2",
-  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-11",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-6",
   "type": "Example",
-  "number": "3.1.7",
+  "number": "3.1.3",
   "title": "",
   "body": "  The functions are linearly dependent since for all . The functiond are linearly independent, since the only way to guarantee for all is to take .   "
 },
@@ -464,25 +428,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "diffeq-notes-3-1.html#def-Wronskian",
   "type": "Definition",
-  "number": "3.1.8",
+  "number": "3.1.4",
   "title": "",
   "body": "  Let be at least times differentiable. Their Wronskian is    "
+},
+{
+  "id": "diffeq-notes-3-1-8",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-8",
+  "type": "Example",
+  "number": "3.1.5",
+  "title": "",
+  "body": "  Show that the functions are linearly independent.    We compute    "
 },
 {
   "id": "thm-lin-indep-criteria",
   "level": "2",
   "url": "diffeq-notes-3-1.html#thm-lin-indep-criteria",
   "type": "Theorem",
-  "number": "3.1.9",
+  "number": "3.1.6",
   "title": "",
   "body": "  The functions are linearly-independent on if and only if their Wronskian is nonzero on .   "
+},
+{
+  "id": "def-linear-operator",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#def-linear-operator",
+  "type": "Definition",
+  "number": "3.1.7",
+  "title": "",
+  "body": "  We say is a linear operator if, for all constants and all functions we have the property that    "
+},
+{
+  "id": "diffeq-notes-3-1-11",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#diffeq-notes-3-1-11",
+  "type": "Example",
+  "number": "3.1.8",
+  "title": "",
+  "body": "  The derivative is a linear operator, since we have    "
 },
 {
   "id": "def-fundamental-sols",
   "level": "2",
   "url": "diffeq-notes-3-1.html#def-fundamental-sols",
   "type": "Definition",
-  "number": "3.1.10",
+  "number": "3.1.9",
   "title": "",
   "body": "  Suppose solve an nth-order homogeneous linear differential equation on . We call them fundamental solutions if they are lienarly independent.   "
 },
@@ -491,9 +482,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "diffeq-notes-3-1.html#thm-existence-linear-homog",
   "type": "Theorem",
-  "number": "3.1.11",
+  "number": "3.1.10",
   "title": "",
   "body": "  Every linear nth-order homogeneous ODE has a fundamental set of solutions.   "
+},
+{
+  "id": "thm-superposition",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-superposition",
+  "type": "Theorem",
+  "number": "3.1.11",
+  "title": "Principle of Superposition.",
+  "body": " Principle of Superposition   Suppose are all solutions to an nth-order homogeneous ODE on an interval . Then, the linear combination is also a solution.    We will prove the case that . Let solve the equation and suppose that is linear. Then Therefore, is a solution.   "
 },
 {
   "id": "thm-general-sol-linear-homog",
@@ -521,6 +521,15 @@ var ptx_lunr_docs = [
   "number": "3.1.14",
   "title": "",
   "body": "  Let be a particular solution to an nth-order linear nonhomogeneous ODE on and let be its corresponding complementary solution. Then is the general solution to the nonhomogeneous equation.   "
+},
+{
+  "id": "thm-ivp-existence",
+  "level": "2",
+  "url": "diffeq-notes-3-1.html#thm-ivp-existence",
+  "type": "Theorem",
+  "number": "3.1.15",
+  "title": "Existence and Uniqueness of Solutions to IVPs.",
+  "body": " Existence and Uniqueness of Solutions to IVPs   Consider the -order linear IVP If , and be continuous on an interval containing with the property that for all . Then, there is a unique solution to the IVP.   "
 },
 {
   "id": "diffeq-notes-3-2",

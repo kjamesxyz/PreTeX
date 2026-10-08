@@ -58,15 +58,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.3.2';
+eBookConfig.runestone_version = '8.3.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.6ad113829064d43a.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.02090e9f6a81e70e.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.347e2ecdeacfed99.css">
+<script src="_static/prefix-runtime.7e4cb14f24eb489b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.54371ed119fe41be.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.40d828091d93b733.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -207,8 +207,143 @@ eBookConfig.enable_chatcodes =  false;
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Objectives 3.1"><a tabindex="-1" href="#diffeq-notes-3-1-2" title="Copy heading and permalink for Objectives 3.1" aria-label="Copy heading and permalink for Objectives 3.1">🔗</a></div>
 </article>
+<div class="para" id="diffeq-notes-3-1-3">Why talk about it?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="diffeq-notes-3-1-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="diffeq-notes-3-1-4-1-1">
+<div class="para">Consider the second-order linear ODE</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-4-1-1-1">
+\begin{equation*}
+x'' + 16x = 0. 
+\end{equation*}
+</div>
+<div class="para">The general solution to this equation has the form</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-4-1-1-2">
+\begin{equation*}
+x(t) = c_1 \cos(4t) + c_2 \sin(4t). 
+\end{equation*}
+</div>
+<div class="para">A <em class="alert">boundary condition</em> is similar to an initial condition, but may be given at any input. Consider the following cases.</div>
+<ol class="decimal" id="diffeq-notes-3-1-4-1-1-4">
+<li id="diffeq-notes-3-1-4-1-1-4-1">
+<div class="para" id="diffeq-notes-3-1-4-1-1-4-1-1">Under BCs <span class="process-math">\(x(0) = x\left(\frac{\pi}{8}\right) = 0 \text{,}\)</span> we get a single unique solution as expected (existence and uniquness).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="diffeq-notes-3-1-4-1-1-4-2">
+<div class="para" id="diffeq-notes-3-1-4-1-1-4-2-1">Under BCs <span class="process-math">\(x(0) = x\left(\frac{\pi}{2}\right) = 0 \text{,}\)</span> we get infinitely-many solutions (existence only).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="diffeq-notes-3-1-4-1-1-4-3">
+<div class="para" id="diffeq-notes-3-1-4-1-1-4-3-1">Under BCs <span class="process-math">\(x(0) = 0, x\left(\frac{\pi}{2}\right) = 1 \text{,}\)</span> we get no solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1-4-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.1"><a tabindex="-1" href="#diffeq-notes-3-1-4" title="Copy heading and permalink for Example 3.1.1" aria-label="Copy heading and permalink for Example 3.1.1">🔗</a></div>
+</article></details>
+<article class="definition definition-like" id="def-linearly-independent"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para logical" id="def-linearly-independent-1-1">
+<div class="para">The functions <span class="process-math">\(f_1, f_2, \ldots, f_n\)</span> are said to be <em class="alert">linearly independent</em> on the interval <span class="process-math">\(I\)</span> provided</div>
+<div class="displaymath process-math" id="def-linearly-independent-1-1-4">
+\begin{equation*}
+c_1 f_1 + c_2 f_2 + \cdots + c_n f_n = 0 
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x \in I\)</span> only when <span class="process-math">\(c_1 = c_2 = \cdots = c_n = 0 \text{.}\)</span> Otherwise, we say the functions are <em class="alert">linearly dependent</em>.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-linearly-independent-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.2"><a tabindex="-1" href="#def-linearly-independent" title="Copy heading and permalink for Definition 3.1.2" aria-label="Copy heading and permalink for Definition 3.1.2">🔗</a></div>
+</article>
+<details id="diffeq-notes-3-1-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="diffeq-notes-3-1-6-1-1">
+<div class="para">The functions</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-6-1-1-1">
+\begin{equation*}
+f_1(x) = 1, f_2(x) = x, f_3(x) = 4-3x 
+\end{equation*}
+</div>
+<div class="para">are linearly dependent since</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-6-1-1-2">
+\begin{equation*}
+4 f_1(x) - 3 f_2(x) - f_3(x) = 0 
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x\text{.}\)</span> The functiond</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-6-1-1-4">
+\begin{equation*}
+g_1(x) = 1, g_2(x) = x, g_3(x) = x^2 
+\end{equation*}
+</div>
+<div class="para">are linearly independent, since the only way to guarantee</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-6-1-1-5">
+\begin{equation*}
+c_1 + c_2x + c_3x^2 = 0 
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x\)</span> is to take <span class="process-math">\(c_1 = c_2 = c_3 = 0 \text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.3"><a tabindex="-1" href="#diffeq-notes-3-1-6" title="Copy heading and permalink for Example 3.1.3" aria-label="Copy heading and permalink for Example 3.1.3">🔗</a></div>
+</article></details>
+<article class="definition definition-like" id="def-Wronskian"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para logical" id="def-Wronskian-1-1">
+<div class="para">Let <span class="process-math">\(f_1, \ldots, f_n \)</span> be at least <span class="process-math">\(n-1\)</span> times differentiable. Their <em class="alert">Wronskian</em> is</div>
+<div class="displaymath process-math" id="def-Wronskian-1-1-4">
+\begin{equation*}
+W(f_1, \ldots, f_n) = \begin{vmatrix} f_1 \amp f_2 \amp \cdots \amp f_n \\ f_1' \amp f_2' \amp \cdots \amp f_n' \\ \vdots \amp \vdots \amp \ddots \amp \vdots \\ f^{(n-1)}_1 \amp f^{(n-1)}_2 \amp \cdots \amp f^{(n-1)}_n \end{vmatrix} 
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-Wronskian-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.4"><a tabindex="-1" href="#def-Wronskian" title="Copy heading and permalink for Definition 3.1.4" aria-label="Copy heading and permalink for Definition 3.1.4">🔗</a></div>
+</article>
+<details id="diffeq-notes-3-1-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="diffeq-notes-3-1-8-1-1">Show that the functions <span class="process-math">\(\{1, x, x^2\}\)</span> are linearly independent.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="diffeq-notes-3-1-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="diffeq-notes-3-1-8-2-1">
+<div class="para">We compute</div>
+<div class="displaymath process-math" id="diffeq-notes-3-1-8-2-1-1">
+\begin{equation*}
+W(1,x,x^2) = \begin{vmatrix} 1 \amp x \amp x^2 \\ 0 \amp 1 \amp 2x \\ 0 \amp 0 \amp 2 \end{vmatrix} = \begin{vmatrix} 1 \amp 2x \\ 0 \amp 2 \end{vmatrix} = 2 \neq 0
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.1.5.1"><a tabindex="-1" href="#diffeq-notes-3-1-8-2" title="Copy heading and permalink for Solution 3.1.5.1" aria-label="Copy heading and permalink for Solution 3.1.5.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.5"><a tabindex="-1" href="#diffeq-notes-3-1-8" title="Copy heading and permalink for Example 3.1.5" aria-label="Copy heading and permalink for Example 3.1.5">🔗</a></div>
+</article></details>
+<article class="theorem theorem-like" id="thm-lin-indep-criteria"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para" id="thm-lin-indep-criteria-1-1">The functions <span class="process-math">\(f_1, \ldots, f_n \)</span> are linearly-independent on <span class="process-math">\(I \)</span> if and only if their Wronskian is nonzero on <span class="process-math">\(I \text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-lin-indep-criteria-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.6"><a tabindex="-1" href="#thm-lin-indep-criteria" title="Copy heading and permalink for Theorem 3.1.6" aria-label="Copy heading and permalink for Theorem 3.1.6">🔗</a></div>
+</article>
 <article class="definition definition-like" id="def-linear-operator"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para logical" id="def-linear-operator-1-1">
 <div class="para">We say <span class="process-math">\(L\)</span> is a <em class="alert">linear operator</em> if, for all constants <span class="process-math">\(\alpha, \beta\)</span> and all functions <span class="process-math">\(f,g\)</span> we have the property that</div>
@@ -219,25 +354,39 @@ L[\alpha f(x)  + \beta g(x)] = \alpha L[f(x)] + \beta L[g(x)].
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-linear-operator-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.1"><a tabindex="-1" href="#def-linear-operator" title="Copy heading and permalink for Definition 3.1.1" aria-label="Copy heading and permalink for Definition 3.1.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.7"><a tabindex="-1" href="#def-linear-operator" title="Copy heading and permalink for Definition 3.1.7" aria-label="Copy heading and permalink for Definition 3.1.7">🔗</a></div>
 </article>
-<details id="diffeq-notes-3-1-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<details id="diffeq-notes-3-1-11" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2></summary>
 <article class="example example-like knowl__content">
-<div class="para logical" id="diffeq-notes-3-1-4-1-1">
+<div class="para logical" id="diffeq-notes-3-1-11-1-1">
 <div class="para">The derivative is a linear operator, since we have</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-4-1-1-1">
+<div class="displaymath process-math" id="diffeq-notes-3-1-11-1-1-1">
 \begin{equation*}
 \cal{D}[\alpha f(x) + \beta g(x) ] = \deriv{}{x}[\alpha f(x) + \beta g(x) ] = \alpha f'(x) + \beta g'(x) = \alpha \mathcal{D}[f(x)] + \beta \mathcal{D}[g(x)]. 
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.2"><a tabindex="-1" href="#diffeq-notes-3-1-4" title="Copy heading and permalink for Example 3.1.2" aria-label="Copy heading and permalink for Example 3.1.2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.8"><a tabindex="-1" href="#diffeq-notes-3-1-11" title="Copy heading and permalink for Example 3.1.8" aria-label="Copy heading and permalink for Example 3.1.8">🔗</a></div>
 </article></details>
+<article class="definition definition-like" id="def-fundamental-sols"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para" id="def-fundamental-sols-1-1">Suppose <span class="process-math">\(y_1, \ldots, y_n \)</span> solve an nth-order homogeneous linear differential equation on <span class="process-math">\(I\text{.}\)</span> We call them <em class="alert">fundamental solutions</em> if they are lienarly independent.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-fundamental-sols-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.9"><a tabindex="-1" href="#def-fundamental-sols" title="Copy heading and permalink for Definition 3.1.9" aria-label="Copy heading and permalink for Definition 3.1.9">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="thm-existence-linear-homog"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para" id="thm-existence-linear-homog-1-1">Every linear nth-order homogeneous ODE has a fundamental set of solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-existence-linear-homog-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.10"><a tabindex="-1" href="#thm-existence-linear-homog" title="Copy heading and permalink for Theorem 3.1.10" aria-label="Copy heading and permalink for Theorem 3.1.10">🔗</a></div>
+</article>
 <article class="theorem theorem-like" id="thm-superposition"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Principle of Superposition.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Principle of Superposition.</span>
 </h2>
 <div class="para logical" id="thm-superposition-2-1">
 <div class="para">Suppose <span class="process-math">\(y_1, \ldots, y_k\)</span> are all solutions to an nth-order homogeneous ODE on an interval <span class="process-math">\(I\text{.}\)</span> Then, the linear combination</div>
@@ -249,7 +398,7 @@ y := c_1y_1(x) + c_2y_2(x) + \cdots + c_ky_k(x),
 <div class="para">is also a solution.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-superposition-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.3: Principle of Superposition"><a tabindex="-1" href="#thm-superposition" title="Copy heading and permalink for Theorem 3.1.3: Principle of Superposition" aria-label="Copy heading and permalink for Theorem 3.1.3: Principle of Superposition">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.11: Principle of Superposition"><a tabindex="-1" href="#thm-superposition" title="Copy heading and permalink for Theorem 3.1.11: Principle of Superposition" aria-label="Copy heading and permalink for Theorem 3.1.11: Principle of Superposition">🔗</a></div>
 </article>
 <details id="thm-superposition-3" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
 <article class="hiddenproof knowl__content">
@@ -269,152 +418,8 @@ L[c_1 y_1 + c_2 y_2] = c_1 L[y_1] + c_2 L[y_2] = 0.
 <div class="para">Therefore, <span class="process-math">\(y\)</span> is a solution.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-superposition-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Proof 3.1.3.1"><a tabindex="-1" href="#thm-superposition-3" title="Copy heading and permalink for Proof 3.1.3.1" aria-label="Copy heading and permalink for Proof 3.1.3.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 3.1.11.1"><a tabindex="-1" href="#thm-superposition-3" title="Copy heading and permalink for Proof 3.1.11.1" aria-label="Copy heading and permalink for Proof 3.1.11.1">🔗</a></div>
 </article></details>
-<article class="theorem theorem-like" id="thm-ivp-existence"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Existence and Uniqueness of Solutions to IVPs.</span>
-</h2>
-<div class="para logical" id="thm-ivp-existence-2-1">
-<div class="para">Consider the <span class="process-math">\(n^{\text{th}}\)</span>-order linear IVP</div>
-<div class="displaymath process-math" id="thm-ivp-existence-2-1-2">
-\begin{align*}
-a_n(x) \deriv{^ny}{x^n} + a_{n-1}(x) \deriv{^{(n-1)}y}{x^{(n-1)}} + \cdots + a_1(x) \deriv{y}{x} + a_0(x) y = \amp f(x) \\
-y(x_0) = y_0, y'(x_0) = y_1, \ldots, y^{(n-1)}(x_0) = \amp  y_{n-1}. 
-\end{align*}
-</div>
-<div class="para">If <span class="process-math">\(a_n, \ldots, a_1, a_0\text{,}\)</span> and <span class="process-math">\(f\)</span> be continuous on an interval <span class="process-math">\(I\)</span> containing <span class="process-math">\(x_0\)</span> with the property that <span class="process-math">\(a_n(x) \neq 0\)</span> for all <span class="process-math">\(x \in I \text{.}\)</span> Then, there is a unique solution <span class="process-math">\(y\)</span> to the IVP.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-ivp-existence-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.4: Existence and Uniqueness of Solutions to IVPs"><a tabindex="-1" href="#thm-ivp-existence" title="Copy heading and permalink for Theorem 3.1.4: Existence and Uniqueness of Solutions to IVPs" aria-label="Copy heading and permalink for Theorem 3.1.4: Existence and Uniqueness of Solutions to IVPs">🔗</a></div>
-</article>
-<div class="para" id="diffeq-notes-3-1-7">Why talk about it?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="diffeq-notes-3-1-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
-<article class="example example-like knowl__content">
-<div class="para logical" id="diffeq-notes-3-1-8-1-1">
-<div class="para">Consider the second-order linear ODE</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-8-1-1-1">
-\begin{equation*}
-x'' + 16x = 0. 
-\end{equation*}
-</div>
-<div class="para">The general solution to this equation has the form</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-8-1-1-2">
-\begin{equation*}
-x(t) = c_1 \cos(4t) + c_2 \sin(4t). 
-\end{equation*}
-</div>
-<div class="para">A <em class="alert">boundary condition</em> is similar to an initial condition, but may be given at any input. Consider the following cases.</div>
-<ol class="decimal" id="diffeq-notes-3-1-8-1-1-4">
-<li id="diffeq-notes-3-1-8-1-1-4-1">
-<div class="para" id="diffeq-notes-3-1-8-1-1-4-1-1">Under BCs <span class="process-math">\(x(0) = x\left(\frac{\pi}{8}\right) = 0 \text{,}\)</span> we get a single unique solution as expected (existence and uniquness).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="diffeq-notes-3-1-8-1-1-4-2">
-<div class="para" id="diffeq-notes-3-1-8-1-1-4-2-1">Under BCs <span class="process-math">\(x(0) = x\left(\frac{\pi}{2}\right) = 0 \text{,}\)</span> we get infinitely-many solutions (existence only).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="diffeq-notes-3-1-8-1-1-4-3">
-<div class="para" id="diffeq-notes-3-1-8-1-1-4-3-1">Under BCs <span class="process-math">\(x(0) = 0, x\left(\frac{\pi}{2}\right) = 1 \text{,}\)</span> we get no solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1-4-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.5"><a tabindex="-1" href="#diffeq-notes-3-1-8" title="Copy heading and permalink for Example 3.1.5" aria-label="Copy heading and permalink for Example 3.1.5">🔗</a></div>
-</article></details>
-<div class="para" id="diffeq-notes-3-1-9">Recall an nth-order linear ODE is <em class="alert">homogeneous</em> if it has not forcing function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="definition definition-like" id="def-linearly-independent"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="para logical" id="def-linearly-independent-1-1">
-<div class="para">The functions <span class="process-math">\(f_1, f_2, \ldots, f_n\)</span> are said to be <em class="alert">linearly independent</em> on the interval <span class="process-math">\(I\)</span> provided</div>
-<div class="displaymath process-math" id="def-linearly-independent-1-1-4">
-\begin{equation*}
-c_1 f_1 + c_2 f_2 + \cdots + c_n f_n = 0 
-\end{equation*}
-</div>
-<div class="para">for all <span class="process-math">\(x \in I\)</span> only when <span class="process-math">\(c_1 = c_2 = \cdots = c_n = 0 \text{.}\)</span> Otherwise, we say the functions are <em class="alert">linearly dependent</em>.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-linearly-independent-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.6"><a tabindex="-1" href="#def-linearly-independent" title="Copy heading and permalink for Definition 3.1.6" aria-label="Copy heading and permalink for Definition 3.1.6">🔗</a></div>
-</article>
-<details id="diffeq-notes-3-1-11" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2></summary>
-<article class="example example-like knowl__content">
-<div class="para logical" id="diffeq-notes-3-1-11-1-1">
-<div class="para">The functions</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-11-1-1-1">
-\begin{equation*}
-f_1(x) = 1, f_2(x) = x, f_3(x) = 4-3x 
-\end{equation*}
-</div>
-<div class="para">are linearly dependent since</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-11-1-1-2">
-\begin{equation*}
-4 f_1(x) - 3 f_2(x) - f_3(x) = 0 
-\end{equation*}
-</div>
-<div class="para">for all <span class="process-math">\(x\text{.}\)</span> The functiond</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-11-1-1-4">
-\begin{equation*}
-g_1(x) = 1, g_2(x) = x, g_3(x) = x^2 
-\end{equation*}
-</div>
-<div class="para">are linearly independent, since the only way to guarantee</div>
-<div class="displaymath process-math" id="diffeq-notes-3-1-11-1-1-5">
-\begin{equation*}
-c_1 + c_2x + c_3x^2 = 0 
-\end{equation*}
-</div>
-<div class="para">for all <span class="process-math">\(x\)</span> is to take <span class="process-math">\(c_1 = c_2 = c_3 = 0 \text{.}\)</span>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 3.1.7"><a tabindex="-1" href="#diffeq-notes-3-1-11" title="Copy heading and permalink for Example 3.1.7" aria-label="Copy heading and permalink for Example 3.1.7">🔗</a></div>
-</article></details>
-<article class="definition definition-like" id="def-Wronskian"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="para logical" id="def-Wronskian-1-1">
-<div class="para">Let <span class="process-math">\(f_1, \ldots, f_n \)</span> be at least <span class="process-math">\(n-1\)</span> times differentiable. Their <em class="alert">Wronskian</em> is</div>
-<div class="displaymath process-math" id="def-Wronskian-1-1-4">
-\begin{equation*}
-W(f_1, \ldots, f_n) = \begin{vmatrix} f_1 \amp f_2 \amp \cdots \amp f_n \\ f_1' \amp f_2' \amp \cdots \amp f_n' \\ \vdots \amp \vdots \amp \ddots \amp \vdots \\ f^{(n-1)}_1 \amp f^{(n-1)}_2 \amp \cdots \amp f^{(n-1)}_n \end{vmatrix} 
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-Wronskian-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.8"><a tabindex="-1" href="#def-Wronskian" title="Copy heading and permalink for Definition 3.1.8" aria-label="Copy heading and permalink for Definition 3.1.8">🔗</a></div>
-</article>
-<article class="theorem theorem-like" id="thm-lin-indep-criteria"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="para" id="thm-lin-indep-criteria-1-1">The functions <span class="process-math">\(f_1, \ldots, f_n \)</span> are linearly-independent on <span class="process-math">\(I \)</span> if and only if their Wronskian is nonzero on <span class="process-math">\(I \text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-lin-indep-criteria-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.9"><a tabindex="-1" href="#thm-lin-indep-criteria" title="Copy heading and permalink for Theorem 3.1.9" aria-label="Copy heading and permalink for Theorem 3.1.9">🔗</a></div>
-</article>
-<article class="definition definition-like" id="def-fundamental-sols"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="para" id="def-fundamental-sols-1-1">Suppose <span class="process-math">\(y_1, \ldots, y_n \)</span> solve an nth-order homogeneous linear differential equation on <span class="process-math">\(I\text{.}\)</span> We call them <em class="alert">fundamental solutions</em> if they are lienarly independent.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-fundamental-sols-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 3.1.10"><a tabindex="-1" href="#def-fundamental-sols" title="Copy heading and permalink for Definition 3.1.10" aria-label="Copy heading and permalink for Definition 3.1.10">🔗</a></div>
-</article>
-<article class="theorem theorem-like" id="thm-existence-linear-homog"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="para" id="thm-existence-linear-homog-1-1">Every linear nth-order homogeneous ODE has a fundamental set of solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-existence-linear-homog-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.11"><a tabindex="-1" href="#thm-existence-linear-homog" title="Copy heading and permalink for Theorem 3.1.11" aria-label="Copy heading and permalink for Theorem 3.1.11">🔗</a></div>
-</article>
 <article class="theorem theorem-like" id="thm-general-sol-linear-homog"><h2 class="heading">
 <span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
@@ -464,7 +469,26 @@ y(x) = y_c + y_p.
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-general-sol-linear-nonhomog-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.14"><a tabindex="-1" href="#thm-general-sol-linear-nonhomog" title="Copy heading and permalink for Theorem 3.1.14" aria-label="Copy heading and permalink for Theorem 3.1.14">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Section 3.1: Existence &amp; Uniqueness for Linear ODEs"><a tabindex="-1" href="#diffeq-notes-3-1" title="Copy heading and permalink for Section 3.1: Existence &amp; Uniqueness for Linear ODEs" aria-label="Copy heading and permalink for Section 3.1: Existence &amp; Uniqueness for Linear ODEs">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="thm-ivp-existence"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Existence and Uniqueness of Solutions to IVPs.</span>
+</h2>
+<div class="para logical" id="thm-ivp-existence-2-1">
+<div class="para">Consider the <span class="process-math">\(n^{\text{th}}\)</span>-order linear IVP</div>
+<div class="displaymath process-math" id="thm-ivp-existence-2-1-2">
+\begin{align*}
+a_n(x) \deriv{^ny}{x^n} + a_{n-1}(x) \deriv{^{(n-1)}y}{x^{(n-1)}} + \cdots + a_1(x) \deriv{y}{x} + a_0(x) y = \amp f(x) \\
+y(x_0) = y_0, y'(x_0) = y_1, \ldots, y^{(n-1)}(x_0) = \amp  y_{n-1}. 
+\end{align*}
+</div>
+<div class="para">If <span class="process-math">\(a_n, \ldots, a_1, a_0\text{,}\)</span> and <span class="process-math">\(f\)</span> be continuous on an interval <span class="process-math">\(I\)</span> containing <span class="process-math">\(x_0\)</span> with the property that <span class="process-math">\(a_n(x) \neq 0\)</span> for all <span class="process-math">\(x \in I \text{.}\)</span> Then, there is a unique solution <span class="process-math">\(y\)</span> to the IVP.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-ivp-existence-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 3.1.15: Existence and Uniqueness of Solutions to IVPs"><a tabindex="-1" href="#thm-ivp-existence" title="Copy heading and permalink for Theorem 3.1.15: Existence and Uniqueness of Solutions to IVPs" aria-label="Copy heading and permalink for Theorem 3.1.15: Existence and Uniqueness of Solutions to IVPs">🔗</a></div>
+</article>
+<div class="para" id="diffeq-notes-3-1-19">Recall an nth-order linear ODE is <em class="alert">homogeneous</em> if it has not forcing function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-1-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Section 3.1: Existence &amp; Uniqueness for Linear ODEs"><a tabindex="-1" href="#diffeq-notes-3-1" title="Copy heading and permalink for Section 3.1: Existence &amp; Uniqueness for Linear ODEs" aria-label="Copy heading and permalink for Section 3.1: Existence &amp; Uniqueness for Linear ODEs">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
