@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-11" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 11 - Variation of Parameters </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, October 19</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write the formula for the varied parameter (<m>\mu_i</m>). 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Use variation of parameters to solve the differential equation <md> 2y'' + 2y' + y = 4\sqrt{x}. </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+        <statement>
+            <p>
+                Use variation of parameters to solve the differential equation <md> y''' + 4y' = \sec(2x). </md>
+            </p>
+        </statement>
+    </exercise>
+</worksheet> 

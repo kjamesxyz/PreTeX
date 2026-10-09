@@ -451,6 +451,42 @@ var ptx_lunr_docs = [
   "body": "  Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Use the method of undetermined coefficients to find a particular solution on .      Use your answers to parts (b)-(c) to find the general solution on .    "
 },
 {
+  "id": "diffeq-act-11",
+  "level": "1",
+  "url": "diffeq-act-11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 11 - Variation of Parameters",
+  "body": " 🏫 Activity 11 - Variation of Parameters   This activity is due at the beginning of class on Monday, October 19 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for the varied parameter ( ).       Use variation of parameters to solve the differential equation       Use variation of parameters to solve the differential equation     "
+},
+{
+  "id": "diffeq-act-11-3",
+  "level": "2",
+  "url": "diffeq-act-11.html#diffeq-act-11-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for the varied parameter ( ).    "
+},
+{
+  "id": "diffeq-act-11-4",
+  "level": "2",
+  "url": "diffeq-act-11.html#diffeq-act-11-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use variation of parameters to solve the differential equation    "
+},
+{
+  "id": "diffeq-act-11-5",
+  "level": "2",
+  "url": "diffeq-act-11.html#diffeq-act-11-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use variation of parameters to solve the differential equation    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",

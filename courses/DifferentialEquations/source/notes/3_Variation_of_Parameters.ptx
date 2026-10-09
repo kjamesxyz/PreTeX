@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-3-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Variation of Parameters </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Apply the variation of parameters formula to find particular solutions. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        Let us consider a more general approach to finding particular solutions to the differential equation <md> y'' + P(x)y' + Q(x)y = f(x).</md> Suppose we have found the fundamental solutions <m>y_1, y_2</m> already. It is reasonable to assume that a particular solution may have a similar form, but the complementary solution already accounts for any linear combination we could take of these functions. So instead, we will need to take a nonlinear combination of some kind. One way to think about this combination is by allowing the <alert> parameters to vary </alert> in our complementary solution. That is <md> y_c = c_1 y_1 + c_2 y_2 \implies y_p = \mu_1 y_1 + \mu_2 y_2. </md>
+    </p>
+
+    <p>
+        Suppose the particular solution does actually have this form. Substituting into the DE we get
+        <md>
+            <mrow> y_p'' + P(x) y_p' + Q(x) y \amp = [ \mu_1 y_1'' + 2\mu_1' y_1' + y_1 \mu_1'' + \mu_2y_2'' + 2\mu_2'y_2' + \mu_2''y_2 ] </mrow>
+            <mrow> \amp + P(x) [ \mu_1'y_1 + \mu_1 y_1' + \mu_2' y_2 + \mu_2 y_2' ] + Q(x) [\mu_1 y_1 + \mu_2 y_2]</mrow>
+            <mrow> \amp = \mu_1 [y_1'' + Py_1' + Qy_1] + \mu_2[y_2'' + Py_2' + Qy_2] </mrow>
+            <mrow> \amp + \mu_1''y_1 + \mu_1'y_1' + \mu_2''y_2 + \mu_2'y_2' + P[\mu_1'y_1 + \mu_2'y_2] + \mu_1'y_1' + \mu_2'y_2' </mrow>
+            <mrow> \amp = \deriv{}{x} [\mu_1' y_1 + \mu_2' y_2] + P[\mu_1' y_1 + \mu_2' y_2] + [\mu_1' y_1' + \mu_2' y_2'] </mrow>
+            <mrow> \amp = f(x)</mrow>
+        </md>
+    </p>
+
+    <p>
+        Without loss of generality, we can assume that <md> \mu_1' y_1 + \mu_2' y_2 = 0. </md> Taking this assumption would result in the work above simply reading <md> \mu_1' y_1' + \mu_2' y_2' = f(x).</md> In this way, we have built two equations for the unknowns <m>\mu_1', \mu_2'</m>. Using Cramer's rule to solve the system of equations gives <md> \mu_1' = \frac{W_1}{W} \ \text{and} \ \mu_2' = \frac{W_2}{W} </md> where <m> W </m> is the Wronskian of the fundamental solutions and <m>W_k</m> is the Wronskian with the <m>k</m>th column replaced by <m>\begin{bmatrix} 0 \amp 0 \amp \cdots \amp f(x) \end{bmatrix}^T </m>.  
+    </p>
+
+    <p>
+        Integrating one more time produces the particular solution <md> y_p = \mu_1 y_1 + \mu_2 y_2  = \left( \int \frac{W_1}{W} \, dx \right) y_1 + \left( \int \frac{W_2}{W} \, dx \right) y_2. </md> 
+    </p>
+
+
+
+    <example>
+        <statement>
+            <p>
+                Solve <md> y'' + y = \tan(x) </md> with varation of parameters. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We need to compute the complementary solution first. Notice the characteristic polynomial is <md> \lambda^2 + 1 </md> which has roots <m>\lambda = \pm i</m>. Hence, the complementary solution is <md> c_1 \cos(x) + c_2 \sin(x) </md>. Now that we have the fundamental solutions, we can compute the Wronskians we need in order to solve with variation of parameters. They are 
+                <md>
+                    <mrow> W \amp = \begin{vmatrix} \sin(x) \amp \cos(x) \\ \cos(x) \amp -\sin(x) \end{vmatrix} \amp = 1 </mrow>
+                    <mrow> W_1 \amp = \begin{vmatrix} 0 \amp \cos(x) \\ \tan(x) \amp -\sin(x) \end{vmatrix} \amp = -\sin(x) </mrow>
+                    <mrow> W_2 \amp = \begin{vmatrix} \sin(x) \amp 0 \\ \cos(x) \amp \tan(x) \end{vmatrix} \amp = \sec(x)\tan(x) </mrow>
+                </md>
+                Thus, we can compute 
+                <md>
+                    <mrow>\mu_1 \amp = \int \frac{W_1}{W} \, dx = \int -\sin(x) \, dx = \cos(x) </mrow>
+                    <mrow>\mu_2 \amp = \int \frac{W_2}{W} \, dx = \int \sec(x)\tan(x) \, dx = \sec(x)</mrow>
+                </md>
+                Therefore, the particular solution is <md> y_p(x) = \cos^2(x) + \tan(x) </md> and the general solution is <md> y(x) = c_1 \cos(x) + c_2 \sin(x) + \cos^2(x) + \tan(x). </md> 
+                
+            </p>
+        </solution>
+    </example>
+</section>
