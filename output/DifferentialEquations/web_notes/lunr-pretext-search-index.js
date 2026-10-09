@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Reduction of Order",
-  "body": " Reduction of Order    Students will be able to...    Use reduction of order techniques to find additional solutions of ODEs.    Consider a 2nd-order linear ODE. If we know one solution , we can use it to obtain a second solution that is linearly-indpendent using a process called reduction of order .    Given that solves the problem on , find another solution.    "
+  "body": " Reduction of Order    Students will be able to...    Use reduction of order techniques to find additional solutions of ODEs.    Consider a 2nd-order linear ODE. If we know one solution , we can use it to obtain a second solution that is linearly-indpendent using a process called reduction of order .    Given that solves the problem on , find another solution.    We assume that another solution likely has a similar form to . But it may be that . This would mean Assume it has this form and is a solution to the problem on . Then we have There are no values that can make , so it must be that In this way, we have created a new differential equation to help us find . We can reduce the order of this equation by writing . The equation then becomes . This linear first-order equation has the solution Therefore, the second solution to the original differential equation is    Note: We started from a particular solution and obtained another particular solution. We do not need to track constants of integration in this case.    "
 },
 {
   "id": "diffeq-notes-3-2-2",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.2.1",
   "title": "",
-  "body": "  Given that solves the problem on , find another solution.   "
+  "body": "  Given that solves the problem on , find another solution.    We assume that another solution likely has a similar form to . But it may be that . This would mean Assume it has this form and is a solution to the problem on . Then we have There are no values that can make , so it must be that In this way, we have created a new differential equation to help us find . We can reduce the order of this equation by writing . The equation then becomes . This linear first-order equation has the solution Therefore, the second solution to the original differential equation is    Note: We started from a particular solution and obtained another particular solution. We do not need to track constants of integration in this case.   "
 },
 {
   "id": "diffeq-notes-3-3",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Method of Characteristics",
-  "body": " Method of Characteristics    Students will be able to...    Use the method of characteristics to find fundamental solutions to linear homogeneous ODEs.    Consider the ODE We have seen that exponentials often work out for us, so assuming the solution has the form would give . Seeing that for all , our problem boils down to solving the quadratic equation     The characteristic equation for the ODE is when we exchange derivative order for algebraic degree.    Naturally, since we are solving a quadratic equation, we may have the following cases.   Distinct real roots: we get    Repeated real roots: we get .   Complex conjugate roots: we get     "
+  "body": " Method of Characteristics    Students will be able to...    Use the method of characteristics to find fundamental solutions to linear homogeneous ODEs.    Consider the ODE We have seen that exponentials often work out for us, so assuming the solution has the form would give . Seeing that for all , our problem boils down to solving the quadratic equation     The characteristic equation for the ODE is when we exchange derivative order for algebraic degree.    Naturally, since we are solving a quadratic equation, we may have the following cases.   Distinct real roots: we get . This follows immediately.   Repeated real roots: we get . This follows from a reduction of order.   Complex conjugate roots: we get This follows from Euler's formula.    "
 },
 {
   "id": "diffeq-notes-3-3-2",
@@ -584,6 +584,69 @@ var ptx_lunr_docs = [
   "number": "3.3.1",
   "title": "",
   "body": "  The characteristic equation for the ODE is when we exchange derivative order for algebraic degree.   "
+},
+{
+  "id": "diffeq-notes-3-4",
+  "level": "1",
+  "url": "diffeq-notes-3-4.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Method of Undetermined Coefficients",
+  "body": " Method of Undetermined Coefficients    Students will be able to...    Determine appropriate trial functions for the method of undetermined coefficients.  Determine appropriate annihilators for the method of undetermined coefficients.  Use the method of undetermined coefficients to solve nonhomogeneous linear ODEs.      Solve using undetermined coefficients.    Recall that the general solution has the form . Hence, with all nonhomogeneous linear ODEs, we must first start by solving the complementary equation The roots of the characteristic polynomial are . Hence, the complementary solution is Next, we need to find the particular solution. Notice that our complementary solution has no way of generating a term that looks like as we take its derivatives. This tells us there must be some other piece of the puzzle contained by our particular solution. Intuition would tell us that we should have a linear component to our solution, so we might try a solution of the form . This would give From this one equation, we can build two equations to solve for our undetermine coefficients. The coefficients on the linear terms should match, so and we should not have a constant term, so Therefore, the particular solution is and the general solution is      Notes: It can be difficult to pick the form of the trial solution. Some general advice is summarized below.   For any term that appears in the forcing function, include the most general form of that term. For example, if a second-degree polynomial appears in the forcing function, include in your trial function.    Do not explicitly repeat terms that already appear in the complementary solution. For example, if your forcing function has a term with an , but your complementary solution already has a term, it would be redundant to include it in the trial solution. Instead, multiply it by a power of in the same way you would for a repeated root in the complementary solution. In the example above, you may try instead.       The differential operator is an annihilator for the function provided for all .      The operator annihilates all polynomials of degree less than . The operator annihilates functions of the form where .      Find an annihilator for .    The operator annihilates.      Redo with annihilators.    With either solution method, we need to first find the complementary solution, which was Note that the differential operator annihilates the forcing function. So, we apply it to both sides of the differential equation In this way we have turned our second-order inhomogeneous problem into a fourth-order homogeneous problem. We still apply the method of characteristics, but this time obtain This would suggest that the answer is But we already know the first two terms come from the complementary solution. Thus, it must be that the particular solution has the form . In this way, annihilators have shown us the form of the particular solution.    "
+},
+{
+  "id": "diffeq-notes-3-4-2",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#diffeq-notes-3-4-2",
+  "type": "Objectives",
+  "number": "3.4",
+  "title": "",
+  "body": "  Students will be able to...    Determine appropriate trial functions for the method of undetermined coefficients.  Determine appropriate annihilators for the method of undetermined coefficients.  Use the method of undetermined coefficients to solve nonhomogeneous linear ODEs.   "
+},
+{
+  "id": "diffeq-notes-3-4-example-1",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#diffeq-notes-3-4-example-1",
+  "type": "Example",
+  "number": "3.4.1",
+  "title": "",
+  "body": "  Solve using undetermined coefficients.    Recall that the general solution has the form . Hence, with all nonhomogeneous linear ODEs, we must first start by solving the complementary equation The roots of the characteristic polynomial are . Hence, the complementary solution is Next, we need to find the particular solution. Notice that our complementary solution has no way of generating a term that looks like as we take its derivatives. This tells us there must be some other piece of the puzzle contained by our particular solution. Intuition would tell us that we should have a linear component to our solution, so we might try a solution of the form . This would give From this one equation, we can build two equations to solve for our undetermine coefficients. The coefficients on the linear terms should match, so and we should not have a constant term, so Therefore, the particular solution is and the general solution is    "
+},
+{
+  "id": "def-annihilator",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#def-annihilator",
+  "type": "Definition",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  The differential operator is an annihilator for the function provided for all .   "
+},
+{
+  "id": "thm-annihilator-rules",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#thm-annihilator-rules",
+  "type": "Theorem",
+  "number": "3.4.3",
+  "title": "",
+  "body": "  The operator annihilates all polynomials of degree less than . The operator annihilates functions of the form where .   "
+},
+{
+  "id": "diffeq-notes-3-4-7",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#diffeq-notes-3-4-7",
+  "type": "Example",
+  "number": "3.4.4",
+  "title": "",
+  "body": "  Find an annihilator for .    The operator annihilates.   "
+},
+{
+  "id": "diffeq-notes-3-4-8",
+  "level": "2",
+  "url": "diffeq-notes-3-4.html#diffeq-notes-3-4-8",
+  "type": "Example",
+  "number": "3.4.5",
+  "title": "",
+  "body": "  Redo with annihilators.    With either solution method, we need to first find the complementary solution, which was Note that the differential operator annihilates the forcing function. So, we apply it to both sides of the differential equation In this way we have turned our second-order inhomogeneous problem into a fourth-order homogeneous problem. We still apply the method of characteristics, but this time obtain This would suggest that the answer is But we already know the first two terms come from the complementary solution. Thus, it must be that the particular solution has the form . In this way, annihilators have shown us the form of the particular solution.   "
 }
 ]
 
