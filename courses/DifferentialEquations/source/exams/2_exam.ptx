@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="exam2">
+    <title>Exam 2 - MATH-262-01</title>
+
+    <p>
+        <alert>Instructions:</alert> You have 110 minutes to take this exam. Please answer each question in the space provided. Answers without justification may <alert> earn no credit </alert>. You are permitted your signed prep work journal and a calculator on this exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
+    </p>
+
+    <exercise>
+        <statement>
+            <p>
+                Interpret a slope field
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Build a slope field
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Model with a 2nd order.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Solve with undetermined coeffs
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Solve with var of params.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Show annihilator
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>

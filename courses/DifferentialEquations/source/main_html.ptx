@@ -29,6 +29,7 @@
             <xi:include href="./activities/9_activity_homog_eqns.ptx" />
             <xi:include href="./activities/10_activity_undetermined_coeffs.ptx" />
             <xi:include href="./activities/11_activity_var_of_params.ptx"/>
+            <xi:include href="./activities/12_activity_modeling.ptx"/>
         </chapter>
 
         <chapter xml:id="diffeq-hw">

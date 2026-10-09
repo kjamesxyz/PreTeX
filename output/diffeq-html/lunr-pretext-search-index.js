@@ -496,6 +496,15 @@ var ptx_lunr_docs = [
   "body": "  Use variation of parameters to solve the differential equation    "
 },
 {
+  "id": "diffeq-act-12",
+  "level": "1",
+  "url": "diffeq-act-12.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 12 - Modelling with ODEs",
+  "body": " 🏫 Activity 12 - Modelling with ODEs  During class on Monday, October 19 , we played a game wherein your teams were tasked with building the best model you could afford. The points for this activity were earned in-class and cannot be made-up at this time.  "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
