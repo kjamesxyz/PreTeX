@@ -17,7 +17,7 @@
     </objectives>
 
 
-    <example>
+    <example xml:id="diffeq-notes-3-4-example-1">
         <statement>
             <p>
                 Solve <md> y'' + y' - 6y = 2x </md> using undetermined coefficients. 
@@ -30,6 +30,24 @@
             </p>
         </solution>
     </example>
+
+    <p>
+        <alert>Notes:</alert> It can be difficult to pick the form of the trial solution. Some general advice is summarized below.
+        <ul>
+            <li>
+                <p>
+                    For any term that appears in the forcing function, include the most general form of that term. For example, if a second-degree polynomial appears in the forcing function, include <m>Ax^2 + Bx + C</m> in your trial function. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Do not explicitly repeat terms that already appear in the complementary solution. For example, if your forcing function has a term with an <m>e^{2x}</m>, but your complementary solution already has a <m>ce^{2x}</m> term, it would be redundant to include it in the trial solution. Instead, multiply it by a power of <m>x</m> in the same way you would for a repeated root in the complementary solution. In the example above, you may try <m>Axe^{2x}</m> instead.
+                </p>
+            </li>
+
+            
+        </ul>
+    </p>
 
     <definition xml:id="def-annihilator">
         <statement>
@@ -64,9 +82,22 @@
     <example>
         <statement>
             <p>
-                Redo earlier example with annihilators. 
+                Redo <xref ref="diffeq-notes-3-4-example-1"/> with annihilators. 
             </p>
         </statement>
+
+        <solution>
+            <p>
+                With either solution method, we need to first find the complementary solution, which was <md> y_c(x) = c_1 e^{-3x} + c_2 e^{2x}. </md> Note that the differential operator <m> \cal{D}^2 </m> annihilates the forcing function. So, we apply it to both sides of the differential equation 
+                <md>
+                    <mrow> \cal{D}^2 [ y'' + y' - 6y ] = \amp \cal{D}^2 [2x] \implies </mrow>
+                    <mrow> \cal{D}^2 [ \cal{D}^2 + \cal{D} - 6 ] y = \amp 0 \implies </mrow>
+                    <mrow> (\cal{D}^4 + \cal{D}^3 - 6\cal{D}^2)y = \amp 0 \implies </mrow>
+                    <mrow> y^{(4)} + y^{(3)} - 6y'' = \amp 0 </mrow>
+                </md>
+                In this way we have turned our second-order inhomogeneous problem into a fourth-order homogeneous problem. We still apply the method of characteristics, but this time obtain <md> \lambda^4 + \lambda^3 - 6\lambda^2 = \lambda^2(\lambda + 3)(\lambda - 2) = 0 \implies \lambda = 2,3,0,0. </md> This would suggest that the answer is <md> y(x) = c_1 e^{-3x} + c_2e^{2x} + c_3 + c_4x. </md> But we already know the first two terms come from the complementary solution. Thus, it must be that the particular solution has the form <m>c_3 + c_4 x </m>. In this way, annihilators have shown us the form of the particular solution. 
+            </p>
+        </solution>
     </example>
     
 

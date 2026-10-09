@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-10" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 10 - Method of Undetermined Coefficients </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Wednesday, October 14</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Our course textbook has a table of examples for choosing trial solutions. Copy table 4.1 (on page 144) into your prep work journal. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Our course textbook has three suggestions for choosing annihilators. Copy equations (3), (5), and (7) from section 4.5 (on pgs. 150-151) into your prep work journal. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="0.5in">
+        <statement>
+            <p>
+                Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the problem <md> y'' - 2y' + 10y = g(x); \ y(0) = y'(0) = 0 </md> where <md> g(x) = \begin{cases} 20 \amp 0 \leq x \leq \pi; \\ 0 \amp x \gt \pi. \end{cases} </md> 
+            </p>
+        </introduction>
+    
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Find the complementary solution.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the method of undetermined coefficients to find a particular solution on <m>(0,\pi)</m>.
+                </p>
+            </statement>
+        </task>
+        
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the method of undetermined coefficients to find a particular solution on <m>(\pi,\infty)</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your answers to parts (b)-(c) to find the general solution on <m>(0,\infty)</m>. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet> 

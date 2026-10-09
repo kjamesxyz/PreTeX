@@ -24,6 +24,26 @@
                 Given that <m>y_1(x) = e^x </m> solves the problem <m>y'' - y = 0</m> on <m>(-\infty, \infty)</m>, find another solution. 
             </p>
         </statement>
+
+        <solution>
+            <p>
+                We assume that another solution likely has a similar form to <m>y_1</m>. But it may be that <m>y_2 := u(x)e^x </m>. This would mean
+                <md>
+                    <mrow> y_2' \amp = \deriv{}{x} [ u(x) e^x] = u'(x) e^x + u(x)e^x </mrow>
+                    <mrow> \implies y_2'' \amp \deriv{}{x}[y_2'] = u''(x) e^x + 2u'(x) e^x + u(x)e^x </mrow>
+                </md>
+                Assume it has this form and is a solution to the problem on <m>(-\infty,\infty)</m>. Then we have
+                <md>
+                    y'' - y = u''(x) e^x + 2u'(x) e^x = (u'' + 2u')e^x = 0. 
+                </md>
+                There are no <m>x</m> values that can make <m>e^x = 0</m>, so it must be that <md> u'' + 2u' = 0.</md> In this way, we have created a new differential equation to help us find <m>u</m>. We can <alert> reduce the order </alert> of this equation by writing <m>v(x) = u'(x)</m>. The equation then becomes <md> v' + 2v = 0 </md>. This linear first-order equation has the solution <md> v(x) = e^{2x} \implies u(x) = \int e^{2x}\, dx \implies u(x) = \frac{1}{2}e^{2x}. </md> Therefore, the second solution to the original differential equation is <md> y_2(x) = \left(\frac{1}{2}e^{2x}\right) \cdot e^x = \frac{1}{2} e^{3x}. </md>
+                
+            </p>
+
+            <p>
+                <alert>Note:</alert> We started from a particular solution and obtained another particular solution. We do not need to track constants of integration in this case. 
+            </p>
+        </solution>
     </example>
 
 </section>

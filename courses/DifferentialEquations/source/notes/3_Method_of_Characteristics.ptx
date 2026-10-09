@@ -30,9 +30,9 @@
         Naturally, since we are solving a quadratic equation, we may have the following cases. 
 
         <ol> 
-            <li><p> <alert> Distinct real roots: </alert> we get <m>y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x} </m> </p></li> 
-            <li><p> <alert> Repeated real roots: </alert> we get <m> y(x) = c_1e^{\lambda x} + c_2 e^{\lambda x} </m>. </p></li>
-            <li><p> <alert> Complex conjugate roots: </alert> we get <m>y(x) = e^{\text{Re}(\lambda) x} \left(c_1 \sin(\text{Im}(\lambda)x) + c_2 \cos(\text{Im}(\lambda)x) \right). </m> </p></li> 
+            <li><p> <alert> Distinct real roots: </alert> we get <m>y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x} </m>. This follows immediately. </p></li> 
+            <li><p> <alert> Repeated real roots: </alert> we get <m> y(x) = c_1e^{\lambda x} + c_2 x e^{\lambda x} </m>. This follows from a reduction of order. </p></li>
+            <li><p> <alert> Complex conjugate roots: </alert> we get <m>y(x) = e^{\text{Re}(\lambda) x} \left(c_1 \sin(\text{Im}(\lambda)x) + c_2 \cos(\text{Im}(\lambda)x) \right). </m> This follows from Euler's formula. </p></li> 
         </ol>
     </p>
 

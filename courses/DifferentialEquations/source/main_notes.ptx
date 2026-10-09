@@ -32,6 +32,7 @@
             <xi:include href="./notes/3_Existence.ptx" />
             <xi:include href="./notes/3_Reduction_of_Order.ptx" />
             <xi:include href="./notes/3_Method_of_Characteristics.ptx" />
+            <xi:include href="./notes/3_Undetermined_Coeffs.ptx" />
         </chapter>
 
     </book>

@@ -415,6 +415,42 @@ var ptx_lunr_docs = [
   "body": "  In the case we have a complex conjugate pair as roots to a characteristic equation, we have seen that     Write the fundamental solutions for this case as shown in class.       Euler's formula is a famous mathematical result that shows Apply Euler's formula to the expression .      We can equivalently write our general solution as Use your work from part (b) to write expand in terms of sines and cosines.      Find a clever choice of parameters that can give the two fundamental solutions you wrote in part (a).    "
 },
 {
+  "id": "diffeq-act-10",
+  "level": "1",
+  "url": "diffeq-act-10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 10 - Method of Undetermined Coefficients",
+  "body": " 🏫 Activity 10 - Method of Undetermined Coefficients   This activity is due at the beginning of class on Wednesday, October 14 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Our course textbook has a table of examples for choosing trial solutions. Copy table 4.1 (on page 144) into your prep work journal.      Our course textbook has three suggestions for choosing annihilators. Copy equations (3), (5), and (7) from section 4.5 (on pgs. 150-151) into your prep work journal.       Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients.      Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Use the method of undetermined coefficients to find a particular solution on .      Use your answers to parts (b)-(c) to find the general solution on .     "
+},
+{
+  "id": "diffeq-act-10-3",
+  "level": "2",
+  "url": "diffeq-act-10.html#diffeq-act-10-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Our course textbook has a table of examples for choosing trial solutions. Copy table 4.1 (on page 144) into your prep work journal.      Our course textbook has three suggestions for choosing annihilators. Copy equations (3), (5), and (7) from section 4.5 (on pgs. 150-151) into your prep work journal.    "
+},
+{
+  "id": "diffeq-act-10-4",
+  "level": "2",
+  "url": "diffeq-act-10.html#diffeq-act-10-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients.   "
+},
+{
+  "id": "diffeq-act-10-5",
+  "level": "2",
+  "url": "diffeq-act-10.html#diffeq-act-10-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Use the method of undetermined coefficients to find a particular solution on .      Use your answers to parts (b)-(c) to find the general solution on .    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
