@@ -33,10 +33,18 @@
         </task>
     </exercise>
 
-    <exercise workspace="0.5in">
+    <exercise workspace="0.25in">
         <statement>
             <p>
                 Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Show that <m>[\cal{D}^2 - 2 \alpha \cal{D} + (\alpha^2 + \beta^2)]^2</m> annihilates functions of the form <m>xe^{ax}[\cos(\beta x) + \sin(\beta x)]</m> for any real constants <m>\alpha, \beta</m>. 
             </p>
         </statement>
     </exercise>
@@ -57,7 +65,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Use the method of undetermined coefficients to find a particular solution on <m>(0,\pi)</m>.
@@ -65,10 +73,10 @@
             </statement>
         </task>
         
-        <task workspace="1in">
+        <task workspace="0.25in">
             <statement>
                 <p>
-                    Use the method of undetermined coefficients to find a particular solution on <m>(\pi,\infty)</m>. 
+                    Apply the initial conditions to find the solution to the IVP on <m>(0,\pi)</m>. 
                 </p>
             </statement>
         </task>
@@ -76,9 +84,31 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Use your answers to parts (b)-(c) to find the general solution on <m>(0,\infty)</m>. 
+                    Find the general solution to the ODE on <m>(\pi,\infty)</m>. Explain why we cannot apply our initial conditions to this problem.
                 </p>
             </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Let <m>y_1</m> be the solution you found on <m>(0,\pi)</m> and let <m>y_2</m> be the solution you found on <m>(\pi,\infty)</m>. Explain why neither <m>y_1</m> nor <m>y_2</m> are solutions on <m>(0,\infty)</m>. 
+                </p>
+            </statement>
+        </task>
+        
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use <m>y_1, y_2</m> to create a solution <m>y</m> on <m>(0,\infty)</m>.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    Consider defining your solution piecewise to match <m>y_1</m> on <m>(0,\pi)</m> and <m>y_2</m> on <m>(\pi,\infty)</m>. 
+                </p>
+            </hint>
         </task>
     </exercise>
 </worksheet> 

@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "🏫 Activity 10 - Method of Undetermined Coefficients",
-  "body": " 🏫 Activity 10 - Method of Undetermined Coefficients   This activity is due at the beginning of class on Wednesday, October 14 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Our course textbook has a table of examples for choosing trial solutions. Copy table 4.1 (on page 144) into your prep work journal.      Our course textbook has three suggestions for choosing annihilators. Copy equations (3), (5), and (7) from section 4.5 (on pgs. 150-151) into your prep work journal.       Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients.      Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Use the method of undetermined coefficients to find a particular solution on .      Use your answers to parts (b)-(c) to find the general solution on .     "
+  "body": " 🏫 Activity 10 - Method of Undetermined Coefficients   This activity is due at the beginning of class on Wednesday, October 14 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Our course textbook has a table of examples for choosing trial solutions. Copy table 4.1 (on page 144) into your prep work journal.      Our course textbook has three suggestions for choosing annihilators. Copy equations (3), (5), and (7) from section 4.5 (on pgs. 150-151) into your prep work journal.       Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients.      Show that annihilates functions of the form for any real constants .      Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Apply the initial conditions to find the solution to the IVP on .      Find the general solution to the ODE on . Explain why we cannot apply our initial conditions to this problem.      Let be the solution you found on and let be the solution you found on . Explain why neither nor are solutions on .      Use to create a solution on .    Consider defining your solution piecewise to match on and on .     "
 },
 {
   "id": "diffeq-act-10-3",
@@ -448,7 +448,16 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Use the method of undetermined coefficients to find a particular solution on .      Use your answers to parts (b)-(c) to find the general solution on .    "
+  "body": "  Show that annihilates functions of the form for any real constants .   "
+},
+{
+  "id": "diffeq-act-10-6",
+  "level": "2",
+  "url": "diffeq-act-10.html#diffeq-act-10-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider the problem where      Find the complementary solution.      Use the method of undetermined coefficients to find a particular solution on .      Apply the initial conditions to find the solution to the IVP on .      Find the general solution to the ODE on . Explain why we cannot apply our initial conditions to this problem.      Let be the solution you found on and let be the solution you found on . Explain why neither nor are solutions on .      Use to create a solution on .    Consider defining your solution piecewise to match on and on .    "
 },
 {
   "id": "diffeq-act-11",
@@ -674,6 +683,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Find the general solution to    "
+},
+{
+  "id": "diffeq-hw6",
+  "level": "1",
+  "url": "diffeq-hw6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 6",
+  "body": " 📝 Homework 6    Instructions: This assignment is due Wednesday, October 21 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-35 (odds) in Exercises 4.4 (pg. 148-149)  Problems 1-63 (odds) in Exercises 4.5 (pg. 156-157)  Problems 1-21 (odds) in Exercises 4.6 (pg. 161-162)       Solve the IVP using the method of undetermined coefficients by taking the superposition approach.      Solve using the method of undetermined coefficients by taking the annihilator approach.      Solve using variation of parameters.    "
+},
+{
+  "id": "diffeq-hw6-3",
+  "level": "2",
+  "url": "diffeq-hw6.html#diffeq-hw6-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the IVP using the method of undetermined coefficients by taking the superposition approach.   "
+},
+{
+  "id": "diffeq-hw6-4",
+  "level": "2",
+  "url": "diffeq-hw6.html#diffeq-hw6-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve using the method of undetermined coefficients by taking the annihilator approach.   "
+},
+{
+  "id": "diffeq-hw6-5",
+  "level": "2",
+  "url": "diffeq-hw6.html#diffeq-hw6-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve using variation of parameters.   "
 }
 ]
 

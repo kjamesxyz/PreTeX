@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw6">
+    <title>📝 Homework 6 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 21</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 1-35 (odds) in Exercises 4.4 (pg. 148-149)</p></li>
+                <li><p> Problems 1-63 (odds) in Exercises 4.5 (pg. 156-157)</p></li>
+                <li><p> Problems 1-21 (odds) in Exercises 4.6 (pg. 161-162)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Solve the IVP <md> z'' + z = 2e^{-t}; \ z(0) = z'(0) = 0 </md> using the method of undetermined coefficients by taking the <q>superposition</q> approach. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Solve <md> \ddot{x} - 3\dot{x} + 2x = e^t \sin(t) </md> using the method of undetermined coefficients by taking the <q>annihilator</q> approach. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+        <statement>
+            <p>
+                Solve <md> \deriv{^2y}{x^2} - 6\deriv{y}{x} + 9y = x^{-3}e^{3x} </md> using variation of parameters. 
+            </p>
+        </statement>
+    </exercise>
+</worksheet>
