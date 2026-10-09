@@ -647,6 +647,33 @@ var ptx_lunr_docs = [
   "number": "3.4.5",
   "title": "",
   "body": "  Redo with annihilators.    With either solution method, we need to first find the complementary solution, which was Note that the differential operator annihilates the forcing function. So, we apply it to both sides of the differential equation In this way we have turned our second-order inhomogeneous problem into a fourth-order homogeneous problem. We still apply the method of characteristics, but this time obtain This would suggest that the answer is But we already know the first two terms come from the complementary solution. Thus, it must be that the particular solution has the form . In this way, annihilators have shown us the form of the particular solution.   "
+},
+{
+  "id": "diffeq-notes-3-5",
+  "level": "1",
+  "url": "diffeq-notes-3-5.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Variation of Parameters",
+  "body": " Variation of Parameters    Students will be able to...    Apply the variation of parameters formula to find particular solutions.    Let us consider a more general approach to finding particular solutions to the differential equation Suppose we have found the fundamental solutions already. It is reasonable to assume that a particular solution may have a similar form, but the complementary solution already accounts for any linear combination we could take of these functions. So instead, we will need to take a nonlinear combination of some kind. One way to think about this combination is by allowing the parameters to vary in our complementary solution. That is   Suppose the particular solution does actually have this form. Substituting into the DE we get   Without loss of generality, we can assume that Taking this assumption would result in the work above simply reading In this way, we have built two equations for the unknowns . Using Cramer's rule to solve the system of equations gives where is the Wronskian of the fundamental solutions and is the Wronskian with the th column replaced by .  Integrating one more time produces the particular solution     Solve with varation of parameters.    We need to compute the complementary solution first. Notice the characteristic polynomial is which has roots . Hence, the complementary solution is . Now that we have the fundamental solutions, we can compute the Wronskians we need in order to solve with variation of parameters. They are Thus, we can compute Therefore, the particular solution is and the general solution is     "
+},
+{
+  "id": "diffeq-notes-3-5-2",
+  "level": "2",
+  "url": "diffeq-notes-3-5.html#diffeq-notes-3-5-2",
+  "type": "Objectives",
+  "number": "3.5",
+  "title": "",
+  "body": "  Students will be able to...    Apply the variation of parameters formula to find particular solutions.   "
+},
+{
+  "id": "diffeq-notes-3-5-7",
+  "level": "2",
+  "url": "diffeq-notes-3-5.html#diffeq-notes-3-5-7",
+  "type": "Example",
+  "number": "3.5.1",
+  "title": "",
+  "body": "  Solve with varation of parameters.    We need to compute the complementary solution first. Notice the characteristic polynomial is which has roots . Hence, the complementary solution is . Now that we have the fundamental solutions, we can compute the Wronskians we need in order to solve with variation of parameters. They are Thus, we can compute Therefore, the particular solution is and the general solution is    "
 }
 ]
 
