@@ -16,7 +16,7 @@
         </p>
     </introduction>
 
-    <exercise workspace="1.5in">
+    <exercise workspace="2.5in">
         <statement>
             <p>
                 Solve the IVP <md> z'' + z = 2e^{-t}; \ z(0) = z'(0) = 0 </md> using the method of undetermined coefficients by taking the <q>superposition</q> approach. 
