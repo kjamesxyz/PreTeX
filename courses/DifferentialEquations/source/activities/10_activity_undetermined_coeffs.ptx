@@ -33,7 +33,7 @@
         </task>
     </exercise>
 
-    <exercise workspace="0.25in">
+    <exercise workspace="0.5in">
         <statement>
             <p>
                 Explain the difference between the superposition and annihilator approach for the method of undetermined coefficients. 
@@ -44,7 +44,7 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                Show that <m>[\cal{D}^2 - 2 \alpha \cal{D} + (\alpha^2 + \beta^2)]^2</m> annihilates functions of the form <m>xe^{ax}[\cos(\beta x) + \sin(\beta x)]</m> for any real constants <m>\alpha, \beta</m>. 
+                Show that <m>[\cal{D}^2 - 2 \cal{D} + 2]</m> annihilates functions of the form <m>e^{x}[\cos(x) + \sin(x)]</m>. 
             </p>
         </statement>
     </exercise>
