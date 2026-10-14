@@ -24,7 +24,7 @@
         </statement>
     </exercise>
 
-    <exercise workspace="2in">
+    <exercise workspace="2.5in">
         <statement>
             <p>
                 Solve <md> \ddot{x} - 3\dot{x} + 2x = e^t \sin(t) </md> using the method of undetermined coefficients by taking the <q>annihilator</q> approach. 
