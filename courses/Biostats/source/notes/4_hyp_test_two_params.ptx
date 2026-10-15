@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-4-4-hyp-test-two-params" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Hypothesis Testing on Two Parameters</title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Conduct hypothesis tests on multiple proportions. </p></li>
+            <li><p> Conduct hypothesis tests on multiple means. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-independence">
+        <statement>
+            <p>
+                We say two random variables are <alert> independent </alert> if the outcome of one variable gives no information about the outcome of another. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Consider rolling two fair six-sided dice. The outcome for each die is independent of the other die. Consider pulling two cards from a deck without replacement. These are not indepednent.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-sampling-dist-2-props">
+        <statement>
+            <p>
+                Let <m>X_1,X_2</m> be independent random variables. Let <m>\hat{p}_1</m> be a proportion from a sample of size <m>n_1</m> from <m>X_1</m> and let <m>\hat{p}_2</m> be a proportion from a sample of size <m>n_2</m> from <m>X_2</m>. Then <md> (\hat{p}_1 - \hat{p}_2) \sim \cal{N}\left( \tilde{p}, \sqrt{\tilde{p}(1-\tilde{p}) \left( \frac{1}{n_1} + \frac{1}{n_2} \right)} \right), </md> where <md> \tilde{p} = \frac{n_1 \hat{p}_1 + n_2 \hat{p}_2}{n_1 + n_2} = \frac{\text{Total successes}}{\text{Total sample size}} </md> is called the <alert> pooled proportion </alert>. 
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                A random sample of 747 men and 434 women were asked if they order vegetarian meal options when dining out. Results showed that 276 men and 195 women responded yes. The conductor of the survey claims that women are more likely to order vegetarian meal options when dining out. Test the claim with 5% significance.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                According to their survey, we have <md> \hat{p}_{\text{men}} = \frac{276}{747} \approx 0.3695 \ \text{and} \ \hat{p}_{\text{women}} = \frac{195}{434} \approx 0.4493. </md> Moreover, the pooled proportion is <md> \tilde{p} = \frac{276+195}{747+434} = 0.3988. </md> They assert 
+                <md>
+                    <mrow> H_0 \amp p_{\text{men}} \leq p_{\text{women}} \implies p_{\text{men}} - p_{\text{women}} \leq 0 </mrow>
+                    <mrow> H_1 \amp p_{\text{men}} \gt p_{\text{women}} \implies p_{\text{men}} - p_{\text{women}} \gt 0 </mrow>
+                </md>
+                Note that our point estimate, then, is the difference <md> \hat{p}_{\text{men}} - \hat{p}_{\text{women}} = -0.0798. </md> This means the sampling distribution for the difference in proporitons is 
+                <md> 
+                    <mrow> \hat{p}_{\text{men}} - \hat{p}_{\text{women}} \amp \sim \cal{N} \left( 0.3988, \sqrt{0.3988(1-0.3988)\left(\frac{1}{747} + \frac{1}{434} \right)} \right) </mrow> 
+                    <mrow> \amp = \cal{N}(0.3988,0.0296). </mrow> 
+                </md> 
+                Notice this is a <alert>one-tailed test</alert>. So we only really need to consider one end of the confidence interval. In other words, we can allow the full 5% to fall in a single tail, giving <m>Z^*=1.64</m>. Hence, the margin of error is <md>ME = Z^* \cdot SE = 0.0485</md> This gives the confidence interval <md> [ p_{\text{men}} - p_{\text{women}} - ME, p_{\text{men}} - p_{\text{women}} + ME ] = [-0.0485, 0.0485].</md> For the purposes of this test, we only care if the difference is significantly high (&gt;). So we can think of the confidence interval as being <m>(-\infty,0.0485]</m>. In this case, out point estimate falls outside of the confidence interval. Hence, there is sufficient evidence to reject <m>H_0</m>. That is, we are 95% confident that men are less likely than women to order vegetarian meal options when dining out.
+            </p>
+        </solution>
+    </example>
+
+    <theorem xml:id="thm-sampling-dist-2-independent-means">
+        <statement>
+            <p>
+                Let <m>X_1,X_2</m> be independent random variables. Let <m>\bar{x}_1, s_1</m> be a mean and standard deviation respectively from a sample of size <m>n_1</m> from <m>X_1</m> and let <m>\bar{x}_2, s_2</m> be a mean and standard deviation respectively from a sample of size <m>n_2</m> from <m>X_2</m>. Then 
+                <md>
+                    (\bar{x}_1 - \bar{x}_2) \sim T_\Delta \left( \mu_1 - \mu_2, \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} \right)
+                </md>
+                where
+                <md>
+                    \Delta = \left\lfloor \frac{\left( \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{\left(\frac{s_1^2}{n_1}\right)^2}{n_1 - 1} + \frac{\left(\frac{s_2^2}{n_2}\right)^2}{n_2 - 1}} \right\rfloor
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <p>
+        As a general rule of thumb, taking the minimum between <m>(n_1 - 1)</m> and <m>(n_2 - 1)</m> is a sufficient approximation to <m>\Delta</m>.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                In <url href="https://www.nejm.org/doi/full/10.1056/nejmoa1415061"> this 2015 study </url>, medical researchers suspected that a stent would reduce disability in stroke patients. Of the 191 patients, 98 received a stent surgery. Patients from both groups were later assessed on the severity of their disability through the same method. The control group showed mean disability score of 3.23 with standard deviation 1.78. The treatment group showed mean disability score of 2.26 with standard deviation 1.78. Determine with 99% significance whether the treatment reduces the mean disability score. 
+            </p>
+        </statement>
+        
+        <solution>
+            <p>
+                Let <m>X_c</m> denote the control group and <m>X_t</m> denote the treatment group. Let's first state the hypotheses. 
+                <md>
+                    <mrow> H_0: \amp \mu_t \leq \mu_c \implies \mu_t - \mu_c \leq 0. </mrow>
+                    <mrow> H_1: \amp \mu_t \gt \mu_c \implies \mu_t - \mu_c \gt 0. </mrow>
+                </md>
+                Note that our point estimate is
+                <md>
+                    \bar{x}_t - \bar{x}_c = -0.97.
+                </md>
+                Since the variables are independent, we know the sampling distribution for the difference in means is 
+                <md>
+                    <mrow> (\bar{x}_1 - \bar{x}_2) \amp \sim T_{\Delta} \left( 0, \sqrt{ \frac{(1.78^2)}{98} + \frac{(1.78)^2}{93}} \right) </mrow>
+                    <mrow> \amp \approx T}_{188} ( 0, 0.2578)</mrow>
+                </md>
+                Note that using the approximation <m>\Delta = \text{min}(98-1, 93-1) = 92</m> will result in many fewer degrees of freedom. Using an underestimate favors <m>H_0</m>. Using R, we find the critical values to be <m>T_{188}^* = 2.35 \approx 2.37 = T_{92}^*</m>. This lets us compute the margin of error
+                <md>
+                    ME = T_{188}^* \cdot SE \approx 0.6058/
+                </md>
+                Thus, the confidence interval is
+                <md>
+                    [\mu_1 - \mu_2 - ME, \mu_1 - \mu_2 + ME] = [-0.6058, 0.06058]
+                </md>
+                It is tempting to reject <m>H_0</m> in this case since our sample statistic is not inside the CI. But, recall that we do not care <q>how negative</q> the difference in this case is. Our confidence interval is effectively <m>(-\infty, 0.06058]</m>. Thus, there is insufficient evidence to reject <m>H_0</m>. That is, we are 99% confident that the stent treatment is effective at reducing disability. 
+            </p>
+        </solution>
+    </example>
+    
+    
+</section>
