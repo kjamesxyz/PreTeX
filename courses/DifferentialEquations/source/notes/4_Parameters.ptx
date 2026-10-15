@@ -1,0 +1,49 @@
+<section xml:id="diffeq-notes-4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Parameter Space Analysis </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Predict the effects of inital conditions on trajectories. </p></li>
+            <li><p> Predict the effects of boundary conditions on trajectories. </p></li>
+        </ol>
+    </objectives>
+    
+    <definition xml:id="def-harmonic-motion">
+        <statement>
+            <p>
+                A variable <m>x(t)</m> exhibits <alert>harmonic motion</alert> if it can be described with an equation of the form
+                <md>
+                    m\ddot{x} + \beta \dot{x} + k \dot{x} = f(t)
+                </md>
+                <ol>
+                    <li>
+                        <p>
+                            If <m>f(t) \not\equiv 0 </m>, we call the motion <alert> driven </alert>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>\beta = 0 </m>, we call the motion <alert> free </alert>. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>\beta \lt 0</m>, we call the motion <alert> damped </alert>. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Free, undriven harmonic motion is called <alert> simple harmonic motion </alert>. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </definition>
+
+</section>

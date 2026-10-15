@@ -60,7 +60,7 @@
     <exercise>
         <introduction>
             <p>
-                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity10.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 10 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Hypothesis Testing on One Mean Check-in". 
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity10.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 10 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Hypothesis Testing (2-Stat) Check-in". 
             </p>
         </introduction>
 

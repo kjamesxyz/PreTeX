@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-13" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 13 - Exploring Parameters </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, October 26</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+      <p>
+        The electric potential in an LRC circuit is modeled by <md> E(t) = L \deriv{^2 q}{t^2} + R \deriv{q}{t} + \frac{1}{C} q. </md> This model uses the charge in the circuit <m>q</m> as the dependent variable. We use <m>L,R,C</m> to denote the inductance, resistance, and capacitance of the inductor, resistor, and capacitor in the circuit respectively.
+      </p>
+    </introduction>
+
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          Write the equation of motion for a damped harmonic osciallator, as seen in lecture. 
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          Compare and contrast the models. What similarities do you notice? What differences do you notice? Explain how perturbing each parameter (making a small change in either direction) would affect the behavior of the system.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the differential equation <md> \deriv{y}{x} = e^{-0.01xy^2}. </md>
+      </p>
+    </introduction>
+
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          Identify the slope function for this equation.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+           Find a general form for contours of the system.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Explain why this system has no equilibrium. 
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the slope field for a linear ODE shown below. 
+      </p>
+      <image source="../../../assets/images/slope_field.png" width="50%">
+        <shortdescription>A slope field.</shortdescription>
+      </image>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Identify at least 2 non-zero contours by sketching them on the slope field.
+        </p>
+      </statement>
+    </task>
+
+    
+
+    <task >
+      <statement>
+        <p>
+          Suppose the system has the initial condition that <m>y(-2) = 1</m>. Sketch the corresponding trajectory on the slope field. 
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find all equilibria for the system. Classify each of them as stable, unstable, or neither. Justify your answers. 
+        </p>
+      </statement>
+    </task>
+
+    
+  </exercise>
+
+</worksheet>

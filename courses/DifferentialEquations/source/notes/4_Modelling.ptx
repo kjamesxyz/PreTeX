@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="diffeq-notes-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Modelling with ODEs </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Model real-world phenomena with second-order linear differential equations. </p></li>
+        </ol>
+    </objectives>
+
+    <example>
+        <statement>
+            <p>
+                Let's consider a trying to model the motion of a block of mass <m>m</m> being hung from the ceiling by a spring with spring constant <m>k</m> and length <m>L</m> after it is realeased from equilibrium. There are several factors you may consider wanting to include, like
+                <ol>
+                    <li>
+                        <p>
+                            The block should fall due to the gravity acting on it.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The spring will eventually pull the block back up and cause it to bounce. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            This bouncing will continue but slow down. Eventually the block will find a new equilibrium position at <m>x=s</m>.
+                        </p>
+                    </li>
+                </ol>
+                
+                By using a differential equation to model the motion, we can account for all of these phenomena simultaneously. It does still, however, require some kind of governing equaiton. For our spring system, that's Newton's 2nd law of motion, which says
+                <md>
+                    m \deriv{^2x}{t^2} = F
+                </md>
+                Notice that the acceleration introduces a second-order derivative into the model. Think of this as the starting point for our model. From here, we need to figure out the other forces that act on the block. We know that gravity will pull the block down (let's call that the positive direction). So,
+                <md>
+                    F += mg
+                </md>
+                We also know that as the spring becomes strecthed, it will resist this change and pull back up on the block according to Hooke's law. So 
+                <md>
+                    F -= k(x+s)
+                </md>
+                In its current state, the model now reads
+                <md>
+                    m \deriv{^2x}{t^2} = mg - k(x+s) = -kx.
+                </md>
+                This is a good start! It is linear and second-order with general solution <md> x(t) = c_1 \cos\left(\omega t \right) + c_2 \sin\left(\omega t \right), </md> where <m>\omega^2 = \frac{k}{m}</m>. While this does an excellent job at predicting early motion, notice that <md> \lim_{t \to \infty} x(t) </md> doesn't exist. So the model is unable to explain all of our observed phenomena in its current state. We know that the oscillation should begin to slow down over time. This would suggest that 
+                <md>
+                    F -= \beta \deriv{x}{t}
+                </md>
+                Now the model reads 
+                <md>
+                    \ddot{x} + \beta x + \omega^2 x = 0.
+                </md>
+                Recall that our differential equation models are much less rigid than our algebraic models. For instance, we can easily incorporate a driving force, intial data, etc. 
+            </p>
+            <!-- <p>
+                
+                There should be an equilibrium position, say <m>x = s</m> that the system will come to. This would change our implementation of Hooke's law to 
+                <md>
+                    F -= k(x + s)
+                </md>
+                Recall that the system coming to rest dictates that 
+                <md>
+                    mg = ks
+                </md>
+                This causes our model to look like
+                <md>
+                     m \deriv{^2x}{t^2} = mg - k(x + s) = -kx
+                </md>
+                
+            </p> -->
+        </statement>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Consider pushing down in the center of a wooden rod fixed at either end. The rod will bend beneath the weight. The amount by which it deforms is called a <q>deflection</q>. Theory of elasticity shows that the moment of this deflection <m>M</m> (the measurement of how much an object will resist deflection) depends on the system load <m>w</m> (the force being applied) according to the second order equation. 
+                <md>
+                    \deriv{^2M}{x^2} = w(x).
+                </md>
+                But the load is not the only thing contributing to the overall deflection. There are material components to consider. It is easier to bend a wood rod this way compared to a metal rod. Moreover, the moment will grow as the rod becomes more deformed. That is, the moment is proportional to the curvature of the rod.
+                <md>
+                    M(x) = EI\kappa.
+                </md>
+                Here <m>E</m> represents Young's modulus - the material component we discussed earlier - and <m>I</m> denotes its moment of inertia across the neutral axis. If you recall from calc III, if <m>y</m> denotes the deflection, its curvature is
+                <md>
+                    \kappa(y) = \frac{y''}{[1 + (y')]^{\frac{3}{2}}}. 
+                </md>
+                This relationship could allow us to model the relationship between load and deflection directly 
+                <md>
+                    \deriv{^2M}{dx^2} = \deriv{^2}{x^2} \left[ E I \frac{y''}{[1 + (y')]^{\frac{3}{2}}} \right] = w(x).
+                </md>
+                This model is very complicated, though. For heuristic purposes, we may want to consider a simplified but less-accurate model. Consider the case that our deflection is very small. Then <m>y' \approx 0</m> and it follows that <m>\kappa \approx y''.</m> This would let us write a much simpler
+                <md>
+                    EI \deriv{^4y}{x^4} = w(x).
+                </md>
+            </p>
+        </statement>
+    </example>
+
+
+</section>

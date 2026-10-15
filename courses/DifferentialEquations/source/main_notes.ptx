@@ -36,5 +36,13 @@
             <xi:include href="./notes/3_Variation_of_Parameters.ptx" />
         </chapter>
 
+        <chapter xml:id="chapter-4-Modelling-With-ODEs">
+            <title>Solving Higher-Order ODEs</title>
+
+            <xi:include href="./notes/4_Modelling.ptx"/>
+            <xi:include href="./notes/4_Slope_Fields.ptx"/>
+            <xi:include href="./notes/4_Parameters.ptx"/>
+        </chapter>
+
     </book>
 </pretext>

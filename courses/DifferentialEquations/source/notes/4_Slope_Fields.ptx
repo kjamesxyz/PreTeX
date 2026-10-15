@@ -1,0 +1,56 @@
+<section xml:id="diffeq-notes-4-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Slope Fields </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Interpret and draw slope fields. </p></li>
+            <li><p> Interpret and draw phase portraits. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-slope">
+        <statement>
+            <p>
+                Consider writing a linear ODE in the form <md> \deriv{^n y}{x^n} = f(x,y,y',\ldots,y^{(n-1)}). </md> We call <m>f</m> the <alert>slope function</alert> for the system. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-slope-field">
+        <statement>
+            <p>
+                We can visualize the slope function by plotting at each point <m>(x,y)</m> a small line segment with slope <m>f(x,y)</m>. The resulting diagram is called a <alert>slope field</alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Sketch the direction field for <md> 4\deriv{y}{x} -xy = 0. </md>
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-isocline">
+        <statement>
+            <p>
+                Let <m>f</m> be the slope function for an autonomous ODE. The surfaces defined by <md> f(u,u',\ldots,u^{(n-1)}) = C, </md> where <m>C \in \real </m> are called <alert> contours (isoclines) </alert> for the system. The surface defined by <m>C = 0</m> is called the <alert> equilibrium (nullcline) </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Show isoclines on the slope field from above. 
+            </p>
+        </statement>
+    </example>
+
+</section>
