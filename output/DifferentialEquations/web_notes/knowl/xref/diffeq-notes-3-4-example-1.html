@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.4.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para logical">
+<div class="para">Solve</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y'' + y' - 6y = 2x 
+\end{equation*}
+</div>
+<div class="para">using undetermined coefficients.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-4-example-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Recall that the general solution has the form <span class="process-math">\(y = y_c + y_p \text{.}\)</span> Hence, with all nonhomogeneous linear ODEs, we must first start by solving the complementary equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y'' + y' - 6y = 0 
+\end{equation*}
+</div>
+<div class="para">The roots of the characteristic polynomial are <span class="process-math">\(\lambda = -3, 2 \text{.}\)</span> Hence, the complementary solution is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y_c(x) = c_1 e^{-3x} + c_2 e^{2x}. 
+\end{equation*}
+</div>
+<div class="para">Next, we need to find the particular solution. Notice that our complementary solution has no way of generating a term that looks like <span class="process-math">\(2x \)</span> as we take its derivatives. This tells us there must be some other piece of the puzzle contained by our particular solution. Intuition would tell us that we should have a linear component to our solution, so we might try a solution of the form <span class="process-math">\(\tilde{y} = Ax + B \text{.}\)</span> This would give</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y'' + y' - 6y = A - 6(Ax + B) = -6Ax + (B + A) = 2x. 
+\end{equation*}
+</div>
+<div class="para">From this one equation, we can build two equations to solve for our undetermine coefficients. The coefficients on the linear terms should match, so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-6A = 2 \implies A = -\frac{1}{3} 
+\end{equation*}
+</div>
+<div class="para">and we should not have a constant term, so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B + A = 0 \implies B = \frac{1}{3}. 
+\end{equation*}
+</div>
+<div class="para">Therefore, the particular solution is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y_p = -\frac{1}{3} x + \frac{1}{3} 
+\end{equation*}
+</div>
+<div class="para">and the general solution is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = c_1 e^{-3x} + c_2 e^{2x}-\frac{1}{3} x + \frac{1}{3}. 
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#diffeq-notes-3-4-example-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.4.1.1"><a tabindex="-1" href="#diffeq-notes-3-4-example-1-2" title="Copy heading and permalink for Solution 3.4.1.1" aria-label="Copy heading and permalink for Solution 3.4.1.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 3.4.1"><a tabindex="-1" href="#diffeq-notes-3-4-example-1" title="Copy heading and permalink for Example 3.4.1" aria-label="Copy heading and permalink for Example 3.4.1">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="diffeq-notes-3-4.html#diffeq-notes-3-4-example-1">In Context</a></span>
+</body>
+</html>

@@ -505,6 +505,42 @@ var ptx_lunr_docs = [
   "body": " 🏫 Activity 12 - Modelling with ODEs  During class on Monday, October 19 , we played a game wherein your teams were tasked with building the best model you could afford. The points for this activity were earned in-class and cannot be made-up at this time.  "
 },
 {
+  "id": "diffeq-act-13",
+  "level": "1",
+  "url": "diffeq-act-13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 13 - Exploring Parameters",
+  "body": " 🏫 Activity 13 - Exploring Parameters   This activity is due at the beginning of class on Monday, October 26 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.     The electric potential in an LRC circuit is modeled by This model uses the charge in the circuit as the dependent variable. We use to denote the inductance, resistance, and capacitance of the inductor, resistor, and capacitor in the circuit respectively.     Write the equation of motion for a damped harmonic osciallator, as seen in lecture.      Compare and contrast the models. What similarities do you notice? What differences do you notice? Explain how perturbing each parameter (making a small change in either direction) would affect the behavior of the system.       Consider the differential equation      Identify the slope function for this equation.      Find a general form for contours of the system.      Explain why this system has no equilibrium.       Consider the slope field for a linear ODE shown below.   A slope field.      Identify at least 2 non-zero contours by sketching them on the slope field.      Suppose the system has the initial condition that . Sketch the corresponding trajectory on the slope field.      Find all equilibria for the system. Classify each of them as stable, unstable, or neither. Justify your answers.     "
+},
+{
+  "id": "diffeq-act-13-3",
+  "level": "2",
+  "url": "diffeq-act-13.html#diffeq-act-13-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The electric potential in an LRC circuit is modeled by This model uses the charge in the circuit as the dependent variable. We use to denote the inductance, resistance, and capacitance of the inductor, resistor, and capacitor in the circuit respectively.     Write the equation of motion for a damped harmonic osciallator, as seen in lecture.      Compare and contrast the models. What similarities do you notice? What differences do you notice? Explain how perturbing each parameter (making a small change in either direction) would affect the behavior of the system.    "
+},
+{
+  "id": "diffeq-act-13-4",
+  "level": "2",
+  "url": "diffeq-act-13.html#diffeq-act-13-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the differential equation      Identify the slope function for this equation.      Find a general form for contours of the system.      Explain why this system has no equilibrium.    "
+},
+{
+  "id": "diffeq-act-13-5",
+  "level": "2",
+  "url": "diffeq-act-13.html#diffeq-act-13-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the slope field for a linear ODE shown below.   A slope field.      Identify at least 2 non-zero contours by sketching them on the slope field.      Suppose the system has the initial condition that . Sketch the corresponding trajectory on the slope field.      Find all equilibria for the system. Classify each of them as stable, unstable, or neither. Justify your answers.    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
