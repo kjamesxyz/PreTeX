@@ -872,6 +872,78 @@ var ptx_lunr_docs = [
   "number": "4.4.5",
   "title": "",
   "body": "  Suppose the researcher tests the same claim using the same sample mean and standard deviation, but this time they only sampled 11 lizards. Moreover, let us assume the more realistic case that is unknown.    Now that the sample is too small for CLT to apply, we must use a T distribution. This does not impact any of our hypothesis testing logic or framework, but it does impact some of the values we need to compute. The only direct change here is the shape of our diagram.  The null and alternative hypotheses remain the same. Since CLT no longer applies, we cannot use the Z distribution. Under the T-distribution, we know the standard error is We can compute the critical values in a similar fashion using the qt(prob,df) command. This shows that . Now our margin of error is Thus, we are 95% confident that the mean body temperature of these lizards is between 33.79 C and 36.21 C. Therefore, there is now insufficient evidence to reject . That is, it is likely that the mean body temperature is 35 C.   "
+},
+{
+  "id": "biostats-notes-4-4-hyp-test-two-params",
+  "level": "1",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Hypothesis Testing on Two Parameters",
+  "body": " Hypothesis Testing on Two Parameters    Students will be able to...    Conduct hypothesis tests on multiple proportions.  Conduct hypothesis tests on multiple means.      We say two random variables are independent if the outcome of one variable gives no information about the outcome of another.      Consider rolling two fair six-sided dice. The outcome for each die is independent of the other die. Consider pulling two cards from a deck without replacement. These are not indepednent.      Let be independent random variables. Let be a proportion from a sample of size from and let be a proportion from a sample of size from . Then where is called the pooled proportion .      A random sample of 747 men and 434 women were asked if they order vegetarian meal options when dining out. Results showed that 276 men and 195 women responded yes. The conductor of the survey claims that women are more likely to order vegetarian meal options when dining out. Test the claim with 5% significance.    According to their survey, we have Moreover, the pooled proportion is They assert Note that our point estimate, then, is the difference This means the sampling distribution for the difference in proporitons is Notice this is a one-tailed test . So we only really need to consider one end of the confidence interval. In other words, we can allow the full 5% to fall in a single tail, giving . Hence, the margin of error is This gives the confidence interval For the purposes of this test, we only care if the difference is significantly high (>). So we can think of the confidence interval as being . In this case, out point estimate falls outside of the confidence interval. Hence, there is sufficient evidence to reject . That is, we are 95% confident that men are less likely than women to order vegetarian meal options when dining out.      Let be independent random variables. Let be a mean and standard deviation respectively from a sample of size from and let be a mean and standard deviation respectively from a sample of size from . Then where     As a general rule of thumb, taking the minimum between and is a sufficient approximation to .    In this 2015 study , medical researchers suspected that a stent would reduce disability in stroke patients. Of the 191 patients, 98 received a stent surgery. Patients from both groups were later assessed on the severity of their disability through the same method. The control group showed mean disability score of 3.23 with standard deviation 1.78. The treatment group showed mean disability score of 2.26 with standard deviation 1.78. Determine with 99% significance whether the treatment reduces the mean disability score.    Let denote the control group and denote the treatment group. Let's first state the hypotheses. Note that our point estimate is Since the variables are independent, we know the sampling distribution for the difference in means is Note that using the approximation will result in many fewer degrees of freedom. Using an underestimate favors . Using R, we find the critical values to be . This lets us compute the margin of error Thus, the confidence interval is It is tempting to reject in this case since our sample statistic is not inside the CI. But, recall that we do not care how negative the difference in this case is. Our confidence interval is effectively . Thus, there is insufficient evidence to reject . That is, we are 99% confident that the stent treatment is effective at reducing disability.    "
+},
+{
+  "id": "biostats-notes-4-4-hyp-test-two-params-2",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#biostats-notes-4-4-hyp-test-two-params-2",
+  "type": "Objectives",
+  "number": "4.5",
+  "title": "",
+  "body": "  Students will be able to...    Conduct hypothesis tests on multiple proportions.  Conduct hypothesis tests on multiple means.   "
+},
+{
+  "id": "def-independence",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#def-independence",
+  "type": "Definition",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  We say two random variables are independent if the outcome of one variable gives no information about the outcome of another.   "
+},
+{
+  "id": "biostats-notes-4-4-hyp-test-two-params-4",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#biostats-notes-4-4-hyp-test-two-params-4",
+  "type": "Example",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  Consider rolling two fair six-sided dice. The outcome for each die is independent of the other die. Consider pulling two cards from a deck without replacement. These are not indepednent.   "
+},
+{
+  "id": "thm-sampling-dist-2-props",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#thm-sampling-dist-2-props",
+  "type": "Theorem",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  Let be independent random variables. Let be a proportion from a sample of size from and let be a proportion from a sample of size from . Then where is called the pooled proportion .   "
+},
+{
+  "id": "biostats-notes-4-4-hyp-test-two-params-6",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#biostats-notes-4-4-hyp-test-two-params-6",
+  "type": "Example",
+  "number": "4.5.4",
+  "title": "",
+  "body": "  A random sample of 747 men and 434 women were asked if they order vegetarian meal options when dining out. Results showed that 276 men and 195 women responded yes. The conductor of the survey claims that women are more likely to order vegetarian meal options when dining out. Test the claim with 5% significance.    According to their survey, we have Moreover, the pooled proportion is They assert Note that our point estimate, then, is the difference This means the sampling distribution for the difference in proporitons is Notice this is a one-tailed test . So we only really need to consider one end of the confidence interval. In other words, we can allow the full 5% to fall in a single tail, giving . Hence, the margin of error is This gives the confidence interval For the purposes of this test, we only care if the difference is significantly high (>). So we can think of the confidence interval as being . In this case, out point estimate falls outside of the confidence interval. Hence, there is sufficient evidence to reject . That is, we are 95% confident that men are less likely than women to order vegetarian meal options when dining out.   "
+},
+{
+  "id": "thm-sampling-dist-2-independent-means",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#thm-sampling-dist-2-independent-means",
+  "type": "Theorem",
+  "number": "4.5.5",
+  "title": "",
+  "body": "  Let be independent random variables. Let be a mean and standard deviation respectively from a sample of size from and let be a mean and standard deviation respectively from a sample of size from . Then where    "
+},
+{
+  "id": "biostats-notes-4-4-hyp-test-two-params-9",
+  "level": "2",
+  "url": "biostats-notes-4-4-hyp-test-two-params.html#biostats-notes-4-4-hyp-test-two-params-9",
+  "type": "Example",
+  "number": "4.5.6",
+  "title": "",
+  "body": "  In this 2015 study , medical researchers suspected that a stent would reduce disability in stroke patients. Of the 191 patients, 98 received a stent surgery. Patients from both groups were later assessed on the severity of their disability through the same method. The control group showed mean disability score of 3.23 with standard deviation 1.78. The treatment group showed mean disability score of 2.26 with standard deviation 1.78. Determine with 99% significance whether the treatment reduces the mean disability score.    Let denote the control group and denote the treatment group. Let's first state the hypotheses. Note that our point estimate is Since the variables are independent, we know the sampling distribution for the difference in means is Note that using the approximation will result in many fewer degrees of freedom. Using an underestimate favors . Using R, we find the critical values to be . This lets us compute the margin of error Thus, the confidence interval is It is tempting to reject in this case since our sample statistic is not inside the CI. But, recall that we do not care how negative the difference in this case is. Our confidence interval is effectively . Thus, there is insufficient evidence to reject . That is, we are 99% confident that the stent treatment is effective at reducing disability.   "
 }
 ]
 
