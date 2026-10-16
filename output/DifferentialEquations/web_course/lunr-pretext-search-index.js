@@ -764,6 +764,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Solve using variation of parameters.   "
+},
+{
+  "id": "diffeq-hw7",
+  "level": "1",
+  "url": "diffeq-hw7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 7",
+  "body": " 📝 Homework 7    Instructions: This assignment is due Wednesday, October 28 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 2-12 in Exercises 2.1 (pg. 42)  Problems 1-11, 21-25, 29-33, 45-53 (odds) in Exercises 5.1 (pg. 194-198)  Problems 1-7, 21-27 (odds) in Exercises 5.2 (pg. 205-206)       A trail manager wants to build a wooden footbridge over a creek that runs across a trail. The bridge needs to be 3 m long and the material has flexural rigidty of . Let denote the constant load the bridge experiences under its own weight. Let denote the deflection and denote the moment of deflection of the bridge at the point . Recall that      Write a fourth-order ODE for the deflection of the beam.      Determine an appropriate interval of existence for the solution.      What initial\/boundary condition(s) can you perscribe based on the context of the problem? Justify your answer.      Suppose the load increases linearly in such a way that the load is at the far end of the bridge. Write an algebraic model for the load as a function of position .      Use the information you gathered from parts (a)-(d) to clearly state a fourth-order BVP for the deflection of the bridge.      Solve the ODE using any method.       Let denote the population of a particular species after months. An Allee effect is an ecological phenomenon where a population begins to decline simply by virtue of having too few individuals. Suppose is subject to an Allee effect. It can be modeled with the equation      Identify the slope function for the model.      Find all equilibria for the system. Then sketch them on the graph below.   A blank set of (t,P) axes.       Complete the phase portrait above by testing at least one initial condition in each region of phase space.      Classify each of the equilibria you found in part (b) as stable, unstable, or neither. Justify your answers.      Interpret what each of the equilibrium solutions you found mean in the context of the problem (describe what happens to the population). How does your phase portrait deomstrate the Allee effect?     "
+},
+{
+  "id": "diffeq-hw7-3",
+  "level": "2",
+  "url": "diffeq-hw7.html#diffeq-hw7-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A trail manager wants to build a wooden footbridge over a creek that runs across a trail. The bridge needs to be 3 m long and the material has flexural rigidty of . Let denote the constant load the bridge experiences under its own weight. Let denote the deflection and denote the moment of deflection of the bridge at the point . Recall that      Write a fourth-order ODE for the deflection of the beam.      Determine an appropriate interval of existence for the solution.      What initial\/boundary condition(s) can you perscribe based on the context of the problem? Justify your answer.      Suppose the load increases linearly in such a way that the load is at the far end of the bridge. Write an algebraic model for the load as a function of position .      Use the information you gathered from parts (a)-(d) to clearly state a fourth-order BVP for the deflection of the bridge.      Solve the ODE using any method.    "
+},
+{
+  "id": "diffeq-hw7-4",
+  "level": "2",
+  "url": "diffeq-hw7.html#diffeq-hw7-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let denote the population of a particular species after months. An Allee effect is an ecological phenomenon where a population begins to decline simply by virtue of having too few individuals. Suppose is subject to an Allee effect. It can be modeled with the equation      Identify the slope function for the model.      Find all equilibria for the system. Then sketch them on the graph below.   A blank set of (t,P) axes.       Complete the phase portrait above by testing at least one initial condition in each region of phase space.      Classify each of the equilibria you found in part (b) as stable, unstable, or neither. Justify your answers.      Interpret what each of the equilibrium solutions you found mean in the context of the problem (describe what happens to the population). How does your phase portrait deomstrate the Allee effect?    "
 }
 ]
 
