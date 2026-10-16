@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw7">
+    <title>📝 Homework 7 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, October 28</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> 
+            <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 2-12 in Exercises 2.1 (pg. 42)</p></li>
+                <li><p> Problems 1-11, 21-25, 29-33, 45-53 (odds) in Exercises 5.1 (pg. 194-198)</p></li>
+                <li><p> Problems 1-7, 21-27 (odds) in Exercises 5.2 (pg. 205-206)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                A trail manager wants to build a wooden footbridge over a creek that runs across a trail. The bridge needs to be 3 m long and the material has flexural rigidty of <m>EI= 9.5 Pa \cdot m^4 </m>. Let <m>q_0</m> denote the constant load the bridge experiences under its own weight. Let <m>y(x)</m> denote the deflection and <m>M(x)</m> denote the moment of deflection of the bridge at the point <m>x</m>. Recall that <md> M''(x) = q(x) \ \text{and} \ M(x) = EIy''(x).</md>
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write a fourth-order ODE for the deflection of the beam.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine an appropriate interval of existence for the solution. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What initial/boundary condition(s) can you perscribe based on the context of the problem? Justify your answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose the load increases linearly in such a way that the load is <m>2q_0</m> at the far end of the bridge. Write an algebraic model for the load <m>q</m> as a function of position <m>x</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the information you gathered from parts (a)-(d) to clearly state a fourth-order BVP for the deflection of the bridge.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="5in">
+            <statement>
+                <p>
+                    Solve the ODE using any method.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>P(t)</m> denote the population of a particular species after <m>t</m> months. An <alert>Allee effect</alert> is an ecological phenomenon where a population begins to decline simply by virtue of having too few individuals. Suppose <m>P</m> is subject to an Allee effect. It can be modeled with the equation
+                <md>
+                    \deriv{P}{t} = 0.6P \left( 1 - \frac{P}{1000} \right) \left( \frac{P}{200} - 1 \right)
+                </md>
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Identify the slope function for the model. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find all equilibria for the system. Then sketch them on the graph below.
+                </p>
+                <image source="../../../assets/images/blankQ1axes.jpg" width="40%">
+                    <shortdescription>A blank set of (t,P) axes. </shortdescription>
+                </image>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Complete the phase portrait above by testing at least one initial condition in each region of phase space.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Classify each of the equilibria you found in part (b) as stable, unstable, or neither. Justify your answers.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Interpret what each of the equilibrium solutions you found mean in the context of the problem (describe what happens to the population). How does your phase portrait deomstrate the Allee effect?
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+
+</worksheet>

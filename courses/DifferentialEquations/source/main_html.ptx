@@ -43,6 +43,7 @@
             <xi:include href="./homework/4_homework.ptx" />
             <xi:include href="./homework/5_homework.ptx" />
             <xi:include href="./homework/6_homework.ptx" />
+            <xi:include href="./homework/7_homework.ptx" />
         </chapter>
 
     </book>
