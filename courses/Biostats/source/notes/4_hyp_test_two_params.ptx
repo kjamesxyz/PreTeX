@@ -103,7 +103,7 @@
                 Since the variables are independent, we know the sampling distribution for the difference in means is 
                 <md>
                     <mrow> (\bar{x}_1 - \bar{x}_2) \amp \sim T_{\Delta} \left( 0, \sqrt{ \frac{(1.78^2)}{98} + \frac{(1.78)^2}{93}} \right) </mrow>
-                    <mrow> \amp \approx T}_{188} ( 0, 0.2578)</mrow>
+                    <mrow> \amp \approx T_{188} ( 0, 0.2578)</mrow>
                 </md>
                 Note that using the approximation <m>\Delta = \text{min}(98-1, 93-1) = 92</m> will result in many fewer degrees of freedom. Using an underestimate favors <m>H_0</m>. Using R, we find the critical values to be <m>T_{188}^* = 2.35 \approx 2.37 = T_{92}^*</m>. This lets us compute the margin of error
                 <md>
