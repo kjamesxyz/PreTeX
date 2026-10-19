@@ -63,14 +63,6 @@
                 </p>
             </statement>
         </task>
-
-        <task workspace="5in">
-            <statement>
-                <p>
-                    Solve the ODE using any method.
-                </p>
-            </statement>
-        </task>
     </exercise>
     
     <exercise>
