@@ -8,19 +8,46 @@
     </p>
 
     <exercise>
-        <statement>
+        <introduction>
             <p>
-                Interpret a slope field
+                Suppose the slope field below corresponds to a first-order ODE.
             </p>
-        </statement>
-    </exercise>
+            <image source="images/slope_field_4.png" width="60%">
+                <shortdescription>A slope field.</shortdescription>
+            </image>
+        </introduction>
 
-    <exercise>
-        <statement>
-            <p>
-                Build a slope field
-            </p>
-        </statement>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify all equilibria (nullclines) for the system. Sketch them onto the picture above.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Label at least one nonzero isocline for the system. Sketch it onto the picture above.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Consider the initial condition <m>y(3) = 1 </m>. Sketch the corresponding trajectory on <m>(0,\infty)</m> onto the picture above.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Classify each of the equilibria you found in part (a) as stable, unstable, or neither on <m>(-\infty, 0)</m>. Justify your answer.
+                </p>
+            </statement>
+        </task>
     </exercise>
 
     <exercise>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="exam2">
+    <title>Exam 2 - MATH-132B-01</title>
+
+    <p>
+        <alert>Instructions:</alert> You have 110 minutes to take this exam. You are permitted your signed prep work journal and access to RStudio on a classroom computer during the exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
+    </p>
+
+    <p>
+        <alert>Multiple Choice:</alert> There are 10 multiple choice questions, each worth 4 points. Select one answer in each question by circling the letter corresponding to your selected answer. There is only one correct answer for each question. You will not be penalized for incorrect answers. 
+    </p>
+
+    <p>
+        <alert>For problems 1-4 :</alert> Suppose <m>X \sim \cal{N}(10,1.2).</m> 
+    </p>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following marks the 80th percentile?  
+                <ol marker="A." cols="4">
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Compute <m> \cal{P}[X \leq 10.5] </m>. 
+                <ol marker="A." cols="4">
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Compute <m> \cal{P}[ 9.8 \lt X \lt 11.1] </m>. 
+                <ol marker="A." cols="4">
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                    <li><p> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following denotes the mean of the sampling distribution of sample variances from <m>X</m>? 
+                <ol marker="A." cols="4">
+                    <li><p> <m> \mu_{\bar{x}}</m> </p></li>
+                    <li><p> <m> \sigma^2_{\bar{x}} </m> </p></li>
+                    <li><p> <m> \mu_{s^2} </m> </p></li>
+                    <li><p> <m> \sigma^2_{s^2} </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <p>
+        <alert>For problems 5-7 :</alert> A physical therapist has designed a new exercise regiment they claim lowers resting systolic blood pressure. They randomly perscribe the regiment to 120 of their patients. They measure the reasting systolic blood pressure in mmHg 12 weeks later.
+    </p>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>\mu_T</m> denote the mean resting systolic blood pressure in the treatment group and let <m>\mu_C</m> denote the mean resting systolic blood pressure in the control group. Which of the following do <alert>NOT</alert> represent the physical therapist's null hypothesis?
+                <ol marker="A." cols="2">
+                    <li><p> <m> \mu_T = \mu_C </m> </p></li>
+                    <li><p> <m> \mu_T \leq \mu_C </m> </p></li>
+                    <li><p> <m> \mu_C - \mu_T \geq 0 </m> </p></li>
+                    <li><p> <m> \mu_T - \mu_C \lt 0 </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Suppose statistical evidence <alert>fails to reject</alert> the null hypothesis. What conclusion can be drawn?
+                <ol marker="A.">
+                    <li><p> The mean resting systolic blood pressure is lowered by the treatment. </p></li>
+                    <li><p> The mean resting systolic blood pressure is not lowered by the treatment. </p></li>
+                    <li><p> The mean resting systolic blood pressure is likely lowered by the treatment. </p></li>
+                    <li><p> The mean resting systolic blood pressure is likely not lowered by the treatment. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    
+    <exercise>
+        <statement>
+            <p>
+                Which of the following provides the best example of a type 1 error for this study? 
+                <ol marker="A.">
+                    <li><p> The phyiscal therapist concludes that their treatment is successful when it is not. </p></li>
+                    <li><p> The physical therapist concludes that their treatment lowers mean resting systolic blood pressure when it does not. </p></li>
+                    <li><p> The phyiscal therapist concludes that their treatment does not lower mean resting systolic blood pressure when it does. </p></li>
+                    <li><p> The physical therapist concludes that their treatment lowers mean resting systolic blood pressure because their control group started off with higher mean blood pressure. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <p>
+        <alert>For problems 8-10 :</alert> A popular music streaming platform reports that pop music accounts for 13.1% of all music streams in the U.S. A recent poll asked 150 users for the genres of music they stream; 24 reported streaming pop music.
+    </p>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following best describes the parameter of interest from the study?
+                <ol marker="A.">
+                    <li><p> The total number of users that stream pop music. </p></li>
+                    <li><p> The proportion of all users that stream pop music. </p></li>
+                    <li><p> The 24 of the 150 polled users that stream pop music.</p></li>
+                    <li><p> The 16% of polled users that stream pop music. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following is an appropriate <alert> null hypothesis </alert> for this claim?
+                <ol marker="A.">
+                    <li><p> Pop is the most-streamed music genre. </p></li>
+                    <li><p> 13.1% of all music streams in the U.S. are for pop music. </p></li>
+                    <li><p> 16% of all music streams in the U.S. are for pop music. </p></li>
+                    <li><p> At least 13.1% of all music streams in the U.S. are for pop music. </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following best describes the shape of the sampling distribution of sample proportions?
+                <ol marker="A." cols="2">
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.3, 0.0374) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.3, 0.0014) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0374) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0014) </m> </p></li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+
+
+
+    <p>
+        <alert>Free Response:</alert> There are 5 free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, refer to the data set as <c>df</c> and <alert> write the code you used as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+    </p>
+
+    <exercise workspace="0.5in">
+        <statement>
+            <p>
+                State the Central Limit Theorem.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <!-- hyp test one mean -->
+        <introduction>
+            <p>
+                A radio station claims to play 50 minutes of music per hour on average. After only getting to listen to one song on your way to campus, you decide to test their claim. You randomly select 12 one-hour blocks over the next week to record how many minutes of music are played, recording the results in the table below. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>44</cell>
+                    <cell>49</cell>
+                    <cell>45</cell>
+                    <cell>51</cell>
+                    <cell>49</cell>
+                    <cell>53</cell>
+                    <cell>49</cell>
+                    <cell>44</cell>
+                    <cell>47</cell>
+                    <cell>50</cell>
+                    <cell>46</cell>
+                    <cell>48</cell>
+                </row>
+            </tabular>
+            <p>
+                Consider testing the radio station's claim using a 90% confidence interval test. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify the parameter of interest for the study, then use the data to find the corresponding point estimate from your sample. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                   Write the the null and alternative hypotheses for the study in both symbols and words. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Choose an appropriate test statistic (write your choice down) and use it to find the critical values for your hypothesis test.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Compute the standard error for the sampling distribution.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the margin of error for the 90% confidence interval.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Construct the 90% confidence interval, then interpret it in the context of problem using plain language.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    What does the confidence interval suggest about your hypotheses? Interpret this conclusion in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <!-- hyp test two prop -->
+        <introduction>
+            <p>
+                A pharmaceutical company claims their COVID-19 vaccine lowers your risk of infection for 12 weeks. A clinical trial is designed to test the claim. The 800 patients are split randomly into a control group of 500 patients and a treatment group of 300 patients. Over the next 12 weeks, they record that 21 patients from the control group contract COVID-19 and 8 of the patients from the treatment group contract COVID-19.
+            </p>
+        </introduction>
+        
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Let <m>p_t</m> denote the proportion of vaccinated patients that contracted COVID-19 and let <m>p_c</m> denote the proportion of unvaccinated patients that contracted COVID-19. Write the the null and alternative hypotheses for the study in both symbols and words. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Test the pharmaceutical company's claim with 95% confidence. Interpret your results in plain language.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <!-- hyp test two mean -->
+        <introduction>
+            <p>
+                In sociology, <alert>social cohesion</alert> is the strength of relationships between members of a community. They randomly select neighborhoods and perform an assessment to determine the social cohesion factor (SCF) of those neighborhoods. The data is summarized in the table below. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Income-Level</cell>
+                    <cell>Sample Size</cell>
+                    <cell>Mean SCF</cell>
+                    <cell>Std. Devn. SCF</cell>
+                </row>
+                <row>
+                    <cell>High</cell>
+                    <cell>42</cell>
+                    <cell>68.4</cell>
+                    <cell>12.0</cell>
+                </row>
+                <row>
+                    <cell>Low</cell>
+                    <cell>38</cell>
+                    <cell>61.1</cell>
+                    <cell>13.5</cell>
+                </row>
+            </tabular>
+            <p>
+                Based on these results, the sociologist claims that high-income neighborhoods have more social cohesion than low-income neighborhoods. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Let <m>\mu_H</m> denote the mean social cohesion factor in high-income neighborhoods and let <m> \mu_L </m> denote the mean social cohesion factor in low-income neighborhoods. State the sociologist's null and alternative hypotheses in both symbols and words.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Test the hypotheses with 99% confidence. Interpret your results in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+    
+    
+</worksheet>

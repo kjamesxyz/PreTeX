@@ -16,5 +16,11 @@
 
             <xi:include href="./exams/1_exam.ptx" />
         </chapter>
+
+        <chapter xml:id="biostats-exam2">
+            <title>Exam 2</title>
+
+            <xi:include href="./exams/2_exam.ptx" />
+        </chapter>
     </book>
 </pretext>
