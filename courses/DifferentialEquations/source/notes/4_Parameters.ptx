@@ -46,4 +46,68 @@
         </statement>
     </definition>
 
+    <example>
+        <statement>
+            <p>
+                Consider solving the damped harmonic osciallator <md> m\ddot{x} + \beta \dot{x} + kx = 0.</md> Given this is a linear homogeneous ODE, its general solution can be obtained through the method of characteristics. To make notation simpler, let's rewrite the problem as <md> \ddot{x} + 2 \mu \dot{x} + \omega^2 x = 0. </md> Then its characteristic polynomial has the roots <md> \lambda = - \mu \pm \sqrt{\mu^2 - \omega^2}.</md> This gives us three distinct cases to consider.
+
+                <ol>
+                    <li>
+                        <p>
+                            <alert> Suppose <m>\mu^2 - \omega^2 \gt 0 </m> </alert>. This would indicate we have two distinct real roots and the general solution is
+                            <md>
+                                x(t) = e^{-\mu t} \left( c_1 e^{\sqrt{\mu^2 - \omega^2} t} + c_2 e^{-\sqrt{\mu^2 - \omega^2} t} \right)
+                            </md>
+                            Plotting a graph shows a smooth nonoscillatory decaying motion. Hence, we say this system is <alert> overdamped </alert>. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <alert>Suppose <m> \mu^2 - \omega^2 = 0 </m> </alert>. This would indicate one repeated real root; the general solution is
+                            <md>
+                                x(t) = e^{-\mu t} (c_1 + c_2 t)
+                            </md>
+                            The graph of this system shows a similar behavior, but we notice that the system passes equilibrium at most once. In this case, we say the motion is <alert> critically damped </alert>. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <alert>Suppose <m> \mu^2 - \omega^2 \lt 0 </m> </alert>. This would indicate one conjugate pair of roots; the general solution becomes 
+                            <md>
+                                x(t) = e^{-\mu t} \left( c_1 \cos(\sqrt{\mu^2 - \omega^2} t ) + c_2 \sin(\sqrt{\mu^2 - \omega^2} t) \right)
+                            </md>
+                            This system exhibits the oscillatory behavior we would expect, however the amplitude still decays in time: thanks to the <m>e^{-\mu t}</m> term. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+        </statement>
+    </example>
+
+    <definition xml:id="def-parameter-space">
+        <statement>
+            <p>
+                The set of all possible parameter values in a mathematical model is called the <alert> parameter space </alert> for the model.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Plot the equation <md> \mu^2 - \omega^2 = 0 </md> in <m>(\omega,\mu^2)</m> parameter space to visualize the damping scenarios.  
+            </p>
+        </statement>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Recall that <m>\mu = \frac{\beta}{2m} </m> and <m> \omega^2 = \frac{k}{m}. </m> Use these to build a similar parameter space diagram in <m>(\beta,k)</m> space. 
+            </p>
+        </statement>
+    </example>
 </section>

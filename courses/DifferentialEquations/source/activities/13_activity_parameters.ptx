@@ -24,11 +24,22 @@
       </statement>
     </task>
 
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Compare and contrast the models. What similarities do you notice? 
+        </p>
+      </statement>
+    </task>
+
     <task workspace="3in">
       <statement>
         <p>
-          Compare and contrast the models. What similarities do you notice? What differences do you notice? Explain how perturbing each parameter (making a small change in either direction) would affect the behavior of the system.
+          Build a <m>(R,C)</m>-space diagram for this equation when <m>E(t) = 0</m> in the axes provided. Follow the same procedure that we used on the damped harmonic oscillator in class. 
         </p>
+        <image source="../../../assets/images/blankQ1axes.jpg" width="40%">
+          <shortdescription>A blank set of (t,P) axes. </shortdescription>
+        </image>
       </statement>
     </task>
   </exercise>

@@ -7,52 +7,158 @@
         <alert>Instructions:</alert> You have 110 minutes to take this exam. Please answer each question in the space provided. Answers without justification may <alert> earn no credit </alert>. You are permitted your signed prep work journal and a calculator on this exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
     </p>
 
+
+
+    <!-- reduction of order --> 
     <exercise>
+
+        <introduction>
+            <p>
+                Consider the ODE <md> x^2 y'' - xy' + 2y = 0. </md>
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Show that <m> y_1 = x \sin(\ln(x)) </m> is a solution on <m>(0,\infty)</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Use a reduction of order technique to find a second particular solution. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <!-- undetermined coeffs -->
+    <exercise workspace="4in">
         <statement>
             <p>
-                Interpret a slope field
+                Use the method of undetermined coefficients to solve the ODE <md> y'' + 2y' - 24y = 16 - (x+2)e^{4x}. </md> 
+            </p>
+        </statement>
+        
+    </exercise>
+
+    <!-- variation of parameters -->    
+    <exercise workspace="4in">
+        <statement>
+            <p>
+                Use variation of parameters to solve the IVP <md> 2y'' + y' - y = x + 1; \ y(0) = 1, \ y'(0) = 0. </md> 
             </p>
         </statement>
     </exercise>
 
+    <!-- 2nd-order modelling -->
     <exercise>
-        <statement>
+        
+        <introduction>
             <p>
-                Build a slope field
+                According to <alert>Kirchoff's Law</alert>, the impressed voltage on a circuit is the sum of the potential drops across all components. In an LCR circuit, that is
+                <md>
+                    V_L + V_R + V_C = V(t).
+                </md>
+                where <m>V_L</m> is the potential drop across the inductor, <m>V_R</m> is the potential drop across the resistor, and <m>V_C</m> is the potential drop across the capacitor. Suppose the circuit has inductance <m>L</m>, resistance <m>R</m>, and capacitance <m>C</m>. 
             </p>
-        </statement>
+        </introduction>
+        
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the statements below to write a 2nd-order ODE for the charge on the capacitor <m>q</m> at time <m>t</m>.
+                    <ol>
+                        <li>
+                            <p>
+                                The potential drop across a capacitor is the ratio between its charge and capacitance.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Current is the rate of change of the charge on the capacitor. 
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                The potnetial drop across a resistor is the product of the resistance and the current.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                The potential drop across an inductor is the product of the inductance and the rate of change of the current.
+                            </p>
+                        </li>
+                    </ol> 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Suppose there is no impressed voltage (<m>E(t) = 0</m> for all <m>t</m>). Use the ODE you built in part (b) to construct an algebraic model for the charge on the capacitor at time <m>t</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Suppose the capacitor begins with no charge or current. How does this affect the ODE model you wrote in part (b)? How does this affect the algebraic model you wrote in part (c)?
+                </p>
+            </statement>
+        </task>
+
     </exercise>
 
+    <!-- slope fields -->
     <exercise>
-        <statement>
+        <introduction>
             <p>
-                Model with a 2nd order.
+                Suppose the slope field below corresponds to a first-order ODE.
             </p>
-        </statement>
-    </exercise>
+            <image source="images/slope_field_4.png" width="50%">
+                <shortdescription>A slope field.</shortdescription>
+            </image>
+        </introduction>
 
-    <exercise>
-        <statement>
-            <p>
-                Solve with undetermined coeffs
-            </p>
-        </statement>
-    </exercise>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Identify all equilibria (nullclines) for the system. Sketch them onto the picture above.
+                </p>
+            </statement>
+        </task>
 
-    <exercise>
-        <statement>
-            <p>
-                Solve with var of params.
-            </p>
-        </statement>
-    </exercise>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Label at least one nonzero isocline for the system. Sketch it onto the picture above.
+                </p>
+            </statement>
+        </task>
 
-    <exercise>
-        <statement>
-            <p>
-                Show annihilator
-            </p>
-        </statement>
-    </exercise>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Consider the initial condition <m>y(3) = 1 </m>. Sketch the corresponding trajectory on <m>(0,\infty)</m> onto the picture above.
+                </p>
+            </statement>
+        </task>
 
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Classify each of the equilibria you found in part (a) as stable, unstable, or neither on <m>(-\infty, 0)</m>. Justify your answer.
+                </p>
+            </statement>
+        </task>
+    </exercise>
 </worksheet>
