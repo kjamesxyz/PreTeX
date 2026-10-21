@@ -32,10 +32,10 @@
       </statement>
     </task>
 
-    <task workspace="3in">
+    <task workspace="2in">
       <statement>
         <p>
-          Build a <m>(R,C)</m>-space diagram for this equation when <m>E(t) = 0</m> in the axes provided. Follow the same procedure that we used on the damped harmonic oscillator in class. 
+          Suppose that <m>L = 1</m> H. Build a <m>(R,C)</m>-space diagram for this equation when <m>E(t) = 0</m> in the axes provided. Follow the same procedure that we used on the damped harmonic oscillator in class. 
         </p>
         <image source="images/blankQ1axes.jpg" width="40%">
           <shortdescription>A blank set of (t,P) axes. </shortdescription>

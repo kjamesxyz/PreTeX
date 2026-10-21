@@ -12,6 +12,14 @@
             <li><p> Predict the effects of boundary conditions on trajectories. </p></li>
         </ol>
     </objectives>
+
+    <definition xml:id="def-sensitivity-analysis">
+        <statement>
+            <p>
+                <alert>Sensitivity analysis</alert> is a modeling technique to observe how changes in parameters alter system behavior.
+            </p>
+        </statement>
+    </definition>
     
     <definition xml:id="def-harmonic-motion">
         <statement>

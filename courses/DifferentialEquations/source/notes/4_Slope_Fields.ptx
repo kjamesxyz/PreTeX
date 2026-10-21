@@ -53,4 +53,12 @@
         </statement>
     </example>
 
+    <definition xml:id="def-stability">
+        <statement>
+            <p>
+                We say an equilibrium is <alert> stable </alert> if all nearby trajectories converge to the equilibrium. If all nearby trajectories diverge, the equilibrium is <alert> unstable </alert>. 
+            </p>
+        </statement>
+    </definition>
+
 </section>
