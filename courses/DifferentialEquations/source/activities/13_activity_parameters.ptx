@@ -37,7 +37,7 @@
         <p>
           Build a <m>(R,C)</m>-space diagram for this equation when <m>E(t) = 0</m> in the axes provided. Follow the same procedure that we used on the damped harmonic oscillator in class. 
         </p>
-        <image source="../../../assets/images/blankQ1axes.jpg" width="40%">
+        <image source="images/blankQ1axes.jpg" width="40%">
           <shortdescription>A blank set of (t,P) axes. </shortdescription>
         </image>
       </statement>
@@ -81,7 +81,7 @@
       <p>
         Consider the slope field for a linear ODE shown below. 
       </p>
-      <image source="../../../assets/images/slope_field.png" width="50%">
+      <image source="images/slope_field.png" width="50%">
         <shortdescription>A slope field.</shortdescription>
       </image>
     </introduction>
