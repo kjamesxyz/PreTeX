@@ -88,7 +88,7 @@
                 <p>
                     Find all equilibria for the system. Then sketch them on the graph below.
                 </p>
-                <image source="../../../assets/images/blankQ1axes.jpg" width="40%">
+                <image source="images/blankQ1axes.jpg" width="40%">
                     <shortdescription>A blank set of (t,P) axes. </shortdescription>
                 </image>
             </statement>
