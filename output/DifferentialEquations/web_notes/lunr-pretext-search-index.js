@@ -781,7 +781,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Parameter Space Analysis",
-  "body": " Parameter Space Analysis    Students will be able to...    Predict the effects of inital conditions on trajectories.  Predict the effects of boundary conditions on trajectories.      A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .         Consider solving the damped harmonic osciallator Given this is a linear homogeneous ODE, its general solution can be obtained through the method of characteristics. To make notation simpler, let's rewrite the problem as Then its characteristic polynomial has the roots This gives us three distinct cases to consider.    Suppose  . This would indicate we have two distinct real roots and the general solution is Plotting a graph shows a smooth nonoscillatory decaying motion. Hence, we say this system is overdamped .     Suppose  . This would indicate one repeated real root; the general solution is The graph of this system shows a similar behavior, but we notice that the system passes equilibrium at most once. In this case, we say the motion is critically damped .     Suppose  . This would indicate one conjugate pair of roots; the general solution becomes This system exhibits the oscillatory behavior we would expect, however the amplitude still decays in time: thanks to the term.       "
+  "body": " Parameter Space Analysis    Students will be able to...    Predict the effects of inital conditions on trajectories.  Predict the effects of boundary conditions on trajectories.      A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .       "
 },
 {
   "id": "diffeq-notes-4-3-2",
@@ -800,15 +800,6 @@ var ptx_lunr_docs = [
   "number": "4.3.1",
   "title": "",
   "body": "  A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .      "
-},
-{
-  "id": "diffeq-notes-4-3-4",
-  "level": "2",
-  "url": "diffeq-notes-4-3.html#diffeq-notes-4-3-4",
-  "type": "Example",
-  "number": "4.3.2",
-  "title": "",
-  "body": "  Consider solving the damped harmonic osciallator Given this is a linear homogeneous ODE, its general solution can be obtained through the method of characteristics. To make notation simpler, let's rewrite the problem as Then its characteristic polynomial has the roots This gives us three distinct cases to consider.    Suppose  . This would indicate we have two distinct real roots and the general solution is Plotting a graph shows a smooth nonoscillatory decaying motion. Hence, we say this system is overdamped .     Suppose  . This would indicate one repeated real root; the general solution is The graph of this system shows a similar behavior, but we notice that the system passes equilibrium at most once. In this case, we say the motion is critically damped .     Suppose  . This would indicate one conjugate pair of roots; the general solution becomes This system exhibits the oscillatory behavior we would expect, however the amplitude still decays in time: thanks to the term.      "
 }
 ]
 
