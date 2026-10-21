@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Slope Fields",
-  "body": " Slope Fields    Students will be able to...    Interpret and draw slope fields.  Interpret and draw phase portraits.      Consider writing a linear ODE in the form We call the slope function for the system.      We can visualize the slope function by plotting at each point a small line segment with slope . The resulting diagram is called a slope field .      Sketch the direction field for       Let be the slope function for an autonomous ODE. The surfaces defined by where are called contours (isoclines) for the system. The surface defined by is called the equilibrium (nullcline) .      Show isoclines on the slope field from above.    "
+  "body": " Slope Fields    Students will be able to...    Interpret and draw slope fields.  Interpret and draw phase portraits.      Consider writing a linear ODE in the form We call the slope function for the system.      We can visualize the slope function by plotting at each point a small line segment with slope . The resulting diagram is called a slope field .      Sketch the direction field for       Let be the slope function for an autonomous ODE. The surfaces defined by where are called contours (isoclines) for the system. The surface defined by is called the equilibrium (nullcline) .      Show isoclines on the slope field from above.      We say an equilibrium is stable if all nearby trajectories converge to the equilibrium. If all nearby trajectories diverge, the equilibrium is unstable .    "
 },
 {
   "id": "diffeq-notes-4-2-2",
@@ -775,13 +775,22 @@ var ptx_lunr_docs = [
   "body": "  Show isoclines on the slope field from above.   "
 },
 {
+  "id": "def-stability",
+  "level": "2",
+  "url": "diffeq-notes-4-2.html#def-stability",
+  "type": "Definition",
+  "number": "4.2.6",
+  "title": "",
+  "body": "  We say an equilibrium is stable if all nearby trajectories converge to the equilibrium. If all nearby trajectories diverge, the equilibrium is unstable .   "
+},
+{
   "id": "diffeq-notes-4-3",
   "level": "1",
   "url": "diffeq-notes-4-3.html",
   "type": "Section",
   "number": "4.3",
   "title": "Parameter Space Analysis",
-  "body": " Parameter Space Analysis    Students will be able to...    Predict the effects of inital conditions on trajectories.  Predict the effects of boundary conditions on trajectories.      A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .       "
+  "body": " Parameter Space Analysis    Students will be able to...    Predict the effects of inital conditions on trajectories.  Predict the effects of boundary conditions on trajectories.       Sensitivity analysis is a modeling technique to observe how changes in parameters alter system behavior.      A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .         Consider solving the damped harmonic osciallator Given this is a linear homogeneous ODE, its general solution can be obtained through the method of characteristics. To make notation simpler, let's rewrite the problem as Then its characteristic polynomial has the roots This gives us three distinct cases to consider.    Suppose  . This would indicate we have two distinct real roots and the general solution is Plotting a graph shows a smooth nonoscillatory decaying motion. Hence, we say this system is overdamped .     Suppose  . This would indicate one repeated real root; the general solution is The graph of this system shows a similar behavior, but we notice that the system passes equilibrium at most once. In this case, we say the motion is critically damped .     Suppose  . This would indicate one conjugate pair of roots; the general solution becomes This system exhibits the oscillatory behavior we would expect, however the amplitude still decays in time: thanks to the term.         The set of all possible parameter values in a mathematical model is called the parameter space for the model.      Plot the equation in parameter space to visualize the damping scenarios.      Recall that and Use these to build a similar parameter space diagram in space.    "
 },
 {
   "id": "diffeq-notes-4-3-2",
@@ -793,13 +802,58 @@ var ptx_lunr_docs = [
   "body": "  Students will be able to...    Predict the effects of inital conditions on trajectories.  Predict the effects of boundary conditions on trajectories.   "
 },
 {
+  "id": "def-sensitivity-analysis",
+  "level": "2",
+  "url": "diffeq-notes-4-3.html#def-sensitivity-analysis",
+  "type": "Definition",
+  "number": "4.3.1",
+  "title": "",
+  "body": "   Sensitivity analysis is a modeling technique to observe how changes in parameters alter system behavior.   "
+},
+{
   "id": "def-harmonic-motion",
   "level": "2",
   "url": "diffeq-notes-4-3.html#def-harmonic-motion",
   "type": "Definition",
-  "number": "4.3.1",
+  "number": "4.3.2",
   "title": "",
   "body": "  A variable exhibits harmonic motion if it can be described with an equation of the form    If , we call the motion driven .    If , we call the motion free .    If , we call the motion damped .    Free, undriven harmonic motion is called simple harmonic motion .      "
+},
+{
+  "id": "diffeq-notes-4-3-5",
+  "level": "2",
+  "url": "diffeq-notes-4-3.html#diffeq-notes-4-3-5",
+  "type": "Example",
+  "number": "4.3.3",
+  "title": "",
+  "body": "  Consider solving the damped harmonic osciallator Given this is a linear homogeneous ODE, its general solution can be obtained through the method of characteristics. To make notation simpler, let's rewrite the problem as Then its characteristic polynomial has the roots This gives us three distinct cases to consider.    Suppose  . This would indicate we have two distinct real roots and the general solution is Plotting a graph shows a smooth nonoscillatory decaying motion. Hence, we say this system is overdamped .     Suppose  . This would indicate one repeated real root; the general solution is The graph of this system shows a similar behavior, but we notice that the system passes equilibrium at most once. In this case, we say the motion is critically damped .     Suppose  . This would indicate one conjugate pair of roots; the general solution becomes This system exhibits the oscillatory behavior we would expect, however the amplitude still decays in time: thanks to the term.      "
+},
+{
+  "id": "def-parameter-space",
+  "level": "2",
+  "url": "diffeq-notes-4-3.html#def-parameter-space",
+  "type": "Definition",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  The set of all possible parameter values in a mathematical model is called the parameter space for the model.   "
+},
+{
+  "id": "diffeq-notes-4-3-7",
+  "level": "2",
+  "url": "diffeq-notes-4-3.html#diffeq-notes-4-3-7",
+  "type": "Example",
+  "number": "4.3.5",
+  "title": "",
+  "body": "  Plot the equation in parameter space to visualize the damping scenarios.   "
+},
+{
+  "id": "diffeq-notes-4-3-8",
+  "level": "2",
+  "url": "diffeq-notes-4-3.html#diffeq-notes-4-3-8",
+  "type": "Example",
+  "number": "4.3.6",
+  "title": "",
+  "body": "  Recall that and Use these to build a similar parameter space diagram in space.   "
 }
 ]
 
