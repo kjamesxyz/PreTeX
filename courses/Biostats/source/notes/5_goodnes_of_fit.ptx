@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-5-1-goodness-of-fit" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Goodness of Fit </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Conduct goodness of fit tests. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-goodness-of-fit">
+        <statement>
+            <p>
+                The measurement of how well a proposed probability distribution describes a population is called the <alert> goodness-of-fit </alert> of the distribution.
+            </p>
+        </statement>
+    </definition>
+
+</section>
