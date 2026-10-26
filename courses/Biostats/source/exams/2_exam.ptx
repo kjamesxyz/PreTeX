@@ -20,10 +20,10 @@
             <p>
                 Which of the following marks the 80th percentile?  
                 <ol marker="A." cols="4">
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
+                    <li><p> -7.667 </p></li>
+                    <li><p> 0.7881</p></li>
+                    <li><p> 0.8526 </p></li>
+                    <li><p> 11.01 </p></li>
                 </ol>
             </p>
         </statement>
@@ -34,10 +34,10 @@
             <p>
                 Compute <m> \cal{P}[X \leq 10.5] </m>. 
                 <ol marker="A." cols="4">
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
+                    <li><p> 0.34 </p></li>
+                    <li><p> 0.42 </p></li>
+                    <li><p> 0.58 </p></li>
+                    <li><p> 0.66 </p></li>
                 </ol>
             </p>
         </statement>
@@ -48,10 +48,10 @@
             <p>
                 Compute <m> \cal{P}[ 9.8 \lt X \lt 11.1] </m>. 
                 <ol marker="A." cols="4">
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
-                    <li><p> </p></li>
+                    <li><p> 0.37 </p></li>
+                    <li><p> 0.43 </p></li>
+                    <li><p> 0.61 </p></li>
+                    <li><p> 0.82 </p></li>
                 </ol>
             </p>
         </statement>
@@ -78,7 +78,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>\mu_T</m> denote the mean resting systolic blood pressure in the treatment group and let <m>\mu_C</m> denote the mean resting systolic blood pressure in the control group. Which of the following do <alert>NOT</alert> represent the physical therapist's null hypothesis?
+                Let <m>\mu_T</m> denote the mean resting systolic blood pressure in the treatment group and let <m>\mu_C</m> denote the mean resting systolic blood pressure in the control group. Which of the following could <alert>NOT</alert> be used as an appropriate null hypothesis to test the therapist's claim?
                 <ol marker="A." cols="2">
                     <li><p> <m> \mu_T = \mu_C </m> </p></li>
                     <li><p> <m> \mu_T \leq \mu_C </m> </p></li>
@@ -108,17 +108,17 @@
             <p>
                 Which of the following provides the best example of a type 1 error for this study? 
                 <ol marker="A.">
-                    <li><p> The phyiscal therapist concludes that their treatment is successful when it is not. </p></li>
-                    <li><p> The physical therapist concludes that their treatment lowers mean resting systolic blood pressure when it does not. </p></li>
-                    <li><p> The phyiscal therapist concludes that their treatment does not lower mean resting systolic blood pressure when it does. </p></li>
-                    <li><p> The physical therapist concludes that their treatment lowers mean resting systolic blood pressure because their control group started off with higher mean blood pressure. </p></li>
+                    <li><p> The phyiscal therapist concludes that their treatment is likely successful when it is not. </p></li>
+                    <li><p> The physical therapist concludes that their treatment likely lowers mean resting systolic blood pressure when it does not. </p></li>
+                    <li><p> The phyiscal therapist concludes that their treatment likely does not lower mean resting systolic blood pressure when it does. </p></li>
+                    <li><p> The physical therapist concludes that their treatment likely lowers mean resting systolic blood pressure because their control group started off with higher mean blood pressure. </p></li>
                 </ol>
             </p>
         </statement>
     </exercise>
 
     <p>
-        <alert>For problems 8-10 :</alert> A popular music streaming platform reports that pop music accounts for 13.1% of all music streams in the U.S. A recent poll asked 150 users for the genres of music they stream; 24 reported streaming pop music.
+        <alert>For problems 8-10 :</alert> A popular music streaming platform reports that pop music accounts for 13% of all music streams in the U.S. A recent poll asked 150 users for the genres of music they stream; 24 reported streaming pop music.
     </p>
 
     <exercise>
@@ -128,7 +128,7 @@
                 <ol marker="A.">
                     <li><p> The total number of users that stream pop music. </p></li>
                     <li><p> The proportion of all users that stream pop music. </p></li>
-                    <li><p> The 24 of the 150 polled users that stream pop music.</p></li>
+                    <li><p> The 24 of the 150 polled users stream pop music.</p></li>
                     <li><p> The 16% of polled users that stream pop music. </p></li>
                 </ol>
             </p>
@@ -138,12 +138,12 @@
     <exercise>
         <statement>
             <p>
-                Which of the following is an appropriate <alert> null hypothesis </alert> for this claim?
+                Which of the following is an appropriate null hypothesis for this claim?
                 <ol marker="A.">
                     <li><p> Pop is the most-streamed music genre. </p></li>
-                    <li><p> 13.1% of all music streams in the U.S. are for pop music. </p></li>
-                    <li><p> 16% of all music streams in the U.S. are for pop music. </p></li>
-                    <li><p> At least 13.1% of all music streams in the U.S. are for pop music. </p></li>
+                    <li><p> 13% of all music streams are for pop music. </p></li>
+                    <li><p> 16% of all music streams are for pop music. </p></li>
+                    <li><p> At least 16% of all music streams are for pop music. </p></li>
                 </ol>
             </p>
         </statement>
@@ -154,10 +154,10 @@
             <p>
                 Which of the following best describes the shape of the sampling distribution of sample proportions?
                 <ol marker="A." cols="2">
-                    <li><p> <m> \hat{p} \sim \cal{N}(0.3, 0.0374) </m> </p></li>
-                    <li><p> <m> \hat{p} \sim \cal{N}(0.3, 0.0014) </m> </p></li>
-                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0374) </m> </p></li>
-                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0014) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.13, 0.0275) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.13, 0.0299) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0275) </m> </p></li>
+                    <li><p> <m> \hat{p} \sim \cal{N}(0.16, 0.0299) </m> </p></li>
                 </ol>
             </p>
         </statement>
@@ -167,22 +167,27 @@
 
 
     <p>
-        <alert>Free Response:</alert> There are 5 free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. If you have used an R command to compute your solution, refer to the data set as <c>df</c> and <alert> write the code you used as justification </alert> for your answer. If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+        <alert>Free Response:</alert> There are 5 free-response questions worth 70 points total. For each problem, record your solution in the space provided. All answers <alert> must have justification </alert> in order to receive credit. <alert> If you use RStudio </alert> to answer a question, please write each line of code you used to compute your answer as justification. Please note that the <c>z.test</c> and <c>t.test</c> commands <alert>WILL NOT BE ACCEPTED</alert> as justification for your answers on this exam. 
     </p>
 
+    <p>
+        If you need additional room, you may attach a piece of the provided colored scratch paper. In this case, please write your name on each sheet you attach and clearly indicate which question the attached work corresponds to. 
+    </p>
+
+    <!-- Central Limit Theorem -->
     <exercise workspace="0.5in">
         <statement>
             <p>
-                State the Central Limit Theorem.
+                [6 points] State the Central Limit Theorem.
             </p>
         </statement>
     </exercise>
-
+    
+    <!-- hyp test one mean -->
     <exercise>
-        <!-- hyp test one mean -->
         <introduction>
             <p>
-                A radio station claims to play 50 minutes of music per hour on average. After only getting to listen to one song on your way to campus, you decide to test their claim. You randomly select 12 one-hour blocks over the next week to record how many minutes of music are played, recording the results in the table below. 
+                [26 points] A radio station claims to play 50 minutes of music per hour on average. After only getting to listen to one song on your way to campus, you decide to test their claim. You randomly select 12 one-hour blocks over the next week to record how many minutes of music are played, recording the results in the table below. 
             </p>
             <tabular>
                 <row>
@@ -208,7 +213,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Identify the parameter of interest for the study, then use the data to find the corresponding point estimate from your sample. 
+                    Identify the parameter of interest for the study, then <alert>use RStudio</alert> find the corresponding point estimate from your sample. Round your answer to one decimal place. 
                 </p>
             </statement>
         </task>
@@ -224,15 +229,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Choose an appropriate test statistic (write your choice down) and use it to find the critical values for your hypothesis test.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    Compute the standard error for the sampling distribution.
+                    Choose an appropriate test statistic (write your choice down) and <alert>use RStudio</alert> to find the critical values for your hypothesis test. Round your answers to two decimal places. 
                 </p>
             </statement>
         </task>
@@ -240,7 +237,23 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Compute the margin of error for the 90% confidence interval.
+                    <alert>Use RStudio</alert> to compute the standard deviation of the sample. Round your answer to four decimal places. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the standard error of the sampling distribution. Round your answer to four decimal places. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the margin of error for the 90% confidence interval. Round your answer to one decimal place.
                 </p>
             </statement>
         </task>
@@ -261,12 +274,12 @@
             </statement>
         </task>
     </exercise>
-
+    
+    <!-- hyp test two prop -->
     <exercise>
-        <!-- hyp test two prop -->
         <introduction>
             <p>
-                A pharmaceutical company claims their COVID-19 vaccine lowers your risk of infection for 12 weeks. A clinical trial is designed to test the claim. The 800 patients are split randomly into a control group of 500 patients and a treatment group of 300 patients. Over the next 12 weeks, they record that 21 patients from the control group contract COVID-19 and 8 of the patients from the treatment group contract COVID-19.
+                [20 points] A pharmaceutical company claims their COVID-19 vaccine lowers a recipient's risk of infection for 12 weeks. A clinical trial is designed to test the claim. The 800 patients whom volunteered for the trial are split randomly into a control group of 500 patients and a treatment group of 300 patients. Over the next 12 weeks, they record that 21 patients from the control group contract COVID-19 and 8 of the patients from the treatment group contract COVID-19.
             </p>
         </introduction>
         
@@ -278,7 +291,7 @@
             </statement>
         </task>
 
-        <task workspace="3in">
+        <task workspace="4in">
             <statement>
                 <p>
                     Test the pharmaceutical company's claim with 95% confidence. Interpret your results in plain language.
@@ -287,11 +300,11 @@
         </task>
     </exercise>
 
+    <!-- hyp test two mean -->
     <exercise>
-        <!-- hyp test two mean -->
         <introduction>
             <p>
-                In sociology, <alert>social cohesion</alert> is the strength of relationships between members of a community. They randomly select neighborhoods and perform an assessment to determine the social cohesion factor (SCF) of those neighborhoods. The data is summarized in the table below. 
+                [18 points] In sociology, <alert>social cohesion</alert> is the strength of relationships between members of a community. They randomly select neighborhoods and perform an assessment to determine the social cohesion factor (SCF) of those neighborhoods. Note that the higher a neighborhod's SCF score, the higher their social cohesion. The data is summarized in the table below. 
             </p>
             <tabular>
                 <row header="yes">
@@ -314,7 +327,7 @@
                 </row>
             </tabular>
             <p>
-                Based on these results, the sociologist claims that high-income neighborhoods have more social cohesion than low-income neighborhoods. 
+                Based on these results, the sociologist claims that the socio-economic status of a neighborhood has an affect on their mean SCF score. 
             </p>
         </introduction>
 
