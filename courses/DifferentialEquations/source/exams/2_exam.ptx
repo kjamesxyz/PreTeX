@@ -14,14 +14,14 @@
 
         <introduction>
             <p>
-                Consider the ODE <md> x^2 y'' - xy' + 2y = 0. </md>
+                Consider the ODE <md> 2t^2 u'' + tu' - 3u = 0. </md>
             </p>
         </introduction>
 
         <task workspace="0.75in">
             <statement>
                 <p>
-                    Show that <m> y_1 = x \sin(\ln(x)) </m> is a solution on <m>(0,\infty)</m>. 
+                    Show that <m> y_1 = \frac{1}{t} </m> is a solution on <m>(0,\infty)</m>. 
                 </p>
             </statement>
         </task>
@@ -39,19 +39,25 @@
     <exercise workspace="4in">
         <statement>
             <p>
-                Use the method of undetermined coefficients to solve the ODE <md> y'' + 2y' - 24y = 16 - (x+2)e^{4x}. </md> 
+                Use the method of undetermined coefficients to solve the IVP <md> y'' -4y' - 12y = 3e^{5x}; \ y(0) = \frac{18}{7}, \ y'(0) = -\frac{1}{7}. </md> 
             </p>
         </statement>
         
     </exercise>
 
     <!-- variation of parameters -->    
-    <exercise workspace="4in">
+    <exercise workspace="7in">
         <statement>
             <p>
-                Use variation of parameters to solve the IVP <md> 2y'' + y' - y = x + 1; \ y(0) = 1, \ y'(0) = 0. </md> 
+                Use variation of parameters to solve the ODE <md> 2y'' + y' - y = x + 1. </md> 
             </p>
         </statement>
+
+        <hint>
+            <p>
+                Recall <m>\int xe^{ax} \, \left(\frac{ax - 1}{a^2} \right)dx = e^{ax}  + C</m>. 
+            </p>
+        </hint>
     </exercise>
 
     <!-- 2nd-order modelling -->
@@ -59,18 +65,18 @@
         
         <introduction>
             <p>
-                According to <alert>Kirchoff's Law</alert>, the impressed voltage on a circuit is the sum of the potential drops across all components. In an LCR circuit, that is
+                According to <alert>Kirchoff's Law</alert>, the impressed voltage <m>E(t)</m> on a circuit is the sum of the potential drops across all components. In an LCR circuit, that is
                 <md>
-                    V_L + V_R + V_C = V(t).
+                    V_L + V_R + V_C = E(t).
                 </md>
                 where <m>V_L</m> is the potential drop across the inductor, <m>V_R</m> is the potential drop across the resistor, and <m>V_C</m> is the potential drop across the capacitor. Suppose the circuit has inductance <m>L</m>, resistance <m>R</m>, and capacitance <m>C</m>. 
             </p>
         </introduction>
         
-        <task workspace="0.5in">
+        <task workspace="1in">
             <statement>
                 <p>
-                    Use the statements below to write a 2nd-order ODE for the charge on the capacitor <m>q</m> at time <m>t</m>.
+                    Use the statements below to write a 2nd-order IVP for the charge on the capacitor <m>q</m> at time <m>t</m>.
                     <ol>
                         <li>
                             <p>
@@ -95,12 +101,18 @@
                                 The potential drop across an inductor is the product of the inductance and the rate of change of the current.
                             </p>
                         </li>
+
+                        <li>
+                            <p>
+                                The capacitor starts with no charge or current.
+                            </p>
+                        </li>
                     </ol> 
                 </p>
             </statement>
         </task>
 
-        <task workspace="2in">
+        <task workspace="3in">
             <statement>
                 <p>
                     Suppose there is no impressed voltage (<m>E(t) = 0</m> for all <m>t</m>). Use the ODE you built in part (b) to construct an algebraic model for the charge on the capacitor at time <m>t</m>. 
@@ -108,12 +120,16 @@
             </statement>
         </task>
 
-        <task workspace="0.75in">
+        <task workspace="7in">
             <statement>
                 <p>
-                    Suppose the capacitor begins with no charge or current. How does this affect the ODE model you wrote in part (b)? How does this affect the algebraic model you wrote in part (c)?
+                    Suppose the capacitor must have a capacitance of 10 pF. Sketch a diagram of the <m>(R,L)</m> parameter space below. Label regions of underdamping, critical damping, and overdamping. Specify the region of this parameter space that your solution falls into. 
                 </p>
+                <image source="images/blankQ1axes.jpg" width="50%">
+                    <shortdescription></shortdescription>
+                </image>
             </statement>
+            
         </task>
 
     </exercise>
@@ -132,7 +148,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Identify all equilibria (nullclines) for the system. Sketch them onto the picture above.
+                    Identify all equilibria (nullclines) for the system. Sketch them onto the picture above, then write their equation(s) in the space below.
                 </p>
             </statement>
         </task>
@@ -140,12 +156,12 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Label at least one nonzero isocline for the system. Sketch it onto the picture above.
+                    Label at least one nonzero isocline for the system. Sketch it onto the picture above, then write their equation(s) in the space below.
                 </p>
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task>
             <statement>
                 <p>
                     Consider the initial condition <m>y(3) = 1 </m>. Sketch the corresponding trajectory on <m>(0,\infty)</m> onto the picture above.
@@ -153,7 +169,15 @@
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task>
+            <statement>
+                <p>
+                    Consider the initial condition <m>y(-3) = 1 </m>. Sketch the corresponding trajectory on <m>(-\infty,0)</m> onto the picture above.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Classify each of the equilibria you found in part (a) as stable, unstable, or neither on <m>(-\infty, 0)</m>. Justify your answer.
