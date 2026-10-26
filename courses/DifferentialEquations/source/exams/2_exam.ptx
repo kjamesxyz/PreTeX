@@ -14,7 +14,7 @@
 
         <introduction>
             <p>
-                Consider the ODE <md> 2t^2 u'' + tu' - 3u = 0. </md>
+                [20 points] Consider the ODE <md> 2t^2 u'' + tu' - 3u = 0. </md>
             </p>
         </introduction>
 
@@ -39,7 +39,7 @@
     <exercise workspace="4in">
         <statement>
             <p>
-                Use the method of undetermined coefficients to solve the IVP <md> y'' -4y' - 12y = 3e^{5x}; \ y(0) = \frac{18}{7}, \ y'(0) = -\frac{1}{7}. </md> 
+                [23 points] Use the method of undetermined coefficients to solve the IVP <md> y'' -4y' - 12y = 3e^{5x}; \ y(0) = \frac{18}{7}, \ y'(0) = -\frac{1}{7}. </md> 
             </p>
         </statement>
         
@@ -49,13 +49,13 @@
     <exercise workspace="7in">
         <statement>
             <p>
-                Use variation of parameters to solve the ODE <md> 2y'' + y' - y = x + 1. </md> 
+                [23 points] Use variation of parameters to solve the ODE <md> 2y'' + y' - y = x + 1. </md> 
             </p>
         </statement>
 
         <hint>
             <p>
-                Recall <m>\int xe^{ax} \, \left(\frac{ax - 1}{a^2} \right)dx = e^{ax}  + C</m>. 
+                Recall <m>\int e^{ax}(x+1) \, dx = \frac{e^{ax}(ax + a - 1)}{a^2} + C</m>. 
             </p>
         </hint>
     </exercise>
@@ -65,7 +65,7 @@
         
         <introduction>
             <p>
-                According to <alert>Kirchoff's Law</alert>, the impressed voltage <m>E(t)</m> on a circuit is the sum of the potential drops across all components. In an LCR circuit, that is
+                [32 points] According to <alert>Kirchoff's Law</alert>, the impressed voltage <m>E(t)</m> on a circuit is the sum of the potential drops across all components. In an LCR circuit, that is
                 <md>
                     V_L + V_R + V_C = E(t).
                 </md>
@@ -138,7 +138,7 @@
     <exercise>
         <introduction>
             <p>
-                Suppose the slope field below corresponds to a first-order ODE.
+                [12 points] Suppose the slope field below corresponds to a first-order ODE.
             </p>
             <image source="images/slope_field_4.png" width="50%">
                 <shortdescription>A slope field.</shortdescription>
