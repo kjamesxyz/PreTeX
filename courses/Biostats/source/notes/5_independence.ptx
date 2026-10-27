@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-5-2-independence" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Tests for Independence </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Test for independence between random variables. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-contingency-table">
+        <statement>
+            <p>
+                A <alert>contingency table</alert> shows all combinations of outcomes between two variables in an experiment. The <q>total row</q> and <q>total column</q> in this contingency table form the <alert>conditional distributions</alert> between the variables. When two variables have identical conditional distributions, we call them <alert> independent </alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-test-for-independence">
+        <statement>
+            <p>
+                Ultimately, tests for independence are special cases of goodness-of-fit tests. We are claiming that a conditional probability distribution is the same both ways (two prob dists are equal). The independence between two random variables follows a <m>\chi^2</m> distribution with <m>(k_1-1)(k_2-1)</m> degrees of freedom where <m>k_1,k_2</m> are the number of outcomes from each random variable.
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <example>
+        <statement>
+            <p>
+                An ecologist is testing the efficacy of a pollinator restoration technique. They have marked out 100 plots in a polluted meadow and treat half of the plots (selected at random). They then observe each plot for 5 minutes to determine whether a pollinator visits the plot. The data is summarised in the table below. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Meadow Type</cell> <cell>Pollinator observed</cell> <cell>No Pollinator Observed</cell>
+                </row>
+                <row>
+                    <cell>Restored</cell> <cell>30</cell> <cell>20</cell>
+                </row>
+                <row>
+                    <cell>Unrestored</cell> <cell>20</cell> <cell>30</cell>
+                </row>
+            </tabular>
+            <p>
+                Test the efficacy of the treatment with 95% confidence.
+            </p>
+        </statement>
+    </example>
+</section>

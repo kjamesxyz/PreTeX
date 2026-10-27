@@ -7,8 +7,8 @@
 
         <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
             <ol> 
-                <li><p> Problems 6.1-6.16 from OpenIntro Statistics (pg. 215-216)</p></li>
-                <li><p> Problems 7.1-7.14 from OpenIntro Statistics (pg. 260-261)</p></li>
+                <li><p> Problems 6.31-6.34 from OpenIntro Statistics (pg. 239)</p></li>
+                <li><p> Problems 6.35-6.38 from OpenIntro Statistics (pg. 245)</p></li>
             </ol> 
         </p>
     </introduction>
@@ -70,34 +70,24 @@
     <exercise workspace="5in">
         <statement>
             <p>
-                The total body fat (in kg) of Olympic runners and swimmers is shown in the table below. 
+                A clinical trial separated their 240 patients into 3 treatment groups. The patients' side effects were measured and the results are recorded in the contingency table below.
             </p>
-            <sidebyside widths="45% 45%" valign="middle">
-                <table>
-                    <title>Runners</title>
-                    <tabular>
-                        <row>
-                            <cell>11.1</cell> <cell>10.1</cell> <cell>9.4</cell> <cell>9.2</cell> <cell>8.3</cell> <cell>8.2</cell>
-                        </row>
-                        <row>
-                            <cell>7.6</cell> <cell>7.3</cell> <cell>6.9</cell> <cell>5.5</cell> <cell>5.0</cell> <cell>3.7</cell>
-                        </row>
-                    </tabular>
-                </table>
-                <table>
-                    <title>Swimmers</title>
-                    <tabular>
-                        <row>
-                            <cell>14.1</cell> <cell>15.1</cell> <cell>11.4</cell> <cell>14.3</cell> <cell>9.2</cell>
-                        </row>
-                        <row>
-                            <cell>12.7</cell> <cell>13.7</cell> <cell>11.9</cell> <cell>10.7</cell> <cell>8.7</cell>
-                        </row>
-                    </tabular>
-                </table>
-            </sidebyside>
+            <tabular>
+                <row header="yes">
+                    <cell>Treatment Group</cell> <cell>No Side Effects</cell> <cell>Mild Side Effects</cell> <cell>Moderate Side Effects</cell>
+                </row>
+                <row>
+                    <cell>Low dose</cell> <cell>32</cell> <cell>28</cell> <cell>20</cell>
+                </row>
+                 <row>
+                    <cell>Standard dose</cell> <cell>25</cell> <cell>35</cell> <cell>20</cell>
+                </row>
+                 <row>
+                    <cell>High dose</cell> <cell>18</cell> <cell>22</cell> <cell>40</cell>
+                </row>
+            </tabular>
             <p>
-                Design a statistical test to determine with 95% confidence whether total body fat is dependent on sport amongs Olympians. 
+                Design and conduct a statistical test to determine with 95% confidence whether the dose affects the severity of side-effects. 
             </p>
         </statement>
     </exercise>

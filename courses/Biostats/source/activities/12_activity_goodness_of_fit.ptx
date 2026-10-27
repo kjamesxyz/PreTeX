@@ -21,6 +21,22 @@
                 </p>
             </statement>
         </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the R command for finding the <m>\cal{P}</m>-value from a <m>\chi^2</m> score.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the R command for finding the <m>\chi^2</m> score from a <m>\cal{P}</m> value.
+                </p>
+            </statement>
+        </task>
     </exercise>
 
     <exercise>
