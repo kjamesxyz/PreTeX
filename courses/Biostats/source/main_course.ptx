@@ -32,6 +32,8 @@
             <xi:include href="./activities/9_activity_hyp_test_one_prop.ptx"/>
             <xi:include href="./activities/10_activity_hyp_test_one_mean.ptx"/>
             <xi:include href="./activities/11_activity_hyp_test_two_params.ptx"/>
+
+            <xi:include href="./activities/12_activity_goodness_of_fit.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
@@ -44,6 +46,8 @@
             <xi:include href="./homework/4_homework.ptx"/>
             <xi:include href="./homework/5_homework.ptx"/>
             <xi:include href="./homework/6_homework.ptx"/>
+
+            <xi:include href="./homework/7_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">

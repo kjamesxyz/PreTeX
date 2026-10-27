@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw7">
+<title>📝 Homework 7</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, November 4</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 6.1-6.16 from OpenIntro Statistics (pg. 215-216)</p></li>
+                <li><p> Problems 7.1-7.14 from OpenIntro Statistics (pg. 260-261)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                According to California Community Colleges (CCC), the age group of full-time community college students in the 2014-2015 academic year was distributed by the table below.
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Age Group</cell><cell>Relative Frequency</cell>
+                </row>
+                <row>
+                    <cell>Under 20</cell><cell>0.25</cell>
+                </row>
+                <row>
+                    <cell>20-24</cell><cell>0.32</cell>
+                </row>
+                <row>
+                    <cell>25-29</cell><cell>0.14</cell>
+                </row>
+                <row>
+                    <cell>30-34</cell><cell>0.08</cell>
+                </row>
+                <row>
+                    <cell>Over 34</cell><cell>0.21</cell>
+                </row>
+            </tabular>
+            <p>
+                A random sample of Modesto Junior College (MJC) students this year showed the distribution below.
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Age Group</cell><cell>Count</cell>
+                </row>
+                <row>
+                    <cell>Under 20</cell><cell>48</cell>
+                </row>
+                <row>
+                    <cell>20-24</cell><cell>107</cell>
+                </row>
+                <row>
+                    <cell>25-29</cell><cell>30</cell>
+                </row>
+                <row>
+                    <cell>30-34</cell><cell>14</cell>
+                </row>
+                <row>
+                    <cell>Over 34</cell><cell>28</cell>
+                </row>
+            </tabular>
+            <p>
+                Determine whether the 2014-2015 data is still a good fit with 5% significance. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                The total body fat (in kg) of Olympic runners and swimmers is shown in the table below. 
+            </p>
+            <sidebyside widths="45% 45%" valign="middle">
+                <table>
+                    <title>Runners</title>
+                    <tabular>
+                        <row>
+                            <cell>11.1</cell> <cell>10.1</cell> <cell>9.4</cell> <cell>9.2</cell> <cell>8.3</cell> <cell>8.2</cell>
+                        </row>
+                        <row>
+                            <cell>7.6</cell> <cell>7.3</cell> <cell>6.9</cell> <cell>5.5</cell> <cell>5.0</cell> <cell>3.7</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Swimmers</title>
+                    <tabular>
+                        <row>
+                            <cell>14.1</cell> <cell>15.1</cell> <cell>11.4</cell> <cell>14.3</cell> <cell>9.2</cell>
+                        </row>
+                        <row>
+                            <cell>12.7</cell> <cell>13.7</cell> <cell>11.9</cell> <cell>10.7</cell> <cell>8.7</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </sidebyside>
+            <p>
+                Design a statistical test to determine with 95% confidence whether total body fat is dependent on sport amongs Olympians. 
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>

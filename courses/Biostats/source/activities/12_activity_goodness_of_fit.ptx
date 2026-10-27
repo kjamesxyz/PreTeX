@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-12" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 12 - Goodness-of-Fit Tests </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, November 2</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
+    </introduction>
+
+   <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write the formula for computing goodness-of-fit. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Blood types in the general population are understood to follow the below distribution. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>Blood Type</cell> <cell>A+</cell> <cell>A-</cell> <cell>B+</cell> <cell>B-</cell> <cell>AB+</cell> <cell>AB-</cell> <cell>O+</cell> <cell>O-</cell>
+                </row>
+                <row>
+                    <cell>Proportion</cell> <cell>31%</cell> <cell>2.5%</cell> <cell>15%</cell> <cell>1%</cell> <cell>5%</cell> <cell>0.5%</cell> <cell>42%</cell> <cell>3%</cell>
+                </row>
+            </tabular>
+            <p>
+                Blood samples from an isolated community was taken using limited equipment. While the Rh factor (+/-) could not be determined, the blood types were distributed according to the table below.
+            </p>
+            <tabular>
+                <row>
+                    <cell>Blood Type</cell> <cell>A</cell> <cell>B</cell> <cell>AB</cell> <cell>O</cell>
+                </row>
+                <row>
+                    <cell>Number</cell> <cell>59</cell> <cell>20</cell> <cell>4</cell> <cell>87</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The claim is made that the isolated community's blood type distribution is different due to their limited genetic diversity. State the null and alternative hypotheses in words and in symbols. Clearly indicate which hypothesis agrees with the claim. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How many of each blood type were expected? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Compute the goodness-of-fit for the sample.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Use RStudio to compute the critical value for 10% significance. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Sketch the graph of the test statistic. Mark your critical value and shade in the <q>rejection region</q>. Then add your sample data onto the curve.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your answers from parts (c)-(e) to conclude your hypothesis test. Interpret your results in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Use RStudio to compute the <m>\cal{P}</m>-value for our sample. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How could you use your work from part (g) as evidence to draw the conclusion you made in part (f)? 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Suppose the study was able to determine the Rh factor, and they now have the data given in the table below.
+                </p>
+                <tabular>
+                    <row>
+                        <cell>Blood Type</cell> <cell>A+</cell> <cell>A-</cell> <cell>B+</cell> <cell>B-</cell> <cell>AB+</cell> <cell>AB-</cell> <cell>O+</cell> <cell>O-</cell>
+                    </row>
+                    <row>
+                        <cell>Number</cell> <cell>57</cell> <cell>2</cell> <cell>19</cell> <cell>1</cell> <cell>4</cell> <cell>0</cell> <cell>84</cell> <cell>3</cell>
+                    </row>
+                </tabular>
+                <p>
+                    Retest the claim using the new data with 95% confidence. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+</worksheet>
