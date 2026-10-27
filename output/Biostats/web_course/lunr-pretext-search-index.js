@@ -397,6 +397,33 @@ var ptx_lunr_docs = [
   "body": "   This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity11.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 10 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Hypothesis Testing on Two Parameters Check-in\".     As a group, choose a target qualitative variable from your data set. Then, identify another quantiative variable that you suspect may influence the value of the target variable.      Develop a sampling method to separate your data into two groups based on the influencing variable from part (a). Then use the command dplyr::filter() to split up your data set into your experimental groups in R.      Extract and store the target qualitative variable (as chosen in part (a)) from each experiment group. Remove any missing data with the na.omit() command.      Use the table() command to build a frequency distribution for each of your samples.      Summarize this information in a written report. Your report should speak to each of the following prompts.     Clearly state your group's null and alternative hypotheses in both words and symbols.      Describe your sampling technique and determine whether it qualifies as a true random, systematic, stratified, or clustered sample. Explain how you implemented this in R.      Include the frequency distributions you generated.      Test your hypothesis with 95% confidence. Clearly distinguish between your sample statistics, point estimate, test statistic, critical value, standard error, margin of error, and confidence interval. Interpret your results in plain language.     "
 },
 {
+  "id": "biostats-act-12",
+  "level": "1",
+  "url": "biostats-act-12.html",
+  "type": "🏫 Activity",
+  "number": "2.12",
+  "title": "🏫 Activity 12 - Goodness-of-Fit Tests",
+  "body": " 🏫 Activity 12 - Goodness-of-Fit Tests   This assignment is due at the beginning of class on Monday, November 2 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing goodness-of-fit.       Blood types in the general population are understood to follow the below distribution.    Blood Type  A+  A-  B+  B-  AB+  AB-  O+  O-    Proportion  31%  2.5%  15%  1%  5%  0.5%  42%  3%    Blood samples from an isolated community was taken using limited equipment. While the Rh factor (+\/-) could not be determined, the blood types were distributed according to the table below.    Blood Type  A  B  AB  O    Number  59  20  4  87       The claim is made that the isolated community's blood type distribution is different due to their limited genetic diversity. State the null and alternative hypotheses in words and in symbols. Clearly indicate which hypothesis agrees with the claim.      How many of each blood type were expected?      Compute the goodness-of-fit for the sample.      Use RStudio to compute the critical value for 10% significance.      Sketch the graph of the test statistic. Mark your critical value and shade in the rejection region . Then add your sample data onto the curve.      Use your answers from parts (c)-(e) to conclude your hypothesis test. Interpret your results in the context of the problem using plain language.      Use RStudio to compute the -value for our sample.      How could you use your work from part (g) as evidence to draw the conclusion you made in part (f)?      Suppose the study was able to determine the Rh factor, and they now have the data given in the table below.    Blood Type  A+  A-  B+  B-  AB+  AB-  O+  O-    Number  57  2  19  1  4  0  84  3    Retest the claim using the new data with 95% confidence.     "
+},
+{
+  "id": "biostats-act-12-3",
+  "level": "2",
+  "url": "biostats-act-12.html#biostats-act-12-3",
+  "type": "Worksheet Exercise",
+  "number": "2.12.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for computing goodness-of-fit.    "
+},
+{
+  "id": "biostats-act-12-4",
+  "level": "2",
+  "url": "biostats-act-12.html#biostats-act-12-4",
+  "type": "Worksheet Exercise",
+  "number": "2.12.2",
+  "title": "",
+  "body": "  Blood types in the general population are understood to follow the below distribution.    Blood Type  A+  A-  B+  B-  AB+  AB-  O+  O-    Proportion  31%  2.5%  15%  1%  5%  0.5%  42%  3%    Blood samples from an isolated community was taken using limited equipment. While the Rh factor (+\/-) could not be determined, the blood types were distributed according to the table below.    Blood Type  A  B  AB  O    Number  59  20  4  87       The claim is made that the isolated community's blood type distribution is different due to their limited genetic diversity. State the null and alternative hypotheses in words and in symbols. Clearly indicate which hypothesis agrees with the claim.      How many of each blood type were expected?      Compute the goodness-of-fit for the sample.      Use RStudio to compute the critical value for 10% significance.      Sketch the graph of the test statistic. Mark your critical value and shade in the rejection region . Then add your sample data onto the curve.      Use your answers from parts (c)-(e) to conclude your hypothesis test. Interpret your results in the context of the problem using plain language.      Use RStudio to compute the -value for our sample.      How could you use your work from part (g) as evidence to draw the conclusion you made in part (f)?      Suppose the study was able to determine the Rh factor, and they now have the data given in the table below.    Blood Type  A+  A-  B+  B-  AB+  AB-  O+  O-    Number  57  2  19  1  4  0  84  3    Retest the claim using the new data with 95% confidence.    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",
@@ -584,6 +611,33 @@ var ptx_lunr_docs = [
   "number": "3.6.2",
   "title": "",
   "body": "  A pharmaceutical company claims their new pain medication activates in less than 30 minutes. A clinical trial, consisting of 12 patients, recorded a mean activation time of 34.2 minutes with a sample standard deviation of 6.1 minutes. Use the clinical trial data to conduct a formal hypothesis test on the pharmaceutical company's claims with 1% significance. Interpret your results in plain language.   "
+},
+{
+  "id": "biostats-hw7",
+  "level": "1",
+  "url": "biostats-hw7.html",
+  "type": "🏫 Activity",
+  "number": "3.7",
+  "title": "📝 Homework 7",
+  "body": " 📝 Homework 7    Instructions: This assignment is due Wednesday, November 4 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 6.1-6.16 from OpenIntro Statistics (pg. 215-216)  Problems 7.1-7.14 from OpenIntro Statistics (pg. 260-261)       According to California Community Colleges (CCC), the age group of full-time community college students in the 2014-2015 academic year was distributed by the table below.    Age Group Relative Frequency    Under 20 0.25    20-24 0.32    25-29 0.14    30-34 0.08    Over 34 0.21    A random sample of Modesto Junior College (MJC) students this year showed the distribution below.    Age Group Count    Under 20 48    20-24 107    25-29 30    30-34 14    Over 34 28    Determine whether the 2014-2015 data is still a good fit with 5% significance.      The total body fat (in kg) of Olympic runners and swimmers is shown in the table below.    Runners    11.1  10.1  9.4  9.2  8.3  8.2    7.6  7.3  6.9  5.5  5.0  3.7      Swimmers    14.1  15.1  11.4  14.3  9.2    12.7  13.7  11.9  10.7  8.7      Design a statistical test to determine with 95% confidence whether total body fat is dependent on sport amongs Olympians.    "
+},
+{
+  "id": "biostats-hw7-3",
+  "level": "2",
+  "url": "biostats-hw7.html#biostats-hw7-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "",
+  "body": "  According to California Community Colleges (CCC), the age group of full-time community college students in the 2014-2015 academic year was distributed by the table below.    Age Group Relative Frequency    Under 20 0.25    20-24 0.32    25-29 0.14    30-34 0.08    Over 34 0.21    A random sample of Modesto Junior College (MJC) students this year showed the distribution below.    Age Group Count    Under 20 48    20-24 107    25-29 30    30-34 14    Over 34 28    Determine whether the 2014-2015 data is still a good fit with 5% significance.   "
+},
+{
+  "id": "biostats-hw7-4",
+  "level": "2",
+  "url": "biostats-hw7.html#biostats-hw7-4",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "",
+  "body": "  The total body fat (in kg) of Olympic runners and swimmers is shown in the table below.    Runners    11.1  10.1  9.4  9.2  8.3  8.2    7.6  7.3  6.9  5.5  5.0  3.7      Swimmers    14.1  15.1  11.4  14.3  9.2    12.7  13.7  11.9  10.7  8.7      Design a statistical test to determine with 95% confidence whether total body fat is dependent on sport amongs Olympians.   "
 },
 {
   "id": "biostats-projects-final",
