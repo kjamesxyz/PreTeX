@@ -989,6 +989,51 @@ var ptx_lunr_docs = [
   "number": "5.1.3",
   "title": "",
   "body": "  A commercial florist claims their assorted roses follow the below distribution.    Color  Proportion    Red 58%    White 32%    Pink 10%    In an order of 68 flowers, a customer received    Color  Count    Red 38    White 24    Pink 6       The customer complains that their order did not have the distribution of colors they expected. State the null and alternative hypotheses.    We have       Measure the goodness-of-fit between the customer's order and the florist's claim.    According to the florist, had we ordered 68 flowers, we would have expected to receive 34.8 red, 21.8 white, and 6.8 pink flowers. Hence, the goodness-of-fit is       Use the customer's order to test the florist's claim with 5% significance.    Start by drawing the picture. The idea is the same for other hypothesis tests. All goodness-of-fit tests are one-tailed, since we are essentially looking for too large of an error . Since we have 3 colors, we have 2 degrees of freedom. We compute using the R command qchisq(0.95,2) . Notice that our goodness of fit is acceptable. There is insignificant evidence to reject .    "
+},
+{
+  "id": "biostats-notes-5-2-independence",
+  "level": "1",
+  "url": "biostats-notes-5-2-independence.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Tests for Independence",
+  "body": " Tests for Independence    Students will be able to...    Test for independence between random variables.      A contingency table shows all combinations of outcomes between two variables in an experiment. The total row and total column in this contingency table form the conditional distributions between the variables. When two variables have identical conditional distributions, we call them independent .      Ultimately, tests for independence are special cases of goodness-of-fit tests. We are claiming that a conditional probability distribution is the same both ways (two prob dists are equal). The independence between two random variables follows a distribution with degrees of freedom where are the number of outcomes from each random variable.      An ecologist is testing the efficacy of a pollinator restoration technique. They have marked out 100 plots in a polluted meadow and treat half of the plots (selected at random). They then observe each plot for 5 minutes to determine whether a pollinator visits the plot. The data is summarised in the table below.    Meadow Type  Pollinator observed  No Pollinator Observed    Restored  30  20    Unrestored  20  30    Test the efficacy of the treatment with 95% confidence.    "
+},
+{
+  "id": "biostats-notes-5-2-independence-2",
+  "level": "2",
+  "url": "biostats-notes-5-2-independence.html#biostats-notes-5-2-independence-2",
+  "type": "Objectives",
+  "number": "5.2",
+  "title": "",
+  "body": "  Students will be able to...    Test for independence between random variables.   "
+},
+{
+  "id": "def-contingency-table",
+  "level": "2",
+  "url": "biostats-notes-5-2-independence.html#def-contingency-table",
+  "type": "Definition",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  A contingency table shows all combinations of outcomes between two variables in an experiment. The total row and total column in this contingency table form the conditional distributions between the variables. When two variables have identical conditional distributions, we call them independent .   "
+},
+{
+  "id": "thm-test-for-independence",
+  "level": "2",
+  "url": "biostats-notes-5-2-independence.html#thm-test-for-independence",
+  "type": "Theorem",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  Ultimately, tests for independence are special cases of goodness-of-fit tests. We are claiming that a conditional probability distribution is the same both ways (two prob dists are equal). The independence between two random variables follows a distribution with degrees of freedom where are the number of outcomes from each random variable.   "
+},
+{
+  "id": "biostats-notes-5-2-independence-5",
+  "level": "2",
+  "url": "biostats-notes-5-2-independence.html#biostats-notes-5-2-independence-5",
+  "type": "Example",
+  "number": "5.2.3",
+  "title": "",
+  "body": "  An ecologist is testing the efficacy of a pollinator restoration technique. They have marked out 100 plots in a polluted meadow and treat half of the plots (selected at random). They then observe each plot for 5 minutes to determine whether a pollinator visits the plot. The data is summarised in the table below.    Meadow Type  Pollinator observed  No Pollinator Observed    Restored  30  20    Unrestored  20  30    Test the efficacy of the treatment with 95% confidence.   "
 }
 ]
 
