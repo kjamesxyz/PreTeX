@@ -42,7 +42,7 @@
         </chapter>
 
         <chapter xml:id="biostats-notes-5-chi-square">
-            <title>The <m>\Chi^2</m> Distribution </title>
+            <title>The <m>\chi^2</m> Distribution </title>
             
             <xi:include href="./notes/5_goodness_of_fit.ptx"/>
         </chapter>

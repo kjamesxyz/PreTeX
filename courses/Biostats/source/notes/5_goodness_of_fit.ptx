@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-5-1-goodness-of-fit" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Goodness of Fit </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Conduct goodness of fit tests. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-goodness-of-fit">
+        <statement>
+            <p>
+                The measurement of how well a proposed probability distribution describes a population is called the <alert> goodness-of-fit </alert> of the distribution. It is computed 
+                <md>
+                    \Delta p = \sum_{k} \frac{(p_k - \hat{p}_k)^2}{p_k} = \sum_{\text{all proportions}} \frac{\text{difference}^2}{\text{expected}}
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-goodness-of-fit">
+        <statement>
+            <p>
+                The goodness of fit between two probability distributions follows a <alert><m>\chi^2</m>-distribution</alert> with <m>k - 1</m> degrees of freedom, where <m>k</m> is the number of proportions in the distribution. It has mean <m>k-1</m> and standard deviation <m>\sqrt{2(k-1)}</m>. We write <md> \Delta p \sim \chi^2_{k-1}.</md> 
+            </p>
+        </statement>
+    </theorem>
+
+    <p>
+        Draw a picture of the distribution. Point out it starts from 0 and is heavily skewed right. As <m>k \to \infty</m>, <m>\chi^2 \to \cal{N}</m>. 
+    </p>
+
+    <example>
+        <introduction>
+            <p>
+                A commercial florist claims their assorted roses follow the below distribution. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Color</cell> <cell>Proportion</cell>
+                </row>
+                <row>
+                    <cell>Red</cell><cell>58%</cell>
+                </row>
+                <row>
+                    <cell>White</cell><cell>32%</cell>
+                </row>
+                <row>
+                    <cell>Pink</cell><cell>10%</cell>
+                </row>
+            </tabular>
+            <p>
+                In an order of 68 flowers, a customer received 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Color</cell> <cell>Count</cell>
+                </row>
+                <row>
+                    <cell>Red</cell><cell>38</cell>
+                </row>
+                <row>
+                    <cell>White</cell><cell>24</cell>
+                </row>
+                <row>
+                    <cell>Pink</cell><cell>6</cell>
+                </row>
+            </tabular>
+            
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    The customer complains that their order did not have the distribution of colors they expected. State the null and alternative hypotheses.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    We have 
+                    <md>
+                        <mrow> H_0: \amp p_{\text{red}} = 0.58 \wedge p_{\text{white}} = 0.32 \wedge p_{\text{pink}} = 0.1 </mrow>
+                        <mrow> H_1: \amp p_{\text{red}} \neq 0.58 \vee p_{\text{white}} \neq 0.32 \vee p_{\text{pink}} \neq 0.1 </mrow>
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Measure the goodness-of-fit between the customer's order and the florist's claim.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    According to the florist, had we ordered 68 flowers, we would have expected to receive 34.8 red, 21.8 white, and 6.8 pink flowers. Hence, the goodness-of-fit is 
+                    <md>
+                        \Delta p = \frac{(34.8-38)^2}{34.8} + \frac{(21.8-24)^2}{21.8} + \frac{(6.8-6)^2}{6.8} \approx 0.62.
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the customer's order to test the florist's claim with 5% significance. 
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Start by drawing the picture. The idea is the same for other hypothesis tests. All goodness-of-fit tests are one-tailed, since we are essentially looking for <q>too large of an error</q>. Since we have 3 colors, we have 2 degrees of freedom. We compute <md> \chi^{2*}_2 \approx 5.99 </md> using the R command <c>qchisq(0.95,2)</c>. Notice that our goodness of fit is acceptable. There is insignificant evidence to reject <m>H_0</m>. 
+                </p>
+            </solution>
+        </task>
+        
+    </example>
+
+    
+    
+
+</section>
