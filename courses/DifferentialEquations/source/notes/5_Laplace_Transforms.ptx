@@ -1,0 +1,212 @@
+<section xml:id="diffeq-notes-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> The Laplace Transform </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Compute Laplace transforms of simple functions from the definition. </p></li>
+            <li><p> Use tables to compute inverse Laplace transforms. </p></li>
+            <li><p> Compute convolutions. </p></li>
+            <li><p> Use Laplace transform identities to compute Laplace transforms. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-Laplace-transform">
+        <statement>
+            <p>
+                Let <m>f(t)</m> be a function that is integrable for <m>t \geq 0</m>. The <alert>Laplace transform</alert> of <m>f</m> is
+                <md>
+                    \cal{L}\{f(t)\} = \int_0^\infty e^{-st} f(t) \, dt = F(s)
+                </md>
+                provided the integral converges. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Compute <m>\cal{L}\{1\}</m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                From the definition, we compute 
+                <md>
+                    \cal{L}\{1\} = \int_0^\infty e^{-st} \cdot 1 \, dt = -\frac{1}{s} e^{-st} \big|_{t=0}^\infty = \frac{1}{s}.
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <theorem xml:id="thm-linearity-of-Laplace-transform">
+        <statement>
+            <p>
+                Suppose <m> \laplace{f(t)} = F(s)</m> and <m> \laplace{g(t)} = G(s) </m>. For any <m>\alpha, \beta \in \real</m>, we have <md> \laplace{\alpha f + \beta g} = \alpha F(s) + \beta G(s). </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                Compute <m> \laplace{3t^2 + 4t^3} </m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                By using the linearity of <m>\cal{L}</m> and results from our table of transforms, we compute 
+                <md>
+                    \laplace{3t^2 + 4t^3} = 3 \laplace{t^2} + 4\laplace{t^3} = 3 \left(\frac{2!}{s^2}\right) + 4 \left(\frac{3!}{s^4}\right) = \frac{6}{s^2} + \frac{24}{s^4}.
+                </md>
+            </p>
+        </solution>
+    </example>
+    
+    
+    <definition xml:id="def-inverse-Laplace-transforms">
+        <statement>
+            <p>
+                Suppose that <m>\cal{L}\{f(t)\} = F(s)</m>. Changing our frame of reference, we can call <m>f</m> the <alert> inverse Laplace transform </alert> of <m>F</m> and we write 
+                <md>
+                    \cal{L}^{-1} \{ F(s) \} = f(t).
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Earlier we showed that <m>\cal{L}\{1\} = \frac{1}{s}</m>. So, we can write <md> \cal{L}^{-1} \left\{\frac{1}{s}\right\}. </md> 
+            </p>
+        </statement>
+    </example>
+
+    <p>
+        Because these transforms can be very challenging to compute by hand, we often refer to a table of transforms as a tool to help us solve problems. The table allows us to not only determine transforms, but inverse transforms. 
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Use a transform table to compute <m>\lapinv{\frac{2}{s^2 + 9}}</m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                From our table of transforms, we find the identity <md> \laplace{\sin(at)} = \frac{a}{s^2 + a^2},</md> which is almost the format of our function. Notice we can write 
+                <md>
+                    \frac{2}{s^2 + 9} = 2 \cdot \frac{3}{3} \cdot \frac{1}{s^2 + 9} = \frac{2}{3} \cdot \frac{3}{s^2 + 9}.
+                </md>
+                Therefore, we can write 
+                <md>
+                    \lapinv{\frac{2}{s^2 + 9}} = \lapinv{\frac{2}{3} \frac{3}{s^2 + 9}} = \frac{2}{3} \lapinv{\frac{3}{s^2 + 9}} = \frac{2}{3} \sin(3t).
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <theorem xml:id="thm-translations">
+        <statement>
+            <p>
+                Suppose <m>\laplace{f(t)} = F(s) </m> and let <m>\alpha \in \real</m>. Then <md>\laplace{e^{at}f(t)} = F(s-a).</md>
+            </p>
+        </statement>
+    </theorem>
+    
+    <example>
+        <statement>
+            <p>
+                Compute <m> \laplace{te^{3t}\sin(5t)} </m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We know from our table of transforms that
+                <md>
+                    \laplace{t\sin(5t)} = \frac{10s}{(s^2 + 25)^2} := F(s).
+                </md>
+                Therefore, by the translation property,
+                <md>
+                    \laplace{te^{3t}\sin(5t)} = F(s-3) = \frac{10s-30}{((s-3)^2 + 25)^2}.
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <definition xml:id="def-convolution">
+        <statement>
+            <p>
+                Let <m>f,g</m> be continuous functions on <m>t \geq 0</m>. Their <alert> convolution </alert> is 
+                <md>
+                    f * g (t) = \int_0^t f(\tau) g(t - \tau) \, d\tau.
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    
+    
+    <p>
+        A few warnings with convolutions.
+        <ul>
+            <li>
+                <p>
+                    Notice that the second function <m>g</m> is the function that becomes translated. That said, convolution is NOT COMMUTATIVE. 
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Notice the integral is taken with respect to <m>\tau</m> and the bounds are in terms of <m> t</m>. After computing a convolution, you should obtain a function in your original variable only (no more <m>\tau</m>).
+                </p>
+            </li>
+        </ul>
+    </p>
+
+    <theorem xml:id="thm-convolution-thm">
+        <statement>
+            <p>
+                Suppose <m>\laplace{f(t)} = F(s)</m> and <m>\laplace{g(t)} = G(s)</m>. Then <md> \laplace{f * g} = \laplace{f} \cdot \laplace{g}.</md> Similarly, we have <md>f * g = \lapinv{F \cdot G (s)}.</md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                Compute <m> \lapinv{\frac{2}{(s-1)(s^2 + 4)}}.</m>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Observe that our function looks like the product of two entries in our table. So we write
+                <md>
+                    <mrow>\lapinv{\frac{2}{(s-1)(s^2 + 4)}} \amp = \lapinv{\frac{2}{s^2 + 4} \cdot \frac{1}{s-1}} </mrow>
+                    <mrow> \amp = \lapinv{\frac{2}{s^2 + 4}} * \lapinv{\frac{1}{s-1}} </mrow> 
+                    <mrow> \amp = (\sin(2t)) * e^{t} </mrow>
+                </md>
+                Now we can compute
+                <md>
+                    <mrow> \sin(2t) * e^t \amp = \int_0^t \sin(2\tau) \cdot e^{t - \tau} \, d\tau </mrow>
+                    <mrow> \amp = e^t \int_0^t \sin(2 \tau) e^{-\tau} \, d\tau </mrow>
+                    <mrow> \amp = e^t \left[ \frac{-e^{-\tau}}{5} \left(\sin(2 \tau) + 2 \cos(2 \tau) \right) \right]_{\tau=0}^\infty </mrow>
+                    <mrow> \amp = \frac{1}{5}\left( 2e^t - \sin(2t) - 2 \cos(2t) \right) </mrow>
+                </md>
+                
+            </p>
+        </solution>
+    </example>
+    
+
+</section>

@@ -44,5 +44,10 @@
             <xi:include href="./notes/4_Parameters.ptx"/>
         </chapter>
 
+        <chapter xml:id="chapter-5-Laplace-transforms">
+            <title>Laplace Transforms</title>
+            
+            <xi:include href="./notes/5_Laplace_Transforms.ptx"/>
+        </chapter>
     </book>
 </pretext>

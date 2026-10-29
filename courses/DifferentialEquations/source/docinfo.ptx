@@ -8,6 +8,8 @@
     ===================================================================== -->
     \newcommand{\ds}{\displaystyle}
     \newcommand{\email}[1]{\protect\href{mailto:#1}{#1}}
+    \newcommand{\lapinv}[1]{\cal{L}^{-1} \left\{#1\right\}}
+    \newcommand{\laplace}[1]{\cal{L}\left\{#1\right\}}
     \newcommand{\nth}{\text{th}}
     \newcommand{\prob}{\mathcal{P}}
 
@@ -22,7 +24,7 @@
     \newcommand{\rat}{\mathbb{Q}}
     \newcommand{\ints}{\mathbb{Z}}
 
-    <!-- =====================================================================
+    <!-- ========= ============================================================
     PROOF-WRITING
     ===================================================================== -->
     \newcommand{\done}{\textbf{\underline{End}.} }

@@ -34,6 +34,7 @@
             <xi:include href="./activities/11_activity_hyp_test_two_params.ptx"/>
 
             <xi:include href="./activities/12_activity_goodness_of_fit.ptx"/>
+            <xi:include href="./activities/13_activity_independence.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">

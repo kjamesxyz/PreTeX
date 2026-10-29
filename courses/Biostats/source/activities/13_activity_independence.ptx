@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-13" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 13 - Tests of Independence </title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, November 2</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
+
+        <p> <alert> This activity is part of your final project. </alert> Extra care should be taken in completing this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                The tables below contain the results from 30 experiments on various bacteria types, including Bacillus, Escherichia Coli, Pseudomonas, and Staphylococcus. Cultures of each bacteria were grown across four media: Agar, Blood, Broth, and Gelatin. Each culture was administered an antibiotic its response was categorized as either Immune (I), Resistant (R), Neutral (N), or Susceptible (S).  
+            </p>
+            <table>
+                <title>Bacillus Data</title>
+                <tabular>
+                    <row header="yes">
+                        <cell>Culture</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                            <cell>6</cell>
+                            <cell>7</cell>
+                    </row>
+                    <row>
+                        <cell>Medium</cell>
+                            <cell>Agar</cell>
+                            <cell>Agar</cell>
+                            <cell>Blood</cell>
+                            <cell>Blood</cell>
+                            <cell>Broth</cell>
+                            <cell>Broth</cell>
+                            <cell>Geletin</cell>
+                    </row>
+                    <row>
+                        <cell>Response</cell>
+                            <cell>N</cell>
+                            <cell>N</cell>
+                            <cell>N</cell>
+                            <cell>N</cell>
+                            <cell>N</cell>
+                            <cell>I</cell>
+                            <cell>S</cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <table>
+                <title>Escherichia Coli Data</title>
+                <tabular>
+                    <row header="yes">
+                        <cell>Culture</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                            <cell>6</cell>
+                            <cell>7</cell>
+                            <cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>Medium</cell>
+                            <cell>Agar</cell>
+                            <cell>Agar</cell>
+                            <cell>Blood</cell>
+                            <cell>Blood</cell>
+                            <cell>Broth</cell>
+                            <cell>Broth</cell>
+                            <cell>Geletin</cell>
+                            <cell>Geletin</cell>
+                    </row>
+                    <row>
+                        <cell>Response</cell>
+                            <cell>S</cell>
+                            <cell>N</cell>
+                            <cell>S</cell>
+                            <cell>S</cell>
+                            <cell>S</cell>
+                            <cell>S</cell>
+                            <cell>S</cell>
+                            <cell>I</cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <table>
+                <title>Psuedomonas Data</title>
+                <tabular>
+                    <row header="yes">
+                        <cell>Culture</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                            <cell>6</cell>
+                            <cell>7</cell>
+                            <cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>Medium</cell>
+                            <cell>Agar</cell>
+                            <cell>Agar</cell>
+                            <cell>Blood</cell>
+                            <cell>Blood</cell>
+                            <cell>Broth</cell>
+                            <cell>Broth</cell>
+                            <cell>Geletin</cell>
+                            <cell>Geletin</cell>
+                    </row>
+                    <row>
+                        <cell>Response</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>I</cell>
+                            <cell>N</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <table>
+                <title>Staphylococcus Data</title>
+                <tabular>
+                    <row header="yes">
+                        <cell>Culture</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                            <cell>6</cell>
+                            <cell>7</cell>
+                    </row>
+                    <row>
+                        <cell>Medium</cell>
+                            <cell>Agar</cell>
+                            <cell>Agar</cell>
+                            <cell>Blood</cell>
+                            <cell>Broth</cell>
+                            <cell>Broth</cell>
+                            <cell>Geletin</cell>
+                            <cell>Geletin</cell>
+                    </row>
+                    <row>
+                        <cell>Response</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>R</cell>
+                            <cell>N</cell>
+                            <cell>R</cell>
+                            <cell>I</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Construct a table to show the conditional probability distribution of antibiotic responses from Bacillus data. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Construct a table to show the conditional probability distribution of bacteria species from susceptible responses. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Construct a contingency table between bacteria species and culture medium.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Conduct a test for independence between bacteria species and culture medium with 95% significance.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Construct a contingency table between bacteria species and antibiotic response.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Conduct a test for independence between bacteria species and antibiotic response with 95% significance.
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity13.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 13 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Test for Independence Check-in". 
+            </p>
+
+            <p>
+                <alert>Goal:</alert> In this portion of the final project, you will design a test for independence on two qualitative variables from your data set.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Select the two qualitative variables in your data set that you suspect are or are not dependent. I recommend first considering variables with small event space (few outcomes). Write this hypothesis as a comment at the top of your R script. 
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    You can write comments in R by starting a line with a #.
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Extract the two variables of interest and remove any missing data from them. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the <c>chisq.test</c> command to perform a test for independence between the two variables. 
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    There are many several different ways you can use the <c>chisq.test</c> command to accomplish this goal. I am not picky about which you use. 
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the results to conduct a formal hypothesis test on the claim you made in part (a) with 90% significance. Clearly state your null and alternative hypotheses in words and symbols. Interpret your results in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>
