@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw8">
+<title>📝 Homework 8</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, November 11</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 7.35-7.46 from OpenIntro Statistics (pg. 295-298)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="6in">
+        <statement>
+            <p>
+                Coepods aare a low-level consumer in estuarian foodwebs. In G. Weiss's paper <pubtitle>Development and Lipid Composition of the Harpacticoid Cpepod Nitocra Spinipes Reared on Different Diets</pubtitle>, a random sample of copepods were grown in different containers. One group was fed lipid-rich diatoms, another bacteria, and the third was fed leafy macroalgae. There were 12 containers total, four replicates for each diet. Each container was seeded with five gravid (egg-bearing) females and the number of copepods in each container was measured 14 days later. The data is summarized in the table below. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Diet</cell> <cell>R1</cell> <cell>R2</cell> <cell>R3</cell> <cell>R4</cell>
+                </row>
+                <row>
+                    <cell>Diatoms</cell> <cell>426</cell> <cell>467</cell> <cell>438</cell> <cell>497</cell>
+                </row>
+                <row>
+                    <cell>Bacteria</cell> <cell>303</cell> <cell>301</cell> <cell>293</cell> <cell>328</cell>
+                </row>
+                <row>
+                    <cell>Macroalgae</cell> <cell>277</cell> <cell>324</cell> <cell>302</cell> <cell>272</cell>
+                </row>
+            </tabular>
+            <p>
+                Conduct a One-Way ANoVa test with 95% confidence to determine whether the copepods' diet is a contributing factor to their population. Clearly state your null and alternative hypotheses. Interpret your results in the context of the experiment with plain language. 
+            </p>
+        </statement>
+    </exercise>
+
+
+</worksheet>
