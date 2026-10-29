@@ -541,6 +541,42 @@ var ptx_lunr_docs = [
   "body": "  Consider the slope field for a linear ODE shown below.   A slope field.      Identify at least 2 non-zero contours by sketching them on the slope field.      Suppose the system has the initial condition that . Sketch the corresponding trajectory on the slope field.      Find all equilibria for the system. Classify each of them as stable, unstable, or neither. Justify your answers.    "
 },
 {
+  "id": "diffeq-act-14",
+  "level": "1",
+  "url": "diffeq-act-14.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 14 - Laplace Transforms",
+  "body": " 🏫 Activity 14 - Laplace Transforms   This activity is due at the beginning of class on Wednesday, November 4 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.     The Heaviside step function (also called the unit step function) is defined for some by      Show that for all by using the definition of the Laplace transform.      We saw in class that multiplying functions by exponentials translates the Laplace transform. In a similar way, we can translate the inverse Laplace transform. That is, provided . Use this result to compute        Compute     If only there were a way we could decompose this fraction into smaller parts .      Let .     Write out the first four terms of .      Sketch the graph of on the set of axes below.   A blank graph showing the first quadrant.       Show that by applying the transform term by term.     "
+},
+{
+  "id": "diffeq-act-14-3",
+  "level": "2",
+  "url": "diffeq-act-14.html#diffeq-act-14-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The Heaviside step function (also called the unit step function) is defined for some by      Show that for all by using the definition of the Laplace transform.      We saw in class that multiplying functions by exponentials translates the Laplace transform. In a similar way, we can translate the inverse Laplace transform. That is, provided . Use this result to compute     "
+},
+{
+  "id": "diffeq-act-14-4",
+  "level": "2",
+  "url": "diffeq-act-14.html#diffeq-act-14-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Compute     If only there were a way we could decompose this fraction into smaller parts .   "
+},
+{
+  "id": "diffeq-act-14-5",
+  "level": "2",
+  "url": "diffeq-act-14.html#diffeq-act-14-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let .     Write out the first four terms of .      Sketch the graph of on the set of axes below.   A blank graph showing the first quadrant.       Show that by applying the transform term by term.    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
@@ -791,6 +827,51 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Let denote the population of a particular species after months. An Allee effect is an ecological phenomenon where a population begins to decline simply by virtue of having too few individuals. Suppose is subject to an Allee effect. It can be modeled with the equation      Identify the slope function for the model.      Find all equilibria for the system. Then sketch them on the graph below.   A blank set of (t,P) axes.       Complete the phase portrait above by testing at least one initial condition in each region of phase space.      Classify each of the equilibria you found in part (b) as stable, unstable, or neither. Justify your answers.      Interpret what each of the equilibrium solutions you found mean in the context of the problem (describe what happens to the population). How does your phase portrait deomstrate the Allee effect?    "
+},
+{
+  "id": "diffeq-hw8",
+  "level": "1",
+  "url": "diffeq-hw8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 8",
+  "body": " 📝 Homework 8    Instructions: This assignment is due Wednesday, November 11 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-39 (odds) in Exercises 7.1 (pg. 261)  Problems 1-41 (odds) in Excercises 7.2 (pg. 269-270)  Problems 1-29, 37-53 (odds) in Exercises 7.3 (pg. 278-279)  Problems 1-17 (odds) in Exercises 7.4 (pg. 289-290)       Use the definition of the Laplace transform to compute where       Compute .      Use the convolution theorem to compute .      Use Laplace transforms to solve the IVP     "
+},
+{
+  "id": "diffeq-hw8-3",
+  "level": "2",
+  "url": "diffeq-hw8.html#diffeq-hw8-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the definition of the Laplace transform to compute where    "
+},
+{
+  "id": "diffeq-hw8-4",
+  "level": "2",
+  "url": "diffeq-hw8.html#diffeq-hw8-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "diffeq-hw8-5",
+  "level": "2",
+  "url": "diffeq-hw8.html#diffeq-hw8-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use the convolution theorem to compute .   "
+},
+{
+  "id": "diffeq-hw8-6",
+  "level": "2",
+  "url": "diffeq-hw8.html#diffeq-hw8-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Use Laplace transforms to solve the IVP    "
 }
 ]
 
