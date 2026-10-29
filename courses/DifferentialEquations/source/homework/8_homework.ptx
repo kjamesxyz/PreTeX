@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw8">
+    <title>📝 Homework 8 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, November 11</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> 
+            <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 1-39 (odds) in Exercises 7.1 (pg. 261)</p></li>
+                <li><p> Problems 1-41 (odds) in Excercises 7.2 (pg. 269-270)</p></li>
+                <li><p> Problems 1-29, 37-53 (odds) in Exercises 7.3 (pg. 278-279)</p></li>
+                <li><p> Problems 1-17 (odds) in Exercises 7.4 (pg. 289-290)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Use the definition of the Laplace transform to compute <m>\laplace{f(t)}</m> where <md> f(t) = \begin{cases} 2t + 1 \amp 0 \leq t \lt 1; \\ 0 \amp t \geq 1. \end{cases} </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1.5in">
+        <statement>
+            <p>
+                Compute <m> \laplace{(1 - e^t + 3e^{-4t})\cos(5t)} </m>. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Use the convolution theorem to compute <m> \lapinv{\frac{1}{s^3 + 4s^2 + 5s}} </m>. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Use Laplace transforms to solve the IVP <md> y'' - 4y' + 4y = t^3 e^{2t}; \ y(0) = y'(0) = 0.</md> 
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>

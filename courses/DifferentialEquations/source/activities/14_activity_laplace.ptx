@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-14" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 14 - Laplace Transforms </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Wednesday, November 4</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+        <p>
+            The <alert>Heaviside step function</alert> (also called the unit step function) is defined for some <m> a \in \real</m> by <md> \scr{H}_a = \begin{cases} 0 \amp \text{if} \ t \lt a, \\ 1 \amp \text{if} \ t \geq a. \end{cases} </md>   
+        </p>
+    </introduction>
+    
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Show that <m> \laplace{\scr{H}_a} = \frac{e^{-as}}{s} </m> for all <m> a,s \gt 0 </m> by using the definition of the Laplace transform. 
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                We saw in class that multiplying functions by exponentials translates the Laplace transform. In a similar way, we can translate the inverse Laplace transform. That is, <md> \lapinv{e^{-as}F(s)} = f(t-a)\scr{H}_a(t) </md> provided <m>\laplace{f(t)} = F(s) </m>. Use this result to compute <md> \lapinv{ \frac{se^{-\frac{\pi}{2}s}}{s^2 + 9}}. </md>
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="3in">
+    <statement>
+        <p>
+            Compute <m> \lapinv{\frac{s^2 + 1}{s^3 - 2s^2 - 8s}}. </m> 
+        </p>
+    </statement>
+
+    <hint>
+        <p>
+            If only there were a way we could <alert> decompose </alert> this <alert> fraction </alert> into smaller <alert> parts </alert>.
+        </p>
+    </hint>
+  </exercise>
+
+  <exercise>
+    <introduction>
+        <p>
+            Let <m>f(t) = \sum_{k=0}^\infty (-1)^k \scr{H}_k(t)</m>. 
+        </p>
+    </introduction>
+
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                Write out the first four terms of <m>f</m>.
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Sketch the graph of <m>f</m> on the set of axes below. 
+            </p>
+            <image source="images/blankQ1axes.jpg" width="40%">
+                <shortdescription>A blank graph showing the first quadrant.</shortdescription>
+            </image>
+        </statement>
+    </task>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                Show that <md> \laplace{f(t)} = \frac{1}{s(1 + e^{-s})} </md> by applying the transform term by term. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+</worksheet>
