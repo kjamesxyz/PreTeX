@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-6-1-one-way-anova" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> One-Way ANoVa </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Test for distinctions in means using One-Way ANoVa tests. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-anova">
+        <statement>
+            <p>
+                The study of comparing statistics between treatment groups is called <alert>Analysis of Variance (AnOVa)</alert>. When we measure the effects of one treatment on one parameter, we call the experiment a <alert>One-Way AnOVa</alert> test. 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Consider trying to compare the sample means between 
+            </p>
+            <tabular>
+                <row>
+                    <cell>A</cell>
+                        <cell>21</cell>
+                        <cell>37</cell>
+                        <cell>11</cell>
+                        <cell>20</cell>
+                        <cell>8</cell>
+                        <cell>23</cell>
+                </row>
+                <row>
+                    <cell>B</cell>
+                        <cell>24</cell>
+                        <cell>31</cell>
+                        <cell>29</cell>
+                        <cell>40</cell>
+                        <cell>9</cell>
+                        <cell>17</cell>
+                </row>
+            </tabular>
+            <p>
+                versus
+            </p>
+            <tabular>
+                <row>
+                    <cell>C</cell>
+                        <cell>21</cell>
+                        <cell>21</cell>
+                        <cell>20</cell>
+                        <cell>18</cell>
+                        <cell>20</cell>
+                        <cell>20</cell>
+                </row>
+                <row>
+                    <cell>D</cell>
+                        <cell>25</cell>
+                        <cell>28</cell>
+                        <cell>25</cell>
+                        <cell>24</cell>
+                        <cell>24</cell>
+                        <cell>24</cell>
+                </row>
+            </tabular>
+
+            <p>
+                Notice that the data sets with smaller variance make this analysis easier. 
+            </p>
+        </statement>
+    </example>
+
+    <p>
+        Let's walk through the logic of the AnOVa test with the problem 2 on activity 14. We always make the null hypothesis <md> H_0: \ \mu_1 = \mu_2 = \cdots = \mu_k </md> This makes the alternative hypothesis that at least two treatment groups have different means. We can first compute the means for each treatment. 
+    </p>
+
+    <tabular>
+        <row header="yes">
+            <cell>Statistic</cell> <cell>T1</cell> <cell>T2</cell> <cell>T3</cell>
+        </row>
+        <row>
+            <cell><m>n</m></cell> <cell>2</cell> <cell>5</cell> <cell>3</cell>
+        </row>
+        <row>
+            <cell><m>\bar{x}</m></cell> <cell>5</cell> <cell>6</cell> <cell>10</cell>
+        </row>
+        <row>
+            <cell><m>s</m></cell> <cell>5.66</cell> <cell>3.16</cell> <cell>6</cell>
+        </row>
+    </tabular>
+
+    <p>
+        It is tempting to say that the mean in group 3 is significantly different than the other two, but notice it also has twice the variance. Our intuition from early suggests that comparing the means alone is not enough, since  high variance makes it more likely to get results far from the mean. The way we mathematically distinguish is a bit complicated. Taking inspiration from our <m>\chi^2</m> tests, we want to measure the total variation, but there are two points of view on which we can do this. We can first compare how different each treatment group mean is from the data as a whole.
+    </p>
+
+    <definition xml:id="def-sum-square">
+        <statement>
+            <p>
+               The total variation between treatment means and the sample mean mean is called the <alert>sum of squares between treatment groups (SSG)</alert>. It is computed <md> SSG = \sum_{i=1}^k n_i (\bar{x}_i - \bar{x}). </md> Similarly, the total variation between each sample and the sample mean is called that <alert> sum of squares total (SST)</alert>. It is computed <md> SST = \sum_{i=1}^n (x_i - \bar{x})^2. </md> The difference between the two is called the <alert> sum of squares error (SSE) </alert>. It can be computed one of two ways <md> SSE = SST - SSG = \sum_{i=1}^k (n_i - 1)s_i^2.</md>
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        Alternatively, we can compare how different each treatment group mean is from each other. 
+    </p>
+
+    <definition xml:id="def-mean-square">
+        <statement>
+            <p>
+                The average variation between treatment group means is called the <alert>mean square between treatment groups (MSG)</alert>. It is computed <md> MSG = \frac{SSG}{k-1}, </md> and is said to have <m>k - 1</m> degrees of freedom. Similarly, the expected variation within each treatment group is called the <alert>mean square error (MSE)</alert>. It is computed <md> MSE = \frac{SSE}{n-k}, </md> and is said to have <m>n - k</m> degrees of freedom. 
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        All of these together allow us to measure the difference between the groups relative to the differences within the groups. This quantity is the test statistic we will use in our hypothesis testing.
+    </p>
+
+    <definition xml:id="def-f-distribution">
+        <statement>
+            <p>
+                The <alert><m>F</m> distribution</alert> is defined on <m>(0,\infty)</m> and follows the shape of a rational function, decaying rapidly with increasing F score. One-Way AnOVa uses the F distribution as a test-statistic parameterized by the degrees of freedom in treatment <m>df_T</m> and degrees of freedom in errors <m>df_E</m>. We write <m>F(df_T, df_E)</m>.  
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        We can summarise all of this information into a table, called an <alert>One-Way AnOVa table</alert>. 
+    </p>
+</section>

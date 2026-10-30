@@ -47,5 +47,11 @@
             <xi:include href="./notes/5_goodness_of_fit.ptx"/>
             <xi:include href="./notes/5_independence.ptx"/>
         </chapter>
+
+        <chapter xml:id="biostats-notes-6-anova">
+            <title> Analysis of Variance </title>
+            
+            <xi:include href="./notes/6_One_Way_AnOVa.ptx"/>
+        </chapter>
     </book>
 </pretext>
