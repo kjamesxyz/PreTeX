@@ -198,31 +198,31 @@
         </row>
         <row>
           <cell halign="right">A</cell>
-          <cell halign="left">94-100%</cell>
+          <cell halign="left">92-100%</cell>
         </row>
         <row>
           <cell halign="right">A-</cell>
-          <cell halign="left">90-93%</cell>
+          <cell halign="left">88-91%</cell>
         </row>
         <row>
           <cell halign="right">B+</cell>
-          <cell halign="left">87-89%</cell>
+          <cell halign="left">84-87%</cell>
         </row>
         <row>
           <cell halign="right">B</cell>
-          <cell halign="left">84-86%</cell>
-        </row>
-        <row>
-          <cell halign="right">B-</cell>
           <cell halign="left">80-83%</cell>
         </row>
         <row>
+          <cell halign="right">B-</cell>
+          <cell halign="left">76-79%</cell>
+        </row>
+        <row>
           <cell halign="right">C+</cell>
-          <cell halign="left">77-79%</cell>
+          <cell halign="left">72-75%</cell>
         </row>
         <row>
           <cell halign="right">C</cell>
-          <cell halign="left">70-76%</cell>
+          <cell halign="left">64-71%</cell>
         </row>
         <row>
           <cell halign="right">D</cell>
