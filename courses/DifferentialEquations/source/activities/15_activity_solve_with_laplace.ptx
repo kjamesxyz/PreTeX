@@ -43,7 +43,15 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    The Dirac delta function also has the <alert>sifting property</alert>, that <md> \int_0^\infty f(t) \delta(t-a) = f(a) </md> for any continuous function <m>f</m>. Apply this property to the definition of the Laplace transform to show that, for <m> a \gt 0</m>, we have <md> \laplace{\delta(t-a)} = e^{-st}.</md>
+                    The Dirac delta function also has the <alert>sifting property</alert>, that <md> \int_0^\infty f(t) \delta(t-a) \, dt = f(a) </md> for any continuous function <m>f</m>. Apply this property to the definition of the Laplace transform to show that, for <m> a \gt 0</m>, we have <md> \laplace{\delta(t-a)} = e^{-sa}.</md>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the sifting property and a substitution to show that <md> f(t) * \delta(t-a) = f(t-a) </md> for all continuous <m>f</m>. 
                 </p>
             </statement>
         </task>
