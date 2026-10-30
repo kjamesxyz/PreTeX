@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-15" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 15 - Solving ODEs with Laplace Transforms </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, November 9</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+    
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Use Laplace transforms to show that the BVP <md> y'' + 8y' - 20y = 0; \ y(0)=y'(\pi)=0 </md> has only trivial solutions. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The <alert>Dirac delta function</alert> is defined to be 
+                <md>
+                    \delta(t-a) = \begin{cases} \infty \amp t = a; \\ 0 \amp t \neq a. \end{cases}
+                </md>
+                but is <q>required</q> to have the property 
+                <md>
+                    \int_{-\infty}^\infty \delta_a(t) = 1
+                </md>
+                for all <m>a \in \real</m>. 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    In your group, google search <q>Dirac delta controversy</q>. Summarize what you find in 2-3 sentences.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The Dirac delta function also has the <alert>sifting property</alert>, that <md> \int_0^\infty f(t) \delta(t-a) = f(a) </md> for any continuous function <m>f</m>. Apply this property to the definition of the Laplace transform to show that, for <m> a \gt 0</m>, we have <md> \laplace{\delta(t-a)} = e^{-st}.</md>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    In real applications, the function <m> A \delta(t-a) </m> describes an impulse of amplitude <m>A</m> at time <m>a</m>. Consider a <m> m=1 </m> kg mass attached hung from the ceiling by an undamped (<m>\beta = 0</m>) spring with stiffness <m>k=4</m> N/m. Suppose the mass is released from rest 3 m above equilibrium and allowed to oscillate for <m>2 \pi</m> seconds before it is struck with a hammer in the direction of its motion with <m>8</m> N of force. Model the motion with a second-order ODE, then solve it to model the position <m>x</m> at time <m>t</m>. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The second-order nonlinear ODE given by
+                <md>
+                    x^2 \deriv{^2y}{x^2} + x \deriv{y}{x} + (x^2 - \nu^2)y = 0
+                </md>
+                where <m>\nu \in \complex</m> is called <alert> Bessel's equation of order <m>\nu</m></alert>. 
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write the statement for Bessel's equation of order 0. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2.5in">
+            <statement>
+                <p>
+                    Solve Bessel's equation of order 0 subject to the initial conditions <m>y(0)=1</m> and <m>y'(0)=0</m> using Laplace transforms. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+</worksheet>

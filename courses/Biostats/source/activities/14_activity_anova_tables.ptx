@@ -134,7 +134,7 @@
             </statement>
         </task>
 
-        <task workspace="0.5in">
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Identify the treatment variables for this study.
@@ -142,10 +142,10 @@
             </statement>
         </task>
 
-        <task workspace="0.25in">
+        <task workspace="0.5in">
             <statement>
                 <p>
-                    Determine an appropriate test statistic for this study. Then use it to determine the critical value for the experiment.
+                    Compute the sample size, mean, and standard deviation for each treatment group and for the data as a whole. 
                 </p>
             </statement>
         </task>
@@ -153,7 +153,15 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Compute the sum of squares between treatments.
+                    Suppose the NHTSA needs to be 99% confident that each vehicle has the same mean chest decceleration. Determine an appropriate test statistic for this study. Then use it to determine the critical value for the experiment.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the sum of squares between treatment groups.
                 </p>
             </statement>
         </task>
@@ -177,7 +185,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Compute the mean square between treatments.
+                    Compute the mean square between treatment groups.
                 </p>
             </statement>
         </task>

@@ -1,0 +1,158 @@
+<section xml:id="diffeq-notes-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Solving IVPs with the Laplace Transform </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Use derivative identities to apply Laplace transforms to ODEs. </p></li>
+            <li><p> Use ODEs to solve IVPs. </p></li>
+        </ol>
+    </objectives>
+
+    <theorem xml:id="thm-transformed-deriv">
+        <statement>
+            <p>
+                Suppose <m>f, f', \ldots, f^{(n-1)}</m> are all continuous with exponential order on <m>[0,\infty)</m> and that <m>\laplace{f(t)} = F(s)</m>. If <m>f^{(n)}(t)</m> is at least piecewise continuous on <m>[0,\infty)</m>, then 
+                <md>
+                    \laplace{f^{(n)}(t)} = s^n F(s) - s^{n-1}f(0) - s^{n-2} f'(0) - \cdots - f^{(n-1)}(0).
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                Use the Laplace transform to solve the IVP <md> x'' - x' - 6x = 0; \ x(0)=2, \ x'(0) = -1. </md> 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                First, we apply <m>\cal{L}</m> to both sides of the equation.
+                <md>
+                    \laplace{x'' - x' - 6x } = \laplace{x''} - \laplace{x'} - 6 \laplace{x} = 0 = \laplace{0}.
+                </md>
+                Now we can apply our derivative transformation property. 
+                <md>
+                    <mrow> \laplace{x''} - \laplace{x'} - 6 \laplace{x} \amp= [s^2 \laplace{x} - sx(0) - x'(0) ] - [s\laplace{x} - x(0)] - 6 \laplace{x} </mrow>
+                    <mrow> \amp= (s^2 - s - 6)\laplace{x} - s(2) - (-1) + (2) </mrow>
+                    <mrow> \amp= (s^2 - s - 6)\laplace{x} - 2s - 1 </mrow>
+                </md>
+                Substituting this back into the ODE, we get
+                <md>
+                    <mrow> (s^2 - s - 6)\laplace{x} - 2s + 3 \amp= 0 </mrow>
+                    <mrow> \laplace{x} \amp= \frac{2s - 3}{s^2 - s - 6} </mrow>
+                </md>
+                Now we take the inverse transform on both sides. This gives us 
+                <md>
+                    \lapinv{\laplace{x}} = x(t) = \lapinv{\frac{2s+1}{s^2 - s - 6}}.
+                </md>
+                Partial fraction decomposition gives
+                <md>
+                    \lapinv{\frac{2s+1}{s^2 - s - 6}} = \lapinv{\frac{\frac{3}{5}}{s - 3} + \frac{\frac{7}{5}}{s+2}} = \frac{3}{5}e^{3t} + \frac{7}{5}e^{-2t}
+                </md>
+                Therefore, 
+                <md>
+                    x(t) = \frac{3}{5}e^{3t} + \frac{7}{5}e^{-2t}    
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <theorem xml:id="thm-transform-derivs">
+        <statement>
+            <p>
+                Suppose <m>\laplace{f(t)} = F(s)</m>. Then
+                <md>
+                    \lapalce{-tf(t)} = F'(s);
+                </md>
+                or equivalently,
+                <md>
+                    f(t) = -\frac{1}{t} \lapinv{F'(s)}
+                </md>
+                Repeated application yields
+                <md>
+                    \laplace{t^n f(t)} = (-1)^n F^{(n)}(s)
+                </md>
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <theorem xml:id="thm-transform-integral">
+        <statement>
+            <p>
+                Suppose <m>f(t)</m> is piecewise continuous of exponential order on <m>[0,\infty)</m>. Then 
+                <md>
+                    \laplace{\frac{f(t)}{t}} = \int_s^\infty F(\sigma) \, d \sigma;
+                </md>
+                or equivalently,
+                <md>
+                    f(t) = t \lapinv{\int_s^\infty F(\sigma) \, d\sigma}
+                </md>
+            </p>
+        </statement>
+    </theorem>
+    
+    <example>
+        <statement>
+            <p>
+                Solve the <alert>nonlinear</alert> ODE <md>tx'' + (t-2)x' + x = 0; \ x(0)=0 </md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We still start by tansforming
+                <md>
+                    \laplace{tx'' + (t-2)x' + x} = \laplace{0}
+                </md>
+                Applying linearity we get
+                <md>
+                    \laplace{tx''} + \laplace{tx'} - 2\laplace{x'} + \laplace{x} = 0
+                </md>
+                Using the derivative identity
+                <md>
+                    -\deriv{}{s} \laplace{x''} + -\deriv{}{s} \laplace{x'} - 2\laplace{x'} + \laplace{x} = 0
+                </md>
+                Applying the other derivtive identity
+                <md>
+                    -\deriv{}{s} [ s^2 X(s) - sx(0) - x'(0)]  -\deriv{}{s} [sX(s) - x(0)] - 2[sX(s) - x(0)] + X(s) = 0
+                </md>
+                Applying initial conditions
+                <md>
+                    -\deriv{}{s} [s^2 X - x'(0)] - \deriv{}{s} [sX] - 2sX + X = 0
+                </md>
+                Taking derivatives
+                <md>
+                    -2sX - s^2X' - X - sX' - 2sX + X = 0
+                </md>
+                Rewriting
+                <md>
+                    \frac{dX}{X} = - \frac{4}{s+1}.
+                </md>
+                Separation of variables
+                <md>
+                    X(s) = C(s+1)^{-4}
+                </md>
+                Inverse transform
+                <md>
+                    \lapinv{X(s)} = x(t) = \lapinv{\frac{C}{(s+1)^4}}.
+                </md>
+                Translation identity
+                <md>
+                    x(t) = Ct^3e^{-t}.
+                </md>
+            </p>
+        </solution>
+    </example>
+    
+    
+    
+
+</section>
