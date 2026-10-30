@@ -6,7 +6,7 @@
     <introduction>
         <p> This assignment is due at the beginning of class on <alert> Wednesday, November 4</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
 
-        <p> <alert> This activity is part of your final project. </alert> Extra care should be taken in completing this activity. </p>
+        
     </introduction>
 
     <exercise>
@@ -181,7 +181,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="1.5in">
             <statement>
                 <p>
                     Construct a contingency table between bacteria species and culture medium.
@@ -189,7 +189,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="2.5in">
             <statement>
                 <p>
                     Conduct a test for independence between bacteria species and culture medium with 95% significance.
@@ -197,7 +197,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="1.5in">
             <statement>
                 <p>
                     Construct a contingency table between bacteria species and antibiotic response.
@@ -205,7 +205,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="2.5in">
             <statement>
                 <p>
                     Conduct a test for independence between bacteria species and antibiotic response with 95% significance.
@@ -213,61 +213,6 @@
             </statement>
         </task>
 
-    </exercise>
-
-    <exercise>
-        <introduction>
-            <p>
-                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity13.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 13 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Test for Independence Check-in". 
-            </p>
-
-            <p>
-                <alert>Goal:</alert> In this portion of the final project, you will design a test for independence on two qualitative variables from your data set.
-            </p>
-        </introduction>
-
-        <task>
-            <statement>
-                <p>
-                    Select the two qualitative variables in your data set that you suspect are or are not dependent. I recommend first considering variables with small event space (few outcomes). Write this hypothesis as a comment at the top of your R script. 
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    You can write comments in R by starting a line with a #.
-                </p>
-            </hint>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Extract the two variables of interest and remove any missing data from them. 
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Use the <c>chisq.test</c> command to perform a test for independence between the two variables. 
-                </p>
-            </statement>
-
-            <hint>
-                <p>
-                    There are many several different ways you can use the <c>chisq.test</c> command to accomplish this goal. I am not picky about which you use. 
-                </p>
-            </hint>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Use the results to conduct a formal hypothesis test on the claim you made in part (a) with 90% significance. Clearly state your null and alternative hypotheses in words and symbols. Interpret your results in the context of the problem using plain language. 
-                </p>
-            </statement>
-        </task>
     </exercise>
 
 </worksheet>

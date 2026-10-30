@@ -77,7 +77,7 @@
     <exercise>
         <introduction>
             <p>
-                The National Highway Trafic and Safety Administration (NHTSA) uses <alert>chest deccelerations</alert> (measured in <m>g</m>s) during test crashes as a way to measure the safety of car models. During an inspection, the NHTSA measured the chest deccelerations on crash dummies for a compact, midsize, and crossover vehicle across 7 replicate crashes. The measurements are recorded in the table below.
+                The National Highway Trafic and Safety Administration (NHTSA) uses <alert>chest deccelerations</alert> (measured in <m>g</m>'s) during test crashes as a way to measure the safety of car models. During an inspection, the NHTSA measured the chest deccelerations on crash dummies for a compact, midsize, and crossover vehicle across 7 replicate crashes. The measurements are recorded in the table below.
             </p>
 
             <tabular>
