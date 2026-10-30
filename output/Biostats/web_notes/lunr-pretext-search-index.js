@@ -1079,6 +1079,69 @@ var ptx_lunr_docs = [
   "number": "5.2.8",
   "title": "",
   "body": "  An ecologist is testing the efficacy of a pollinator restoration technique. They have marked out 100 plots in a polluted meadow and treat half of the plots (selected at random). They then observe each plot for 5 minutes to determine whether a pollinator visits the plot. The data is summarised in the table below.    Meadow Type  Pollinator observed  No Pollinator Observed    Restored  30  20    Unrestored  20  30    Test the efficacy of the treatment with 95% confidence.   "
+},
+{
+  "id": "biostats-notes-6-1-one-way-anova",
+  "level": "1",
+  "url": "biostats-notes-6-1-one-way-anova.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "One-Way ANoVa",
+  "body": " One-Way ANoVa    Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.      The study of comparing statistics between treatment groups is called Analysis of Variance (AnOVa) . When we measure the effects of one treatment on one parameter, we call the experiment a One-Way AnOVa test.      Consider trying to compare the sample means between    A  21  37  11  20  8  23    B  24  31  29  40  9  17    versus    C  21  21  20  18  20  20    D  25  28  25  24  24  24    Notice that the data sets with smaller variance make this analysis easier.    Let's walk through the logic of the AnOVa test with the problem 2 on activity 14. We always make the null hypothesis This makes the alternative hypothesis that at least two treatment groups have different means. We can first compute the means for each treatment.    Statistic  T1  T2  T3     2  5  3     5  6  10     5.66  3.16  6    It is tempting to say that the mean in group 3 is significantly different than the other two, but notice it also has twice the variance. Our intuition from early suggests that comparing the means alone is not enough, since high variance makes it more likely to get results far from the mean. The way we mathematically distinguish is a bit complicated. Taking inspiration from our tests, we want to measure the total variation, but there are two points of view on which we can do this. We can first compare how different each treatment group mean is from the data as a whole.    The total variation between treatment means and the sample mean mean is called the sum of squares between treatment groups (SSG) . It is computed Similarly, the total variation between each sample and the sample mean is called that sum of squares total (SST) . It is computed The difference between the two is called the sum of squares error (SSE) . It can be computed one of two ways     Alternatively, we can compare how different each treatment group mean is from each other.    The average variation between treatment group means is called the mean square between treatment groups (MSG) . It is computed and is said to have degrees of freedom. Similarly, the expected variation within each treatment group is called the mean square error (MSE) . It is computed and is said to have degrees of freedom.    All of these together allow us to measure the difference between the groups relative to the differences within the groups. This quantity is the test statistic we will use in our hypothesis testing.    The distribution is defined on and follows the shape of a rational function, decaying rapidly with increasing F score. One-Way AnOVa uses the F distribution as a test-statistic parameterized by the degrees of freedom in treatment and degrees of freedom in errors . We write .    We can summarise all of this information into a table, called an One-Way AnOVa table .  "
+},
+{
+  "id": "biostats-notes-6-1-one-way-anova-2",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#biostats-notes-6-1-one-way-anova-2",
+  "type": "Objectives",
+  "number": "6.1",
+  "title": "",
+  "body": "  Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.   "
+},
+{
+  "id": "def-anova",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#def-anova",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  The study of comparing statistics between treatment groups is called Analysis of Variance (AnOVa) . When we measure the effects of one treatment on one parameter, we call the experiment a One-Way AnOVa test.   "
+},
+{
+  "id": "biostats-notes-6-1-one-way-anova-4",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#biostats-notes-6-1-one-way-anova-4",
+  "type": "Example",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  Consider trying to compare the sample means between    A  21  37  11  20  8  23    B  24  31  29  40  9  17    versus    C  21  21  20  18  20  20    D  25  28  25  24  24  24    Notice that the data sets with smaller variance make this analysis easier.   "
+},
+{
+  "id": "def-sum-square",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#def-sum-square",
+  "type": "Definition",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  The total variation between treatment means and the sample mean mean is called the sum of squares between treatment groups (SSG) . It is computed Similarly, the total variation between each sample and the sample mean is called that sum of squares total (SST) . It is computed The difference between the two is called the sum of squares error (SSE) . It can be computed one of two ways    "
+},
+{
+  "id": "def-mean-square",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#def-mean-square",
+  "type": "Definition",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  The average variation between treatment group means is called the mean square between treatment groups (MSG) . It is computed and is said to have degrees of freedom. Similarly, the expected variation within each treatment group is called the mean square error (MSE) . It is computed and is said to have degrees of freedom.   "
+},
+{
+  "id": "def-f-distribution",
+  "level": "2",
+  "url": "biostats-notes-6-1-one-way-anova.html#def-f-distribution",
+  "type": "Definition",
+  "number": "6.1.5",
+  "title": "",
+  "body": "  The distribution is defined on and follows the shape of a rational function, decaying rapidly with increasing F score. One-Way AnOVa uses the F distribution as a test-statistic parameterized by the degrees of freedom in treatment and degrees of freedom in errors . We write .   "
 }
 ]
 
