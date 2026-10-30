@@ -50,6 +50,7 @@
             <xi:include href="./homework/6_homework.ptx"/>
 
             <xi:include href="./homework/7_homework.ptx"/>
+            <xi:include href="./homework/8_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">

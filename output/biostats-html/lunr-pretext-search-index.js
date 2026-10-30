@@ -703,6 +703,24 @@ var ptx_lunr_docs = [
   "body": "  A clinical trial separated their 240 patients into 3 treatment groups. The patients' side effects were measured and the results are recorded in the contingency table below.    Treatment Group  No Side Effects  Mild Side Effects  Moderate Side Effects    Low dose  32  28  20    Standard dose  25  35  20    High dose  18  22  40    Design and conduct a statistical test to determine with 95% confidence whether the dose affects the severity of side-effects.   "
 },
 {
+  "id": "biostats-hw8",
+  "level": "1",
+  "url": "biostats-hw8.html",
+  "type": "🏫 Activity",
+  "number": "3.8",
+  "title": "📝 Homework 8",
+  "body": " 📝 Homework 8    Instructions: This assignment is due Wednesday, November 11 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 7.35-7.46 from OpenIntro Statistics (pg. 295-298)       Coepods aare a low-level consumer in estuarian foodwebs. In G. Weiss's paper Development and Lipid Composition of the Harpacticoid Cpepod Nitocra Spinipes Reared on Different Diets , a random sample of copepods were grown in different containers. One group was fed lipid-rich diatoms, another bacteria, and the third was fed leafy macroalgae. There were 12 containers total, four replicates for each diet. Each container was seeded with five gravid (egg-bearing) females and the number of copepods in each container was measured 14 days later. The data is summarized in the table below.    Diet  R1  R2  R3  R4    Diatoms  426  467  438  497    Bacteria  303  301  293  328    Macroalgae  277  324  302  272    Conduct a One-Way ANoVa test with 95% confidence to determine whether the copepods' diet is a contributing factor to their population. Clearly state your null and alternative hypotheses. Interpret your results in the context of the experiment with plain language.    "
+},
+{
+  "id": "biostats-hw8-3",
+  "level": "2",
+  "url": "biostats-hw8.html#biostats-hw8-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.1",
+  "title": "",
+  "body": "  Coepods aare a low-level consumer in estuarian foodwebs. In G. Weiss's paper Development and Lipid Composition of the Harpacticoid Cpepod Nitocra Spinipes Reared on Different Diets , a random sample of copepods were grown in different containers. One group was fed lipid-rich diatoms, another bacteria, and the third was fed leafy macroalgae. There were 12 containers total, four replicates for each diet. Each container was seeded with five gravid (egg-bearing) females and the number of copepods in each container was measured 14 days later. The data is summarized in the table below.    Diet  R1  R2  R3  R4    Diatoms  426  467  438  497    Bacteria  303  301  293  328    Macroalgae  277  324  302  272    Conduct a One-Way ANoVa test with 95% confidence to determine whether the copepods' diet is a contributing factor to their population. Clearly state your null and alternative hypotheses. Interpret your results in the context of the experiment with plain language.   "
+},
+{
   "id": "biostats-projects-final",
   "level": "1",
   "url": "biostats-projects-final.html",
