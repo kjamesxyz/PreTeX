@@ -8,11 +8,211 @@
     </introduction>
 
     <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Copy the <q>One-Way ANoVa Formula Table</q> from lecture notes. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the R command for finding the <m>\cal{P}</m>-value from an <m>F</m> score.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the R command for finding the <m>F</m> score from a <m>\cal{P}</m> value.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
         <statement>
             <p>
-                Poop
+                Suppose the data below comes from independent random samples of distinct populations. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Sample</cell>
+                </row>
+                <row>
+                    <cell>Sample 1</cell>
+                        <cell>1</cell>
+                        <cell>9</cell>
+                </row>
+                <row>
+                    <cell>Sample 2</cell>
+                        <cell>10</cell>
+                        <cell>4</cell>
+                        <cell>8</cell>
+                        <cell>6</cell>
+                        <cell>2</cell>
+                </row>
+                <row>
+                    <cell>Sample 3</cell>
+                        <cell>4</cell>
+                        <cell>16</cell>
+                        <cell>10</cell>
+                </row>
+            </tabular>
+            <p>
+                Determine with 95% confidence if the populations from which the samples were drawn are the same.
             </p>
         </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The National Highway Trafic and Safety Administration (NHTSA) uses <alert>chest deccelerations</alert> (measured in <m>g</m>s) during test crashes as a way to measure the safety of car models. During an inspection, the NHTSA measured the chest deccelerations on crash dummies for a compact, midsize, and crossover vehicle across 7 replicate crashes. The measurements are recorded in the table below.
+            </p>
+
+            <tabular>
+                <row header="yes">
+                    <cell>Crash</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                </row>
+                <row>
+                    <cell>Compact</cell>
+                        <cell>44</cell>
+                        <cell>39</cell>
+                        <cell>37</cell>
+                        <cell>54</cell>
+                        <cell>39</cell>
+                        <cell>44</cell>
+                        <cell>42</cell>
+                </row>
+                <row>
+                    <cell>Midsize</cell>
+                        <cell>36</cell>
+                        <cell>53</cell>
+                        <cell>43</cell>
+                        <cell>42</cell>
+                        <cell>52</cell>
+                        <cell>49</cell>
+                        <cell>41</cell>
+                </row>
+                <row>
+                    <cell>Crossover</cell>
+                        <cell>32</cell>
+                        <cell>45</cell>
+                        <cell>41</cell>
+                        <cell>38</cell>
+                        <cell>37</cell>
+                        <cell>38</cell>
+                        <cell>33</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    The auto company insists that all of their car models yield the same chest decceleration on average. Clearly state the null and alternative hypothesis in symbols for their claim.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Identify the treatment variables for this study.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine an appropriate test statistic for this study. Then use it to determine the critical value for the experiment.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the sum of squares between treatments.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the sum of squares total.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the sum of squared errors.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the mean square between treatments.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the mean square error.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the <m>F</m>-score for the sample data.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Assemble all of the statistics you computed in parts (d)-(i) into a One-Way ANoVa table in the space provided below.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your answers from parts (c) and (j) to determine whether to reject your null hypothesis. Interpret your result using context from the problem in plain language. 
+                </p>
+            </statement>
+        </task>
     </exercise>
 
 </worksheet>

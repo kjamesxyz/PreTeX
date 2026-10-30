@@ -35,6 +35,7 @@
 
             <xi:include href="./activities/12_activity_goodness_of_fit.ptx"/>
             <xi:include href="./activities/13_activity_independence.ptx"/>
+            <xi:include href="./activities/14_activity_anova_tables.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
