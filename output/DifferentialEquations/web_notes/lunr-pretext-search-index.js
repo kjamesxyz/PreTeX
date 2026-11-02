@@ -980,6 +980,105 @@ var ptx_lunr_docs = [
   "number": "5.1.12",
   "title": "",
   "body": "  Compute     Observe that our function looks like the product of two entries in our table. So we write Now we can compute    "
+},
+{
+  "id": "diffeq-notes-5-2",
+  "level": "1",
+  "url": "diffeq-notes-5-2.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Solving IVPs with the Laplace Transform",
+  "body": " Solving IVPs with the Laplace Transform    Students will be able to...    Use derivative identities to apply Laplace transforms to ODEs.  Use ODEs to solve IVPs.      Suppose are all continuous with exponential order on and that . If is at least piecewise continuous on , then       Use the Laplace transform to solve the IVP     First, we apply to both sides of the equation. Now we can apply our derivative transformation property. Substituting this back into the ODE, we get Now we take the inverse transform on both sides. This gives us Partial fraction decomposition gives Therefore,       Suppose . Then or equivalently, Repeated application yields       Suppose is piecewise continuous of exponential order on . Then or equivalently,       Solve the nonlinear ODE     We still start by tansforming Applying linearity we get Using the derivative identity Applying the other derivtive identity Applying initial conditions Taking derivatives Rewriting Separation of variables Inverse transform Translation identity     "
+},
+{
+  "id": "diffeq-notes-5-2-2",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#diffeq-notes-5-2-2",
+  "type": "Objectives",
+  "number": "5.2",
+  "title": "",
+  "body": "  Students will be able to...    Use derivative identities to apply Laplace transforms to ODEs.  Use ODEs to solve IVPs.   "
+},
+{
+  "id": "thm-transformed-deriv",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#thm-transformed-deriv",
+  "type": "Theorem",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  Suppose are all continuous with exponential order on and that . If is at least piecewise continuous on , then    "
+},
+{
+  "id": "diffeq-notes-5-2-4",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#diffeq-notes-5-2-4",
+  "type": "Example",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  Use the Laplace transform to solve the IVP     First, we apply to both sides of the equation. Now we can apply our derivative transformation property. Substituting this back into the ODE, we get Now we take the inverse transform on both sides. This gives us Partial fraction decomposition gives Therefore,    "
+},
+{
+  "id": "thm-transform-derivs",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#thm-transform-derivs",
+  "type": "Theorem",
+  "number": "5.2.3",
+  "title": "",
+  "body": "  Suppose . Then or equivalently, Repeated application yields    "
+},
+{
+  "id": "thm-transform-integral",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#thm-transform-integral",
+  "type": "Theorem",
+  "number": "5.2.4",
+  "title": "",
+  "body": "  Suppose is piecewise continuous of exponential order on . Then or equivalently,    "
+},
+{
+  "id": "diffeq-notes-5-2-7",
+  "level": "2",
+  "url": "diffeq-notes-5-2.html#diffeq-notes-5-2-7",
+  "type": "Example",
+  "number": "5.2.5",
+  "title": "",
+  "body": "  Solve the nonlinear ODE     We still start by tansforming Applying linearity we get Using the derivative identity Applying the other derivtive identity Applying initial conditions Taking derivatives Rewriting Separation of variables Inverse transform Translation identity    "
+},
+{
+  "id": "diffeq-notes-6-1",
+  "level": "1",
+  "url": "diffeq-notes-6-1.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Review of Power Series",
+  "body": " Review of Power Series    Students will be able to...    Determine the radii of convergence for a power series.  Refactor power series.      An infinite series is called a power series if it has the form We say it is centered about the point . We say the power series converges at a point  if . We call the radius of convergence of a power series provided it converges at all points .    "
+},
+{
+  "id": "diffeq-notes-6-1-2",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#diffeq-notes-6-1-2",
+  "type": "Objectives",
+  "number": "6.1",
+  "title": "",
+  "body": "  Students will be able to...    Determine the radii of convergence for a power series.  Refactor power series.   "
+},
+{
+  "id": "def-power-series",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#def-power-series",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  An infinite series is called a power series if it has the form We say it is centered about the point . We say the power series converges at a point  if . We call the radius of convergence of a power series provided it converges at all points .   "
+},
+{
+  "id": "chapter-7-Systems-of-ODEs",
+  "level": "1",
+  "url": "chapter-7-Systems-of-ODEs.html",
+  "type": "Chapter",
+  "number": "7",
+  "title": "Systems of ODEs",
+  "body": " Systems of ODEs  "
 }
 ]
 
