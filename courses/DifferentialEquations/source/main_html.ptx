@@ -9,10 +9,11 @@
 
         <xi:include href="./frontmatter.ptx" />
 
-        <chapter xml:id="diffeq-welcome">
-            <title>Welcome to Class!</title>
+        <chapter xml:id="diffeq-materials">
+            <title>Course Materials</title>
 
             <xi:include href="./syllabus.ptx" />
+            <xi:include href="./laplace_table.ptx"/>
         </chapter>
 
         <chapter xml:id="diffeq-acts">
