@@ -28,6 +28,15 @@ var ptx_lunr_docs = [
   "body": " Letter Grade Distribution    Letter Grade  Required Score    A  93-100%    A-  85-92%    B+  81-84%    B  77-80%    B-  73-76%    C+  69-72%    C  61-68%    D  50-60%    F  0-49%    "
 },
 {
+  "id": "diffeq-materials-3",
+  "level": "1",
+  "url": "diffeq-materials-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Common Laplace Transforms",
+  "body": " Common Laplace Transforms    Function  Laplace transform                                                    "
+},
+{
   "id": "diffeq-act-1",
   "level": "1",
   "url": "diffeq-act-1.html",
