@@ -1,4 +1,4 @@
-<section xml:id="diffeq-notes-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="diffeq-notes-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title> Solving IVPs with the Laplace Transform </title>
 
     <objectives>
@@ -69,7 +69,7 @@
             <p>
                 Suppose <m>\laplace{f(t)} = F(s)</m>. Then
                 <md>
-                    \lapalce{-tf(t)} = F'(s);
+                    \laplace{-tf(t)} = F'(s);
                 </md>
                 or equivalently,
                 <md>

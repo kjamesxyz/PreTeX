@@ -48,6 +48,7 @@
             <title>Laplace Transforms</title>
             
             <xi:include href="./notes/5_Laplace_Transforms.ptx"/>
+            <xi:include href="./notes/5_Solving_IVPs_with_Laplace.ptx"/>
         </chapter>
     </book>
 </pretext>
