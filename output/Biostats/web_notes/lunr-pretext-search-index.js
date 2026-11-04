@@ -1142,15 +1142,6 @@ var ptx_lunr_docs = [
   "number": "6.1.5",
   "title": "",
   "body": "  The distribution is defined on and follows the shape of a rational function, decaying rapidly with increasing F score. One-Way AnOVa uses the F distribution as a test-statistic parameterized by the degrees of freedom in treatment and degrees of freedom in errors . We write .   "
-},
-{
-  "id": "biostats-notes-7-nonparametric",
-  "level": "1",
-  "url": "biostats-notes-7-nonparametric.html",
-  "type": "Chapter",
-  "number": "7",
-  "title": "Nonparametric Testing",
-  "body": " Nonparametric Testing  "
 }
 ]
 
