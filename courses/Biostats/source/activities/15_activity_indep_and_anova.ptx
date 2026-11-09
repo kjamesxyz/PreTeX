@@ -9,7 +9,7 @@
         <p> <alert> This activity contains TWO parts of your final project. </alert> Extra care should be taken in completing this activity. </p>
     </introduction>
 
-    
+<page>
     <exercise>
         <introduction>
             <p>
@@ -55,56 +55,58 @@
                 </p>
             </hint>
         </task>
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <introduction>
+            <p>
+                Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+            </p>
+        </introduction>
 
         <task>
-            <introduction>
+            <statement>
                 <p>
-                    Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+                    Clearly state your group's null and alternative hypotheses in both words and symbols. 
                 </p>
-            </introduction>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Clearly state your group's null and alternative hypotheses in both words and symbols. 
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Describe the process by which you isolated and cleaned your variables of interest.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Describe the process by which you isolated and cleaned your variables of interest.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
-                    </p>
-                </statement>
-            </task>
-
-            <task>
-                <statement>
-                    <p>
-                        Interpret the results from your test in the context of the problem using plain language.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret the results from your test in the context of the problem using plain language.
+                </p>
+            </statement>
         </task>
     </exercise>
-
+</page>
+<page>   
     <exercise>
         <introduction>
             <p>
@@ -174,62 +176,63 @@
                 </p>
             </statement>
         </task>
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <introduction>
+            <p>
+                Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+            </p>
+        </introduction>
 
         <task>
-            <introduction>
+            <statement>
                 <p>
-                    Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+                    Clearly state your group's null and alternative hypotheses in both words and symbols. 
                 </p>
-            </introduction>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Clearly state your group's null and alternative hypotheses in both words and symbols. 
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Describe the process by which you isolated and cleaned your variables of interest.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Describe the process by which you isolated and cleaned your variables of interest.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Record your One-Way AnOVa table.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Record your One-Way AnOVa table.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
+                </p>
+            </statement>
+        </task>
 
-            <task>
-                <statement>
-                    <p>
-                        Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
-                    </p>
-                </statement>
-            </task>
-
-            <task>
-                <statement>
-                    <p>
-                        Interpret the results from your test in the context of the problem using plain language.
-                    </p>
-                </statement>
-            </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret the results from your test in the context of the problem using plain language.
+                </p>
+            </statement>
         </task>
     </exercise>
-
+</page>
 </worksheet>
