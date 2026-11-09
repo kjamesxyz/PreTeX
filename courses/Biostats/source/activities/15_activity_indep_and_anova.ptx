@@ -13,7 +13,7 @@
     <exercise>
         <introduction>
             <p>
-                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity13.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 13 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Test for Independence Check-in". 
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity15_Independence.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 15 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Test for Independence Check-in". 
             </p>
 
             <p>
@@ -57,11 +57,178 @@
         </task>
 
         <task>
+            <introduction>
+                <p>
+                    Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Clearly state your group's null and alternative hypotheses in both words and symbols. 
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Describe the process by which you isolated and cleaned your variables of interest.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Interpret the results from your test in the context of the problem using plain language.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity15_anova.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 15 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "One-Way AnOVa Check-in". 
+            </p>
+
+            <p>
+                <alert>Goal:</alert> In this portion of the final project, you will design a One-Way AnOVa test to determine whether a treatment causes significant change in a measured mean from each group.
+            </p>
+        </introduction>
+
+        <task>
             <statement>
                 <p>
-                    Use the results to conduct a formal hypothesis test on the claim you made in part (a) with 90% significance. Clearly state your null and alternative hypotheses in words and symbols. Interpret your results in the context of the problem using plain language. 
+                    Identify your variables of interest. One variable will define your treatment groups, and one variable will define the measurements you need to take.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    I would strongly recommend that you choose a qualitative variable with few outcomes to define your treatment groups. 
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Remove all samples that are missing data for either of your variables.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the <c>as.factor()</c> command to label your treatment variable as a <c>factor</c> object. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Separate the remaining data into treatment groups. 
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    There are several ways you might go about doing this. Consider the <c>dplyr::filter(), table()</c>, or <c>group_by</c> commands for inspiration.
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Compute the sample size, mean, and standard deviation of the outcome variable in each treatment group. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Apply the <c>aov</c> command to your data set and use the output to construct a One-Way AnOVa table for your data.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <introduction>
+                <p>
+                    Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers. 
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Clearly state your group's null and alternative hypotheses in both words and symbols. 
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Describe the process by which you isolated and cleaned your variables of interest.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Record your One-Way AnOVa table.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Interpret the results from your test in the context of the problem using plain language.
+                    </p>
+                </statement>
+            </task>
         </task>
     </exercise>
 
