@@ -1043,6 +1043,114 @@ var ptx_lunr_docs = [
   "number": "5.2.5",
   "title": "",
   "body": "  Solve the nonlinear ODE     We still start by tansforming Applying linearity we get Using the derivative identity Applying the other derivtive identity Applying initial conditions Taking derivatives Rewriting Separation of variables Inverse transform Translation identity    "
+},
+{
+  "id": "diffeq-notes-6-1",
+  "level": "1",
+  "url": "diffeq-notes-6-1.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Review of Power Series",
+  "body": " Review of Power Series    Students will be able to...    Find the radius of convergence for Power Series  Refactor power series      Recall that an infinite series of the form is called a power series centered at . We say it converges to  if       Consider the series . Suppose that The ratio test states that the sum converges if and divergest if .    "
+},
+{
+  "id": "diffeq-notes-6-1-2",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#diffeq-notes-6-1-2",
+  "type": "Objectives",
+  "number": "6.1",
+  "title": "",
+  "body": "  Students will be able to...    Find the radius of convergence for Power Series  Refactor power series   "
+},
+{
+  "id": "def-power-series",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#def-power-series",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  Recall that an infinite series of the form is called a power series centered at . We say it converges to  if    "
+},
+{
+  "id": "thm-ratio-test",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#thm-ratio-test",
+  "type": "Theorem",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  Consider the series . Suppose that The ratio test states that the sum converges if and divergest if .   "
+},
+{
+  "id": "diffeq-notes-6-2",
+  "level": "1",
+  "url": "diffeq-notes-6-2.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Power Series Solutions at Ordinary Points",
+  "body": " Power Series Solutions at Ordinary Points    Students will be able to...    Distinguish between ordinary and singular points.  Find power series solutions to ODEs centered at ordinary points.      Consider the differential equation (in standard form) We call the point  nonsingular if are analytic at . Otherwise, we call it singular       Every second-order linear ODE has two linearly independent power series solutions centered about its ordinary points.      Find two linearly-independent solutions to the IVP     Notice that only has singular points at . So, we can assume that the solutions have the form If they satisfy the ODE, then we should have Taking the derivatives gives us But now we have introduced zero terms. We can write this We can now incorporate the coefficients. We would like to be able to combine like terms here, but we can't for two reasons: The powers of don't match and neither do the starting points. Let's tackle them in order. We would like to count the powers of the same way in each power series, so we will introduce a dummy index . In the first power series, if we write So we get Next, it is typically easiest to increase starting points by stripping out terms. We write Now that each series starts from and has a common factor of , we can combine them into the single power series below. We can think of the RHS as the power series In this light, we see that each coefficient MUST be zero. This tells us two things. It also shows Now, applying our initial conditions, we see This shows that . Now we also know that . Using the other condition This shows that . In this way, we can use our three-term recurrence relation to determine the rest of the constants. For example, We can now write the solution as       Suppose the linear ODE of the form has a singular point at . We call that point regular if are differentiable for all . Otherwise, we call the point irregular .      Suppose is a regular singular point. Then there exists at least one solution of the form where is called the index of the solution.      Find a general power series solution to on .    First, we write the equation in standard form. Notice that is a singular point. Luckily, it is regular since are both differentiable at . Frobenius' theorem tells us that there is at least one solution of the form where the index is yet to be determined. Derivatives are Notice we cannot cancel terms out without knowing the value of . Plugging into the equation we get We can factor out a common factor of which will contribute no information to the solution. So we divide it out . Reindexing, we get The indical equation tells us The recurrence relation gives Notice if we must have the trivial solution. Let's ignore this case. When we get and when we get Therefore, we have and the general solution is still .    "
+},
+{
+  "id": "diffeq-notes-6-2-2",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#diffeq-notes-6-2-2",
+  "type": "Objectives",
+  "number": "6.2",
+  "title": "",
+  "body": "  Students will be able to...    Distinguish between ordinary and singular points.  Find power series solutions to ODEs centered at ordinary points.   "
+},
+{
+  "id": "def-ordinary-point",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#def-ordinary-point",
+  "type": "Definition",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  Consider the differential equation (in standard form) We call the point  nonsingular if are analytic at . Otherwise, we call it singular    "
+},
+{
+  "id": "thm-existence-power-series",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#thm-existence-power-series",
+  "type": "Theorem",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  Every second-order linear ODE has two linearly independent power series solutions centered about its ordinary points.   "
+},
+{
+  "id": "diffeq-notes-6-2-5",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#diffeq-notes-6-2-5",
+  "type": "Example",
+  "number": "6.2.3",
+  "title": "",
+  "body": "  Find two linearly-independent solutions to the IVP     Notice that only has singular points at . So, we can assume that the solutions have the form If they satisfy the ODE, then we should have Taking the derivatives gives us But now we have introduced zero terms. We can write this We can now incorporate the coefficients. We would like to be able to combine like terms here, but we can't for two reasons: The powers of don't match and neither do the starting points. Let's tackle them in order. We would like to count the powers of the same way in each power series, so we will introduce a dummy index . In the first power series, if we write So we get Next, it is typically easiest to increase starting points by stripping out terms. We write Now that each series starts from and has a common factor of , we can combine them into the single power series below. We can think of the RHS as the power series In this light, we see that each coefficient MUST be zero. This tells us two things. It also shows Now, applying our initial conditions, we see This shows that . Now we also know that . Using the other condition This shows that . In this way, we can use our three-term recurrence relation to determine the rest of the constants. For example, We can now write the solution as    "
+},
+{
+  "id": "def-regular-point",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#def-regular-point",
+  "type": "Definition",
+  "number": "6.2.4",
+  "title": "",
+  "body": "  Suppose the linear ODE of the form has a singular point at . We call that point regular if are differentiable for all . Otherwise, we call the point irregular .   "
+},
+{
+  "id": "thm-Frobenius",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#thm-Frobenius",
+  "type": "Theorem",
+  "number": "6.2.5",
+  "title": "",
+  "body": "  Suppose is a regular singular point. Then there exists at least one solution of the form where is called the index of the solution.   "
+},
+{
+  "id": "diffeq-notes-6-2-8",
+  "level": "2",
+  "url": "diffeq-notes-6-2.html#diffeq-notes-6-2-8",
+  "type": "Example",
+  "number": "6.2.6",
+  "title": "",
+  "body": "  Find a general power series solution to on .    First, we write the equation in standard form. Notice that is a singular point. Luckily, it is regular since are both differentiable at . Frobenius' theorem tells us that there is at least one solution of the form where the index is yet to be determined. Derivatives are Notice we cannot cancel terms out without knowing the value of . Plugging into the equation we get We can factor out a common factor of which will contribute no information to the solution. So we divide it out . Reindexing, we get The indical equation tells us The recurrence relation gives Notice if we must have the trivial solution. Let's ignore this case. When we get and when we get Therefore, we have and the general solution is still .   "
 }
 ]
 
