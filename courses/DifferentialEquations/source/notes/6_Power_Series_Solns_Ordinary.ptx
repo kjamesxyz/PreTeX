@@ -1,0 +1,189 @@
+<section xml:id="diffeq-notes-6-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Power Series Solutions at Ordinary Points </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Distinguish between ordinary and singular points. </p></li>
+            <li><p> Find power series solutions to ODEs centered at ordinary points. </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-ordinary-point">
+        <statement>
+            <p>
+                Consider the differential equation (in standard form) <md> y'' + P(x) y' + Q(x) y = f(x). </md> We call the point <m>x=x_0</m> <alert>nonsingular</alert> if <m>P,Q</m> are <q>analytic</q> at <m>x=x_0</m>. Otherwise, we call it <alert>singular</alert> 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-existence-power-series">
+        <statement>
+            <p>
+                Every second-order linear ODE has two linearly independent power series solutions centered about its ordinary points.
+            </p>
+        </statement>
+    </theorem>
+
+    <example>
+        <statement>
+            <p>
+                Find two linearly-independent solutions to the IVP 
+                <md>
+                    (x-1)y'' - xy' + y = 0; \ y(0)=-2, \ y'(0) = -6
+                </md>
+            </p>
+        </statement>
+        
+        <solution>
+            <p>
+                Notice that <md>
+                    y'' - \frac{x}{x-1}y' + \frac{1}{x-1}y = 0
+                </md>
+                only has singular points at <m>x=1</m>. So, we can assume that the solutions have the form <md> y(x) = \sum_{n=0}^\infty c_n x^n. </md> If they satisfy the ODE, then we should have
+                <md>
+                    (x-1)\deriv{^2}{x^2} \left[ \sum_{n=0}^\infty c_n x^n \right] - x \deriv{}{x} \left[ \sum_{n=0}^\infty c_n x^n \right] + \left[ \sum_{n=0}^\infty c_n x^n \right] = 0.
+                </md>
+                Taking the derivatives gives us 
+                <md>
+                    (x-1)\left[ \sum_{n=0}^\infty c_n n (n-1) x^{n-2} \right] - x \left[ \sum_{n=0}^\infty c_n nx^{n-1} \right] + \left[ \sum_{n=0}^\infty c_n x^n \right] = 0
+                </md>
+                But now we have introduced zero terms. We can write this 
+                <md>
+                    (x-1)\left[ \sum_{n=2}^\infty c_n n (n-1) x^{n-2} \right] - x \left[ \sum_{n=1}^\infty c_n nx^{n-1} \right] + \left[ \sum_{n=0}^\infty c_n x^n \right] = 0
+                </md>
+                We can now incorporate the coefficients.
+                <md>
+                    \left[ \sum_{n=2}^\infty c_n n (n-1) x^{n-1} \right] - \left[ \sum_{n=2}^\infty c_n n (n-1) x^{n-2} \right] - \left[ \sum_{n=1}^\infty c_n nx^n \right] + \left[ \sum_{n=0}^\infty c_n x^n \right] = 0
+                </md>
+                We would like to be able to combine like terms here, but we can't for two reasons: The powers of <m>x</m> don't match and neither do the starting points. Let's tackle them in order. We would like to count the powers of <m>x</m> the same way in each power series, so we will introduce a dummy index <m>k</m>. In the first power series, if we write <md>k=n-1 \leftrightarrow n = k + 1.</md> So we get
+                <md>
+                    \left[ \sum_{k=1}^\infty c_{k+1} (k+1) k x^k \right] - \left[ \sum_{k=0}^\infty c_{k+2} (k+2) (k+1) x^k \right] - \left[ \sum_{k=1}^\infty c_k k x^k \right] + \left[ \sum_{k=0}^\infty c_k x^k \right] = 0
+                </md>
+                Next, it is typically easiest to increase starting points by stripping out terms. We write
+                 <md>
+                    \left[ \sum_{k=1}^\infty c_{k+1} (k+1) k x^k \right] - 2c_2 - \left[ \sum_{k=1}^\infty c_{k+2} (k+2) (k+1) x^k \right] - \left[ \sum_{k=1}^\infty c_k k x^k \right] + c_0 + \left[ \sum_{k=1}^\infty c_k x^k \right] = 0
+                </md>
+                Now that each series starts from <m>k=1</m> and has a common factor of <m>x^k</m>, we can combine them into the single power series below.
+                <md>
+                    c_0 - 2c_2 + \sum_{k=1}^\infty \left( c_{k+1}(k+1)k + c_{k+2}(k+2)(k+1)  - c_k k + c_k \right) x^k = 0
+                </md>
+                We can think of the RHS as the power series <md> 0 = \sum_{k=1}^\infty 0 \cdot x^k. </md> In this light, we see that each coefficient MUST be zero. This tells us two things. 
+                <md>
+                    c_0 - 2c_2 = 0 \implies c_2 = \frac{1}{2}c_0
+                </md>
+                It also shows 
+                <md>
+                    c_{k+2} = \frac{c_k k - c_k + c_{k+1}(k+1)k}{(k+2)(k+1)} 
+                </md>
+                Now, applying our initial conditions, we see 
+                <md>
+                    y(0) = \sum_{n=0}^\infty c_k \cdot 0^k = -2
+                </md>
+                This shows that <m>c_0 = -2</m>. Now we also know that <m>c_2 = -1</m>. Using the other condition
+                <md>
+                    y'(0) = \sum_{n=1}^\infty c_k k 0^{k-1} = -6.  
+                </md>
+                This shows that <m>c_1 = -6</m>. In this way, we can use our <alert>three-term recurrence relation</alert> to determine the rest of the constants. For example,
+                <md>
+                    c_3 = \frac{c_1 - c_1 + 2c_2}{3(2)} = -\frac{1}{3}
+                </md>
+                We can now write the solution as 
+                <md>
+                    y(x) = -2 - 6x - 2x^2 - \frac{1}{3}x^3 - \cdots 
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <definition xml:id="def-regular-point">
+        <statement>
+            <p>
+                Suppose the linear ODE of the form
+                <md>
+                    \deriv{^ny}{x^n} + a_{n-1}(x) \deriv{^{n-1} y}{x^{n-1}} + \cdots + a_1(x) \deriv{y}{x} + a_0(x) y = f(x). 
+                </md>
+                has a singular point at <m>x = x_0</m>. We call that point <alert> regular </alert> if <m> (x-x_0)^k a_{n-k}(x) </m> are differentiable for all <m>k</m>. Otherwise, we call the point <alert>irregular</alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-Frobenius">
+        <statement>
+            <p>
+                Suppose <m>x=x_0</m> is a regular singular point. Then there exists at least one solution of the form <md> y(x) = \sum_{n=0}^\infty c_0 (x - x_0)^{k + r} </md> where <m>r \in \real </m> is called the <alert>index</alert> of the solution. 
+            </p>
+        </statement>
+    </theorem>
+    
+    <example>
+        <statement>
+            <p>
+                Find a general power series solution to <md> 2xy'' - y' + 2y = 0 </md> on <m>[0,\infty)</m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                First, we write the equation in standard form. 
+                <md>
+                    y'' - \frac{1}{2x}y' + \frac{1}{x}y = 0
+                </md>
+                Notice that <m>x = 0</m> is a singular point. Luckily, it is regular since 
+                <md>
+                    <mrow> x \cdot -\frac{1}{2x} \amp= -\frac{1}{2} </mrow>
+                    <mrow> x^2 \cdot \frac{1}{x} \amp= x </mrow>
+                </md>
+                are both differentiable at <m>x=0</m>. Frobenius' theorem tells us that there is at least one solution of the form 
+                <md>
+                    y(x) = \sum_{n=0}^\infty c_n x^{k + r}
+                </md>
+                where the index <m>r=0</m> is yet to be determined. Derivatives are 
+                <md>
+                    <mrow> y'(x) \amp= \sum_{n=0}^\infty c_0 (k+r) x^{k+r-1} </mrow>
+                    <mrow> y''(x) \amp= \sum_{n=0}^\infty c_0(k+r)(k+r-1)x^{k+r-2} </mrow>
+                </md>
+                Notice we cannot cancel terms out without knowing the value of <m>r</m>. Plugging into the equation we get
+                <md>
+                    2x \left[ \sum_{n=0}^\infty c_0(k+r)(k+r-1)x^{k+r-2} \right] - \left[ \sum_{n=0}^\infty c_0 (k+r) x^{k+r-1} \right] + 2 \left[ \sum_{n=0}^\infty c_n x^{k + r} \right] = 0 
+                </md>
+                We can factor out a common factor of <m>x^r</m> which will contribute no information to the solution. So we <q>divide it out</q>. Reindexing, we get 
+                <md>
+                    \frac{2c_0r(2r - 3)}{x}  + \sum_{k=0}^\infty \left( c_{k+1}(k+r+1)(2k+2r-1) + 2c_k \right) x^k = 0.
+                </md>
+                The <alert>indical equation</alert> tells us 
+                <md>
+                    \frac{2c_0r(2r - 3)}{x} = 0 \iff c_0 = 0, r = 0, r = \frac{3}{2}.
+                </md>
+                The recurrence relation gives 
+                <md>
+                    c_{n+1} = -\frac{2c_n}{(n+r+1)(2n+2r-1)}.
+                </md>
+                Notice if <m>c_0 = 0</m> we must have the trivial solution. Let's ignore this case. When <m>r = 0</m> we get 
+                <md>
+                    c_{n+1} = -\frac{2c_n}{(n+1)(2n-1)} 
+                </md>
+                and when <m>r=\frac{3}{2}</m> we get
+                <md>
+                    c_{n+1} = -\frac{4c_n}{(2n+5)(2n+2)}.
+                </md>
+                Therefore, we have 
+                <md>
+                    <mrow> y_1(x) \amp= 1 + 2x - 2x^2 + \frac{4}{9}x^3 + \cdots </mrow>
+                    <mrow> y_2(x) \amp= x^{\frac{3}{2}} \left[ 1 - \frac{2}{5}x + \frac{2}{35}x^2 - \frac{4}{2835}x^3 + \cdots] </mrow>
+                </md>
+                and the general solution is still <m>y(x) = C_1 y_1 + C_2 y_2. </m>. 
+            </p>
+        </solution>
+    </example>
+    
+
+
+    
+    
+
+</section>

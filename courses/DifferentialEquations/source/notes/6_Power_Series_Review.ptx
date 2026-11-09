@@ -1,0 +1,36 @@
+<section xml:id="diffeq-notes-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Review of Power Series </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Find the radius of convergence for Power Series </p></li>
+            <li><p> Refactor power series </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-power-series">
+        <statement>
+            <p>
+                Recall that an infinite series of the form <md> \sum_{n=0}^\infty c_n (x-a)^n </md> is called a <alert>power series</alert> centered at <m>x=a</m>. We say it <alert> converges to <m>L</m> </alert> if <md> \lim_{N \to \infty} \sum_{n=0}^N c_n(a-x)^n = L.</md> 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-ratio-test">
+        <statement>
+            <p>
+                Consider the series <m> \sum_{n=0}^\infty a_n </m>. Suppose that <md> \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| = L. </md> The <alert> ratio test</alert> states that the sum <alert> converges</alert> if <m>L \lt 1</m> and <alert>divergest</alert> if <m>L \gt 1</m>.
+            </p>
+        </statement>
+    </theorem>
+
+
+
+    
+
+</section>

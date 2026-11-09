@@ -50,5 +50,12 @@
             <xi:include href="./notes/5_Laplace_Transforms.ptx"/>
             <xi:include href="./notes/5_Solving_IVPs_with_Laplace.ptx"/>
         </chapter>
+
+        <chapter xml:id="chapter-6-Series-Solutions">
+            <title>Power Series Solutions</title>
+            
+            <xi:include href="./notes/6_Power_Series_Review.ptx"/>
+            <xi:include href="./notes/6_Power_Series_Solns_Ordinary.ptx"/>
+        </chapter>
     </book>
 </pretext>
