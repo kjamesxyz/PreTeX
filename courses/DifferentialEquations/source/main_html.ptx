@@ -36,6 +36,7 @@
 
             <xi:include href="./activities/14_activity_laplace.ptx"/>
             <xi:include href="./activities/15_activity_solve_with_laplace.ptx"/>
+            <xi:include href="./activities/16_activity_series_solns.ptx"/>
         </chapter>
 
         <chapter xml:id="diffeq-hw">
@@ -51,6 +52,7 @@
             <xi:include href="./homework/7_homework.ptx" />
 
             <xi:include href="./homework/8_homework.ptx" />
+            <xi:include href="./homework/9_homework.ptx" />
         </chapter>
 
     </book>

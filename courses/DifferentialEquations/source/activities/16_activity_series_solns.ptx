@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-16" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 16 - Series Solutions to ODEs </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, November 16</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+    
+    <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Define what it means for <m>x=x_0</m> to be a <alert>regular singular point</alert> for the differential equation
+                    <md>
+                        \deriv{^n y}{x^n} + a_{n-1}(x) \deriv{^{(n-1)} y}{x^{n-1}} + \cdots + a_1(x) \deriv{y}{x} + a_0(x) y = f(x).
+                    </md>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find and classify all singular points for the differential equation <md> (x^3 - 2x^2 + 3x)^2 y'' + x(x-3)^2y' - (x+1)y = 0</md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the differential equation <md> y'' + e^x y' - y = 0.</md> 
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why we cannot use the methods from chapter 4 (e.g. undetermined coefficients, variation of parameters, etc.) to solve this problem.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why it would be very challenging to solve this problem with Laplace transforms. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Show that this equation has no singular points, making it a prime candidate for a power series solution. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Show that we can write <md> e^x = \sum_{n=0}^\infty \frac{x^n}{n!} </md> by computing its Taylor series centered at <m>x=0</m> (Maclauruin series). 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Use the power series representation of <m>e^x</m> to find two fundamental power series solutions to the differential equation. 
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    To multiply two power series together, we distribute one series to each term of the other. 
+                </p>
+            </hint>
+        </task>
+    </exercise>
+
+
+    <exercise>
+        <introduction>
+            <p>
+                Equations of the form <md> x^2 y'' + xy' + (x^2 - \nu^2) = 0 </md> are called <alert>Bessel's equations of order <m>\nu</m></alert> where <m>\nu \in \complex</m>. These equations describe phenomena in wave motion and heat conduction. 
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Suppose <m>\nu \in \real</m> and <m>\nu \geq 0</m>. Find all regular points for Bessel's equation. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Apply the method of Frobeinus to show Bessel's equation has indeces at <m>r = \pm \nu </m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Write a recurrence relation to describe the coefficients in the case that <m>r = \nu</m>. Taking an arbitrary fixed <m>c_0</m>, write out <m>c_1, \ldots, c_6</m>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    It turns out that these coefficients can be computed with the formula <md> c_{2n} = \frac{(-1)^n c_0}{2^{2n} n! (1+\nu)(2+\nu) \cdots (n + \nu)}. </md> Use this formula to recompute <m>c_2, c_4, c_6</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The <alert>Gamma function</alert> is <md>\Gamma(n) = (n-1)!</md> We can use <m>\Gamma</m> to rewrite <md> c_{2n} = \frac{(-1)^n}{2^{2n+\nu} n! \Gamma(1+n+\nu)}. </md> We call the solutions to these Bessel's equations <alert>Bessel functions of first kind</alert> and write them <m>\cal{J}_\nu(x)</m>. Use the identity above to write the formula for Bessel functions of first kind with order 2. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+</worksheet>

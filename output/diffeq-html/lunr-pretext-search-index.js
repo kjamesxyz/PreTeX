@@ -622,6 +622,51 @@ var ptx_lunr_docs = [
   "body": "  The second-order nonlinear ODE given by where is called Bessel's equation of order .     Write the statement for Bessel's equation of order 0.      Solve Bessel's equation of order 0 subject to the initial conditions and using Laplace transforms.    "
 },
 {
+  "id": "diffeq-act-16",
+  "level": "1",
+  "url": "diffeq-act-16.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 16 - Series Solutions to ODEs",
+  "body": " 🏫 Activity 16 - Series Solutions to ODEs   This activity is due at the beginning of class on Monday, November 16 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for to be a regular singular point for the differential equation        Find and classify all singular points for the differential equation       Consider the differential equation      Explain why we cannot use the methods from chapter 4 (e.g. undetermined coefficients, variation of parameters, etc.) to solve this problem.      Explain why it would be very challenging to solve this problem with Laplace transforms.      Show that this equation has no singular points, making it a prime candidate for a power series solution.      Show that we can write by computing its Taylor series centered at (Maclauruin series).      Use the power series representation of to find two fundamental power series solutions to the differential equation.    To multiply two power series together, we distribute one series to each term of the other.       Equations of the form are called Bessel's equations of order where . These equations describe phenomena in wave motion and heat conduction.     Suppose and . Find all regular points for Bessel's equation.      Apply the method of Frobeinus to show Bessel's equation has indeces at .      Write a recurrence relation to describe the coefficients in the case that . Taking an arbitrary fixed , write out .      It turns out that these coefficients can be computed with the formula Use this formula to recompute .      The Gamma function is We can use to rewrite We call the solutions to these Bessel's equations Bessel functions of first kind and write them . Use the identity above to write the formula for Bessel functions of first kind with order 2.     "
+},
+{
+  "id": "diffeq-act-16-3",
+  "level": "2",
+  "url": "diffeq-act-16.html#diffeq-act-16-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for to be a regular singular point for the differential equation     "
+},
+{
+  "id": "diffeq-act-16-4",
+  "level": "2",
+  "url": "diffeq-act-16.html#diffeq-act-16-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find and classify all singular points for the differential equation    "
+},
+{
+  "id": "diffeq-act-16-5",
+  "level": "2",
+  "url": "diffeq-act-16.html#diffeq-act-16-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the differential equation      Explain why we cannot use the methods from chapter 4 (e.g. undetermined coefficients, variation of parameters, etc.) to solve this problem.      Explain why it would be very challenging to solve this problem with Laplace transforms.      Show that this equation has no singular points, making it a prime candidate for a power series solution.      Show that we can write by computing its Taylor series centered at (Maclauruin series).      Use the power series representation of to find two fundamental power series solutions to the differential equation.    To multiply two power series together, we distribute one series to each term of the other.    "
+},
+{
+  "id": "diffeq-act-16-6",
+  "level": "2",
+  "url": "diffeq-act-16.html#diffeq-act-16-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Equations of the form are called Bessel's equations of order where . These equations describe phenomena in wave motion and heat conduction.     Suppose and . Find all regular points for Bessel's equation.      Apply the method of Frobeinus to show Bessel's equation has indeces at .      Write a recurrence relation to describe the coefficients in the case that . Taking an arbitrary fixed , write out .      It turns out that these coefficients can be computed with the formula Use this formula to recompute .      The Gamma function is We can use to rewrite We call the solutions to these Bessel's equations Bessel functions of first kind and write them . Use the identity above to write the formula for Bessel functions of first kind with order 2.    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",
@@ -917,6 +962,33 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Use Laplace transforms to solve the IVP    "
+},
+{
+  "id": "diffeq-hw9",
+  "level": "1",
+  "url": "diffeq-hw9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "📝 Homework 9",
+  "body": " 📝 Homework 9    Instructions: This assignment is due Wednesday, November 18 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-37 (odds) in Exercises 6.1 (pg. 230)  Problems 1-33 (odds) in Exercises 6.2 (pg. 239-240)       Find a power series solution to the IVP       Find a general power series solution on to the ODE     "
+},
+{
+  "id": "diffeq-hw9-3",
+  "level": "2",
+  "url": "diffeq-hw9.html#diffeq-hw9-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find a power series solution to the IVP    "
+},
+{
+  "id": "diffeq-hw9-4",
+  "level": "2",
+  "url": "diffeq-hw9.html#diffeq-hw9-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find a general power series solution on to the ODE    "
 }
 ]
 

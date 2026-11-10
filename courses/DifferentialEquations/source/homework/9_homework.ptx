@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-hw9">
+    <title>📝 Homework 9 </title>
+    <introduction>
+        <p>
+            <alert>Instructions:</alert> This assignment is due <alert>Wednesday, November 18</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.
+        </p>
+
+        <p> 
+            <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems from the course tetxbook a try. 
+            <ol> 
+                <li><p> Problems 1-37 (odds) in Exercises 6.1 (pg. 230)</p></li>
+                <li><p> Problems 1-33 (odds) in Exercises 6.2 (pg. 239-240)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+    
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                Find a power series solution to the IVP <md> (x^2 + 1)y'' + 2xy' = 0; \ y(0)=y'(0)=1 </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                Find a general power series solution on <m>(0,\infty)</m> to the ODE <md> 2xy'' - (3 + 2x)y' + y = 0.</md>
+            </p>
+        </statement>
+    </exercise>
+
+
+</worksheet>
