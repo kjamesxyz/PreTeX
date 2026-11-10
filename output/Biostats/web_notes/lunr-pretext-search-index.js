@@ -1142,6 +1142,24 @@ var ptx_lunr_docs = [
   "number": "6.1.5",
   "title": "",
   "body": "  The distribution is defined on and follows the shape of a rational function, decaying rapidly with increasing F score. One-Way AnOVa uses the F distribution as a test-statistic parameterized by the degrees of freedom in treatment and degrees of freedom in errors . We write .   "
+},
+{
+  "id": "biostats-notes-7-1",
+  "level": "1",
+  "url": "biostats-notes-7-1.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Scatterplots",
+  "body": " Scatterplots    Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.    "
+},
+{
+  "id": "biostats-notes-7-1-2",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#biostats-notes-7-1-2",
+  "type": "Objectives",
+  "number": "7.1",
+  "title": "",
+  "body": "  Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.   "
 }
 ]
 

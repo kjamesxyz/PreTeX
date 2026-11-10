@@ -523,6 +523,42 @@ var ptx_lunr_docs = [
   "body": "  Summarize this information in a written report. Your report should speak to each of the following prompts. Your answer should be a narrative, not a bulleted list of answers.     Clearly state your group's null and alternative hypotheses in both words and symbols.      Describe the process by which you isolated and cleaned your variables of interest.      Record your One-Way AnOVa table.      Test your hypothesis with 95% confidence. Clearly distinguish between your test statistic and critical value. Explain how you used RStudio to compute obtain these statistics.      Conclude whether to reject your null hypothesis and cite your computed statistics as evidence.      Interpret the results from your test in the context of the problem using plain language.    "
 },
 {
+  "id": "biostats-act-16",
+  "level": "1",
+  "url": "biostats-act-16.html",
+  "type": "🏫 Activity",
+  "number": "2.16",
+  "title": "🏫 Activity 16 - Linear Regression",
+  "body": " 🏫 Activity 16 - Linear Regression   This assignment is due at the beginning of class on Monday, November 16 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for least-squares error between two variables and .      Write the formula for the slope and -intercept of the regression line.      Write the formula for the linear correlation coefficient between and .       Consider the bivariate data shown in the table below.    X  Y    1  1    1  2    2  2    4  6       Sketch a scatterplot for the data in the axes below.   A blank set of positive axes.       Compute the least-squares error.      Compute       Use your work from parts (a)-(c) to find the regression line.      Sketch the regression line onto the axes above.      Compute the linear correlation coefficient between and .       A clinical trial consists of 20 participants, who were randomly split into equal sized treatment and control groups. After 12 weeks of taking a medication, a particular biomarker was measured from a blood sample. The results of the test are shown in the table below.    Treatment Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  30  46    2  52  51    3  59  62    4  44  47    5  56  61    6  65  63    7  49  57    8  70  79    9  62  64    10  40  44      Control Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  42  50    2  48  53    3  54  62    4  61  64    5  45  58    6  58  63    7  67  77    8  50  57    9  72  83    10  63  74         Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the control group in the axes below.   A blank set of positive axes.       Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the treatment group in the sane set of axes above.      Compute the regression line for each set of data. Then, sketch them onto the image above using the same color scheme you used previously. For example, if you sketched the control group in red, its regression line should be red as well.      Compare and contrast the relationships. Which appears to be a better fit and why?     "
+},
+{
+  "id": "biostats-act-16-3",
+  "level": "2",
+  "url": "biostats-act-16.html#biostats-act-16-3",
+  "type": "Worksheet Exercise",
+  "number": "2.16.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for least-squares error between two variables and .      Write the formula for the slope and -intercept of the regression line.      Write the formula for the linear correlation coefficient between and .    "
+},
+{
+  "id": "biostats-act-16-4",
+  "level": "2",
+  "url": "biostats-act-16.html#biostats-act-16-4",
+  "type": "Worksheet Exercise",
+  "number": "2.16.2",
+  "title": "",
+  "body": "  Consider the bivariate data shown in the table below.    X  Y    1  1    1  2    2  2    4  6       Sketch a scatterplot for the data in the axes below.   A blank set of positive axes.       Compute the least-squares error.      Compute       Use your work from parts (a)-(c) to find the regression line.      Sketch the regression line onto the axes above.      Compute the linear correlation coefficient between and .    "
+},
+{
+  "id": "biostats-act-16-5",
+  "level": "2",
+  "url": "biostats-act-16.html#biostats-act-16-5",
+  "type": "Worksheet Exercise",
+  "number": "2.16.3",
+  "title": "",
+  "body": "  A clinical trial consists of 20 participants, who were randomly split into equal sized treatment and control groups. After 12 weeks of taking a medication, a particular biomarker was measured from a blood sample. The results of the test are shown in the table below.    Treatment Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  30  46    2  52  51    3  59  62    4  44  47    5  56  61    6  65  63    7  49  57    8  70  79    9  62  64    10  40  44      Control Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  42  50    2  48  53    3  54  62    4  61  64    5  45  58    6  58  63    7  67  77    8  50  57    9  72  83    10  63  74         Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the control group in the axes below.   A blank set of positive axes.       Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the treatment group in the sane set of axes above.      Compute the regression line for each set of data. Then, sketch them onto the image above using the same color scheme you used previously. For example, if you sketched the control group in red, its regression line should be red as well.      Compare and contrast the relationships. Which appears to be a better fit and why?    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",
@@ -617,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "biostats-hw3.html#biostats-hw3-2-3",
   "type": "Table",
-  "number": "7",
+  "number": "9",
   "title": "Xanthid crab clutch size",
   "body": " Xanthid crab clutch size    Clutch Number of Eggs  Clutch Number of Eggs    1 1,959  24 5,749    2 4,534  25 6,837    3 7,020  26 8,639    4 6,725  27 7,417    5 6,964  28 6,082    6 7,428  29 10,241    7 9,359  30 962    8 9,166  31 3,894    9 2,802  32 1,801    10 2,462  33 5,099    11 4,000  34 6,627    12 3,378  35 4,484    13 7,343  36 5,633    14 4,189  37 4,148    15 8,973  38 6,588    16 4,327  39 5,847    17 2,412  40 4,632    18 7,624  41 6,472    19 1,548  42 8,372    20 4,801  43 8,225    21 737  44 6,142    22 5,321  45 12,130    23 849     "
 },
@@ -755,6 +791,24 @@ var ptx_lunr_docs = [
   "number": "3.8.1",
   "title": "",
   "body": "  Coepods aare a low-level consumer in estuarian foodwebs. In G. Weiss's paper Development and Lipid Composition of the Harpacticoid Cpepod Nitocra Spinipes Reared on Different Diets , a random sample of copepods were grown in different containers. One group was fed lipid-rich diatoms, another bacteria, and the third was fed leafy macroalgae. There were 12 containers total, four replicates for each diet. Each container was seeded with five gravid (egg-bearing) females and the number of copepods in each container was measured 14 days later. The data is summarized in the table below.    Diet  R1  R2  R3  R4    Diatoms  426  467  438  497    Bacteria  303  301  293  328    Macroalgae  277  324  302  272    Conduct a One-Way ANoVa test with 95% confidence to determine whether the copepods' diet is a contributing factor to their population. Clearly state your null and alternative hypotheses. Interpret your results in the context of the experiment with plain language.   "
+},
+{
+  "id": "biostats-hw9",
+  "level": "1",
+  "url": "biostats-hw9.html",
+  "type": "🏫 Activity",
+  "number": "3.9",
+  "title": "📝 Homework 9",
+  "body": " 📝 Homework 9    Instructions: This assignment is due Wednesday, November 18 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 8.17-26 from OpenIntro Statistics (pg. 325-327)       The table below shows the amount of carbohydrates (in g) and the number of Calories in a single serving of 6 different foods.    Carbs (in g)  8  9.5  10  6  7  4    Calories  120  138  147  88  108  62       Compute the mean and standard deviation grams of carbs per serving.      Compute the mean and standard deviation number of Calories per serving.      Find the equation of the regression line between grams of carbs and number of Calories.      Compute the linear correlation coefficient between grams of carbs and number of Calories.      Sketch a scatterplot and the regression line for the data on the axes below.   A blank set of positive axes.       Use your regression line to predict the number of calories in a single serving of a food given it contains 5.5g of carbs.      Construct a 95% confidence interval for the slope of your regression line.      Sketch your confidence interval onto your graph (shade appropriately).     "
+},
+{
+  "id": "biostats-hw9-3",
+  "level": "2",
+  "url": "biostats-hw9.html#biostats-hw9-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.1",
+  "title": "",
+  "body": "  The table below shows the amount of carbohydrates (in g) and the number of Calories in a single serving of 6 different foods.    Carbs (in g)  8  9.5  10  6  7  4    Calories  120  138  147  88  108  62       Compute the mean and standard deviation grams of carbs per serving.      Compute the mean and standard deviation number of Calories per serving.      Find the equation of the regression line between grams of carbs and number of Calories.      Compute the linear correlation coefficient between grams of carbs and number of Calories.      Sketch a scatterplot and the regression line for the data on the axes below.   A blank set of positive axes.       Use your regression line to predict the number of calories in a single serving of a food given it contains 5.5g of carbs.      Construct a 95% confidence interval for the slope of your regression line.      Sketch your confidence interval onto your graph (shade appropriately).    "
 },
 {
   "id": "biostats-projects-final",
