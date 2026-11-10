@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Linear Regression </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Sketch scatterplots for bivariate data </p></li>
+            <li><p> Find the equation of the regression line for bivariate data </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-bivariate">
+        <statement>
+            <p>
+                Data that comes from two populations is called <alert>bivariate</alert>. 
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-scatterplot">
+        <statement>
+            <p>
+                A <alert>scatterplot</alert> is a graph that displays bivariate data.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Activity 16 problem 2a
+            </p>
+        </statement>
+    </example>
+
+    <p>
+        Scatterplots can suggest relationships between variables. When we suspect a linear relationship, we can perform <alert>linear regresison</alert> to find a line of best fit for the data. 
+    </p>
+
+    <definition xml:id="def-least-squares-error">
+        <statement>
+            <p>
+                The <alert>Least-Squares Error (LSE)</alert> between <m>X</m> and <m>Y</m> is <md>S_{XY} = \sum_{i}^n (x_i - \bar{x})(y_i - \bar{y})</md>
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Activity 16 problem 2b
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-regression-line">
+        <statement>
+            <p>
+                The <alert>regression line</alert> between <m>X</m> and <m>Y</m> is <md> y = mx + b </md> where <md> m = \frac{S_{XY}}{S_{XX}} \ \text{and} \ b = \bar{y} - m\bar{x}. </md> 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Activity 16 problem 2c-2e
+            </p>
+        </statement>
+    </example>
+
+</section>

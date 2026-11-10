@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw9">
+<title>📝 Homework 9</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, November 18</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 8.17-26 from OpenIntro Statistics (pg. 325-327)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                The table below shows the amount of carbohydrates (in g) and the number of Calories in a single serving of 6 different foods.
+            </p>
+
+            <tabular>
+                <row>
+                    <cell>Carbs (in g)</cell>
+                        <cell>8</cell>
+                        <cell>9.5</cell>
+                        <cell>10</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                        <cell>4</cell>
+                </row>
+                <row>
+                    <cell>Calories</cell>
+                        <cell>120</cell>
+                        <cell>138</cell>
+                        <cell>147</cell>
+                        <cell>88</cell>
+                        <cell>108</cell>
+                        <cell>62</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the mean and standard deviation grams of carbs per serving.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the mean and standard deviation number of Calories per serving.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the equation of the regression line between grams of carbs and number of Calories. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Compute the linear correlation coefficient between grams of carbs and number of Calories.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Sketch a scatterplot and the regression line for the data on the axes below.
+                </p>
+                <image source="images/blankQ1axes.jpg" width="50%">
+                    <shortdescription>A blank set of positive axes.</shortdescription>
+                </image>
+            </statement>
+        </task>
+
+
+
+    </exercise>
+    
+
+
+</worksheet>

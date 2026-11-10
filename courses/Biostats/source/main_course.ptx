@@ -37,6 +37,7 @@
             <xi:include href="./activities/13_activity_independence.ptx"/>
             <xi:include href="./activities/14_activity_anova_tables.ptx"/>
             <xi:include href="./activities/15_activity_indep_and_anova.ptx"/>
+            <xi:include href="./activities/16_activity_lin_reg.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
@@ -52,6 +53,7 @@
 
             <xi:include href="./homework/7_homework.ptx"/>
             <xi:include href="./homework/8_homework.ptx"/>
+            <xi:include href="./homework/9_homework.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-projects">

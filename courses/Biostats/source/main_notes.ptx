@@ -53,5 +53,12 @@
             
             <xi:include href="./notes/6_One_Way_AnOVa.ptx"/>
         </chapter>
+
+        <chapter xml:id="biostats-notes-7-bivariate">
+            <title>Bivariate Data</title>
+            
+            <xi:include href="./notes/7_scatterplots.ptx"/>
+            <xi:include href="./notes/7_correlation.ptx"/>
+        </chapter>
     </book>
 </pretext>

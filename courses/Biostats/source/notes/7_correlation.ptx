@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Correlation </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Sketch scatterplots for bivariate data </p></li>
+            <li><p> Find the equation of the regression line for bivariate data </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-correlation">
+        <statement>
+            <p>
+                Two variables are <alert> correlated </alert> if their outcomes follow some kind of relationship.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-lcc">
+        <statement>
+            <p>
+                The <alert> linear correlation coefficient </alert> <m>r_{XY}</m> between <m>X,Y</m> is a measurement (between -1 and 1) of how linear their relationship is. It is computed <md> r_{XY} = \frac{S_{XY}}{(n-1)s_X s_Y} </md>
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Activity 16 problem 2f
+            </p>
+        </statement>
+    </example>
+
+</section>

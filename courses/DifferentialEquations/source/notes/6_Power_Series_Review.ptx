@@ -29,7 +29,13 @@
         </statement>
     </theorem>
 
-
+    <example>
+        <statement>
+            <p>
+                We can use the following tricks to <alert>reindex</alert> power series.
+            </p>
+        </statement>
+    </example>
 
     
 
