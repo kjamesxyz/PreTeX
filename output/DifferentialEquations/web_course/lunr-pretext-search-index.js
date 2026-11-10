@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "📝 Homework 9",
-  "body": " 📝 Homework 9    Instructions: This assignment is due Wednesday, November 18 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-37 (odds) in Exercises 6.1 (pg. 230)  Problems 1-33 (odds) in Exercises 6.2 (pg. 239-240)       Find a power series solution to the IVP       Find a general power series solution on to the ODE     "
+  "body": " 📝 Homework 9    Instructions: This assignment is due Wednesday, November 18 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems from the course tetxbook a try.  Problems 1-37 (odds) in Exercises 6.1 (pg. 230)  Problems 1-33 (odds) in Exercises 6.2 (pg. 239-240)       Find and write the first four nonzero terms of a power series solution to the IVP       Find and write the first four nonzero terms of the general power series solution on to the ODE     "
 },
 {
   "id": "diffeq-hw9-3",
@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Find a power series solution to the IVP    "
+  "body": "  Find and write the first four nonzero terms of a power series solution to the IVP    "
 },
 {
   "id": "diffeq-hw9-4",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Find a general power series solution on to the ODE    "
+  "body": "  Find and write the first four nonzero terms of the general power series solution on to the ODE    "
 }
 ]
 

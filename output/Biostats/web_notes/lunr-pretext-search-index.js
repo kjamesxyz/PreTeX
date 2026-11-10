@@ -1149,8 +1149,8 @@ var ptx_lunr_docs = [
   "url": "biostats-notes-7-1.html",
   "type": "Section",
   "number": "7.1",
-  "title": "Scatterplots",
-  "body": " Scatterplots    Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.    "
+  "title": "Linear Regression",
+  "body": " Linear Regression    Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data      Data that comes from two populations is called bivariate .      A scatterplot is a graph that displays bivariate data.      Activity 16 problem 2a    Scatterplots can suggest relationships between variables. When we suspect a linear relationship, we can perform linear regresison to find a line of best fit for the data.    The Least-Squares Error (LSE) between and is       Activity 16 problem 2b      The regression line between and is where       Activity 16 problem 2c-2e    "
 },
 {
   "id": "biostats-notes-7-1-2",
@@ -1159,7 +1159,115 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "7.1",
   "title": "",
-  "body": "  Students will be able to...    Test for distinctions in means using One-Way ANoVa tests.   "
+  "body": "  Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data   "
+},
+{
+  "id": "def-bivariate",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#def-bivariate",
+  "type": "Definition",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  Data that comes from two populations is called bivariate .   "
+},
+{
+  "id": "def-scatterplot",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#def-scatterplot",
+  "type": "Definition",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  A scatterplot is a graph that displays bivariate data.   "
+},
+{
+  "id": "biostats-notes-7-1-5",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#biostats-notes-7-1-5",
+  "type": "Example",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  Activity 16 problem 2a   "
+},
+{
+  "id": "def-least-squares-error",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#def-least-squares-error",
+  "type": "Definition",
+  "number": "7.1.4",
+  "title": "",
+  "body": "  The Least-Squares Error (LSE) between and is    "
+},
+{
+  "id": "biostats-notes-7-1-8",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#biostats-notes-7-1-8",
+  "type": "Example",
+  "number": "7.1.5",
+  "title": "",
+  "body": "  Activity 16 problem 2b   "
+},
+{
+  "id": "def-regression-line",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#def-regression-line",
+  "type": "Definition",
+  "number": "7.1.6",
+  "title": "",
+  "body": "  The regression line between and is where    "
+},
+{
+  "id": "biostats-notes-7-1-10",
+  "level": "2",
+  "url": "biostats-notes-7-1.html#biostats-notes-7-1-10",
+  "type": "Example",
+  "number": "7.1.7",
+  "title": "",
+  "body": "  Activity 16 problem 2c-2e   "
+},
+{
+  "id": "biostats-notes-7-2",
+  "level": "1",
+  "url": "biostats-notes-7-2.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Correlation",
+  "body": " Correlation    Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data      Two variables are correlated if their outcomes follow some kind of relationship.      The linear correlation coefficient  between is a measurement (between -1 and 1) of how linear their relationship is. It is computed       Activity 16 problem 2f    "
+},
+{
+  "id": "biostats-notes-7-2-2",
+  "level": "2",
+  "url": "biostats-notes-7-2.html#biostats-notes-7-2-2",
+  "type": "Objectives",
+  "number": "7.2",
+  "title": "",
+  "body": "  Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data   "
+},
+{
+  "id": "def-correlation",
+  "level": "2",
+  "url": "biostats-notes-7-2.html#def-correlation",
+  "type": "Definition",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Two variables are correlated if their outcomes follow some kind of relationship.   "
+},
+{
+  "id": "def-lcc",
+  "level": "2",
+  "url": "biostats-notes-7-2.html#def-lcc",
+  "type": "Definition",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  The linear correlation coefficient  between is a measurement (between -1 and 1) of how linear their relationship is. It is computed    "
+},
+{
+  "id": "biostats-notes-7-2-5",
+  "level": "2",
+  "url": "biostats-notes-7-2.html#biostats-notes-7-2-5",
+  "type": "Example",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  Activity 16 problem 2f   "
 }
 ]
 

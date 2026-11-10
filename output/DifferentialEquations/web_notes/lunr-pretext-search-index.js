@@ -1051,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Review of Power Series",
-  "body": " Review of Power Series    Students will be able to...    Find the radius of convergence for Power Series  Refactor power series      Recall that an infinite series of the form is called a power series centered at . We say it converges to  if       Consider the series . Suppose that The ratio test states that the sum converges if and divergest if .    "
+  "body": " Review of Power Series    Students will be able to...    Find the radius of convergence for Power Series  Refactor power series      Recall that an infinite series of the form is called a power series centered at . We say it converges to  if       Consider the series . Suppose that The ratio test states that the sum converges if and divergest if .      We can use the following tricks to reindex power series.    "
 },
 {
   "id": "diffeq-notes-6-1-2",
@@ -1079,6 +1079,15 @@ var ptx_lunr_docs = [
   "number": "6.1.2",
   "title": "",
   "body": "  Consider the series . Suppose that The ratio test states that the sum converges if and divergest if .   "
+},
+{
+  "id": "diffeq-notes-6-1-5",
+  "level": "2",
+  "url": "diffeq-notes-6-1.html#diffeq-notes-6-1-5",
+  "type": "Example",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  We can use the following tricks to reindex power series.   "
 },
 {
   "id": "diffeq-notes-6-2",
