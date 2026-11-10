@@ -83,8 +83,29 @@
             </statement>
         </task>
 
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your regression line to predict the number of calories in a single serving of a food given it contains 5.5g of carbs. 
+                </p>
+            </statement>
+        </task>
 
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Construct a 95% confidence interval for the slope of your regression line. 
+                </p>
+            </statement>
+        </task>
 
+        <task>
+            <statement>
+                <p>
+                    Sketch your confidence interval onto your graph (shade appropriately).
+                </p>
+            </statement>
+        </task>
     </exercise>
     
 
