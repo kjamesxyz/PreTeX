@@ -84,7 +84,7 @@
 
             <hint>
                 <p>
-                    To multiply two power series together, we distribute one series to each term of the other. 
+                    To multiply two power series together, we distribute one series to each term of the other. See section 6.1 example 6 for inspiration.
                 </p>
             </hint>
         </task>
@@ -94,7 +94,7 @@
     <exercise>
         <introduction>
             <p>
-                Equations of the form <md> x^2 y'' + xy' + (x^2 - \nu^2) = 0 </md> are called <alert>Bessel's equations of order <m>\nu</m></alert> where <m>\nu \in \complex</m>. These equations describe phenomena in wave motion and heat conduction. 
+                Equations of the form <md> x^2 y'' + xy' + (x^2 - \nu^2)y = 0 </md> are called <alert>Bessel's equations of order <m>\nu</m></alert> where <m>\nu \in \complex</m>. These equations describe phenomena in wave motion and heat conduction. 
             </p>
         </introduction>
 
