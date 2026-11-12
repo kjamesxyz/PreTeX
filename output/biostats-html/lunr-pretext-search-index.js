@@ -559,6 +559,42 @@ var ptx_lunr_docs = [
   "body": "  A clinical trial consists of 20 participants, who were randomly split into equal sized treatment and control groups. After 12 weeks of taking a medication, a particular biomarker was measured from a blood sample. The results of the test are shown in the table below.    Treatment Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  30  46    2  52  51    3  59  62    4  44  47    5  56  61    6  65  63    7  49  57    8  70  79    9  62  64    10  40  44      Control Group    Patient ID  Baseline Biomarker  Week-12 Biomarker    1  42  50    2  48  53    3  54  62    4  61  64    5  45  58    6  58  63    7  67  77    8  50  57    9  72  83    10  63  74         Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the control group in the axes below.   A blank set of positive axes.       Sketch a scatterplot comparing the baseline biomarker level to the week-12 biomarker level in the treatment group in the sane set of axes above.      Compute the regression line for each set of data. Then, sketch them onto the image above using the same color scheme you used previously. For example, if you sketched the control group in red, its regression line should be red as well.      According to your linear regression models, which group do you anticipate to have a greater increase in biomarker levels over time?    "
 },
 {
+  "id": "biostats-act-17",
+  "level": "1",
+  "url": "biostats-act-17.html",
+  "type": "🏫 Activity",
+  "number": "2.17",
+  "title": "🏫 Activity 17 - Inference on Linear Models",
+  "body": " 🏫 Activity 17 - Inference on Linear Models   This assignment is due at the beginning of class on Wednesday, November 19 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for SSE.      Write the formula for the standard error in the slope of a regression line.      Write the R command to build a linear regression model for .       A sample of 20 adults examined whether weekly exercise time is linearly associated with systolic blood pressure. Their exercise was measured in weekly hours and their systolic blood pressure was measured in mmHg. A simple linear regression showed an approximate slope of mmHg per weekly exercise hour with a standard error of mmHg.     Interpret the meaning of the slope in the regression line.      State the null and alternative hypotheses and symbols.      Compute the appropriate test statistic.      Find the critical value at 5% significance.      Interpret your results in the context of the problem using plain language.       In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below.    Dose (mg)  Plasma concentration g\/L    10 9    10 13    20 9    20 15    30 11    30 15    40 10    40 18    50 12    50 18    60 13    60 19       Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis.   A blank set of positive axes.       Fit a regression line to the data and sketch it on the graph above.      Use the regression line you built in part (b) to find the predicted concentration at each dose.      Find the standard error in the slope.      The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence.     "
+},
+{
+  "id": "biostats-act-17-3",
+  "level": "2",
+  "url": "biostats-act-17.html#biostats-act-17-3",
+  "type": "Worksheet Exercise",
+  "number": "2.17.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for SSE.      Write the formula for the standard error in the slope of a regression line.      Write the R command to build a linear regression model for .    "
+},
+{
+  "id": "biostats-act-17-4",
+  "level": "2",
+  "url": "biostats-act-17.html#biostats-act-17-4",
+  "type": "Worksheet Exercise",
+  "number": "2.17.2",
+  "title": "",
+  "body": "  A sample of 20 adults examined whether weekly exercise time is linearly associated with systolic blood pressure. Their exercise was measured in weekly hours and their systolic blood pressure was measured in mmHg. A simple linear regression showed an approximate slope of mmHg per weekly exercise hour with a standard error of mmHg.     Interpret the meaning of the slope in the regression line.      State the null and alternative hypotheses and symbols.      Compute the appropriate test statistic.      Find the critical value at 5% significance.      Interpret your results in the context of the problem using plain language.    "
+},
+{
+  "id": "biostats-act-17-5",
+  "level": "2",
+  "url": "biostats-act-17.html#biostats-act-17-5",
+  "type": "Worksheet Exercise",
+  "number": "2.17.3",
+  "title": "",
+  "body": "  In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below.    Dose (mg)  Plasma concentration g\/L    10 9    10 13    20 9    20 15    30 11    30 15    40 10    40 18    50 12    50 18    60 13    60 19       Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis.   A blank set of positive axes.       Fit a regression line to the data and sketch it on the graph above.      Use the regression line you built in part (b) to find the predicted concentration at each dose.      Find the standard error in the slope.      The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence.    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",

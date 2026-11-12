@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-17" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 17 - Inference on Linear Models</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Wednesday, November 19</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write the formula for SSE.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the formula for the standard error in the slope of a regression line. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the R command to build a linear regression model for <m>Y(X)</m>. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                A sample of 20 adults examined whether weekly exercise time is linearly associated with systolic blood pressure. Their exercise was measured in weekly hours and their systolic blood pressure was measured in mmHg. A simple linear regression showed an approximate slope of <m>-1.8</m>mmHg per weekly exercise hour with a standard error of <m>0.65</m>mmHg.
+            </p>
+        </introduction>
+
+        <task workspace="0.1in">
+            <statement>
+                <p>
+                    Interpret the meaning of the slope in the regression line. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.15in">
+            <statement>
+                <p>
+                    State the null and alternative hypotheses and symbols. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.1in">
+            <statement>
+                <p>
+                    Compute the appropriate test statistic.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.1in">
+            <statement>
+                <p>
+                    Find the critical value at 5% significance. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Interpret your results in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below. 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell>Dose (mg)</cell> <cell>Plasma concentration <m>\mu</m>g/L</cell>
+                </row>
+                <row>
+                    <cell>10</cell><cell>9</cell>
+                </row>
+                <row>
+                    <cell>10</cell><cell>13</cell>
+                </row>
+                <row>
+                    <cell>20</cell><cell>9</cell>
+                </row>
+                <row>
+                    <cell>20</cell><cell>15</cell>
+                </row>
+                <row>
+                    <cell>30</cell><cell>11</cell>
+                </row>
+                <row>
+                    <cell>30</cell><cell>15</cell>
+                </row>
+                <row>
+                    <cell>40</cell><cell>10</cell>
+                </row>
+                <row>
+                    <cell>40</cell><cell>18</cell>
+                </row>
+                <row>
+                    <cell>50</cell><cell>12</cell>
+                </row>
+                <row>
+                    <cell>50</cell><cell>18</cell>
+                </row>
+                <row>
+                    <cell>60</cell><cell>13</cell>
+                </row>
+                <row>
+                    <cell>60</cell><cell>19</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis. 
+                </p>
+                <image source="images/blankQ1axes.jpg" width="50%">
+                    <shortdescription>A blank set of positive axes.</shortdescription>
+                </image>
+            </statement>
+            
+        </task>
+
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Fit a regression line to the data and sketch it on the graph above. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the regression line you built in part (b) to find the predicted concentration at each dose. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the standard error in the slope. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    
+</worksheet>

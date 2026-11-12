@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-7-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Inference on Correlation </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Sketch scatterplots for bivariate data </p></li>
+            <li><p> Find the equation of the regression line for bivariate data </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        We use the <c>lm(y ~ x)</c> command in R to build a <q>linear (regression) model</q>.  
+    </p>
+</section>

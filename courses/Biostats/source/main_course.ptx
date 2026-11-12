@@ -38,6 +38,7 @@
             <xi:include href="./activities/14_activity_anova_tables.ptx"/>
             <xi:include href="./activities/15_activity_indep_and_anova.ptx"/>
             <xi:include href="./activities/16_activity_lin_reg.ptx"/>
+            <xi:include href="./activities/17_activity_hyp_test_lm.ptx"/>
         </chapter>
 
         <chapter xml:id="biostats-homework">
