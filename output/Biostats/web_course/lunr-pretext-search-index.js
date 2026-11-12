@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "🏫 Activity",
   "number": "2.17",
   "title": "🏫 Activity 17 - Inference on Linear Models",
-  "body": " 🏫 Activity 17 - Inference on Linear Models   This assignment is due at the beginning of class on Wednesday, November 19 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for SSE.      Write the formula for the standard error in the slope of a regression line.      Write the R command to build a linear regression model for .       A sample of 20 adults examined whether weekly exercise time is linearly associated with systolic blood pressure. Their exercise was measured in weekly hours and their systolic blood pressure was measured in mmHg. A simple linear regression showed an approximate slope of mmHg per weekly exercise hour with a standard error of mmHg.     Interpret the meaning of the slope in the regression line.      State the null and alternative hypotheses and symbols.      Compute the appropriate test statistic.      Find the critical value at 5% significance.      Interpret your results in the context of the problem using plain language.       In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below.    Dose (mg)  Plasma concentration g\/L    10 9    10 13    20 9    20 15    30 11    30 15    40 10    40 18    50 12    50 18    60 13    60 19       Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis.   A blank set of positive axes.       Fit a regression line to the data and sketch it on the graph above.      Use the regression line you built in part (b) to find the predicted concentration at each dose.      Find the standard error in the slope.      The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence.     "
+  "body": " 🏫 Activity 17 - Inference on Linear Models   This assignment is due at the beginning of class on Wednesday, November 18 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the formula for SSE.      Write the formula for the standard error in the slope of a regression line.      Write the R command to build a linear regression model for .       A sample of 20 adults examined whether weekly exercise time is linearly associated with systolic blood pressure. Their exercise was measured in weekly hours and their systolic blood pressure was measured in mmHg. A simple linear regression showed an approximate slope of mmHg per weekly exercise hour with a standard error of mmHg.     Interpret the meaning of the slope in the regression line.      State the null and alternative hypotheses and symbols.      Compute the appropriate test statistic.      Find the critical value at 5% significance.      Interpret your results in the context of the problem using plain language.       In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below.    Dose (mg)  Plasma concentration g\/L    10 9    10 13    20 9    20 15    30 11    30 15    40 10    40 18    50 12    50 18    60 13    60 19       Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis.   A blank set of positive axes.       Fit a regression line to the data and sketch it on the graph above.      Use the regression line you built in part (b) to find the predicted concentration at each dose.      Find the standard error in the slope.      The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence.     "
 },
 {
   "id": "biostats-act-17-3",
@@ -845,6 +845,33 @@ var ptx_lunr_docs = [
   "number": "3.9.1",
   "title": "",
   "body": "  The table below shows the amount of carbohydrates (in g) and the number of Calories in a single serving of 6 different foods.    Carbs (in g)  8  9.5  10  6  7  4    Calories  120  138  147  88  108  62       Compute the mean and standard deviation grams of carbs per serving.      Compute the mean and standard deviation number of Calories per serving.      Find the equation of the regression line between grams of carbs and number of Calories.      Compute the linear correlation coefficient between grams of carbs and number of Calories.      Sketch a scatterplot and the regression line for the data on the axes below.   A blank set of positive axes.       Use your regression line to predict the number of calories in a single serving of a food given it contains 5.5g of carbs.      Construct a 95% confidence interval for the slope of your regression line.      Sketch your confidence interval onto your graph (shade appropriately).    "
+},
+{
+  "id": "biostats-hw10",
+  "level": "1",
+  "url": "biostats-hw10.html",
+  "type": "🏫 Activity",
+  "number": "3.10",
+  "title": "📝 Homework 10",
+  "body": " 📝 Homework 10    Instructions: This assignment is due Wednesday, December 2 . Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to.   Practice Problems: For additional practice with this material, please give the following problems a try.  Problems 8.17-26 from OpenIntro Statistics (pg. 325-327)       The table below shows the heights (in in.) of fathers and their eldest sons. Test the claim that sons are the same height as their fathers with 5% significance    Height of Father  72  66  69  70  70  70  70  75  68.2  65    Height of Son  73  68  68  71  70  70  71  71  70  63        The table below shows the amount of Strontium-90 (in mBq) in a simple random sample of baby teeth obtained from Pennsylvania and New York residents born after 1979. Use a 5% significance level to test the claim that Pennsylvania residents have a higher median amount of Strongtium-90 in their baby teeth than New York residents.    Pennsylvania  155  142  149  130  151  163  151  142  156  133  138  161    New York  133  140  142  131  134  129  128  140  140  140  137  143      "
+},
+{
+  "id": "biostats-hw10-3",
+  "level": "2",
+  "url": "biostats-hw10.html#biostats-hw10-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.1",
+  "title": "",
+  "body": "  The table below shows the heights (in in.) of fathers and their eldest sons. Test the claim that sons are the same height as their fathers with 5% significance    Height of Father  72  66  69  70  70  70  70  75  68.2  65    Height of Son  73  68  68  71  70  70  71  71  70  63     "
+},
+{
+  "id": "biostats-hw10-4",
+  "level": "2",
+  "url": "biostats-hw10.html#biostats-hw10-4",
+  "type": "Worksheet Exercise",
+  "number": "3.10.2",
+  "title": "",
+  "body": "  The table below shows the amount of Strontium-90 (in mBq) in a simple random sample of baby teeth obtained from Pennsylvania and New York residents born after 1979. Use a 5% significance level to test the claim that Pennsylvania residents have a higher median amount of Strongtium-90 in their baby teeth than New York residents.    Pennsylvania  155  142  149  130  151  163  151  142  156  133  138  161    New York  133  140  142  131  134  129  128  140  140  140  137  143     "
 },
 {
   "id": "biostats-projects-final",
