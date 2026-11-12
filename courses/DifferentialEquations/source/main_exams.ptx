@@ -23,5 +23,11 @@
             
             <xi:include href="./exams/2_exam.ptx" />
         </chapter>
+
+        <chapter xml:id="diffeq-exam3">
+            <title>Exam 3</title>
+            
+            <xi:include href="./exams/3_exam.ptx" />
+        </chapter>
     </book>
 </pretext>

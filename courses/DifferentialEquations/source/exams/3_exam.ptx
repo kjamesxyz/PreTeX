@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="exam3">
+    <title>Exam 3 - MATH-262-02</title>
+
+    <p>
+        <alert>Instructions:</alert> You have 110 minutes to take this exam. Please answer each question in the space provided. Answers without justification may <alert> earn no credit </alert>. You are permitted your signed prep work journal and a calculator on this exam. No other notes or electronic devices of any kind are allowed on this exam. Failure to comply may result in earning a 0 on any portion of this exam and/or being reported to the university. 
+    </p>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Compute <md>\lapinv{\frac{9+s}{4-s^2}}.</md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Use Laplace transforms to solve the IVP <md>u'' + u = \cos(3t); \ u(0)=1, \ u'(0)=0.</md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                Find two power series solutions to the ODE <md> (x-3)y' + 2y=0</md> that are centered at <m>x=0</m>  
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the ODE <md>
+                    2x^2(1+x)y'' + 3x(1+x)^3 y' - (1-x^2)y = 0.
+                </md>
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Show that <m>x=0</m> is a regular singular point for the ODE.
+                </p>
+            </statement>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Show that the equation must have Frobenius indeces of <m>r = \frac{1}{2},-1</m>. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+</worksheet>
