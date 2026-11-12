@@ -595,6 +595,60 @@ var ptx_lunr_docs = [
   "body": "  In a supervised dose-ranging study, 12 volunteers were administered one of six oral doses of an experimental drug. Their plasma concentration was measured 2 hours later. The results of the test are shown below.    Dose (mg)  Plasma concentration g\/L    10 9    10 13    20 9    20 15    30 11    30 15    40 10    40 18    50 12    50 18    60 13    60 19       Sketch a scatterplot of the data below that shows dose along the horizontal axis and plasma concentration across the y axis.   A blank set of positive axes.       Fit a regression line to the data and sketch it on the graph above.      Use the regression line you built in part (b) to find the predicted concentration at each dose.      Find the standard error in the slope.      The drug designer claims that the plasma concentration increases with the dose administered. Test their claim with 95% confidence.    "
 },
 {
+  "id": "biostats-act-18",
+  "level": "1",
+  "url": "biostats-act-18.html",
+  "type": "🏫 Activity",
+  "number": "2.18",
+  "title": "🏫 Activity 18 - Nonparametric Tests",
+  "body": " 🏫 Activity 18 - Nonparametric Tests   This assignment is due at the beginning of class on Monday, November 23 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the test statistic used in sign tests.      Write the test statistic used in Wilcoxon signed-rank tests.       The weight (in kg) of 10 incoming college students are recorded at the beginning and end of their freshman year. The results are shown in the table below.    Beginning Weight  67  53  64  74  67  70  55  74  62  57    Ending Weight  66  52  68  77  67  71  60  82  65  58       State a null and alternative hypothesis that can be tested with a sign test.      Compute the signs for each matched pair.      Determine an appropriate test statistic for the sample\/      Determine the critical value.      Interpret the results of the test in the context of the problem using plain language.      State a null and alternative hypothesis that can be tested with a Wilcoxon Signed-Rank Test.      Determine the signed rank of each matched pair.      Compute the minimum signed rank sum.      Determine an appropriate test statistic for the sample.      Interpret the results of your test in the context of the problem using plain language.       Explain the difference in the type of claims a sign test can validate compared to the type of claims a Wilcoxon signed-rank test can evaluate.       Newsweek conducted a poll in which respondents were asked if they favor or oppose using federal tax dollars to fund medical research using stem cells obtained from human embryos. Of those polled, 481 were in favor, 401 were opposed, and 120 were unsure. Test the claim that the population is roughly split evenly with 99% confidence.      The data set sleep in R's datasets library shows the extra sleep that 10 patients got after taking two different sporific (sleep-inducing) drugs.     Open this dataset in RStudio by using the command View(datasets::sleep) .      The group variable indicates which sporific drug the patient took. Without computing anything , which drug do you suspect is more effective at inducing sleep?      Write a null and alternative hypothesis for the claim you made in part (b).      Conduct a Wilcoxon signed-rank test on your hypotheses in part (c) with 5% significance. Interpret your results in the context of the problem using plain language.     "
+},
+{
+  "id": "biostats-act-18-3",
+  "level": "2",
+  "url": "biostats-act-18.html#biostats-act-18-3",
+  "type": "Worksheet Exercise",
+  "number": "2.18.1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Write the test statistic used in sign tests.      Write the test statistic used in Wilcoxon signed-rank tests.    "
+},
+{
+  "id": "biostats-act-18-4",
+  "level": "2",
+  "url": "biostats-act-18.html#biostats-act-18-4",
+  "type": "Worksheet Exercise",
+  "number": "2.18.2",
+  "title": "",
+  "body": "  The weight (in kg) of 10 incoming college students are recorded at the beginning and end of their freshman year. The results are shown in the table below.    Beginning Weight  67  53  64  74  67  70  55  74  62  57    Ending Weight  66  52  68  77  67  71  60  82  65  58       State a null and alternative hypothesis that can be tested with a sign test.      Compute the signs for each matched pair.      Determine an appropriate test statistic for the sample\/      Determine the critical value.      Interpret the results of the test in the context of the problem using plain language.      State a null and alternative hypothesis that can be tested with a Wilcoxon Signed-Rank Test.      Determine the signed rank of each matched pair.      Compute the minimum signed rank sum.      Determine an appropriate test statistic for the sample.      Interpret the results of your test in the context of the problem using plain language.    "
+},
+{
+  "id": "biostats-act-18-5",
+  "level": "2",
+  "url": "biostats-act-18.html#biostats-act-18-5",
+  "type": "Worksheet Exercise",
+  "number": "2.18.3",
+  "title": "",
+  "body": "  Explain the difference in the type of claims a sign test can validate compared to the type of claims a Wilcoxon signed-rank test can evaluate.   "
+},
+{
+  "id": "biostats-act-18-6",
+  "level": "2",
+  "url": "biostats-act-18.html#biostats-act-18-6",
+  "type": "Worksheet Exercise",
+  "number": "2.18.4",
+  "title": "",
+  "body": "   Newsweek conducted a poll in which respondents were asked if they favor or oppose using federal tax dollars to fund medical research using stem cells obtained from human embryos. Of those polled, 481 were in favor, 401 were opposed, and 120 were unsure. Test the claim that the population is roughly split evenly with 99% confidence.   "
+},
+{
+  "id": "biostats-act-18-7",
+  "level": "2",
+  "url": "biostats-act-18.html#biostats-act-18-7",
+  "type": "Worksheet Exercise",
+  "number": "2.18.5",
+  "title": "",
+  "body": "  The data set sleep in R's datasets library shows the extra sleep that 10 patients got after taking two different sporific (sleep-inducing) drugs.     Open this dataset in RStudio by using the command View(datasets::sleep) .      The group variable indicates which sporific drug the patient took. Without computing anything , which drug do you suspect is more effective at inducing sleep?      Write a null and alternative hypothesis for the claim you made in part (b).      Conduct a Wilcoxon signed-rank test on your hypotheses in part (c) with 5% significance. Interpret your results in the context of the problem using plain language.    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",

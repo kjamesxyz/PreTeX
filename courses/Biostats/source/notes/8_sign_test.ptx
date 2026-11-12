@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-8-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Sign Tests </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Sketch scatterplots for bivariate data </p></li>
+            <li><p> Find the equation of the regression line for bivariate data </p></li>
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-nonparametric-test">
+        <statement>
+            <p>
+                A <alert>nonparametric test</alert> requires no assumptions about the parameter of interest. 
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        The <alert>Sign Test</alert> can be used to test claims about data that comes in <alert> matched pairs</alert>, meaning the same measurement is taken twice on two samples from the same population. 
+    </p>
+
+    <theorem xml:id="thm-sign-test">
+        <statement>
+            <p>
+                Let <m>n</m> denote the number of signs and let <m>x</m> be the number of times the less-frequent type of sign occurs. The test statistic is <md> Z = \frac{2x-1+n}{\sqrt{n}} </md> 
+            </p>
+        </statement>
+    </theorem>
+    
+    <example>
+        <statement>
+            <p>
+                Complete activity 18 problem 2.
+            </p>
+        </statement>
+    </example>
+    
+
+</section>

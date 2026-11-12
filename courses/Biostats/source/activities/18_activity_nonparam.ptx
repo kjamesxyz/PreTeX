@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-18" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>🏫 Activity 18 - Nonparametric Tests</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, November 23</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+        <p>
+            <alert>Prep Work:</alert>  Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+        </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Write the test statistic used in sign tests.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write the test statistic used in Wilcoxon signed-rank tests. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The weight (in kg) of 10 incoming college students are recorded at the beginning and end of their freshman year. The results are shown in the table below.
+            </p>
+            <tabular>
+                <row>
+                    <cell>Beginning Weight</cell>
+                        <cell>67</cell>
+                        <cell>53</cell>
+                        <cell>64</cell>
+                        <cell>74</cell>
+                        <cell>67</cell>
+                        <cell>70</cell>
+                        <cell>55</cell>
+                        <cell>74</cell>
+                        <cell>62</cell>
+                        <cell>57</cell>
+                </row>
+                <row>
+                    <cell>Ending Weight</cell>
+                        <cell>66</cell>
+                        <cell>52</cell>
+                        <cell>68</cell>
+                        <cell>77</cell>
+                        <cell>67</cell>
+                        <cell>71</cell>
+                        <cell>60</cell>
+                        <cell>82</cell>
+                        <cell>65</cell>
+                        <cell>58</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    State a null and alternative hypothesis that can be tested with a sign test. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the <q>signs</q> for each matched pair.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine an appropriate test statistic for the sample/
+                </p>
+            </statement>
+        </task>
+        
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine the critical value.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Interpret the results of the test in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    State a null and alternative hypothesis that can be tested with a Wilcoxon Signed-Rank Test. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Determine the signed rank of each matched pair. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Compute the minimum signed rank sum. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Determine an appropriate test statistic for the sample.
+                </p>
+            </statement>
+        </task>
+
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Interpret the results of your test in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    
+    <exercise workspace="0.5in">
+        <statement>
+            <p>
+                Explain the difference in the type of claims a sign test can validate compared to the type of claims a Wilcoxon signed-rank test can evaluate. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                <articletitle>Newsweek</articletitle> conducted a poll in which respondents were asked if they <q>favor or oppose using federal tax dollars to fund medical research using stem cells obtained from human embryos.</q> Of those polled, 481 were in favor, 401 were opposed, and 120 were unsure. Test the claim that the population is roughly split evenly with 99% confidence. 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The data set <c>sleep</c> in R's <c>datasets</c> library shows the extra sleep that 10 patients got after taking two different sporific (sleep-inducing) drugs. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Open this dataset in RStudio by using the command <c>View(datasets::sleep)</c>. 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    The <c>group</c> variable indicates which sporific drug the patient took. <alert>Without computing anything</alert>, which drug do you suspect is more effective at inducing sleep?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Write a null and alternative hypothesis for the claim you made in part (b). 
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Conduct a Wilcoxon signed-rank test on your hypotheses in part (c) with 5% significance. Interpret your results in the context of the problem using plain language.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    
+</worksheet>
