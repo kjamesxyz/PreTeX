@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-hw10">
+<title>📝 Homework 10</title>
+    <introduction>
+        <p> <alert>Instructions:</alert> This assignment is due <alert>Wednesday, December 2</alert>. Write solutions to the following problems in the space provided. If you need additional space, you may attach scratch work to the back of this sheet. Please be sure any additional work is clearly labeled with the question it corresponds to. </p>
+
+        <p> <alert>Practice Problems:</alert> For additional practice with this material, please give the following problems a try. 
+            <ol> 
+                <li><p> Problems 8.17-26 from OpenIntro Statistics (pg. 325-327)</p></li>
+            </ol> 
+        </p>
+    </introduction>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                The table below shows the heights (in in.) of fathers and their eldest sons. Test the claim that sons are the same height as their fathers with 5% significance
+            </p>
+            <tabular>
+                <row>
+                    <cell>Height of Father</cell>
+                        <cell>72</cell>
+                        <cell>66</cell>
+                        <cell>69</cell>
+                        <cell>70</cell>
+                        <cell>70</cell>
+                        <cell>70</cell>
+                        <cell>70</cell>
+                        <cell>75</cell>
+                        <cell>68.2</cell>
+                        <cell>65</cell>
+                </row>
+                <row>
+                    <cell>Height of Son</cell>
+                        <cell>73</cell>
+                        <cell>68</cell>
+                        <cell>68</cell>
+                        <cell>71</cell>
+                        <cell>70</cell>
+                        <cell>70</cell>
+                        <cell>71</cell>
+                        <cell>71</cell>
+                        <cell>70</cell>
+                        <cell>63</cell>
+                </row>
+            </tabular>
+        </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                The table below shows the amount of Strontium-90 (in mBq) in a simple random sample of baby teeth obtained from Pennsylvania and New York residents born after 1979. Use a 5% significance level to test the claim that Pennsylvania residents have a higher median amount of Strongtium-90 in their baby teeth than New York residents. 
+            </p>
+            <tabular>
+                <row>
+                    <cell>Pennsylvania</cell>
+                        <cell>155</cell>
+                        <cell>142</cell>
+                        <cell>149</cell>
+                        <cell>130</cell>
+                        <cell>151</cell>
+                        <cell>163</cell>
+                        <cell>151</cell>
+                        <cell>142</cell>
+                        <cell>156</cell>
+                        <cell>133</cell>
+                        <cell>138</cell>
+                        <cell>161</cell>
+                </row>
+                <row>
+                    <cell>New York</cell>
+                        <cell>133</cell>
+                        <cell>140</cell>
+                        <cell>142</cell>
+                        <cell>131</cell>
+                        <cell>134</cell>
+                        <cell>129</cell>
+                        <cell>128</cell>
+                        <cell>140</cell>
+                        <cell>140</cell>
+                        <cell>140</cell>
+                        <cell>137</cell>
+                        <cell>143</cell>
+                </row>
+            </tabular>
+        </statement>
+    </exercise>
+
+</worksheet>
