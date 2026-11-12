@@ -1268,6 +1268,51 @@ var ptx_lunr_docs = [
   "number": "7.2.3",
   "title": "",
   "body": "  Activity 16 problem 2f   "
+},
+{
+  "id": "biostats-notes-7-3",
+  "level": "1",
+  "url": "biostats-notes-7-3.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Inference on Correlation",
+  "body": " Inference on Correlation    Students will be able to...    Find the standard error in the slope for regression lines.  Conduct hypothesis tests on the slope of a regression line.      The standard error in the slope of the linear regression line is where we compute       Compute the SE in the slope of the regression line for the bivariate data       0 82    1 80    2 78    3 79    4 75    given that its regression line is .    We first compute the expected value of each input using the regression line. Then we can compute Now we compute Therefore,     From this point forward, we are essentially just conducting a hypothesis test on a mean, except that we have 1 less degree of freedom - considering we know the slope. We use the distribution with degrees of freedom.    Work through activity 17 problem 2.    "
+},
+{
+  "id": "biostats-notes-7-3-2",
+  "level": "2",
+  "url": "biostats-notes-7-3.html#biostats-notes-7-3-2",
+  "type": "Objectives",
+  "number": "7.3",
+  "title": "",
+  "body": "  Students will be able to...    Find the standard error in the slope for regression lines.  Conduct hypothesis tests on the slope of a regression line.   "
+},
+{
+  "id": "def-standard-error",
+  "level": "2",
+  "url": "biostats-notes-7-3.html#def-standard-error",
+  "type": "Definition",
+  "number": "7.3.1",
+  "title": "",
+  "body": "  The standard error in the slope of the linear regression line is where we compute    "
+},
+{
+  "id": "biostats-notes-7-3-4",
+  "level": "2",
+  "url": "biostats-notes-7-3.html#biostats-notes-7-3-4",
+  "type": "Example",
+  "number": "7.3.2",
+  "title": "",
+  "body": "  Compute the SE in the slope of the regression line for the bivariate data       0 82    1 80    2 78    3 79    4 75    given that its regression line is .    We first compute the expected value of each input using the regression line. Then we can compute Now we compute Therefore,    "
+},
+{
+  "id": "biostats-notes-7-3-6",
+  "level": "2",
+  "url": "biostats-notes-7-3.html#biostats-notes-7-3-6",
+  "type": "Example",
+  "number": "7.3.3",
+  "title": "",
+  "body": "  Work through activity 17 problem 2.   "
 }
 ]
 
