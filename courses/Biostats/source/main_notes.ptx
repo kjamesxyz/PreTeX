@@ -59,6 +59,7 @@
             
             <xi:include href="./notes/7_scatterplots.ptx"/>
             <xi:include href="./notes/7_correlation.ptx"/>
+            <xi:include href="./notes/7_inference_on_correlation.ptx"/>
         </chapter>
     </book>
 </pretext>

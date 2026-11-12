@@ -10,12 +10,71 @@
             </p>
         </introduction>
         <ol>
-            <li><p> Sketch scatterplots for bivariate data </p></li>
-            <li><p> Find the equation of the regression line for bivariate data </p></li>
+            <li><p> Find the standard error in the slope for regression lines. </p></li>
+            <li><p> Conduct hypothesis tests on the slope of a regression line. </p></li>
         </ol>
     </objectives>
 
+    <definition xml:id="def-standard-error">
+        <statement>
+            <p>
+                The <alert>standard error</alert> in the slope of the linear regression line is <md> SE = \sqrt{\frac{SSE}{(n-2)S_{XX}}} </md> where we compute <md> SE = \sum_{i=1}^n (y_i - \hat{y}_i). </md> 
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Compute the SE in the slope of the regression line for the bivariate data 
+            </p>
+            <tabular>
+                <row header="yes">
+                    <cell><m>X</m></cell><cell><m>Y</m></cell>
+                </row>
+                <row>
+                    <cell>0</cell><cell>82</cell>
+                </row>
+                <row>
+                    <cell>1</cell><cell>80</cell>
+                </row>
+                <row>
+                    <cell>2</cell><cell>78</cell>
+                </row>
+                <row>
+                    <cell>3</cell><cell>79</cell>
+                </row>
+                <row>
+                    <cell>4</cell><cell>75</cell>
+                </row>
+            </tabular>
+            <p>
+                given that its regression line is <m>\hat{y} = -1.5\hat{x} + 81.8</m>. 
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We first compute the <q>expected value</q> of each input using the regression line. Then we can compute 
+                <md>
+                    SSE = (82 - 81.8)^2 + \cdots + (75 - 75.8)^2 \approx 4.3
+                </md>
+                Now we compute <md>S_{XX} = (0 - 2)^2 + \cdots + (4 - 2)^2 = 10.</md> Therefore, <md>
+                    SE = \sqrt{\frac{SSE}{(n-2)S_{XX}}} \approx 0.379.
+                </md>
+            </p>
+        </solution>
+    </example>
+
     <p>
-        We use the <c>lm(y ~ x)</c> command in R to build a <q>linear (regression) model</q>.  
+        From this point forward, we are essentially just conducting a hypothesis test on a mean, except that we have 1 less degree of freedom - considering we know the slope. We use the <m>T</m> distribution with <m>n-2</m> degrees of freedom. 
     </p>
+
+    <example>
+        <statement>
+            <p>
+                Work through activity 17 problem 2.
+            </p>
+        </statement>
+    </example>
 </section>
