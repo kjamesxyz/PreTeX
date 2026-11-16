@@ -54,5 +54,9 @@
         <cell><m>f * g</m></cell>
         <cell><m>F(s) G(s)</m></cell>
       </row>
+      <row>
+        <cell><m>f^{(n)}(t)</m></cell>
+        <cell><m>s^n F(s) - s^{n-1}f(0) - s^{n-2}f'(0) - \cdots sf^{(n-2)}(0) - f^{(n-1)}(0)</m></cell>
+      </row>
     </tabular>
 </worksheet>

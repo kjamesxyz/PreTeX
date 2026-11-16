@@ -10,58 +10,60 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
+                [20 points] Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
             </p>
         </statement>
     </exercise>
 
-    <exercise workspace="2in">
+    <exercise workspace="1in">
         <statement>
             <p>
-                Compute <md>\lapinv{\frac{9+s}{4-s^2}}.</md>
+                [10 points] An LRC circuit consists of a 0.1H inductor, 3<m>\Omega</m> resistor, and a 0.05f capacitor. Suppose the circuit initially has no current or charge, but a switch is closed after 1 second that supplies the circuit with 100 V. The switch is opened again 2 seconds later. Write <alert> but DO NOT SOLVE</alert> a second-order IVP that models the charge in the circuit <m>q</m>.
             </p>
         </statement>
     </exercise>
 
-    <exercise workspace="3in">
+    <exercise workspace="1.5in">
         <statement>
             <p>
-                Use Laplace transforms to solve the IVP <md>u'' + u = \cos(3t); \ u(0)=1, \ u'(0)=0.</md> 
-            </p>
-        </statement>
-    </exercise>
-
-    <exercise workspace="3in">
-        <statement>
-            <p>
-                Find two power series solutions to the ODE <md> (x-3)y' + 2y=0</md> that are centered at <m>x=0</m>  
-            </p>
-        </statement>
-    </exercise>
-
-    <exercise>
-        <introduction>
-            <p>
-                Consider the ODE <md>
+                [12 points] Show that <m>x=0</m> is a regular singular point for the ODE <md>
                     2x^2(1+x)y'' + 3x(1+x)^3 y' - (1-x^2)y = 0.
                 </md>
             </p>
-        </introduction>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Show that <m>x=0</m> is a regular singular point for the ODE.
-                </p>
-            </statement>
-        </task>
-        <task workspace="4in">
-            <statement>
-                <p>
-                    Show that the equation must have Frobenius indeces of <m>r = \frac{1}{2},-1</m>. 
-                </p>
-            </statement>
-        </task>
+        </statement>
     </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                [14 points] Compute <md>\lapinv{\frac{9+s}{4-s^2}}</md> by any method.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                [26 points] Use Laplace transforms to solve the IVP <md>u'' + u = \cos(3t); \ u(0)=1, \ u'(0)=0.</md> 
+            </p>
+        </statement>
+
+        <hint>
+            <p>
+                <m> \int \cos(ax)\sin(t-x) \, dx = \frac{1}{2} \left( \frac{\cos(t + (a+1)x)}{a+1} - \frac{\cos(t+(a-1)x)}{a-1}\right) </m>
+            </p>
+        </hint>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                [28 points] Find a power series solution centered at <m>x=0</m> to the ODE <md> (x-3)y' + 2y=0.</md> 
+            </p>
+        </statement>
+    </exercise>
+
+    
 
 
 </worksheet>
