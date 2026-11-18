@@ -93,7 +93,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    Determine the critical value.
+                    Determine the critical value for 5% significance.
                 </p>
             </statement>
         </task>
@@ -182,15 +182,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    The <c>group</c> variable indicates which sporific drug the patient took. <alert>Without computing anything</alert>, which drug do you suspect is more effective at inducing sleep?
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Write a null and alternative hypothesis for the claim you made in part (b). 
+                    The <c>group</c> variable indicates which sporific drug the patient took. The drug manufacturer of drug 2 claims that their drug induces 1.5 more hours of sleep than drug 1 on average. Write a null and alternative hypothesis to test this claim. 
                 </p>
             </statement>
         </task>
@@ -198,7 +190,7 @@
         <task workspace="3in">
             <statement>
                 <p>
-                    Conduct a Wilcoxon signed-rank test on your hypotheses in part (c) with 5% significance. Interpret your results in the context of the problem using plain language.
+                    Conduct a Wilcoxon signed-rank test on your hypotheses in part (b) with 5% significance. Interpret your results in the context of the problem using plain language.
                 </p>
             </statement>
         </task>
