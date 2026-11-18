@@ -1313,6 +1313,51 @@ var ptx_lunr_docs = [
   "number": "7.3.3",
   "title": "",
   "body": "  Work through activity 17 problem 2.   "
+},
+{
+  "id": "biostats-notes-8-1",
+  "level": "1",
+  "url": "biostats-notes-8-1.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Sign Tests",
+  "body": " Sign Tests    Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data      A nonparametric test requires no assumptions about the parameter of interest.    The Sign Test can be used to test claims about data that comes in matched pairs , meaning the same measurement is taken twice on two samples from the same population.    Let denote the number of signs and let be the number of times the less-frequent type of sign occurs. The test statistic is       Complete activity 18 problem 2.    "
+},
+{
+  "id": "biostats-notes-8-1-2",
+  "level": "2",
+  "url": "biostats-notes-8-1.html#biostats-notes-8-1-2",
+  "type": "Objectives",
+  "number": "8.1",
+  "title": "",
+  "body": "  Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data   "
+},
+{
+  "id": "def-nonparametric-test",
+  "level": "2",
+  "url": "biostats-notes-8-1.html#def-nonparametric-test",
+  "type": "Definition",
+  "number": "8.1.1",
+  "title": "",
+  "body": "  A nonparametric test requires no assumptions about the parameter of interest.   "
+},
+{
+  "id": "thm-sign-test",
+  "level": "2",
+  "url": "biostats-notes-8-1.html#thm-sign-test",
+  "type": "Theorem",
+  "number": "8.1.2",
+  "title": "",
+  "body": "  Let denote the number of signs and let be the number of times the less-frequent type of sign occurs. The test statistic is    "
+},
+{
+  "id": "biostats-notes-8-1-6",
+  "level": "2",
+  "url": "biostats-notes-8-1.html#biostats-notes-8-1-6",
+  "type": "Example",
+  "number": "8.1.3",
+  "title": "",
+  "body": "  Complete activity 18 problem 2.   "
 }
 ]
 
