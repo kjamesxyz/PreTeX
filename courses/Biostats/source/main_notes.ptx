@@ -66,6 +66,7 @@
             <title>Nonparametric Testing</title>
             
             <xi:include href="./notes/8_sign_test.ptx"/>
+            <xi:include href="./notes/8_wilcoxon.ptx"/>
         </chapter>
     </book>
 </pretext>

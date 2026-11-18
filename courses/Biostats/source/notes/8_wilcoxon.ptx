@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="biostats-notes-8-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Wilcoxon Signed-Rank Tests </title>
+    
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Conduct Wilcoxon signed-rank tests. </p></li>
+        </ol>
+    </objectives>
+
+    <p>
+        The <alert>Wilcoxon Signed-Rank Test</alert> can be used to test claims about data measureable differences in <alert> matched pairs</alert> of data. 
+    </p>
+
+    <definition xml:id="def-minimum-signed-rank">
+        <statement>
+            <p>
+                The <alert>signed rank</alert> of a matched pair of data is obtained by ordering all differences from least to greatest in absolute value, taking the mean rank in the event of a tie. The <alert>minimum signed rank sum</alert> is the smaller of the total signed rank between all positive and all negative differences. 
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-wilcoxon-test">
+        <statement>
+            <p>
+                Let <m>n</m> denote the number of signs and let <m>S</m> be the minimum signed rank sum. The test statistic is <md> Z = \frac{S - \frac{n(n+1)}{4}}{\sqrt{\frac{n(n+1)(2n+1)}{24}}}. </md> 
+            </p>
+        </statement>
+    </theorem>
+    
+    <example>
+        <statement>
+            <p>
+                Complete activity 18 problem 2.
+            </p>
+        </statement>
+    </example>
+    
+
+</section>
