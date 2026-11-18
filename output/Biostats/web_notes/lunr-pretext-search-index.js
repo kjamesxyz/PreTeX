@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "Sign Tests",
-  "body": " Sign Tests    Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data      A nonparametric test requires no assumptions about the parameter of interest.    The Sign Test can be used to test claims about data that comes in matched pairs , meaning the same measurement is taken twice on two samples from the same population.    Let denote the number of signs and let be the number of times the less-frequent type of sign occurs. The test statistic is       Complete activity 18 problem 2.    "
+  "body": " Sign Tests    Students will be able to...    Conduct sign tests.      A nonparametric test requires no assumptions about the parameter of interest.    The Sign Test can be used to test claims about data that comes in matched pairs , meaning the same measurement is taken twice on two samples from the same population.    Let denote the number of signs and let be the number of times the less-frequent type of sign occurs. The test statistic is       Complete activity 18 problem 2.    "
 },
 {
   "id": "biostats-notes-8-1-2",
@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "8.1",
   "title": "",
-  "body": "  Students will be able to...    Sketch scatterplots for bivariate data  Find the equation of the regression line for bivariate data   "
+  "body": "  Students will be able to...    Conduct sign tests.   "
 },
 {
   "id": "def-nonparametric-test",
@@ -1356,6 +1356,51 @@ var ptx_lunr_docs = [
   "url": "biostats-notes-8-1.html#biostats-notes-8-1-6",
   "type": "Example",
   "number": "8.1.3",
+  "title": "",
+  "body": "  Complete activity 18 problem 2.   "
+},
+{
+  "id": "biostats-notes-8-2",
+  "level": "1",
+  "url": "biostats-notes-8-2.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "Wilcoxon Signed-Rank Tests",
+  "body": " Wilcoxon Signed-Rank Tests    Students will be able to...    Conduct Wilcoxon signed-rank tests.    The Wilcoxon Signed-Rank Test can be used to test claims about data measureable differences in matched pairs of data.    The signed rank of a matched pair of data is obtained by ordering all differences from least to greatest in absolute value, taking the mean rank in the event of a tie. The minimum signed rank sum is the smaller of the total signed rank between all positive and all negative differences.      Let denote the number of signs and let be the minimum signed rank sum. The test statistic is       Complete activity 18 problem 2.    "
+},
+{
+  "id": "biostats-notes-8-2-2",
+  "level": "2",
+  "url": "biostats-notes-8-2.html#biostats-notes-8-2-2",
+  "type": "Objectives",
+  "number": "8.2",
+  "title": "",
+  "body": "  Students will be able to...    Conduct Wilcoxon signed-rank tests.   "
+},
+{
+  "id": "def-minimum-signed-rank",
+  "level": "2",
+  "url": "biostats-notes-8-2.html#def-minimum-signed-rank",
+  "type": "Definition",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  The signed rank of a matched pair of data is obtained by ordering all differences from least to greatest in absolute value, taking the mean rank in the event of a tie. The minimum signed rank sum is the smaller of the total signed rank between all positive and all negative differences.   "
+},
+{
+  "id": "thm-wilcoxon-test",
+  "level": "2",
+  "url": "biostats-notes-8-2.html#thm-wilcoxon-test",
+  "type": "Theorem",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  Let denote the number of signs and let be the minimum signed rank sum. The test statistic is    "
+},
+{
+  "id": "biostats-notes-8-2-6",
+  "level": "2",
+  "url": "biostats-notes-8-2.html#biostats-notes-8-2-6",
+  "type": "Example",
+  "number": "8.2.3",
   "title": "",
   "body": "  Complete activity 18 problem 2.   "
 }
