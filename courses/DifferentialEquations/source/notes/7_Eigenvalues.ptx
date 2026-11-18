@@ -1,0 +1,102 @@
+<section xml:id="diffeq-notes-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Eigenvalues </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Compute eigenvalues of a matrix. </p></li>
+            <li><p> Find eigenvectors associated with eigenvalues. </p></li>
+            <li><p> Construct generalized eigenvectors for eigenvalues with higher multiplicity. </p></li> 
+        </ol>
+    </objectives>
+
+    <definition xml:id="def-identity">
+        <statement>
+            <p>
+                We call <m>\cal{I}_{n \times n}</m> the <m>n \times n</m> <alert>identity matrix</alert> where <md> \cal{I} = \begin{bmatrix} 1 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 1 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; \cdots &amp; 1 \end{bmatrix}. </md> 
+            </p>
+        </statement>
+    </definition>
+    
+    <example>
+        <statement>
+            <p>
+                Compute <m>AB</m> where <md> A = \begin{bmatrix} 1 &amp; 3 &amp; 2 \\ -4 &amp; 0 &amp; 2 \\ 2 &amp; 6 &amp; -2 \end{bmatrix} \ \text{and} \ B = \begin{bmatrix} 3 &amp; 2 &amp; 1 \\ 0 &amp; -1 &amp; 5 \\ 2 &amp; 1 &amp; 1 \end{bmatrix}. </md> 
+            </p>
+        </statement>
+    </example>
+    
+
+    <definition xml:id="def-eigenvalues">
+        <statement>
+            <p>
+                Suppose that <m>A</m> is an <m>n \times n</m> matrix and <m>\xi \in \real^n</m>. We call <m>\lambda \in \real</m> an <alert>eigenvalue</alert> of <m>A</m> provided <md> A\xi = \lambda \xi.</md> We call <m>\xi</m> the <alert>eigenvector</alert> corresponding to <m>\lambda</m>. Together, <m>(\lambda, \xi)</m> form an <alert>eigenpair</alert> for <m>A</m>.
+            </p>
+        </statement>
+    </definition>
+    
+    <p>
+        Notice that we can write 
+        <md>
+            <mrow> A\xi \amp= \lambda \xi \implies </mrow> 
+            <mrow> A\xi - \lambda \xi \amp= 0 \implies </mrow>
+            <mrow> (A - \lambda \cal{I})\xi \amp= 0 </mrow>
+        </md>
+        Results from linear algebra then show that <m>\det(A - \lambda \cal{I}) = 0</m>. This is how we will find eigenvalues.         
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Find all eigenvalues for the matrix <md> A = \begin{bmatrix} 1 &amp; 1 &amp; 3 \\ 0 &amp; -1 &amp; 2 \\ 0 &amp; 0 &amp; 3 \end{bmatrix}.</md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Eigenvalues are the roots to the <alert>characteristic polynomial</alert> for the matrix. We compute 
+
+                <md>
+                    A - \lambda \cal{I}_{3 \times 3} = \begin{vmatrix} 1 - \lambda &amp; 1 &amp; 3 \\ 0 &amp; -1-\lambda &amp; 2 \\ 0 &amp; 0 &amp; 3-\lambda \end{vmatrix} = 0.
+                </md>
+                This shows that <m>\lambda = 1,-1,3</m>. 
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Find all eigenvectors for the matrix <md> A = \begin{bmatrix} 1 &amp; 1 &amp; 3 \\ 0 &amp; -1 &amp; 2 \\ 0 &amp; 0 &amp; 3 \end{bmatrix}.</md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Recall that <m>\lambda=1,-1,3</m> are eigenvalues for <m>A</m>. Also recall that eigenvectors <m>\bf{\xi}</m> satisfy <md> (A - \lambda \cal{I}) \bf{\xi} = 0 </md>. So we solve 
+                
+                <md>
+                    \lambda = 1 \implies \begin{bmatrix} 0 &amp; 1 &amp; 3 \\ 0 &amp; -2 &amp; 2 \\ 0 &amp; 0 &amp; 2 \end{bmatrix}\begin{bmatrix} \xi_1 \\ \xi_2 \\ \xi_3 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}.
+                </md>
+                
+                Repeating for each eigenvalues gives <md>\xi_1 = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}, \xi_2 = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix}, \xi_3 = \begin{bmatrix} 7 \\ 2 \\ 4 \end{bmatrix}. </md> 
+            </p>
+        </solution>
+    </example>
+
+    <p>
+        Sometimes, eigenvalues have higher <alert>multiplicity</alert>. When this happens, we don't quite have enough eigenvectors to go around, so we need to compute <alert> generalized eigenvectors</alert>. The procedure is as follows. 
+    </p>
+ 
+    <example>
+        <statement>
+            <p>
+                Find all eigenvectors for the matrix <md> A = \begin{bmatrix} 1 &amp; 1 &amp; 3 \\ 0 &amp; 1 &amp; 2 \\ 0 &amp; 0 &amp; 3 \end{bmatrix}.</md>
+            </p>
+        </statement>
+    </example>
+</section>
