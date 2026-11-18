@@ -34,11 +34,11 @@
         <cell><m>\dfrac{s}{s^2-b^2}</m></cell>
       </row>
       <row>
-        <cell><m>\scr{H}_a(t) \ (a\geq 0)</m></cell>
+        <cell><m>\scr{H}_a(t) = \begin{cases} 1 \amp x \geq a \\ 0 \amp x \lt a \end{cases} \ (a\geq 0)</m></cell>
         <cell><m>\dfrac{e^{-as}}{s}</m></cell>
       </row>
       <row>
-        <cell><m>\delta(t - a)</m></cell>
+        <cell><m>\delta(t - a) = \begin{cases} \infty \amp x = a \\ 0 \amp x \neq a \end{cases}</m></cell>
         <cell><m>e^{-as}</m></cell>
       </row>
 
@@ -51,8 +51,12 @@
         <cell><m>e^{-as}F(s)</m></cell>
       </row>
       <row>
-        <cell><m>f * g</m></cell>
+        <cell><m>f(t) * g(t)</m></cell>
         <cell><m>F(s) G(s)</m></cell>
+      </row>
+      <row>
+        <cell><m>t^n f(t)</m></cell>
+        <cell><m>(-1)^n \frac{d^n}{ds^n} F(s)</m></cell>
       </row>
       <row>
         <cell><m>f^{(n)}(t)</m></cell>

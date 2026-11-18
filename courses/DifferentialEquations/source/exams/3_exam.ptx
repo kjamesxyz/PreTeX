@@ -10,7 +10,7 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                [20 points] Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
+                [20 points] Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{f(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
             </p>
         </statement>
     </exercise>
@@ -18,9 +18,15 @@
     <exercise workspace="1in">
         <statement>
             <p>
-                [10 points] An LRC circuit consists of a 0.1H inductor, 3<m>\Omega</m> resistor, and a 0.05f capacitor. Suppose the circuit initially has no current or charge, but a switch is closed after 1 second that supplies the circuit with 100 V. The switch is opened again 2 seconds later. Write <alert> but DO NOT SOLVE</alert> a second-order IVP that models the charge in the circuit <m>q</m>.
+                [10 points] An LRC circuit consists of a 0.1H inductor (L), 3<m>\Omega</m> resistor (R), and a 0.05f capacitor (C). Suppose the circuit initially has no current or charge, but a switch is closed after 1 second that supplies the circuit with 100 V. The switch is opened again 2 seconds later. Write <alert> but DO NOT SOLVE</alert> a second-order IVP that models the charge in the circuit <m>q</m>.
             </p>
         </statement>
+
+        <hint>
+            <p>
+                Recall that Kirchoff's law gives us <m> Lq'' + Rq' + \frac{1}{C} q = E(t) </m>. 
+            </p>
+        </hint>
     </exercise>
 
     <exercise workspace="1.5in">
@@ -36,7 +42,7 @@
     <exercise workspace="3in">
         <statement>
             <p>
-                [14 points] Compute <md>\lapinv{\frac{9+s}{4-s^2}}</md> by any method.
+                [14 points] Compute <md>\lapinv{\frac{9+s}{16-s^2}}</md> by any method.
             </p>
         </statement>
     </exercise>
@@ -50,7 +56,7 @@
 
         <hint>
             <p>
-                <m> \int \cos(ax)\sin(t-x) \, dx = \frac{1}{2} \left( \frac{\cos(t + (a+1)x)}{a+1} - \frac{\cos(t+(a-1)x)}{a-1}\right) </m>
+                <m> \int \cos(ax)\sin(t-x) \, dx = \frac{1}{2} \left( \frac{\cos(t + (a+1)x)}{a+1} - \frac{\cos(t+(a-1)x)}{a-1}\right) + C </m>
             </p>
         </hint>
     </exercise>

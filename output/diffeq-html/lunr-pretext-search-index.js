@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Common Laplace Transforms",
-  "body": " Common Laplace Transforms    Function  Laplace transform                                                        "
+  "body": " Common Laplace Transforms    Function  Laplace transform                                                            "
 },
 {
   "id": "diffeq-act-1",
