@@ -649,6 +649,51 @@ var ptx_lunr_docs = [
   "body": "  The data set sleep in R's datasets library shows the extra sleep that 10 patients got after taking two different sporific (sleep-inducing) drugs.     Open this dataset in RStudio by using the command View(datasets::sleep) .      The group variable indicates which sporific drug the patient took. The drug manufacturer of drug 2 claims that their drug induces 1.5 more hours of sleep than drug 1 on average. Write a null and alternative hypothesis to test this claim.      Conduct a Wilcoxon signed-rank test on your hypotheses in part (b) with 5% significance. Interpret your results in the context of the problem using plain language.    "
 },
 {
+  "id": "biostats-act-19",
+  "level": "1",
+  "url": "biostats-act-19.html",
+  "type": "🏫 Activity",
+  "number": "2.19",
+  "title": "🏫 Activity 19 - Final Project Workday 2",
+  "body": " 🏫 Activity 19 - Final Project Workday 2   This assignment is due at the beginning of class on Monday, November 30 . It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity.   This activity contains TWO parts of your final project. Extra care should be taken in completing this activity.      This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity19_Linear_Regression.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Regression Check-in\".   Goal: In this portion of the final project, you will create a linear regression model for quantitative variables in your data set and use it to make predictions.     Select the two qualitative variables in your data set that you suspect may be linearly correlated. Write your claim as a comment at the top of your script.      Remove any samples that are missing data for one of these two variables.      Use the command lm(y ~ x) to build a linear regression model.      Use the summary() command on your model to obtain the equation of the regression line and a confidence interval on the slope of the line.      Select a single data point from your set. Approximate the value of by evaluating your regression model at the point . Record the error.      Create a new ggplot for your data.    If you wrote \\lm(y ~ x) eariler, you would use aes(x,y) .      Add a scatterplot to your ggplot with + geom_point() .      Change the color, size, and shape of the points on your scatterplot.      Add the regression line to your plot using the + geom_smooth(method=\"lm\") command.       Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items.     How did you compute the equation of the regression line and the confidence interval on its slope?      Report the equation of the regression line and the confidence interval on the slope.      Describe your process to approximate one of your data points.      Include the plot you created.      Discuss how good of a fit you suspect this line is to your data.        This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity19_WSRT.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Nonparametric Check-in\".   Goal: In this portion of the final project, you will conduct a Wilcoxon Signed-Rank test on matched pairs of data.     Create two subsets of your data that form a matched pair. Make sure to remove NAs from any entry that has an NA in either group. You will need to get creative here!    You will likely need to use the dplyr::filter() command.      Use the wilcox.test(var_one, var_two, paired=TRUE) to conduct a Wilcoxon signed-rank test.       Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items.     Clearly state your hypothesis. Then write a null and alternative hypothesis in symbols and words that you will use to test your claim.      Describe how you processed your data (cleaned, filtered, etc.) to produce matched pairs.      Use your R results to conduct a Wilcoxon signed-rank test. Interpret the results of your test in the context of the problem using plain language.     "
+},
+{
+  "id": "biostats-act-19-3",
+  "level": "2",
+  "url": "biostats-act-19.html#biostats-act-19-3",
+  "type": "Worksheet Exercise",
+  "number": "2.19.1",
+  "title": "",
+  "body": "   This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity19_Linear_Regression.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Regression Check-in\".   Goal: In this portion of the final project, you will create a linear regression model for quantitative variables in your data set and use it to make predictions.     Select the two qualitative variables in your data set that you suspect may be linearly correlated. Write your claim as a comment at the top of your script.      Remove any samples that are missing data for one of these two variables.      Use the command lm(y ~ x) to build a linear regression model.      Use the summary() command on your model to obtain the equation of the regression line and a confidence interval on the slope of the line.      Select a single data point from your set. Approximate the value of by evaluating your regression model at the point . Record the error.      Create a new ggplot for your data.    If you wrote \\lm(y ~ x) eariler, you would use aes(x,y) .      Add a scatterplot to your ggplot with + geom_point() .      Change the color, size, and shape of the points on your scatterplot.      Add the regression line to your plot using the + geom_smooth(method=\"lm\") command.    "
+},
+{
+  "id": "biostats-act-19-4",
+  "level": "2",
+  "url": "biostats-act-19.html#biostats-act-19-4",
+  "type": "Worksheet Exercise",
+  "number": "2.19.2",
+  "title": "",
+  "body": "  Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items.     How did you compute the equation of the regression line and the confidence interval on its slope?      Report the equation of the regression line and the confidence interval on the slope.      Describe your process to approximate one of your data points.      Include the plot you created.      Discuss how good of a fit you suspect this line is to your data.    "
+},
+{
+  "id": "biostats-act-19-5",
+  "level": "2",
+  "url": "biostats-act-19.html#biostats-act-19-5",
+  "type": "Worksheet Exercise",
+  "number": "2.19.3",
+  "title": "",
+  "body": "   This problem is a portion of your final project and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named 02_LASTNAME_FIRSTNAME_Activity19_WSRT.r . When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called \"Nonparametric Check-in\".   Goal: In this portion of the final project, you will conduct a Wilcoxon Signed-Rank test on matched pairs of data.     Create two subsets of your data that form a matched pair. Make sure to remove NAs from any entry that has an NA in either group. You will need to get creative here!    You will likely need to use the dplyr::filter() command.      Use the wilcox.test(var_one, var_two, paired=TRUE) to conduct a Wilcoxon signed-rank test.    "
+},
+{
+  "id": "biostats-act-19-6",
+  "level": "2",
+  "url": "biostats-act-19.html#biostats-act-19-6",
+  "type": "Worksheet Exercise",
+  "number": "2.19.4",
+  "title": "",
+  "body": "  Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items.     Clearly state your hypothesis. Then write a null and alternative hypothesis in symbols and words that you will use to test your claim.      Describe how you processed your data (cleaned, filtered, etc.) to produce matched pairs.      Use your R results to conduct a Wilcoxon signed-rank test. Interpret the results of your test in the context of the problem using plain language.    "
+},
+{
   "id": "biostats-hw1",
   "level": "1",
   "url": "biostats-hw1.html",

@@ -1160,6 +1160,78 @@ var ptx_lunr_docs = [
   "number": "6.2.6",
   "title": "",
   "body": "  Find a general power series solution to on .    First, we write the equation in standard form. Notice that is a singular point. Luckily, it is regular since are both differentiable at . Frobenius' theorem tells us that there is at least one solution of the form where the index is yet to be determined. Derivatives are Notice we cannot cancel terms out without knowing the value of . Plugging into the equation we get We can factor out a common factor of which will contribute no information to the solution. So we divide it out . Reindexing, we get The indical equation tells us The recurrence relation gives Notice if we must have the trivial solution. Let's ignore this case. When we get and when we get Therefore, we have and the general solution is still .   "
+},
+{
+  "id": "diffeq-notes-7-1",
+  "level": "1",
+  "url": "diffeq-notes-7-1.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Eigenvalues",
+  "body": " Eigenvalues    Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.      We call the  identity matrix where       Compute where       Suppose that is an matrix and . We call an eigenvalue of provided We call the eigenvector corresponding to . Together, form an eigenpair for .    Notice that we can write Results from linear algebra then show that . This is how we will find eigenvalues.    Find all eigenvalues for the matrix     Eigenvalues are the roots to the characteristic polynomial for the matrix. We compute This shows that .      Find all eigenvectors for the matrix     Recall that are eigenvalues for . Also recall that eigenvectors satisfy . So we solve Repeating for each eigenvalues gives     Sometimes, eigenvalues have higher multiplicity . When this happens, we don't quite have enough eigenvectors to go around, so we need to compute generalized eigenvectors . The procedure is as follows.    Find all eigenvectors for the matrix     "
+},
+{
+  "id": "diffeq-notes-7-1-2",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-2",
+  "type": "Objectives",
+  "number": "7.1",
+  "title": "",
+  "body": "  Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.   "
+},
+{
+  "id": "def-identity",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#def-identity",
+  "type": "Definition",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  We call the  identity matrix where    "
+},
+{
+  "id": "diffeq-notes-7-1-4",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-4",
+  "type": "Example",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  Compute where    "
+},
+{
+  "id": "def-eigenvalues",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#def-eigenvalues",
+  "type": "Definition",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  Suppose that is an matrix and . We call an eigenvalue of provided We call the eigenvector corresponding to . Together, form an eigenpair for .   "
+},
+{
+  "id": "diffeq-notes-7-1-7",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-7",
+  "type": "Example",
+  "number": "7.1.4",
+  "title": "",
+  "body": "  Find all eigenvalues for the matrix     Eigenvalues are the roots to the characteristic polynomial for the matrix. We compute This shows that .   "
+},
+{
+  "id": "diffeq-notes-7-1-8",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-8",
+  "type": "Example",
+  "number": "7.1.5",
+  "title": "",
+  "body": "  Find all eigenvectors for the matrix     Recall that are eigenvalues for . Also recall that eigenvectors satisfy . So we solve Repeating for each eigenvalues gives    "
+},
+{
+  "id": "diffeq-notes-7-1-10",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-10",
+  "type": "Example",
+  "number": "7.1.6",
+  "title": "",
+  "body": "  Find all eigenvectors for the matrix    "
 }
 ]
 
