@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="diffeq-act-17" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🏫 Activity 17 - Eigenvalues </title>
+  
+  <introduction>
+    <p>
+      This activity is due at the beginning of class on <alert>Monday, November 30</alert>. Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem. 
+    </p>
+  </introduction>
+    
+    <exercise>
+        <introduction>
+            <p>
+                <alert>Prep Work:</alert> Record your answers to the following prompts in your prep work journal. Your answers should be the <alert> only </alert> material entered into your journal. Do <alert> not </alert> include supporting definitions, theorems, examples, or remarks of any kind. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Define what it means for <m>(\lambda, \bf{\xi})</m> to be an <alert>eigenpair</alert> for <m>A</m>. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find two <m>2 \times 2</m> matrices <m>A,B</m> such that <md> AB \neq BA.</md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                A matrix is <alert>diagonal</alert> if it only has nonzero entries on its main diagaonal. It turns out that diagonal entries of diagonal matrices are their eigenvalues. Show that this must be true for the <m>(3 \times 3)</m> case. That is, show that <m>a,b,c</m> are eigenvalues for the matrix <md> A = \begin{bmatrix} a \amp 0 \amp 0 \\ 0 \amp b \amp 0 \\ 0 \amp 0 \amp c \end{bmatrix}.</md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                Find <alert>three</alert> eigenpairs for <md> A = \begin{bmatrix} 1 \amp 0 \amp 0 \\ 0 \amp 2 \amp 1 \\ 0 \amp 1 \amp 2 \end{bmatrix}. </md>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="5in">
+        <statement>
+            <p>
+                Use Gaussian elimination to solve the system 
+                <md>
+                    \begin{cases}
+                        -2x - 4y - 5z \amp= 11; \\  
+                        -x + 4z \amp= -25; \\ 
+                        -3x - 5y + z \amp = -25.
+                    \end{cases}
+                </md>
+            </p>
+        </statement>
+    </exercise>
+
+    
+
+
+</worksheet>

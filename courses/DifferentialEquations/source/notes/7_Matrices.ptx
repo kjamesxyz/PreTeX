@@ -1,0 +1,60 @@
+<section xml:id="diffeq-notes-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Gaussian Elimination </title>
+
+    <objectives>
+        <introduction>
+            <p>
+                Students will be able to...
+            </p>
+        </introduction>
+        <ol>
+            <li><p> Multiply matrices. </p></li>
+            <li><p> Solve systems of equations through Gaussian Elimination. </p></li>
+        </ol>
+    </objectives>
+
+    <theorem xml:id="thm-row-ops">
+        <statement>
+            <p>
+                The following row operations can be conducted without changing the value of a matrix.
+                <ol>
+                    <li>
+                        <p>
+                            Rearranging
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Scalar multiplication.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Linear combination.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <exercise>
+        <statement>
+            <p>
+                Use Gaussian Elimination to solve <md> \begin{cases} 5x - 2y = -6; \\ -x + 5y = 15. \end{cases} </md> 
+            </p>
+        </statement>
+    </exercise>
+
+    <theorem xml:id="thm-mtx-mult">
+        <statement>
+            <p>
+                Suppose <m>A,B</m> are both <m>n \times n</m> matrices. Their product <m>AB</m> is determined elementwise by <md> (AB)_{ij} = \bf{a}_i^T \cdot \bf{b}_j </md>
+            </p>
+        </statement>
+    </theorem>
+    
+
+    
+</section>

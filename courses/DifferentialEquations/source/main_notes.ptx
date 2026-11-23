@@ -61,6 +61,7 @@
         <chapter xml:id="chapter-7-Systems-of-ODEs">
             <title>Systems of ODEs</title>
             
+            <xi:include href="./notes/7_Matrices.ptx"/>
             <xi:include href="./notes/7_Eigenvalues.ptx"/>
         </chapter>
     </book>
