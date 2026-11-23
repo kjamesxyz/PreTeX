@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="biostats-act-19" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>🏫 Activity 19 - Final Project Workday 2</title>
+
+    <introduction>
+        <p> This assignment is due at the beginning of class on <alert> Monday, November 30</alert>. It is graded based on completeness according to the rubric available on Canvas. You are encouraged to use your notes and collaborate with your group members to complete this activity. </p>
+
+        <p> <alert> This activity contains TWO parts of your final project. </alert> Extra care should be taken in completing this activity. </p>
+    </introduction>
+
+    <exercise>
+        <introduction>
+            <p>
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity19_Linear_Regression.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Regression Check-in". 
+            </p>
+
+            <p>
+                <alert>Goal:</alert> In this portion of the final project, you will create a linear regression model for quantitative variables in your data set and use it to make predictions. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Select the two qualitative variables in your data set that you suspect may be linearly correlated. Write your claim as a comment at the top of your script. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Remove any samples that are missing data for one of these two variables. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the command <c>lm(y ~ x)</c> to build a linear regression model. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the <c>summary()</c> command on your model to obtain the equation of the regression line and a confidence interval on the slope of the line.             
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Select a single data point <m>(x,y)</m> from your set. Approximate the value of <m>y</m> by evaluating your regression model at the point <m>x</m>. Record the error. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Create a new <c>ggplot</c> for your data.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    If you wrote <c>\lm(y ~ x)</c> eariler, you would use <c> aes(x,y)</c>. 
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Add a scatterplot to your ggplot with <c>+ geom_point()</c>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Change the color, size, and shape of the points on your scatterplot. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Add the regression line to your plot using the <c>+ geom_smooth(method="lm") </c> command. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    How did you compute the equation of the regression line and the confidence interval on its slope?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Report the equation of the regression line and the confidence interval on the slope. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Describe your process to approximate one of your data points. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Include the plot you created.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Discuss how good of a fit you suspect this line is to your data. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+
+    <exercise>
+        <introduction>
+           <p>
+                <alert> This problem is a portion of your final project </alert> and will involve heavier use of RStudio. Please save all of the code for this problem in an R script named <c>02_LASTNAME_FIRSTNAME_Activity19_WSRT.r</c>. When you are finished with the problem, save your changes and submit the R script to the corresponding Activity 19 assignment in Canvas. If you are the group leader, you will also submit a copy of the written report for this section to the assignment on Canvas called "Nonparametric Check-in". 
+            </p>
+
+            <p>
+                <alert>Goal:</alert> In this portion of the final project, you will conduct a Wilcoxon Signed-Rank test on matched pairs of data.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Create two subsets of your data that form a matched pair. Make sure to remove NAs from any entry that has an NA in either group. You will need to get creative here!
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    You will likely need to use the <c>dplyr::filter()</c> command. 
+                </p>
+            </hint>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use the <c>wilcox.test(var_one, var_two, paired=TRUE)</c> to conduct a Wilcoxon signed-rank test. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+
+
+
+    <exercise>
+        <introduction>
+            <p>
+                Summarize this information in a written report. Your answer should be a narrative, not a bulleted list of answers, that discusses each of the following items. 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Clearly state your hypothesis. Then write a null and alternative hypothesis in symbols and words that you will use to test your claim.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Describe how you processed your data (cleaned, filtered, etc.) to produce matched pairs. 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Use your R results to conduct a Wilcoxon signed-rank test. Interpret the results of your test in the context of the problem using plain language. 
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</worksheet>
