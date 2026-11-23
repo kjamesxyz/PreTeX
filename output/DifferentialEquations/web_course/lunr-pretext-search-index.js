@@ -667,6 +667,60 @@ var ptx_lunr_docs = [
   "body": "  Equations of the form are called Bessel's equations of order where . These equations describe phenomena in wave motion and heat conduction.     Suppose and . Find all regular points for Bessel's equation.      Apply the method of Frobeinus to show Bessel's equation has indeces at .      Write a recurrence relation to describe the coefficients in the case that . Taking an arbitrary fixed , write out .      It turns out that these coefficients can be computed with the formula Use this formula to recompute .      The Gamma function is We can use to rewrite We call the solutions to these Bessel's equations Bessel functions of first kind and write them . Use the identity above to write the formula for Bessel functions of first kind with order 2.    "
 },
 {
+  "id": "diffeq-act-17",
+  "level": "1",
+  "url": "diffeq-act-17.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "🏫 Activity 17 - Eigenvalues",
+  "body": " 🏫 Activity 17 - Eigenvalues   This activity is due at the beginning of class on Monday, November 30 . Please write all solutions on this sheet. If you need additional space, you may attach additional work to this sheet, but please clearly label your work with its corresponding problem.      Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for to be an eigenpair for .       Find two matrices such that       A matrix is diagonal if it only has nonzero entries on its main diagaonal. It turns out that diagonal entries of diagonal matrices are their eigenvalues. Show that this must be true for the case. That is, show that are eigenvalues for the matrix       Find three eigenpairs for       Use Gaussian elimination to solve the system     "
+},
+{
+  "id": "diffeq-act-17-3",
+  "level": "2",
+  "url": "diffeq-act-17.html#diffeq-act-17-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Prep Work: Record your answers to the following prompts in your prep work journal. Your answers should be the only material entered into your journal. Do not include supporting definitions, theorems, examples, or remarks of any kind.     Define what it means for to be an eigenpair for .    "
+},
+{
+  "id": "diffeq-act-17-4",
+  "level": "2",
+  "url": "diffeq-act-17.html#diffeq-act-17-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find two matrices such that    "
+},
+{
+  "id": "diffeq-act-17-5",
+  "level": "2",
+  "url": "diffeq-act-17.html#diffeq-act-17-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A matrix is diagonal if it only has nonzero entries on its main diagaonal. It turns out that diagonal entries of diagonal matrices are their eigenvalues. Show that this must be true for the case. That is, show that are eigenvalues for the matrix    "
+},
+{
+  "id": "diffeq-act-17-6",
+  "level": "2",
+  "url": "diffeq-act-17.html#diffeq-act-17-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find three eigenpairs for    "
+},
+{
+  "id": "diffeq-act-17-7",
+  "level": "2",
+  "url": "diffeq-act-17.html#diffeq-act-17-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Use Gaussian elimination to solve the system    "
+},
+{
   "id": "diffeq-hw1",
   "level": "1",
   "url": "diffeq-hw1.html",

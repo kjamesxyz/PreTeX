@@ -1167,8 +1167,8 @@ var ptx_lunr_docs = [
   "url": "diffeq-notes-7-1.html",
   "type": "Section",
   "number": "7.1",
-  "title": "Eigenvalues",
-  "body": " Eigenvalues    Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.      We call the  identity matrix where       Compute where       Suppose that is an matrix and . We call an eigenvalue of provided We call the eigenvector corresponding to . Together, form an eigenpair for .    Notice that we can write Results from linear algebra then show that . This is how we will find eigenvalues.    Find all eigenvalues for the matrix     Eigenvalues are the roots to the characteristic polynomial for the matrix. We compute This shows that .      Find all eigenvectors for the matrix     Recall that are eigenvalues for . Also recall that eigenvectors satisfy . So we solve Repeating for each eigenvalues gives     Sometimes, eigenvalues have higher multiplicity . When this happens, we don't quite have enough eigenvectors to go around, so we need to compute generalized eigenvectors . The procedure is as follows.    Find all eigenvectors for the matrix     "
+  "title": "Gaussian Elimination",
+  "body": " Gaussian Elimination    Students will be able to...    Multiply matrices.  Solve systems of equations through Gaussian Elimination.      The following row operations can be conducted without changing the value of a matrix.   Rearranging    Scalar multiplication.    Linear combination.         Use Gaussian Elimination to solve       Suppose are both matrices. Their product is determined elementwise by     "
 },
 {
   "id": "diffeq-notes-7-1-2",
@@ -1177,59 +1177,104 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "7.1",
   "title": "",
-  "body": "  Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.   "
+  "body": "  Students will be able to...    Multiply matrices.  Solve systems of equations through Gaussian Elimination.   "
 },
 {
-  "id": "def-identity",
+  "id": "thm-row-ops",
   "level": "2",
-  "url": "diffeq-notes-7-1.html#def-identity",
-  "type": "Definition",
+  "url": "diffeq-notes-7-1.html#thm-row-ops",
+  "type": "Theorem",
   "number": "7.1.1",
   "title": "",
-  "body": "  We call the  identity matrix where    "
+  "body": "  The following row operations can be conducted without changing the value of a matrix.   Rearranging    Scalar multiplication.    Linear combination.      "
 },
 {
   "id": "diffeq-notes-7-1-4",
   "level": "2",
   "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-4",
-  "type": "Example",
+  "type": "Checkpoint",
   "number": "7.1.2",
+  "title": "",
+  "body": "  Use Gaussian Elimination to solve    "
+},
+{
+  "id": "thm-mtx-mult",
+  "level": "2",
+  "url": "diffeq-notes-7-1.html#thm-mtx-mult",
+  "type": "Theorem",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  Suppose are both matrices. Their product is determined elementwise by    "
+},
+{
+  "id": "diffeq-notes-7-2",
+  "level": "1",
+  "url": "diffeq-notes-7-2.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Eigenvalues",
+  "body": " Eigenvalues    Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.      We call the  identity matrix where       Compute where       Suppose that is an matrix and . We call an eigenvalue of provided We call the eigenvector corresponding to . Together, form an eigenpair for .    Notice that we can write Results from linear algebra then show that . This is how we will find eigenvalues.    Find all eigenvalues for the matrix     Eigenvalues are the roots to the characteristic polynomial for the matrix. We compute This shows that .      Find all eigenvectors for the matrix     Recall that are eigenvalues for . Also recall that eigenvectors satisfy . So we solve Repeating for each eigenvalues gives     Sometimes, eigenvalues have higher multiplicity . When this happens, we don't quite have enough eigenvectors to go around, so we need to compute generalized eigenvectors . The procedure is as follows.    Find all eigenvectors for the matrix     "
+},
+{
+  "id": "diffeq-notes-7-2-2",
+  "level": "2",
+  "url": "diffeq-notes-7-2.html#diffeq-notes-7-2-2",
+  "type": "Objectives",
+  "number": "7.2",
+  "title": "",
+  "body": "  Students will be able to...    Compute eigenvalues of a matrix.  Find eigenvectors associated with eigenvalues.  Construct generalized eigenvectors for eigenvalues with higher multiplicity.   "
+},
+{
+  "id": "def-identity",
+  "level": "2",
+  "url": "diffeq-notes-7-2.html#def-identity",
+  "type": "Definition",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  We call the  identity matrix where    "
+},
+{
+  "id": "diffeq-notes-7-2-4",
+  "level": "2",
+  "url": "diffeq-notes-7-2.html#diffeq-notes-7-2-4",
+  "type": "Example",
+  "number": "7.2.2",
   "title": "",
   "body": "  Compute where    "
 },
 {
   "id": "def-eigenvalues",
   "level": "2",
-  "url": "diffeq-notes-7-1.html#def-eigenvalues",
+  "url": "diffeq-notes-7-2.html#def-eigenvalues",
   "type": "Definition",
-  "number": "7.1.3",
+  "number": "7.2.3",
   "title": "",
   "body": "  Suppose that is an matrix and . We call an eigenvalue of provided We call the eigenvector corresponding to . Together, form an eigenpair for .   "
 },
 {
-  "id": "diffeq-notes-7-1-7",
+  "id": "diffeq-notes-7-2-7",
   "level": "2",
-  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-7",
+  "url": "diffeq-notes-7-2.html#diffeq-notes-7-2-7",
   "type": "Example",
-  "number": "7.1.4",
+  "number": "7.2.4",
   "title": "",
   "body": "  Find all eigenvalues for the matrix     Eigenvalues are the roots to the characteristic polynomial for the matrix. We compute This shows that .   "
 },
 {
-  "id": "diffeq-notes-7-1-8",
+  "id": "diffeq-notes-7-2-8",
   "level": "2",
-  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-8",
+  "url": "diffeq-notes-7-2.html#diffeq-notes-7-2-8",
   "type": "Example",
-  "number": "7.1.5",
+  "number": "7.2.5",
   "title": "",
   "body": "  Find all eigenvectors for the matrix     Recall that are eigenvalues for . Also recall that eigenvectors satisfy . So we solve Repeating for each eigenvalues gives    "
 },
 {
-  "id": "diffeq-notes-7-1-10",
+  "id": "diffeq-notes-7-2-10",
   "level": "2",
-  "url": "diffeq-notes-7-1.html#diffeq-notes-7-1-10",
+  "url": "diffeq-notes-7-2.html#diffeq-notes-7-2-10",
   "type": "Example",
-  "number": "7.1.6",
+  "number": "7.2.6",
   "title": "",
   "body": "  Find all eigenvectors for the matrix    "
 }
