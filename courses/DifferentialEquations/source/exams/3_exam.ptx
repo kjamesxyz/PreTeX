@@ -10,7 +10,7 @@
     <exercise workspace="2in">
         <statement>
             <p>
-                [20 points] Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{f(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 4 \amp t \geq 4. \end{cases} </md>
+                [20 points] Use the <alert>definition</alert> of the Laplace transform to compute <m>\laplace{f(t)}</m> where <md> f(t) = \begin{cases} t \amp 0 \leq t \lt 2; \\ 0 \amp 2 \leq y \lt 4 \\ 4 \amp t \geq 4. \end{cases} </md>
             </p>
         </statement>
     </exercise>
